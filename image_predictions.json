@@ -1,0 +1,6603 @@
+{
+    "FLFO_010221": [
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Cupressaceae",
+        "Canellaceae"
+    ],
+    "CU_0115": [
+        "Pinaceae",
+        "Myrtaceae",
+        "Betulaceae",
+        "Anacardiaceae",
+        "Cupressaceae"
+    ],
+    "CU_0387cu": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Salicaceae",
+        "Sapindaceae",
+        "Meliaceae"
+    ],
+    "FLFO_002787A": [
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Rosaceae",
+        "Juglandaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_010745": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Juglandaceae",
+        "Dryopteridaceae"
+    ],
+    "CU_0484cu": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Pinaceae",
+        "Nyssaceae",
+        "Proteaceae"
+    ],
+    "FLFO_010859A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Juglandaceae",
+        "Anacardiaceae",
+        "Dryopteridaceae"
+    ],
+    "CU_0761cu": [
+        "Myrtaceae",
+        "Fabaceae",
+        "Rhamnaceae",
+        "Betulaceae",
+        "Rosaceae"
+    ],
+    "FLFO_010533": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Salicaceae",
+        "Polemoniaceae"
+    ],
+    "FLFO_010163A": [
+        "Myrtaceae",
+        "Canellaceae",
+        "Anacardiaceae",
+        "Rosaceae",
+        "Humiriaceae"
+    ],
+    "CU_0814cu": [
+        "Dryopteridaceae",
+        "Berberidaceae",
+        "Rosaceae",
+        "Polygalaceae",
+        "Fabaceae"
+    ],
+    "CU_0301cu": [
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Ranunculaceae",
+        "Myrtaceae",
+        "Nyssaceae"
+    ],
+    "FLFO_004813": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Betulaceae",
+        "Salicaceae"
+    ],
+    "CU_0803": [
+        "Dryopteridaceae",
+        "Berberidaceae",
+        "Fagaceae",
+        "Polygalaceae",
+        "Elaeagnaceae"
+    ],
+    "FLFO_002868A": [
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Anacardiaceae",
+        "Ranunculaceae"
+    ],
+    "FLFO_005579B": [
+        "Pinaceae",
+        "Betulaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Salicaceae"
+    ],
+    "FLFO_003196": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Juglandaceae"
+    ],
+    "CU_0270": [
+        "Rosaceae",
+        "Salicaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Pinaceae"
+    ],
+    "CU_0812": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Betulaceae"
+    ],
+    "CU_0761cu1": [
+        "Rosaceae",
+        "Fabaceae",
+        "Sapindaceae",
+        "Myrtaceae",
+        "Betulaceae"
+    ],
+    "CU_0771cu": [
+        "Pinaceae",
+        "Cupressaceae",
+        "Salicaceae",
+        "Sapindaceae",
+        "Rosaceae"
+    ],
+    "FLFO_004161B": [
+        "Rosaceae",
+        "Juglandaceae",
+        "Dryopteridaceae",
+        "Pinaceae",
+        "Polemoniaceae"
+    ],
+    "FLFO_006644B": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Anacardiaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_010746": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Meliaceae",
+        "Juglandaceae",
+        "Celastraceae"
+    ],
+    "FLFO_010417A": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Rhamnaceae",
+        "Anacardiaceae",
+        "Saxifragaceae"
+    ],
+    "CU_0750": [
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Dryopteridaceae",
+        "Phyllanthaceae",
+        "Berberidaceae"
+    ],
+    "FLFO_010826": [
+        "Rosaceae",
+        "Fabaceae",
+        "Cupressaceae",
+        "Sapindaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_008595": [
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Acanthaceae",
+        "Ranunculaceae",
+        "Rosaceae"
+    ],
+    "CU_0461cu": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Anacardiaceae",
+        "Juglandaceae",
+        "Saxifragaceae"
+    ],
+    "CU_0796": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Humiriaceae",
+        "Pinaceae",
+        "Salicaceae"
+    ],
+    "FLFO_010038B": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Betulaceae",
+        "Fabaceae",
+        "Pinaceae"
+    ],
+    "FLFO_010176A": [
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Betulaceae",
+        "Rhamnaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_004436": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Polygalaceae",
+        "Myrtaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_010071B": [
+        "Pinaceae",
+        "Anacardiaceae",
+        "Dilleniaceae",
+        "Canellaceae",
+        "Ranunculaceae"
+    ],
+    "FLFO_000857": [
+        "Betulaceae",
+        "Myrtaceae",
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Sapindaceae"
+    ],
+    "CU_1367": [
+        "Rhamnaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Rosaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_005584A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Dryopteridaceae",
+        "Pinaceae"
+    ],
+    "FLFO_010662B": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Dryopteridaceae",
+        "Juglandaceae",
+        "Fagaceae"
+    ],
+    "FLFO_003180B": [
+        "Cupressaceae",
+        "Dryopteridaceae",
+        "Anacardiaceae",
+        "Juglandaceae",
+        "Rosaceae"
+    ],
+    "FLFO_004706A": [
+        "Myrtaceae",
+        "Pinaceae",
+        "Polygalaceae",
+        "Polygonaceae",
+        "Meliaceae"
+    ],
+    "CU_0620": [
+        "Myrtaceae",
+        "Polygalaceae",
+        "Salicaceae",
+        "Achariaceae",
+        "Rosaceae"
+    ],
+    "FLFO_006114B": [
+        "Lythraceae",
+        "Sapindaceae",
+        "Rhamnaceae",
+        "Garryaceae",
+        "Malvaceae"
+    ],
+    "FLFO_002447A": [
+        "Rosaceae",
+        "Pinaceae",
+        "Lauraceae",
+        "Cupressaceae",
+        "Polemoniaceae"
+    ],
+    "CU_0770cu1": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Meliaceae",
+        "Salicaceae",
+        "Sapindaceae"
+    ],
+    "CU_0801": [
+        "Pinaceae",
+        "Rosaceae",
+        "Styracaceae",
+        "Myrtaceae",
+        "Meliaceae"
+    ],
+    "FLFO_003117": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Canellaceae",
+        "Myristicaceae",
+        "Anacardiaceae"
+    ],
+    "FLFO_011541B": [
+        "Rosaceae",
+        "Berberidaceae",
+        "Polygalaceae",
+        "Hamamelidaceae",
+        "Meliaceae"
+    ],
+    "FLFO_002617A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Salicaceae",
+        "Symplocaceae",
+        "Pinaceae"
+    ],
+    "CU_0217": [
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Cupressaceae",
+        "Rosaceae"
+    ],
+    "FLFO_003490B": [
+        "Fagaceae",
+        "Meliaceae",
+        "Cupressaceae",
+        "Lythraceae",
+        "Rosaceae"
+    ],
+    "FLFO_006174B": [
+        "Pinaceae",
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Styracaceae",
+        "Rosaceae"
+    ],
+    "FLFO_010122": [
+        "Cupressaceae",
+        "Betulaceae",
+        "Celastraceae",
+        "Rosaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_011147A": [
+        "Dryopteridaceae",
+        "Fabaceae",
+        "Myrtaceae",
+        "Salicaceae",
+        "Pinaceae"
+    ],
+    "CU_0894": [
+        "Dryopteridaceae",
+        "Juglandaceae",
+        "Myrtaceae",
+        "Pinaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_008599B": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Salicaceae",
+        "Polygalaceae",
+        "Pinaceae"
+    ],
+    "CU_0206": [
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Pinaceae",
+        "Passifloraceae",
+        "Juglandaceae"
+    ],
+    "FLFO_011522B": [
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Juglandaceae",
+        "Rosaceae",
+        "Lauraceae"
+    ],
+    "CU_0489": [
+        "Rosaceae",
+        "Meliaceae",
+        "Styracaceae",
+        "Cupressaceae",
+        "Polemoniaceae"
+    ],
+    "FLFO_002769A": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Rhamnaceae",
+        "Pinaceae",
+        "Meliaceae"
+    ],
+    "CU_0761": [
+        "Betulaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Salicaceae",
+        "Rosaceae"
+    ],
+    "FLFO_11115B": [
+        "Myrtaceae",
+        "Polygalaceae",
+        "Rosaceae",
+        "Rhamnaceae",
+        "Humiriaceae"
+    ],
+    "CU_0301": [
+        "Anacardiaceae",
+        "Cupressaceae",
+        "Ranunculaceae",
+        "Nyssaceae",
+        "Myrtaceae"
+    ],
+    "CU_0769cu": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Sapindaceae",
+        "Acanthaceae",
+        "Pinaceae"
+    ],
+    "FLFO_003600B": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Canellaceae",
+        "Passifloraceae",
+        "Anacardiaceae"
+    ],
+    "FLFO_011061": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Polygalaceae",
+        "Polemoniaceae",
+        "Pinaceae"
+    ],
+    "FLFO_010738B": [
+        "Rosaceae",
+        "Salicaceae",
+        "Cupressaceae",
+        "Betulaceae",
+        "Berberidaceae"
+    ],
+    "FLFO_005768B": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Canellaceae",
+        "Meliaceae",
+        "Salicaceae"
+    ],
+    "CU_1359": [
+        "Dryopteridaceae",
+        "Polygalaceae",
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Ranunculaceae"
+    ],
+    "FLFO_006046": [
+        "Rhamnaceae",
+        "Pinaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Styracaceae"
+    ],
+    "FLFO_010176B": [
+        "Rosaceae",
+        "Betulaceae",
+        "Cupressaceae",
+        "Dryopteridaceae",
+        "Myrtaceae"
+    ],
+    "CU_0728": [
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Polygalaceae",
+        "Menispermaceae"
+    ],
+    "CU_0907": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Juglandaceae",
+        "Pinaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_003042B": [
+        "Sapindaceae",
+        "Salicaceae",
+        "Proteaceae",
+        "Rosaceae",
+        "Scrophulariaceae"
+    ],
+    "FLFO_010859B": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_001080AB": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Polygalaceae"
+    ],
+    "CU_0359": [
+        "Meliaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Garryaceae",
+        "Salicaceae"
+    ],
+    "FLFO_005579A": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Salicaceae",
+        "Betulaceae",
+        "Polygalaceae"
+    ],
+    "CU_0386": [
+        "Rosaceae",
+        "Lythraceae",
+        "Rhamnaceae",
+        "Sapindaceae",
+        "Malvaceae"
+    ],
+    "FLFO_010824A": [
+        "Rosaceae",
+        "Pinaceae",
+        "Anacardiaceae",
+        "Salicaceae",
+        "Polemoniaceae"
+    ],
+    "FLFO_002682B": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Salicaceae",
+        "Cupressaceae",
+        "Sapindaceae"
+    ],
+    "FLFO_002799B": [
+        "Fagaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Sapindaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_010521A": [
+        "Rosaceae",
+        "Betulaceae",
+        "Rhamnaceae",
+        "Acanthaceae",
+        "Sapindaceae"
+    ],
+    "FLFO_002361B": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Salicaceae",
+        "Anacardiaceae",
+        "Lauraceae"
+    ],
+    "FLFO_002826": [
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Ranunculaceae",
+        "Cupressaceae",
+        "Pinaceae"
+    ],
+    "FLFO_010770B": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Betulaceae",
+        "Dryopteridaceae"
+    ],
+    "CU_0662cu": [
+        "Rosaceae",
+        "Pinaceae",
+        "Dryopteridaceae",
+        "Anacardiaceae",
+        "Myrtaceae"
+    ],
+    "CU_0192cu4": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Sapindaceae",
+        "Meliaceae",
+        "Salicaceae"
+    ],
+    "FLFO_004161A": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Rhamnaceae",
+        "Rhizophoraceae",
+        "Juglandaceae"
+    ],
+    "CU_0074": [
+        "Salicaceae",
+        "Myrtaceae",
+        "Betulaceae",
+        "Rosaceae",
+        "Pinaceae"
+    ],
+    "FLFO_008586A": [
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Polygalaceae",
+        "Myrtaceae",
+        "Berberidaceae"
+    ],
+    "CU_0797": [
+        "Sapindaceae",
+        "Berberidaceae",
+        "Rhamnaceae",
+        "Betulaceae",
+        "Nyssaceae"
+    ],
+    "CU_0157cu": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Pinaceae",
+        "Rosaceae",
+        "Fagaceae"
+    ],
+    "CU_0655cu": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Myrtaceae",
+        "Salicaceae",
+        "Juglandaceae"
+    ],
+    "FLFO_004015B": [
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Pinaceae",
+        "Myrtaceae",
+        "Betulaceae"
+    ],
+    "FLFO_004598_2": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Pinaceae",
+        "Polygalaceae",
+        "Styracaceae"
+    ],
+    "CU_0641cu": [
+        "Rhamnaceae",
+        "Juglandaceae",
+        "Anacardiaceae",
+        "Lauraceae",
+        "Loganiaceae"
+    ],
+    "FLFO_005788": [
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Pinaceae",
+        "Rosaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_011017": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Anacardiaceae"
+    ],
+    "CU_0683": [
+        "Myrtaceae",
+        "Betulaceae",
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Meliaceae"
+    ],
+    "FLFO_010321B 2": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Berberidaceae",
+        "Polygalaceae",
+        "Rhizophoraceae"
+    ],
+    "FLFO_011062": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Polygalaceae"
+    ],
+    "CU_0730": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Rhamnaceae",
+        "Saxifragaceae",
+        "Anacardiaceae"
+    ],
+    "FLFO_011121B": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Canellaceae",
+        "Sapindaceae"
+    ],
+    "FLFO_010877B": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Berberidaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_011049A_L1": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Iteaceae",
+        "Malvaceae",
+        "Canellaceae"
+    ],
+    "FLFO_010307": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Anacardiaceae",
+        "Fabaceae",
+        "Fagaceae"
+    ],
+    "CU_0512cu": [
+        "Cupressaceae",
+        "Pinaceae",
+        "Myrtaceae",
+        "Fagaceae",
+        "Rosaceae"
+    ],
+    "CU_0755": [
+        "Cupressaceae",
+        "Dryopteridaceae",
+        "Pinaceae",
+        "Juglandaceae",
+        "Melastomataceae"
+    ],
+    "CU_0192": [
+        "Saxifragaceae",
+        "Myrtaceae",
+        "Phytolaccaceae",
+        "Ranunculaceae",
+        "Polygalaceae"
+    ],
+    "CU_0731cu": [
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Juglandaceae",
+        "Myrtaceae",
+        "Anacardiaceae"
+    ],
+    "FLFO_003351B": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Pinaceae",
+        "Salicaceae",
+        "Myristicaceae"
+    ],
+    "FLFO_010570B": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Cupressaceae",
+        "Salicaceae",
+        "Myrtaceae"
+    ],
+    "CU_0819": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Juglandaceae"
+    ],
+    "FLFO_010052B": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Rhamnaceae",
+        "Cornaceae",
+        "Betulaceae"
+    ],
+    "CU_0888": [
+        "Cupressaceae",
+        "Fagaceae",
+        "Celastraceae",
+        "Malvaceae",
+        "Rosaceae"
+    ],
+    "CU_0783cu": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Nyssaceae",
+        "Salicaceae"
+    ],
+    "CU_0662": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Nyssaceae",
+        "Betulaceae"
+    ],
+    "FLFO_003166A": [
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Berberidaceae",
+        "Anacardiaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_010901A": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Rhamnaceae",
+        "Canellaceae",
+        "Betulaceae"
+    ],
+    "CU_0901": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Meliaceae",
+        "Canellaceae",
+        "Proteaceae"
+    ],
+    "FLFO_010347B": [
+        "Rosaceae",
+        "Salicaceae",
+        "Cupressaceae",
+        "Pinaceae",
+        "Fabaceae"
+    ],
+    "CU_0512": [
+        "Pinaceae",
+        "Cupressaceae",
+        "Meliaceae",
+        "Malvaceae",
+        "Lythraceae"
+    ],
+    "CU_0220": [
+        "Berberidaceae",
+        "Sapindaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Betulaceae"
+    ],
+    "FLFO_008529B": [
+        "Rosaceae",
+        "Betulaceae",
+        "Cupressaceae",
+        "Fabaceae",
+        "Melastomataceae"
+    ],
+    "FLFO_002447B": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Rhamnaceae",
+        "Berberidaceae",
+        "Anacardiaceae"
+    ],
+    "CU_0118cu": [
+        "Pinaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Polemoniaceae",
+        "Sapindaceae"
+    ],
+    "CU_0503": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Meliaceae",
+        "Salicaceae",
+        "Buxaceae"
+    ],
+    "FLFO_011579": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Betulaceae"
+    ],
+    "FLFO_004784": [
+        "Cupressaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Rosaceae",
+        "Betulaceae"
+    ],
+    "CU_0631": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Styracaceae",
+        "Salicaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_003005": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Meliaceae",
+        "Symplocaceae",
+        "Buxaceae"
+    ],
+    "FLFO_010038A": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Pinaceae"
+    ],
+    "CU_0244": [
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Anacardiaceae",
+        "Cupressaceae",
+        "Salicaceae"
+    ],
+    "CU_0271": [
+        "Rosaceae",
+        "Pinaceae",
+        "Polemoniaceae",
+        "Ranunculaceae",
+        "Myrtaceae"
+    ],
+    "CU_0642": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Polygalaceae",
+        "Pinaceae"
+    ],
+    "FLFO_004346A": [
+        "Cornaceae",
+        "Cupressaceae",
+        "Malpighiaceae",
+        "Lythraceae",
+        "Celastraceae"
+    ],
+    "CU_0110": [
+        "Styracaceae",
+        "Juglandaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Dryopteridaceae"
+    ],
+    "CU_0301cu2": [
+        "Anacardiaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Melastomataceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_003041A": [
+        "Rosaceae",
+        "Acanthaceae",
+        "Styracaceae",
+        "Pinaceae",
+        "Symplocaceae"
+    ],
+    "FLFO_006832B": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Saxifragaceae"
+    ],
+    "CU_0747": [
+        "Pinaceae",
+        "Juglandaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Rosaceae"
+    ],
+    "CU_0895": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Styracaceae",
+        "Saxifragaceae"
+    ],
+    "FLFO_002628A": [
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Rosaceae",
+        "Ranunculaceae"
+    ],
+    "CU_0846cu": [
+        "Rhamnaceae",
+        "Araceae",
+        "Myrtaceae",
+        "Saxifragaceae",
+        "Juglandaceae"
+    ],
+    "CU_0716cu1": [
+        "Betulaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Rosaceae",
+        "Fagaceae"
+    ],
+    "CU_0904": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Meliaceae",
+        "Styracaceae",
+        "Polemoniaceae"
+    ],
+    "CU_0386cu": [
+        "Myrtaceae",
+        "Sapindaceae",
+        "Rosaceae",
+        "Rhamnaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_010814A": [
+        "Anacardiaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Cunoniaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_003166B": [
+        "Rosaceae",
+        "Betulaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Dryopteridaceae"
+    ],
+    "CU_0262": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Salicaceae",
+        "Styracaceae",
+        "Sapindaceae"
+    ],
+    "FLFO_008997A": [
+        "Rosaceae",
+        "Pinaceae",
+        "Rhamnaceae",
+        "Anacardiaceae",
+        "Polemoniaceae"
+    ],
+    "CU_0884": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Meliaceae",
+        "Pinaceae",
+        "Lauraceae"
+    ],
+    "FLFO_004720A": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Pinaceae"
+    ],
+    "FLFO_011092": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Anacardiaceae",
+        "Myrtaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_010759": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Meliaceae",
+        "Salicaceae"
+    ],
+    "FLFO_010770A": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Betulaceae",
+        "Pinaceae"
+    ],
+    "FLFO_004442": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Pinaceae",
+        "Dryopteridaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_011121A": [
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Betulaceae",
+        "Pinaceae"
+    ],
+    "CU_0487": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Myrtaceae",
+        "Juglandaceae"
+    ],
+    "CU_0663cu": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Rhamnaceae",
+        "Rosaceae",
+        "Polygalaceae"
+    ],
+    "CU_0751": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Pinaceae",
+        "Canellaceae",
+        "Styracaceae"
+    ],
+    "FLFO_004637": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Meliaceae",
+        "Polemoniaceae",
+        "Anacardiaceae"
+    ],
+    "FLFO_009788": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Rosaceae",
+        "Canellaceae",
+        "Meliaceae"
+    ],
+    "CU_0154cu": [
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Betulaceae",
+        "Cupressaceae",
+        "Myrtaceae"
+    ],
+    "CU_0755cu": [
+        "Dryopteridaceae",
+        "Juglandaceae",
+        "Myrtaceae",
+        "Betulaceae",
+        "Rosaceae"
+    ],
+    "CU_0084": [
+        "Pinaceae",
+        "Myrtaceae",
+        "Juglandaceae",
+        "Nyssaceae",
+        "Betulaceae"
+    ],
+    "FLFO_010011": [
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Betulaceae",
+        "Myrtaceae"
+    ],
+    "CU_0483": [
+        "Polygalaceae",
+        "Berberidaceae",
+        "Dryopteridaceae",
+        "Garryaceae",
+        "Phytolaccaceae"
+    ],
+    "CU_0154": [
+        "Rosaceae",
+        "Pinaceae",
+        "Meliaceae",
+        "Styracaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_010540A": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Betulaceae",
+        "Cupressaceae"
+    ],
+    "CU_0118cu1": [
+        "Pinaceae",
+        "Myrtaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Acanthaceae"
+    ],
+    "CU_0762": [
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Betulaceae",
+        "Lythraceae",
+        "Sapindaceae"
+    ],
+    "FLFO_003260A": [
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Cupressaceae",
+        "Rosaceae",
+        "Betulaceae"
+    ],
+    "FLFO_010315": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Phytolaccaceae",
+        "Anacardiaceae",
+        "Ebenaceae"
+    ],
+    "FLFO_005679": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_011453": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Salicaceae",
+        "Cupressaceae",
+        "Betulaceae"
+    ],
+    "FLFO_002500": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Menispermaceae",
+        "Lauraceae",
+        "Araliaceae"
+    ],
+    "CU_0118cu2": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Sapindaceae",
+        "Betulaceae",
+        "Salicaceae"
+    ],
+    "CU_0087": [
+        "Dryopteridaceae",
+        "Polygalaceae",
+        "Myrtaceae",
+        "Rosaceae",
+        "Phytolaccaceae"
+    ],
+    "FLFO_009686": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Dryopteridaceae",
+        "Saxifragaceae"
+    ],
+    "CU_0285": [
+        "Rhamnaceae",
+        "Polygalaceae",
+        "Rosaceae",
+        "Anacardiaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_002799A": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Pinaceae",
+        "Myrtaceae",
+        "Fagaceae"
+    ],
+    "FLFO_002637B": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Pinaceae",
+        "Cupressaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0209": [
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Meliaceae"
+    ],
+    "FLFO_004795": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Pinaceae",
+        "Lythraceae",
+        "Salicaceae"
+    ],
+    "CU_0177": [
+        "Cupressaceae",
+        "Dryopteridaceae",
+        "Loganiaceae",
+        "Polemoniaceae",
+        "Verbenaceae"
+    ],
+    "FLFO_004762B": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Rosaceae",
+        "Betulaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_008995A": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Pinaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0633": [
+        "Dryopteridaceae",
+        "Juglandaceae",
+        "Lauraceae",
+        "Pinaceae",
+        "Myrtaceae"
+    ],
+    "CU_0740": [
+        "Dryopteridaceae",
+        "Betulaceae",
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_010733B": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Anacardiaceae",
+        "Myrtaceae",
+        "Amaranthaceae"
+    ],
+    "FLFO_003213": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Polemoniaceae",
+        "Pinaceae"
+    ],
+    "FLFO_010159": [
+        "Rosaceae",
+        "Salicaceae",
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Myrtaceae"
+    ],
+    "CU_0202": [
+        "Cornaceae",
+        "Cupressaceae",
+        "Coriariaceae",
+        "Dryopteridaceae",
+        "Lauraceae"
+    ],
+    "CU_0332": [
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Dilleniaceae",
+        "Ranunculaceae",
+        "Rutaceae"
+    ],
+    "FLFO_003260B": [
+        "Cupressaceae",
+        "Salicaceae",
+        "Myrtaceae",
+        "Canellaceae",
+        "Lauraceae"
+    ],
+    "FLFO_003388B": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Salicaceae",
+        "Meliaceae"
+    ],
+    "FLFO_010803A": [
+        "Rosaceae",
+        "Juglandaceae",
+        "Anacardiaceae",
+        "Dryopteridaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_011542A": [
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Pinaceae",
+        "Rosaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_002443A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Pinaceae",
+        "Cupressaceae",
+        "Salicaceae"
+    ],
+    "FLFO_010863A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Pinaceae",
+        "Dryopteridaceae",
+        "Humiriaceae"
+    ],
+    "FLFO_006848B": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Meliaceae",
+        "Cupressaceae",
+        "Humiriaceae"
+    ],
+    "FLFO_002581A": [
+        "Rosaceae",
+        "Pinaceae",
+        "Salicaceae",
+        "Humiriaceae",
+        "Symplocaceae"
+    ],
+    "CU_0494cu": [
+        "Berberidaceae",
+        "Sapindaceae",
+        "Polygalaceae",
+        "Rosaceae",
+        "Malvaceae"
+    ],
+    "FLFO_006733A": [
+        "Rosaceae",
+        "Juglandaceae",
+        "Polemoniaceae",
+        "Anacardiaceae",
+        "Cupressaceae"
+    ],
+    "CU_0332cu": [
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Loganiaceae",
+        "Rhamnaceae",
+        "Betulaceae"
+    ],
+    "FLFO_010168B_L2": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Anacardiaceae",
+        "Dryopteridaceae",
+        "Fabaceae"
+    ],
+    "FLFO_002741A": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Betulaceae",
+        "Dryopteridaceae",
+        "Salicaceae"
+    ],
+    "FLFO_002767B": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Salicaceae",
+        "Pinaceae"
+    ],
+    "CU_0864": [
+        "Rhamnaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Acanthaceae"
+    ],
+    "CU_0510cu": [
+        "Pinaceae",
+        "Myrtaceae",
+        "Solanaceae",
+        "Platanaceae",
+        "Gesneriaceae"
+    ],
+    "FLFO_011049A_L2": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Salicaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0479cu": [
+        "Pinaceae",
+        "Anacardiaceae",
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Ranunculaceae"
+    ],
+    "FLFO_004154A": [
+        "Rhamnaceae",
+        "Dryopteridaceae",
+        "Anacardiaceae",
+        "Myrtaceae",
+        "Rosaceae"
+    ],
+    "CU_0190cu": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Meliaceae",
+        "Rhamnaceae",
+        "Sapindaceae"
+    ],
+    "FLFO_010838": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Dryopteridaceae",
+        "Humiriaceae"
+    ],
+    "FLFO_011361B": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Rhamnaceae",
+        "Dryopteridaceae",
+        "Moraceae"
+    ],
+    "FLFO_010863B": [
+        "Rosaceae",
+        "Humiriaceae",
+        "Rhamnaceae",
+        "Saxifragaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_011454B": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Salicaceae",
+        "Anacardiaceae"
+    ],
+    "FLFO_003110B 2": [
+        "Rhamnaceae",
+        "Styracaceae",
+        "Rosaceae",
+        "Acanthaceae",
+        "Lauraceae"
+    ],
+    "CU_0489cu2": [
+        "Myrtaceae",
+        "Berberidaceae",
+        "Cupressaceae",
+        "Polygalaceae",
+        "Meliaceae"
+    ],
+    "CU_0107": [
+        "Lauraceae",
+        "Cupressaceae",
+        "Juglandaceae",
+        "Sabiaceae",
+        "Polemoniaceae"
+    ],
+    "CU_0442cu": [
+        "Rosaceae",
+        "Juglandaceae",
+        "Myrtaceae",
+        "Lauraceae",
+        "Polemoniaceae"
+    ],
+    "FLFO_011036A": [
+        "Anacardiaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_011426": [
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Berberidaceae",
+        "Polygalaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0271cu": [
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Pinaceae",
+        "Berberidaceae"
+    ],
+    "CU_0211": [
+        "Myrtaceae",
+        "Lythraceae",
+        "Rhamnaceae",
+        "Rosaceae",
+        "Meliaceae"
+    ],
+    "CU_0778cu": [
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Juglandaceae",
+        "Pinaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0900": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Fabaceae",
+        "Rhamnaceae",
+        "Rosaceae"
+    ],
+    "FLFO_010529A": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Salicaceae",
+        "Anacardiaceae",
+        "Rosaceae"
+    ],
+    "CU_0164": [
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Rosaceae",
+        "Sapindaceae",
+        "Salicaceae"
+    ],
+    "CU_0756cu": [
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Juglandaceae",
+        "Styracaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_004427": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Betulaceae",
+        "Myrtaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_011095A": [
+        "Rosaceae",
+        "Polygalaceae",
+        "Anacardiaceae",
+        "Polemoniaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_005672B": [
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Rosaceae",
+        "Polygalaceae",
+        "Styracaceae"
+    ],
+    "FLFO_011023": [
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Polygalaceae",
+        "Cunoniaceae"
+    ],
+    "FLFO_010901B": [
+        "Salicaceae",
+        "Myrtaceae",
+        "Canellaceae",
+        "Polemoniaceae",
+        "Ranunculaceae"
+    ],
+    "FLFO_010584": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Rhamnaceae",
+        "Anacardiaceae",
+        "Betulaceae"
+    ],
+    "FLFO_010252A": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Betulaceae",
+        "Pinaceae",
+        "Moraceae"
+    ],
+    "FLFO_010405": [
+        "Pinaceae",
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Anacardiaceae"
+    ],
+    "FLFO_002901B": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Lythraceae",
+        "Opiliaceae",
+        "Buxaceae"
+    ],
+    "FLFO_010379B": [
+        "Rosaceae",
+        "Salicaceae",
+        "Myrtaceae",
+        "Polemoniaceae",
+        "Betulaceae"
+    ],
+    "FLFO_011049B": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Cupressaceae",
+        "Lythraceae"
+    ],
+    "FLFO_004124B": [
+        "Pinaceae",
+        "Cupressaceae",
+        "Fagaceae",
+        "Rubiaceae",
+        "Meliaceae"
+    ],
+    "FLFO_010809B": [
+        "Pinaceae",
+        "Salicaceae",
+        "Rosaceae",
+        "Fabaceae",
+        "Lythraceae"
+    ],
+    "FLFO_011336": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Juglandaceae",
+        "Betulaceae"
+    ],
+    "FLFO_003572B": [
+        "Myrtaceae",
+        "Canellaceae",
+        "Phyllanthaceae",
+        "Meliaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_004154B": [
+        "Rutaceae",
+        "Styracaceae",
+        "Ranunculaceae",
+        "Anacardiaceae",
+        "Passifloraceae"
+    ],
+    "FLFO_010311B": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Humiriaceae"
+    ],
+    "FLFO_006733B": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Pinaceae"
+    ],
+    "FLFO_010123A": [
+        "Anacardiaceae",
+        "Acanthaceae",
+        "Rosaceae",
+        "Lauraceae",
+        "Actinidiaceae"
+    ],
+    "CU_0478cu1": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Fagaceae",
+        "Salicaceae",
+        "Humiriaceae"
+    ],
+    "CU_0789": [
+        "Dryopteridaceae",
+        "Juglandaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Pinaceae"
+    ],
+    "FLFO_004609": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Cupressaceae",
+        "Fagaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_004603": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Fagaceae",
+        "Dryopteridaceae"
+    ],
+    "CU_0657": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Juglandaceae",
+        "Rhamnaceae",
+        "Meliaceae"
+    ],
+    "FLFO_009708A": [
+        "Anacardiaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Dryopteridaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_004565A": [
+        "Anacardiaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_010321B": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Salicaceae",
+        "Betulaceae",
+        "Pinaceae"
+    ],
+    "CU_0410": [
+        "Pinaceae",
+        "Humiriaceae",
+        "Meliaceae",
+        "Myrtaceae",
+        "Simaroubaceae"
+    ],
+    "FLFO_004015A": [
+        "Juglandaceae",
+        "Anacardiaceae",
+        "Dryopteridaceae",
+        "Platanaceae",
+        "Cornaceae"
+    ],
+    "CU_0662cpt": [
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Betulaceae",
+        "Pinaceae"
+    ],
+    "CU_0830": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Saxifragaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_011520A": [
+        "Rhamnaceae",
+        "Anacardiaceae",
+        "Ranunculaceae",
+        "Juglandaceae",
+        "Saxifragaceae"
+    ],
+    "FLFO_006114A": [
+        "Lythraceae",
+        "Sapindaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_003514": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Myristicaceae",
+        "Rhamnaceae",
+        "Proteaceae"
+    ],
+    "FLFO_006872B": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Dryopteridaceae"
+    ],
+    "CU_0789cu": [
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Rosaceae",
+        "Juglandaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0740cu": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Salicaceae",
+        "Dryopteridaceae",
+        "Polygalaceae"
+    ],
+    "CU_0440cu": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Juglandaceae",
+        "Salicaceae",
+        "Lythraceae"
+    ],
+    "CU_0747cu1": [
+        "Dryopteridaceae",
+        "Pinaceae",
+        "Cupressaceae",
+        "Rosaceae",
+        "Fabaceae"
+    ],
+    "CU_0619": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Saxifragaceae",
+        "Dryopteridaceae",
+        "Styracaceae"
+    ],
+    "CU_0820cu1": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Pinaceae",
+        "Fabaceae",
+        "Juglandaceae"
+    ],
+    "CU_0846": [
+        "Rhamnaceae",
+        "Araceae",
+        "Myrtaceae",
+        "Saxifragaceae",
+        "Ranunculaceae"
+    ],
+    "CU_0906": [
+        "Cupressaceae",
+        "Juglandaceae",
+        "Myrtaceae",
+        "Fabaceae",
+        "Anacardiaceae"
+    ],
+    "CU_0783": [
+        "Myrtaceae",
+        "Gesneriaceae",
+        "Meliaceae",
+        "Pinaceae",
+        "Humiriaceae"
+    ],
+    "CU_0746cu1": [
+        "Rosaceae",
+        "Sapindaceae",
+        "Cupressaceae",
+        "Fagaceae",
+        "Lythraceae"
+    ],
+    "FLFO_011096B": [
+        "Rosaceae",
+        "Polemoniaceae",
+        "Rhamnaceae",
+        "Buxaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_000126": [
+        "Rosaceae",
+        "Polygalaceae",
+        "Cupressaceae",
+        "Dryopteridaceae",
+        "Opiliaceae"
+    ],
+    "FLFO_010973B": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Pinaceae",
+        "Cupressaceae",
+        "Meliaceae"
+    ],
+    "CU_0780": [
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Rosaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_004600": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Anacardiaceae",
+        "Lauraceae",
+        "Polygalaceae"
+    ],
+    "FLFO_011049A": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Salicaceae",
+        "Betulaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_003110A": [
+        "Rosaceae",
+        "Styracaceae",
+        "Pinaceae",
+        "Rhamnaceae",
+        "Ranunculaceae"
+    ],
+    "FLFO_010576A": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Myristicaceae",
+        "Canellaceae"
+    ],
+    "FLFO_003572A": [
+        "Myrtaceae",
+        "Meliaceae",
+        "Cupressaceae",
+        "Humiriaceae",
+        "Styracaceae"
+    ],
+    "FLFO_001797A": [
+        "Lauraceae",
+        "Styracaceae",
+        "Polemoniaceae",
+        "Rhamnaceae",
+        "Nothofagaceae"
+    ],
+    "FLFO_002438": [
+        "Anacardiaceae",
+        "Cupressaceae",
+        "Rosaceae",
+        "Fabaceae",
+        "Lauraceae"
+    ],
+    "FLFO_004597": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Juglandaceae",
+        "Rhamnaceae",
+        "Saxifragaceae"
+    ],
+    "FLFO_004895A": [
+        "Betulaceae",
+        "Dryopteridaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Sapindaceae"
+    ],
+    "FLFO_006692": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Meliaceae",
+        "Myrtaceae",
+        "Melastomataceae"
+    ],
+    "FLFO_006146": [
+        "Anacardiaceae",
+        "Rosaceae",
+        "Juglandaceae",
+        "Dryopteridaceae",
+        "Lauraceae"
+    ],
+    "FLFO_004720B": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Styracaceae",
+        "Rhamnaceae",
+        "Saxifragaceae"
+    ],
+    "CU_0332cu-2": [
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Salicaceae",
+        "Rhamnaceae",
+        "Myristicaceae"
+    ],
+    "CU_0652cu": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Betulaceae",
+        "Rhamnaceae",
+        "Salicaceae"
+    ],
+    "FLFO_011094B": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Anacardiaceae"
+    ],
+    "FLFO_002489A": [
+        "Myrtaceae",
+        "Sapindaceae",
+        "Rosaceae",
+        "Berberidaceae",
+        "Betulaceae"
+    ],
+    "CU_0801cu": [
+        "Rosaceae",
+        "Pinaceae",
+        "Juglandaceae",
+        "Myrtaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_010262B": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Pinaceae",
+        "Rutaceae"
+    ],
+    "FLFO_008571A": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0657cu": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Saxifragaceae",
+        "Betulaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_011130": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Meliaceae",
+        "Polygalaceae"
+    ],
+    "CU_0336cpt": [
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Meliaceae",
+        "Styracaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_006912B": [
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Juglandaceae"
+    ],
+    "CU_0739cu": [
+        "Cupressaceae",
+        "Juglandaceae",
+        "Fagaceae",
+        "Pinaceae",
+        "Passifloraceae"
+    ],
+    "FLFO_010168B_L1": [
+        "Betulaceae",
+        "Garryaceae",
+        "Myrtaceae",
+        "Salicaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_003188": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Rhamnaceae",
+        "Meliaceae"
+    ],
+    "CU_0833": [
+        "Ranunculaceae",
+        "Rutaceae",
+        "Saxifragaceae",
+        "Myricaceae",
+        "Olacaceae"
+    ],
+    "FLFO_006940A": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Meliaceae",
+        "Juglandaceae",
+        "Nyssaceae"
+    ],
+    "CU_0246": [
+        "Myrtaceae",
+        "Pinaceae",
+        "Dryopteridaceae",
+        "Lauraceae",
+        "Rosaceae"
+    ],
+    "FLFO_002581B": [
+        "Salicaceae",
+        "Cupressaceae",
+        "Rosaceae",
+        "Pinaceae",
+        "Symplocaceae"
+    ],
+    "CU_0815": [
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Fabaceae",
+        "Rhamnaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_010311A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Polygalaceae",
+        "Berberidaceae"
+    ],
+    "FLFO_004935": [
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Berberidaceae"
+    ],
+    "FLFO_004742A": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Polygalaceae",
+        "Myrtaceae",
+        "Gesneriaceae"
+    ],
+    "CU_0179": [
+        "Myrtaceae",
+        "Lauraceae",
+        "Cupressaceae",
+        "Rhamnaceae",
+        "Juglandaceae"
+    ],
+    "FLFO_011745": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Pinaceae",
+        "Dryopteridaceae",
+        "Humiriaceae"
+    ],
+    "FLFO_008513": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Meliaceae",
+        "Humiriaceae"
+    ],
+    "FLFO_003990A": [
+        "Rosaceae",
+        "Pinaceae",
+        "Anacardiaceae",
+        "Meliaceae",
+        "Betulaceae"
+    ],
+    "CU_0721": [
+        "Cupressaceae",
+        "Rhamnaceae",
+        "Fagaceae",
+        "Myrtaceae",
+        "Platanaceae"
+    ],
+    "FLFO_010028 2": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Styracaceae",
+        "Pinaceae",
+        "Anacardiaceae"
+    ],
+    "FLFO_004794": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Juglandaceae"
+    ],
+    "FLFO_002786B": [
+        "Rosaceae",
+        "Salicaceae",
+        "Pinaceae",
+        "Myrtaceae",
+        "Cupressaceae"
+    ],
+    "CU_0494": [
+        "Myrtaceae",
+        "Berberidaceae",
+        "Polygalaceae",
+        "Cupressaceae",
+        "Polygonaceae"
+    ],
+    "CU_0513cu": [
+        "Rhamnaceae",
+        "Phytolaccaceae",
+        "Dryopteridaceae",
+        "Loganiaceae",
+        "Berberidaceae"
+    ],
+    "FLFO_010576B": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Juglandaceae",
+        "Styracaceae"
+    ],
+    "CU_1033cu": [
+        "Rhamnaceae",
+        "Anacardiaceae",
+        "Styracaceae",
+        "Saxifragaceae",
+        "Cupressaceae"
+    ],
+    "CU_0833cu1": [
+        "Juglandaceae",
+        "Loganiaceae",
+        "Cupressaceae",
+        "Fagaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_004346B": [
+        "Dryopteridaceae",
+        "Cupressaceae",
+        "Betulaceae",
+        "Cornaceae",
+        "Lythraceae"
+    ],
+    "FLFO_011199B": [
+        "Rhamnaceae",
+        "Dryopteridaceae",
+        "Monimiaceae",
+        "Achariaceae",
+        "Phytolaccaceae"
+    ],
+    "FLFO_004895B": [
+        "Betulaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Moraceae",
+        "Cupressaceae"
+    ],
+    "FLFO_011094A": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Betulaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_008972B": [
+        "Cupressaceae",
+        "Salicaceae",
+        "Dryopteridaceae",
+        "Phytolaccaceae",
+        "Berberidaceae"
+    ],
+    "CU_0244cu": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Juglandaceae",
+        "Styracaceae",
+        "Nyctaginaceae"
+    ],
+    "FLFO_003350B": [
+        "Cupressaceae",
+        "Betulaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Myristicaceae"
+    ],
+    "FLFO_011450B": [
+        "Rosaceae",
+        "Salicaceae",
+        "Pinaceae",
+        "Cupressaceae",
+        "Fabaceae"
+    ],
+    "FLFO_006502B_1": [
+        "Anacardiaceae",
+        "Ebenaceae",
+        "Cornaceae",
+        "Actinidiaceae",
+        "Asteraceae"
+    ],
+    "FLFO_002444B": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_011655": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Salicaceae",
+        "Meliaceae",
+        "Canellaceae"
+    ],
+    "FLFO_006174A": [
+        "Cupressaceae",
+        "Juglandaceae",
+        "Anacardiaceae",
+        "Loganiaceae",
+        "Melastomataceae"
+    ],
+    "CU_0118": [
+        "Pinaceae",
+        "Myrtaceae",
+        "Juglandaceae",
+        "Betulaceae",
+        "Garryaceae"
+    ],
+    "FLFO_008586B": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Cupressaceae",
+        "Pinaceae",
+        "Saxifragaceae"
+    ],
+    "FLFO_002740B": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Salicaceae",
+        "Polemoniaceae",
+        "Humiriaceae"
+    ],
+    "FLFO_003351A": [
+        "Rosaceae",
+        "Pinaceae",
+        "Nyssaceae",
+        "Polemoniaceae",
+        "Rhizophoraceae"
+    ],
+    "FLFO_006632B": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Myristicaceae",
+        "Sapotaceae"
+    ],
+    "CU_0814": [
+        "Dryopteridaceae",
+        "Polygalaceae",
+        "Rosaceae",
+        "Berberidaceae",
+        "Fagaceae"
+    ],
+    "FLFO_003651": [
+        "Rhamnaceae",
+        "Anacardiaceae",
+        "Loganiaceae",
+        "Juglandaceae",
+        "Ranunculaceae"
+    ],
+    "FLFO_004844": [
+        "Myrtaceae",
+        "Polygalaceae",
+        "Humiriaceae",
+        "Gesneriaceae",
+        "Rosaceae"
+    ],
+    "FLFO_002483": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Polemoniaceae",
+        "Myrtaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_008564B": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Polygalaceae",
+        "Meliaceae"
+    ],
+    "FLFO_000888": [
+        "Rosaceae",
+        "Pinaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Dryopteridaceae"
+    ],
+    "CU_0073": [
+        "Myrtaceae",
+        "Phytolaccaceae",
+        "Meliaceae",
+        "Gesneriaceae",
+        "Achariaceae"
+    ],
+    "FLFO_009791A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Anacardiaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_006961B": [
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Polygalaceae"
+    ],
+    "CU_0673cu": [
+        "Dryopteridaceae",
+        "Pinaceae",
+        "Rosaceae",
+        "Fabaceae",
+        "Betulaceae"
+    ],
+    "FLFO_010424B": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Myrtaceae",
+        "Salicaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_011691": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_011049B_L1": [
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Pinaceae",
+        "Humiriaceae"
+    ],
+    "CU_0772": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Juglandaceae"
+    ],
+    "FLFO_011100B": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Myrtaceae",
+        "Polemoniaceae",
+        "Pinaceae"
+    ],
+    "FLFO_008968A": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Pinaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_003952B": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Pinaceae",
+        "Berberidaceae"
+    ],
+    "FLFO_003350A": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Berberidaceae",
+        "Calophyllaceae",
+        "Annonaceae"
+    ],
+    "CU_0754cu": [
+        "Cupressaceae",
+        "Fagaceae",
+        "Fabaceae",
+        "Myrtaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_003234": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Fagaceae",
+        "Juglandaceae",
+        "Styracaceae"
+    ],
+    "CU_0741cu1": [
+        "Myrtaceae",
+        "Salicaceae",
+        "Berberidaceae",
+        "Polygalaceae",
+        "Styracaceae"
+    ],
+    "FLFO_011658": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Meliaceae",
+        "Anacardiaceae",
+        "Juglandaceae"
+    ],
+    "CU_0798cu": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Juglandaceae",
+        "Rosaceae",
+        "Anacardiaceae"
+    ],
+    "FLFO_005650": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Anacardiaceae",
+        "Fabaceae",
+        "Canellaceae"
+    ],
+    "CU_0882": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Fagaceae",
+        "Rhamnaceae",
+        "Celastraceae"
+    ],
+    "FLFO_003551": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Cardiopteridaceae",
+        "Canellaceae"
+    ],
+    "CU_0818": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Juglandaceae",
+        "Rhamnaceae",
+        "Pinaceae"
+    ],
+    "FLFO_005677B": [
+        "Dryopteridaceae",
+        "Betulaceae",
+        "Myrtaceae",
+        "Rosaceae",
+        "Lythraceae"
+    ],
+    "FLFO_008529A": [
+        "Fabaceae",
+        "Salicaceae",
+        "Meliaceae",
+        "Cupressaceae",
+        "Rosaceae"
+    ],
+    "CU_0726": [
+        "Cupressaceae",
+        "Juglandaceae",
+        "Anacardiaceae",
+        "Dryopteridaceae",
+        "Fagaceae"
+    ],
+    "FLFO_011087A": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0503cu": [
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Berberidaceae",
+        "Escalloniaceae",
+        "Meliaceae"
+    ],
+    "FLFO_010071A": [
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Acanthaceae",
+        "Rutaceae",
+        "Actinidiaceae"
+    ],
+    "CU_0231cu1": [
+        "Rhamnaceae",
+        "Escalloniaceae",
+        "Fagaceae",
+        "Berberidaceae",
+        "Cupressaceae"
+    ],
+    "CU_0742": [
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Pinaceae",
+        "Polygalaceae",
+        "Ranunculaceae"
+    ],
+    "FLFO_002767A": [
+        "Rosaceae",
+        "Salicaceae",
+        "Pinaceae",
+        "Betulaceae",
+        "Symplocaceae"
+    ],
+    "FLFO_010790B": [
+        "Rosaceae",
+        "Salicaceae",
+        "Pinaceae",
+        "Dryopteridaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_010198A": [
+        "Malpighiaceae",
+        "Lauraceae",
+        "Fabaceae",
+        "Menispermaceae",
+        "Rosaceae"
+    ],
+    "FLFO_003231B": [
+        "Anacardiaceae",
+        "Cupressaceae",
+        "Ranunculaceae",
+        "Juglandaceae",
+        "Rosaceae"
+    ],
+    "FLFO_010744A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Polygalaceae",
+        "Anacardiaceae",
+        "Rhizophoraceae"
+    ],
+    "CU_0393cu": [
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Cupressaceae",
+        "Annonaceae",
+        "Berberidaceae"
+    ],
+    "FLFO_003083": [
+        "Rosaceae",
+        "Juglandaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Anacardiaceae"
+    ],
+    "FLFO_010252B": [
+        "Rosaceae",
+        "Betulaceae",
+        "Sapindaceae",
+        "Pinaceae",
+        "Fabaceae"
+    ],
+    "FLFO_010052A": [
+        "Betulaceae",
+        "Myrtaceae",
+        "Salicaceae",
+        "Cupressaceae",
+        "Meliaceae"
+    ],
+    "FLFO_002769B": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Cupressaceae",
+        "Sapindaceae",
+        "Meliaceae"
+    ],
+    "CU_0513cu2": [
+        "Rhamnaceae",
+        "Dryopteridaceae",
+        "Loganiaceae",
+        "Phytolaccaceae",
+        "Fagaceae"
+    ],
+    "CU_0504": [
+        "Rhamnaceae",
+        "Dryopteridaceae",
+        "Cupressaceae",
+        "Pinaceae",
+        "Fagaceae"
+    ],
+    "FLFO_010197": [
+        "Betulaceae",
+        "Berberidaceae",
+        "Salicaceae",
+        "Cupressaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_011511": [
+        "Rhamnaceae",
+        "Fabaceae",
+        "Sapindaceae",
+        "Rosaceae",
+        "Berberidaceae"
+    ],
+    "CU_0830cu": [
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Styracaceae",
+        "Pinaceae",
+        "Juglandaceae"
+    ],
+    "FLFO_010529B": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Salicaceae",
+        "Anacardiaceae"
+    ],
+    "FLFO_010656B": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Rhamnaceae",
+        "Rhizophoraceae",
+        "Saxifragaceae"
+    ],
+    "FLFO_003388A": [
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Berberidaceae",
+        "Polygalaceae",
+        "Nyssaceae"
+    ],
+    "CU_0207": [
+        "Rhamnaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Saxifragaceae"
+    ],
+    "FLFO_010790A": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Salicaceae",
+        "Anacardiaceae",
+        "Betulaceae"
+    ],
+    "FLFO_008511B": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Pinaceae",
+        "Humiriaceae",
+        "Salicaceae"
+    ],
+    "CU_0769cu1": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Cupressaceae",
+        "Salicaceae"
+    ],
+    "FLFO_010459B": [
+        "Rosaceae",
+        "Pinaceae",
+        "Myrtaceae",
+        "Salicaceae",
+        "Meliaceae"
+    ],
+    "FLFO_006078": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Berberidaceae",
+        "Cupressaceae",
+        "Pinaceae"
+    ],
+    "FLFO_010028": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Berberidaceae",
+        "Polygalaceae",
+        "Styracaceae"
+    ],
+    "FLFO_011235B": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Ranunculaceae",
+        "Rosaceae"
+    ],
+    "CU_0327": [
+        "Rosaceae",
+        "Sapindaceae",
+        "Berberidaceae",
+        "Polygalaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_003680A": [
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Pinaceae",
+        "Cupressaceae",
+        "Juglandaceae"
+    ],
+    "FLFO_006912A": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Juglandaceae",
+        "Myrtaceae",
+        "Anacardiaceae"
+    ],
+    "CU_0491cu": [
+        "Cupressaceae",
+        "Dryopteridaceae",
+        "Anacardiaceae",
+        "Pinaceae",
+        "Juglandaceae"
+    ],
+    "FLFO_010656A": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Styracaceae",
+        "Symplocaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_002879A": [
+        "Myrtaceae",
+        "Polygalaceae",
+        "Rhamnaceae",
+        "Anacardiaceae",
+        "Ranunculaceae"
+    ],
+    "CU_0820": [
+        "Cupressaceae",
+        "Pinaceae",
+        "Myrtaceae",
+        "Betulaceae",
+        "Fabaceae"
+    ],
+    "CU_0510": [
+        "Myrtaceae",
+        "Pinaceae",
+        "Rhamnaceae",
+        "Styracaceae",
+        "Gesneriaceae"
+    ],
+    "CU_0192cu1": [
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Rosaceae",
+        "Salicaceae",
+        "Pinaceae"
+    ],
+    "CU_0197": [
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Ranunculaceae",
+        "Polygalaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_004929": [
+        "Anacardiaceae",
+        "Rutaceae",
+        "Styracaceae",
+        "Saxifragaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_011029": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Betulaceae",
+        "Polemoniaceae",
+        "Salicaceae"
+    ],
+    "FLFO_004260": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Lythraceae",
+        "Berberidaceae",
+        "Pinaceae"
+    ],
+    "FLFO_003301A": [
+        "Salicaceae",
+        "Anacardiaceae",
+        "Rosaceae",
+        "Pinaceae",
+        "Cupressaceae"
+    ],
+    "CU_0817cu": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Berberidaceae",
+        "Rhamnaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_003600A": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Rosaceae",
+        "Myristicaceae",
+        "Canellaceae"
+    ],
+    "CU_0111cu1": [
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Fabaceae",
+        "Rosaceae",
+        "Betulaceae"
+    ],
+    "FLFO_002901A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Meliaceae",
+        "Polemoniaceae",
+        "Styracaceae"
+    ],
+    "FLFO_008538B": [
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Myristicaceae",
+        "Betulaceae",
+        "Humiriaceae"
+    ],
+    "CU_0072cu": [
+        "Lythraceae",
+        "Rosaceae",
+        "Fagaceae",
+        "Malvaceae",
+        "Pinaceae"
+    ],
+    "CU_0401cu": [
+        "Pinaceae",
+        "Myrtaceae",
+        "Salicaceae",
+        "Betulaceae",
+        "Rosaceae"
+    ],
+    "FLFO_011305": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Betulaceae",
+        "Dryopteridaceae",
+        "Meliaceae"
+    ],
+    "FLFO_006644A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Cupressaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0441": [
+        "Pinaceae",
+        "Rosaceae",
+        "Salicaceae",
+        "Myrtaceae",
+        "Polemoniaceae"
+    ],
+    "FLFO_011502A": [
+        "Myrtaceae",
+        "Betulaceae",
+        "Sapindaceae",
+        "Cupressaceae",
+        "Rosaceae"
+    ],
+    "CU_0329cu": [
+        "Betulaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Dryopteridaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0489cu": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Rhamnaceae",
+        "Pinaceae",
+        "Polygalaceae"
+    ],
+    "CU_0805": [
+        "Rhamnaceae",
+        "Styracaceae",
+        "Juglandaceae",
+        "Cupressaceae",
+        "Ranunculaceae"
+    ],
+    "FLFO_006832A": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Rhamnaceae",
+        "Meliaceae",
+        "Lauraceae"
+    ],
+    "FLFO_008558A": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Anacardiaceae",
+        "Dryopteridaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_008538A": [
+        "Dryopteridaceae",
+        "Cupressaceae",
+        "Fagaceae",
+        "Fabaceae",
+        "Icacinaceae"
+    ],
+    "FLFO_003492B": [
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Ranunculaceae",
+        "Styracaceae",
+        "Pinaceae"
+    ],
+    "FLFO_011100A": [
+        "Rosaceae",
+        "Meliaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Polemoniaceae"
+    ],
+    "FLFO_002361A": [
+        "Rosaceae",
+        "Polemoniaceae",
+        "Meliaceae",
+        "Salicaceae",
+        "Myrtaceae"
+    ],
+    "CU_0189": [
+        "Myrtaceae",
+        "Polygalaceae",
+        "Dryopteridaceae",
+        "Anacardiaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_002786A": [
+        "Rosaceae",
+        "Pinaceae",
+        "Meliaceae",
+        "Fabaceae",
+        "Myrtaceae"
+    ],
+    "CU_0454": [
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Styracaceae",
+        "Cupressaceae",
+        "Rosaceae"
+    ],
+    "FLFO_011087B": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Polygalaceae"
+    ],
+    "CU_0654": [
+        "Rosaceae",
+        "Salicaceae",
+        "Anacardiaceae",
+        "Polemoniaceae",
+        "Myrtaceae"
+    ],
+    "CU_0854": [
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Rosaceae",
+        "Polygalaceae",
+        "Ranunculaceae"
+    ],
+    "CU_0729": [
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Polygalaceae",
+        "Lythraceae",
+        "Berberidaceae"
+    ],
+    "FLFO_002420B": [
+        "Cupressaceae",
+        "Rhamnaceae",
+        "Anacardiaceae",
+        "Myrtaceae",
+        "Oleaceae"
+    ],
+    "FLFO_002702": [
+        "Pinaceae",
+        "Salicaceae",
+        "Cunoniaceae",
+        "Dryopteridaceae",
+        "Fabaceae"
+    ],
+    "FLFO_008590B": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Betulaceae"
+    ],
+    "FLFO_008995B": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Meliaceae",
+        "Anacardiaceae"
+    ],
+    "CU_1032": [
+        "Cupressaceae",
+        "Pinaceae",
+        "Juglandaceae",
+        "Calophyllaceae",
+        "Iteaceae"
+    ],
+    "CU_0741": [
+        "Myrtaceae",
+        "Pinaceae",
+        "Polygalaceae",
+        "Rosaceae",
+        "Berberidaceae"
+    ],
+    "CU_0241": [
+        "Pinaceae",
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Betulaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_004707B": [
+        "Pinaceae",
+        "Myrtaceae",
+        "Polygalaceae",
+        "Anacardiaceae",
+        "Lauraceae"
+    ],
+    "CU_0770": [
+        "Rhamnaceae",
+        "Cupressaceae",
+        "Berberidaceae",
+        "Gesneriaceae",
+        "Myrtaceae"
+    ],
+    "CU_0753cu": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Lauraceae",
+        "Pinaceae"
+    ],
+    "CU_0896": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Rhamnaceae",
+        "Salicaceae",
+        "Juglandaceae"
+    ],
+    "CU_0454cu": [
+        "Pinaceae",
+        "Rosaceae",
+        "Salicaceae",
+        "Dryopteridaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_010888": [
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Salicaceae",
+        "Cupressaceae"
+    ],
+    "CU_0513cu1": [
+        "Lauraceae",
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Pinaceae"
+    ],
+    "CU_0741cu": [
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Betulaceae",
+        "Berberidaceae",
+        "Cupressaceae"
+    ],
+    "CU_0329": [
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Berberidaceae",
+        "Polygalaceae"
+    ],
+    "CU_0901cpt": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Meliaceae",
+        "Humiriaceae",
+        "Canellaceae"
+    ],
+    "FLFO_010650B": [
+        "Rosaceae",
+        "Pinaceae",
+        "Salicaceae",
+        "Gesneriaceae",
+        "Berberidaceae"
+    ],
+    "FLFO_003258": [
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Ranunculaceae"
+    ],
+    "CU_0686": [
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Dryopteridaceae",
+        "Cupressaceae",
+        "Juglandaceae"
+    ],
+    "CU_0409": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Rosaceae",
+        "Pinaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0122": [
+        "Pinaceae",
+        "Myrtaceae",
+        "Styracaceae",
+        "Salicaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_003490A": [
+        "Fagaceae",
+        "Rhamnaceae",
+        "Cupressaceae",
+        "Crassulaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_002926A": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Rosaceae",
+        "Rhamnaceae",
+        "Styracaceae"
+    ],
+    "FLFO_010329A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Betulaceae",
+        "Cupressaceae"
+    ],
+    "CU_0513": [
+        "Rhamnaceae",
+        "Phytolaccaceae",
+        "Malvaceae",
+        "Amaranthaceae",
+        "Opiliaceae"
+    ],
+    "FLFO_002597": [
+        "Rosaceae",
+        "Pinaceae",
+        "Sapindaceae",
+        "Anacardiaceae",
+        "Salicaceae"
+    ],
+    "CU_0198cpt": [
+        "Cupressaceae",
+        "Juglandaceae",
+        "Rosaceae",
+        "Polemoniaceae",
+        "Pinaceae"
+    ],
+    "CU_0440": [
+        "Myrtaceae",
+        "Pinaceae",
+        "Rhamnaceae",
+        "Ranunculaceae",
+        "Rosaceae"
+    ],
+    "FLFO_010463A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Polygalaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_010519A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Pinaceae",
+        "Dryopteridaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_010163B": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Rosaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0486": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Saxifragaceae",
+        "Meliaceae"
+    ],
+    "FLFO_009675": [
+        "Dryopteridaceae",
+        "Betulaceae",
+        "Myrtaceae",
+        "Moraceae",
+        "Rosaceae"
+    ],
+    "FLFO_006649": [
+        "Dilleniaceae",
+        "Lauraceae",
+        "Berberidaceae",
+        "Malpighiaceae",
+        "Paracryphiaceae"
+    ],
+    "FLFO_002728": [
+        "Salicaceae",
+        "Canellaceae",
+        "Cupressaceae",
+        "Humiriaceae",
+        "Pinaceae"
+    ],
+    "FLFO_006502A_1": [
+        "Anacardiaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Ranunculaceae"
+    ],
+    "CU_1364": [
+        "Cupressaceae",
+        "Pinaceae",
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Salicaceae"
+    ],
+    "CU_0902cu": [
+        "Pinaceae",
+        "Dryopteridaceae",
+        "Cupressaceae",
+        "Juglandaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_011019A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Symplocaceae",
+        "Polemoniaceae",
+        "Buxaceae"
+    ],
+    "CU_0307": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Dryopteridaceae",
+        "Pinaceae"
+    ],
+    "CU_0687": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Rosaceae",
+        "Rhamnaceae",
+        "Pinaceae"
+    ],
+    "FLFO_009259": [
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Polygalaceae",
+        "Rosaceae",
+        "Berberidaceae"
+    ],
+    "CU_0448cu": [
+        "Rhamnaceae",
+        "Cupressaceae",
+        "Malvaceae",
+        "Iteaceae",
+        "Styracaceae"
+    ],
+    "CU_0118cu3": [
+        "Pinaceae",
+        "Fabaceae",
+        "Rhamnaceae",
+        "Betulaceae",
+        "Rosaceae"
+    ],
+    "FLFO_003420B": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Pinaceae",
+        "Juglandaceae",
+        "Betulaceae"
+    ],
+    "CU_0754": [
+        "Cupressaceae",
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Rosaceae",
+        "Fagaceae"
+    ],
+    "FLFO_010423A": [
+        "Pinaceae",
+        "Rosaceae",
+        "Salicaceae",
+        "Betulaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_011361A": [
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Rosaceae",
+        "Moraceae",
+        "Betulaceae"
+    ],
+    "CU_0745": [
+        "Pinaceae",
+        "Myrtaceae",
+        "Cunoniaceae",
+        "Ranunculaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_006940B": [
+        "Dryopteridaceae",
+        "Polygalaceae",
+        "Fagaceae",
+        "Rosaceae",
+        "Canellaceae"
+    ],
+    "FLFO_010680B": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Dryopteridaceae",
+        "Pinaceae",
+        "Juglandaceae"
+    ],
+    "CU_0641": [
+        "Juglandaceae",
+        "Cupressaceae",
+        "Dryopteridaceae",
+        "Anacardiaceae",
+        "Cornaceae"
+    ],
+    "CU_0744cu": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Betulaceae",
+        "Berberidaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_005584B": [
+        "Cupressaceae",
+        "Meliaceae",
+        "Pinaceae",
+        "Symplocaceae",
+        "Salicaceae"
+    ],
+    "FLFO_011133A": [
+        "Myrtaceae",
+        "Betulaceae",
+        "Salicaceae",
+        "Polygalaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_010409A": [
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Anacardiaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_002682A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Humiriaceae",
+        "Salicaceae"
+    ],
+    "CU_0461": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Juglandaceae",
+        "Saxifragaceae"
+    ],
+    "FLFO_011133B": [
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Dryopteridaceae",
+        "Pinaceae",
+        "Salicaceae"
+    ],
+    "FLFO_011147B": [
+        "Myrtaceae",
+        "Salicaceae",
+        "Polygalaceae",
+        "Altingiaceae",
+        "Nyssaceae"
+    ],
+    "FLFO_003177B": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Dryopteridaceae",
+        "Anacardiaceae"
+    ],
+    "FLFO_010562B": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Meliaceae",
+        "Humiriaceae",
+        "Pinaceae"
+    ],
+    "FLFO_008967": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Betulaceae",
+        "Anacardiaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_010168B_L3": [
+        "Betulaceae",
+        "Myrtaceae",
+        "Garryaceae",
+        "Cupressaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0279": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Berberidaceae",
+        "Rhamnaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_010806A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Salicaceae",
+        "Anacardiaceae"
+    ],
+    "FLFO_002741B": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Juglandaceae"
+    ],
+    "FLFO_010459A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Anacardiaceae",
+        "Betulaceae"
+    ],
+    "FLFO_010897B": [
+        "Rosaceae",
+        "Salicaceae",
+        "Pinaceae",
+        "Myrtaceae",
+        "Polemoniaceae"
+    ],
+    "FLFO_006837B": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Pinaceae",
+        "Meliaceae",
+        "Opiliaceae"
+    ],
+    "FLFO_003152": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Meliaceae",
+        "Nyctaginaceae",
+        "Malvaceae"
+    ],
+    "FLFO_010137": [
+        "Rosaceae",
+        "Polygalaceae",
+        "Pinaceae",
+        "Calophyllaceae",
+        "Styracaceae"
+    ],
+    "FLFO_003175A": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Betulaceae",
+        "Pinaceae"
+    ],
+    "CU_0809": [
+        "Juglandaceae",
+        "Ranunculaceae",
+        "Rhamnaceae",
+        "Styracaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_011502B": [
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Moraceae",
+        "Betulaceae"
+    ],
+    "FLFO_010002A": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Dryopteridaceae",
+        "Salicaceae",
+        "Berberidaceae"
+    ],
+    "CU_0591cu": [
+        "Sapindaceae",
+        "Pinaceae",
+        "Berberidaceae",
+        "Myrtaceae",
+        "Salicaceae"
+    ],
+    "FLFO_002869B": [
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Rosaceae",
+        "Pinaceae"
+    ],
+    "FLFO_010699A": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Dryopteridaceae",
+        "Anacardiaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0760cu1": [
+        "Pinaceae",
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Connaraceae",
+        "Rosaceae"
+    ],
+    "CU_0194cpt": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Betulaceae",
+        "Cupressaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0393": [
+        "Cupressaceae",
+        "Proteaceae",
+        "Rosaceae",
+        "Salicaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_003240": [
+        "Anacardiaceae",
+        "Cupressaceae",
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Lauraceae"
+    ],
+    "FLFO_011080A": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Anacardiaceae",
+        "Dryopteridaceae",
+        "Juglandaceae"
+    ],
+    "FLFO_006632A": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Pinaceae",
+        "Polemoniaceae",
+        "Cupressaceae"
+    ],
+    "CU_0673": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Anacardiaceae",
+        "Pinaceae",
+        "Betulaceae"
+    ],
+    "CU_0833cu": [
+        "Juglandaceae",
+        "Dryopteridaceae",
+        "Pinaceae",
+        "Garryaceae",
+        "Fagaceae"
+    ],
+    "FLFO_004124A": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Pinaceae",
+        "Salicaceae",
+        "Fagaceae"
+    ],
+    "FLFO_005677A": [
+        "Rhamnaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Betulaceae"
+    ],
+    "FLFO_011199A": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Dryopteridaceae",
+        "Anacardiaceae",
+        "Pinaceae"
+    ],
+    "FLFO_011115A": [
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Rosaceae",
+        "Anacardiaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_003952A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Polygalaceae",
+        "Dryopteridaceae"
+    ],
+    "CU_0746cu": [
+        "Sapindaceae",
+        "Rosaceae",
+        "Humiriaceae",
+        "Salicaceae",
+        "Cupressaceae"
+    ],
+    "CU_0301cu1": [
+        "Juglandaceae",
+        "Pinaceae",
+        "Dryopteridaceae",
+        "Styracaceae",
+        "Cupressaceae"
+    ],
+    "CU_0512cu1": [
+        "Cupressaceae",
+        "Pinaceae",
+        "Meliaceae",
+        "Lythraceae",
+        "Malvaceae"
+    ],
+    "CU_0410cu1": [
+        "Rosaceae",
+        "Pinaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Salicaceae"
+    ],
+    "CU_0511": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Rosaceae",
+        "Meliaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_010308B": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Salicaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_008571B": [
+        "Rosaceae",
+        "Salicaceae",
+        "Lythraceae",
+        "Ebenaceae",
+        "Pinaceae"
+    ],
+    "FLFO_004443B": [
+        "Betulaceae",
+        "Icacinaceae",
+        "Proteaceae",
+        "Sapindaceae",
+        "Passifloraceae"
+    ],
+    "FLFO_004708B": [
+        "Anacardiaceae",
+        "Rosaceae",
+        "Styracaceae",
+        "Ranunculaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_010662A": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Pinaceae",
+        "Rhamnaceae",
+        "Fabaceae"
+    ],
+    "FLFO_004519A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Salicaceae",
+        "Pinaceae"
+    ],
+    "FLFO_010562A": [
+        "Rosaceae",
+        "Fabaceae",
+        "Rhamnaceae",
+        "Betulaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_002703": [
+        "Rosaceae",
+        "Pinaceae",
+        "Myrtaceae",
+        "Fabaceae",
+        "Dryopteridaceae"
+    ],
+    "CU_0820cu": [
+        "Dryopteridaceae",
+        "Berberidaceae",
+        "Rosaceae",
+        "Pinaceae",
+        "Nyssaceae"
+    ],
+    "FLFO_010650A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Salicaceae",
+        "Fabaceae",
+        "Symplocaceae"
+    ],
+    "FLFO_009029B": [
+        "Myrtaceae",
+        "Meliaceae",
+        "Dryopteridaceae",
+        "Betulaceae",
+        "Humiriaceae"
+    ],
+    "FLFO_004838A": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Anacardiaceae",
+        "Cupressaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_010738A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Fabaceae",
+        "Salicaceae",
+        "Anacardiaceae"
+    ],
+    "FLFO_010780A": [
+        "Rosaceae",
+        "Meliaceae",
+        "Myrtaceae",
+        "Symplocaceae",
+        "Humiriaceae"
+    ],
+    "FLFO_011019B": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Polygalaceae",
+        "Myrtaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_010734A": [
+        "Cupressaceae",
+        "Dryopteridaceae",
+        "Anacardiaceae",
+        "Rosaceae",
+        "Betulaceae"
+    ],
+    "CU_0752": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Nyssaceae",
+        "Anacardiaceae",
+        "Fagaceae"
+    ],
+    "FLFO_011025": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Salicaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_003311B": [
+        "Rosaceae",
+        "Juglandaceae",
+        "Cupressaceae",
+        "Rhamnaceae",
+        "Nyctaginaceae"
+    ],
+    "CU_0360": [
+        "Lauraceae",
+        "Cornaceae",
+        "Cupressaceae",
+        "Malpighiaceae",
+        "Sabiaceae"
+    ],
+    "CU_0180": [
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Cupressaceae",
+        "Juglandaceae",
+        "Pinaceae"
+    ],
+    "FLFO_011518": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Betulaceae"
+    ],
+    "FLFO_010897A": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Humiriaceae",
+        "Meliaceae"
+    ],
+    "FLFO_010045": [
+        "Anacardiaceae",
+        "Lauraceae",
+        "Rosaceae",
+        "Rhamnaceae",
+        "Acanthaceae"
+    ],
+    "FLFO_009286": [
+        "Cupressaceae",
+        "Loganiaceae",
+        "Fagaceae",
+        "Myrtaceae",
+        "Nyctaginaceae"
+    ],
+    "FLFO_002623B": [
+        "Salicaceae",
+        "Rosaceae",
+        "Pinaceae",
+        "Cupressaceae",
+        "Humiriaceae"
+    ],
+    "FLFO_005678": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_008558B": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Pinaceae",
+        "Myrtaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_009680": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Juglandaceae",
+        "Meliaceae"
+    ],
+    "FLFO_010029": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Ranunculaceae",
+        "Anacardiaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_010993B": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Symplocaceae",
+        "Saxifragaceae",
+        "Meliaceae"
+    ],
+    "FLFO_009859": [
+        "Rosaceae",
+        "Rhizophoraceae",
+        "Polygalaceae",
+        "Polemoniaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_010031": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Pinaceae",
+        "Rhamnaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_010070A Cyperacites lacustris": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Polygalaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_004519B": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Pinaceae",
+        "Dryopteridaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_010734B": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Anacardiaceae",
+        "Juglandaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_006872A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Meliaceae",
+        "Pinaceae",
+        "Salicaceae"
+    ],
+    "FLFO_010415A": [
+        "Rosaceae",
+        "Salicaceae",
+        "Cupressaceae",
+        "Symplocaceae",
+        "Anacardiaceae"
+    ],
+    "CU_0448": [
+        "Rosaceae",
+        "Pinaceae",
+        "Dryopteridaceae",
+        "Rhamnaceae",
+        "Malvaceae"
+    ],
+    "FLFO_003179B": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Anacardiaceae",
+        "Betulaceae",
+        "Salicaceae"
+    ],
+    "CU_0198pt": [
+        "Juglandaceae",
+        "Rhamnaceae",
+        "Rosaceae",
+        "Ranunculaceae",
+        "Monimiaceae"
+    ],
+    "FLFO_010052B 2": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Anacardiaceae",
+        "Polygalaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_003180A": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Pinaceae",
+        "Rhamnaceae",
+        "Rutaceae"
+    ],
+    "CU_0808": [
+        "Acanthaceae",
+        "Fagaceae",
+        "Rhizophoraceae",
+        "Onagraceae",
+        "Polygalaceae"
+    ],
+    "FLFO_002868B": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Rhamnaceae",
+        "Pinaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_002676B": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Juglandaceae",
+        "Styracaceae"
+    ],
+    "FLFO_010347A": [
+        "Salicaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Pinaceae",
+        "Betulaceae"
+    ],
+    "FLFO_002743A": [
+        "Rosaceae",
+        "Pinaceae",
+        "Salicaceae",
+        "Humiriaceae",
+        "Fabaceae"
+    ],
+    "FLFO_006651A": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Ranunculaceae",
+        "Styracaceae"
+    ],
+    "FLFO_004608": [
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Cupressaceae",
+        "Saxifragaceae",
+        "Acanthaceae"
+    ],
+    "FLFO_008564A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Betulaceae",
+        "Meliaceae"
+    ],
+    "CU_0810": [
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Araceae",
+        "Saxifragaceae",
+        "Styracaceae"
+    ],
+    "FLFO_011181": [
+        "Rosaceae",
+        "Pinaceae",
+        "Dryopteridaceae",
+        "Salicaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_002709": [
+        "Myrtaceae",
+        "Salicaceae",
+        "Humiriaceae",
+        "Polygalaceae",
+        "Canellaceae"
+    ],
+    "CU_0601cu": [
+        "Cupressaceae",
+        "Juglandaceae",
+        "Fagaceae",
+        "Salicaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0192cu3": [
+        "Dilleniaceae",
+        "Rosaceae",
+        "Fabaceae",
+        "Dryopteridaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0214": [
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Lythraceae",
+        "Saxifragaceae",
+        "Sapindaceae"
+    ],
+    "CU_0652": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Juglandaceae"
+    ],
+    "CU_0247": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Pinaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0336cu": [
+        "Rhamnaceae",
+        "Cupressaceae",
+        "Juglandaceae",
+        "Fabaceae",
+        "Platanaceae"
+    ],
+    "FLFO_004708A": [
+        "Dryopteridaceae",
+        "Rhamnaceae",
+        "Rosaceae",
+        "Ranunculaceae",
+        "Phytolaccaceae"
+    ],
+    "FLFO_011520B": [
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Ranunculaceae",
+        "Acanthaceae"
+    ],
+    "FLFO_010680A": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Dryopteridaceae",
+        "Cupressaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_002743B": [
+        "Myrtaceae",
+        "Pinaceae",
+        "Salicaceae",
+        "Humiriaceae",
+        "Cunoniaceae"
+    ],
+    "FLFO_008599A": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Fagaceae"
+    ],
+    "FLFO_010861": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Anacardiaceae",
+        "Canellaceae",
+        "Celastraceae"
+    ],
+    "CU_0189p+cpt": [
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Rosaceae",
+        "Polygalaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_003177A": [
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Rosaceae",
+        "Berberidaceae",
+        "Pinaceae"
+    ],
+    "FLFO_011080B": [
+        "Rosaceae",
+        "Polemoniaceae",
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Anacardiaceae"
+    ],
+    "CU_0336": [
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Dilleniaceae",
+        "Piperaceae",
+        "Meliaceae"
+    ],
+    "CU_0265": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Pinaceae",
+        "Rhamnaceae",
+        "Styracaceae"
+    ],
+    "FLFO_003041B": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Rhamnaceae",
+        "Opiliaceae",
+        "Styracaceae"
+    ],
+    "CU_0716cu": [
+        "Myrtaceae",
+        "Betulaceae",
+        "Altingiaceae",
+        "Sapindaceae",
+        "Phyllanthaceae"
+    ],
+    "FLFO_010577": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Rosaceae",
+        "Pinaceae",
+        "Anacardiaceae"
+    ],
+    "CU_0111": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Pinaceae",
+        "Betulaceae",
+        "Salicaceae"
+    ],
+    "FLFO_011562": [
+        "Pinaceae",
+        "Dryopteridaceae",
+        "Anacardiaceae",
+        "Rosaceae",
+        "Betulaceae"
+    ],
+    "FLFO_010198B": [
+        "Berberidaceae",
+        "Rosaceae",
+        "Onagraceae",
+        "Hamamelidaceae",
+        "Gnetaceae"
+    ],
+    "CU_0115cu": [
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Juglandaceae",
+        "Ranunculaceae"
+    ],
+    "FLFO_006653B": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Meliaceae",
+        "Polemoniaceae",
+        "Opiliaceae"
+    ],
+    "FLFO_010683B": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Anacardiaceae",
+        "Meliaceae"
+    ],
+    "CU_0459": [
+        "Rhamnaceae",
+        "Anacardiaceae",
+        "Juglandaceae",
+        "Saxifragaceae",
+        "Styracaceae"
+    ],
+    "CU_0674": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Lythraceae",
+        "Sapindaceae",
+        "Polemoniaceae"
+    ],
+    "FLFO_011049B_L2": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Pinaceae",
+        "Juglandaceae"
+    ],
+    "FLFO_004932": [
+        "Cupressaceae",
+        "Iteaceae",
+        "Fagaceae",
+        "Garryaceae",
+        "Malvaceae"
+    ],
+    "FLFO_004235A": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Betulaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_010016A": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Myrtaceae",
+        "Salicaceae",
+        "Pinaceae"
+    ],
+    "FLFO_010744B": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Humiriaceae",
+        "Polygalaceae",
+        "Salicaceae"
+    ],
+    "CU_0479": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_011680": [
+        "Rosaceae",
+        "Lauraceae",
+        "Berberidaceae",
+        "Malpighiaceae",
+        "Fabaceae"
+    ],
+    "FLFO_002456": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Symplocaceae",
+        "Saxifragaceae",
+        "Polemoniaceae"
+    ],
+    "CU_0810cu": [
+        "Meliaceae",
+        "Gesneriaceae",
+        "Styracaceae",
+        "Myrtaceae",
+        "Buxaceae"
+    ],
+    "FLFO_001797B": [
+        "Rhamnaceae",
+        "Berberidaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Escalloniaceae"
+    ],
+    "CU_0484cu1": [
+        "Pinaceae",
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Salicaceae",
+        "Fabaceae"
+    ],
+    "FLFO_002879B": [
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Polygalaceae"
+    ],
+    "CU_0441cu1": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Juglandaceae",
+        "Saxifragaceae",
+        "Melastomataceae"
+    ],
+    "CU_0484": [
+        "Pinaceae",
+        "Myrtaceae",
+        "Betulaceae",
+        "Nyssaceae",
+        "Icacinaceae"
+    ],
+    "CU_0729cu": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Betulaceae"
+    ],
+    "FLFO_002637A": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Canellaceae",
+        "Humiriaceae",
+        "Pinaceae"
+    ],
+    "CU_0478": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Meliaceae",
+        "Rhamnaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_010383B": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Anacardiaceae",
+        "Salicaceae",
+        "Saxifragaceae"
+    ],
+    "CU_0199cu": [
+        "Cupressaceae",
+        "Salicaceae",
+        "Fagaceae",
+        "Rhamnaceae",
+        "Lauraceae"
+    ],
+    "FLFO_011450A": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Fabaceae"
+    ],
+    "FLFO_011051A": [
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Anacardiaceae",
+        "Dryopteridaceae",
+        "Rosaceae"
+    ],
+    "FLFO_004762A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Polygalaceae",
+        "Salicaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_011020A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Meliaceae",
+        "Dryopteridaceae",
+        "Sapindaceae"
+    ],
+    "FLFO_006606B": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Pinaceae",
+        "Myrtaceae",
+        "Styracaceae"
+    ],
+    "CU_0285cu": [
+        "Myrtaceae",
+        "Styracaceae",
+        "Rosaceae",
+        "Polygalaceae",
+        "Salicaceae"
+    ],
+    "CU_0074cu": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Betulaceae",
+        "Dryopteridaceae",
+        "Sapindaceae"
+    ],
+    "FLFO_011542B": [
+        "Rosaceae",
+        "Betulaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_010685A": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Celastraceae",
+        "Calophyllaceae",
+        "Iteaceae"
+    ],
+    "FLFO_003143": [
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Pinaceae",
+        "Salicaceae"
+    ],
+    "FLFO_011096A": [
+        "Rosaceae",
+        "Polemoniaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Buxaceae"
+    ],
+    "CU_0490cu": [
+        "Rhamnaceae",
+        "Cupressaceae",
+        "Saxifragaceae",
+        "Platanaceae",
+        "Fabaceae"
+    ],
+    "CU_0401": [
+        "Pinaceae",
+        "Myrtaceae",
+        "Salicaceae",
+        "Cupressaceae",
+        "Nyssaceae"
+    ],
+    "FLFO_008989A": [
+        "Myrtaceae",
+        "Polygalaceae",
+        "Phyllanthaceae",
+        "Humiriaceae",
+        "Euphorbiaceae"
+    ],
+    "CU_0687cu": [
+        "Pinaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Sapindaceae",
+        "Icacinaceae"
+    ],
+    "FLFO_010685B": [
+        "Cupressaceae",
+        "Dryopteridaceae",
+        "Fabaceae",
+        "Anacardiaceae",
+        "Cornaceae"
+    ],
+    "FLFO_010423B": [
+        "Pinaceae",
+        "Salicaceae",
+        "Dryopteridaceae",
+        "Humiriaceae",
+        "Lauraceae"
+    ],
+    "FLFO_004581": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Fabaceae"
+    ],
+    "FLFO_010824B": [
+        "Anacardiaceae",
+        "Rosaceae",
+        "Pinaceae",
+        "Cupressaceae",
+        "Dryopteridaceae"
+    ],
+    "CU_0215": [
+        "Betulaceae",
+        "Rosaceae",
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_006502B": [
+        "Anacardiaceae",
+        "Actinidiaceae",
+        "Cornaceae",
+        "Cupressaceae",
+        "Asteraceae"
+    ],
+    "FLFO_003070": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Rhamnaceae",
+        "Anacardiaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_002639B": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Humiriaceae",
+        "Salicaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_010321A": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Salicaceae",
+        "Fabaceae",
+        "Anacardiaceae"
+    ],
+    "FLFO_010383A": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Pinaceae",
+        "Myristicaceae"
+    ],
+    "FLFO_003438": [
+        "Pinaceae",
+        "Cupressaceae",
+        "Rosaceae",
+        "Meliaceae",
+        "Ebenaceae"
+    ],
+    "FLFO_009861A": [
+        "Myrtaceae",
+        "Polygalaceae",
+        "Cupressaceae",
+        "Humiriaceae",
+        "Berberidaceae"
+    ],
+    "FLFO_002683A": [
+        "Pinaceae",
+        "Salicaceae",
+        "Humiriaceae",
+        "Canellaceae",
+        "Vitaceae"
+    ],
+    "FLFO_003179A": [
+        "Rosaceae",
+        "Berberidaceae",
+        "Myrtaceae",
+        "Salicaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_010753B": [
+        "Myrtaceae",
+        "Pinaceae",
+        "Rosaceae",
+        "Canellaceae",
+        "Humiriaceae"
+    ],
+    "FLFO_003665": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Canellaceae",
+        "Meliaceae",
+        "Myristicaceae"
+    ],
+    "FLFO_002623A": [
+        "Pinaceae",
+        "Cupressaceae",
+        "Ebenaceae",
+        "Juglandaceae",
+        "Ranunculaceae"
+    ],
+    "CU_0442": [
+        "Rosaceae",
+        "Lauraceae",
+        "Meliaceae",
+        "Myrtaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_010083": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Dryopteridaceae",
+        "Cupressaceae",
+        "Pinaceae"
+    ],
+    "CU_0685": [
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Betulaceae",
+        "Phyllanthaceae",
+        "Humiriaceae"
+    ],
+    "FLFO_008590A": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Cupressaceae"
+    ],
+    "CU_0747cu": [
+        "Dryopteridaceae",
+        "Pinaceae",
+        "Rosaceae",
+        "Fabaceae",
+        "Anacardiaceae"
+    ],
+    "CU_0199": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Styracaceae",
+        "Rhamnaceae",
+        "Pittosporaceae"
+    ],
+    "FLFO_003999": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Juglandaceae",
+        "Anacardiaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_002444A": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Salicaceae",
+        "Pinaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_006651B": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Rhamnaceae",
+        "Betulaceae"
+    ],
+    "FLFO_002420A": [
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Cupressaceae",
+        "Saxifragaceae"
+    ],
+    "FLFO_004836": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Pinaceae",
+        "Meliaceae"
+    ],
+    "CU_0217cu": [
+        "Pinaceae",
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Meliaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_010269": [
+        "Cupressaceae",
+        "Betulaceae",
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_010877A": [
+        "Rosaceae",
+        "Polygalaceae",
+        "Rhizophoraceae",
+        "Rhamnaceae",
+        "Sapotaceae"
+    ],
+    "CU_0494cu1": [
+        "Polygalaceae",
+        "Berberidaceae",
+        "Cupressaceae",
+        "Salicaceae",
+        "Chrysobalanaceae"
+    ],
+    "FLFO_002740A": [
+        "Rosaceae",
+        "Humiriaceae",
+        "Betulaceae",
+        "Salicaceae",
+        "Fabaceae"
+    ],
+    "FLFO_002443B": [
+        "Rosaceae",
+        "Salicaceae",
+        "Cupressaceae",
+        "Pinaceae",
+        "Symplocaceae"
+    ],
+    "FLFO_008505": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Pinaceae",
+        "Myrtaceae"
+    ],
+    "CU_0642cu": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Fabaceae",
+        "Anacardiaceae",
+        "Juglandaceae"
+    ],
+    "FLFO_010578B": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Anacardiaceae",
+        "Juglandaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_011051B": [
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Pinaceae",
+        "Rosaceae",
+        "Dryopteridaceae"
+    ],
+    "CU_0289": [
+        "Nothofagaceae",
+        "Asteraceae",
+        "Magnoliaceae",
+        "Caprifoliaceae",
+        "Salicaceae"
+    ],
+    "FLFO_011235A": [
+        "Dryopteridaceae",
+        "Betulaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Pinaceae"
+    ],
+    "FLFO_010753A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Meliaceae",
+        "Rhamnaceae",
+        "Styracaceae"
+    ],
+    "FLFO_003231A": [
+        "Anacardiaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Rhamnaceae",
+        "Passifloraceae"
+    ],
+    "FLFO_010683A": [
+        "Rosaceae",
+        "Meliaceae",
+        "Symplocaceae",
+        "Fabaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_011454A": [
+        "Dryopteridaceae",
+        "Pinaceae",
+        "Cupressaceae",
+        "Rosaceae",
+        "Anacardiaceae"
+    ],
+    "CU_0511cu": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Juglandaceae",
+        "Rosaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_010570A": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Cupressaceae",
+        "Meliaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_010002B": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Meliaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_010623": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Cupressaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_010424A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Polygalaceae",
+        "Polemoniaceae"
+    ],
+    "FLFO_006653A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Salicaceae",
+        "Humiriaceae",
+        "Polemoniaceae"
+    ],
+    "FLFO_003311A": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Juglandaceae",
+        "Nyctaginaceae",
+        "Meliaceae"
+    ],
+    "FLFO_011561": [
+        "Dryopteridaceae",
+        "Betulaceae",
+        "Garryaceae",
+        "Phytolaccaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_011541A": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Rhizophoraceae",
+        "Lythraceae",
+        "Pinaceae"
+    ],
+    "FLFO_008989B": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Salicaceae",
+        "Phyllanthaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_002617B": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Betulaceae",
+        "Myrtaceae",
+        "Sapindaceae"
+    ],
+    "FLFO_004706B": [
+        "Myrtaceae",
+        "Lauraceae",
+        "Dryopteridaceae",
+        "Cupressaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_002683B": [
+        "Pinaceae",
+        "Rosaceae",
+        "Salicaceae",
+        "Myrtaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_010806B": [
+        "Dryopteridaceae",
+        "Betulaceae",
+        "Rosaceae",
+        "Polygalaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0360cu": [
+        "Rhamnaceae",
+        "Styracaceae",
+        "Sabiaceae",
+        "Passifloraceae",
+        "Lauraceae"
+    ],
+    "FLFO_004543": [
+        "Rosaceae",
+        "Salicaceae",
+        "Dryopteridaceae",
+        "Anacardiaceae",
+        "Betulaceae"
+    ],
+    "CU_0746": [
+        "Pinaceae",
+        "Rosaceae",
+        "Salicaceae",
+        "Myrtaceae",
+        "Sapindaceae"
+    ],
+    "FLFO_011059": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Juglandaceae"
+    ],
+    "FLFO_006734B": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Pinaceae",
+        "Styracaceae",
+        "Myrtaceae"
+    ],
+    "CU_0491": [
+        "Betulaceae",
+        "Cupressaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Cornaceae"
+    ],
+    "CU_0756": [
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Myrtaceae",
+        "Juglandaceae",
+        "Celastraceae"
+    ],
+    "CU_0744": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Rhamnaceae",
+        "Pinaceae"
+    ],
+    "CU_0327cu": [
+        "Cupressaceae",
+        "Dilleniaceae",
+        "Berberidaceae",
+        "Sapotaceae",
+        "Polygalaceae"
+    ],
+    "CU_0731": [
+        "Dryopteridaceae",
+        "Anacardiaceae",
+        "Rosaceae",
+        "Cunoniaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0315cptcu1": [
+        "Rosaceae",
+        "Fagaceae",
+        "Meliaceae",
+        "Acanthaceae",
+        "Pinaceae"
+    ],
+    "CU_0742cu": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Pinaceae",
+        "Juglandaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_010379A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Salicaceae",
+        "Pinaceae",
+        "Anacardiaceae"
+    ],
+    "FLFO_009610A": [
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Polygalaceae",
+        "Garryaceae",
+        "Betulaceae"
+    ],
+    "FLFO_006848A": [
+        "Rosaceae",
+        "Meliaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Polemoniaceae"
+    ],
+    "FLFO_011095B": [
+        "Rosaceae",
+        "Salicaceae",
+        "Myrtaceae",
+        "Symplocaceae",
+        "Meliaceae"
+    ],
+    "CU_0693": [
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Pinaceae",
+        "Polygalaceae"
+    ],
+    "CU_0166": [
+        "Cupressaceae",
+        "Pinaceae",
+        "Styracaceae",
+        "Dryopteridaceae",
+        "Lauraceae"
+    ],
+    "CU_0739": [
+        "Cupressaceae",
+        "Fagaceae",
+        "Celastraceae",
+        "Juglandaceae",
+        "Pinaceae"
+    ],
+    "CU_0817": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Rosaceae",
+        "Fabaceae"
+    ],
+    "FLFO_003810": [
+        "Rosaceae",
+        "Pinaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Salicaceae"
+    ],
+    "CU_0771": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Nyssaceae",
+        "Rosaceae",
+        "Pinaceae"
+    ],
+    "FLFO_011652A": [
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Polygalaceae",
+        "Rhamnaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_010417B": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_010867": [
+        "Rosaceae",
+        "Pinaceae",
+        "Anacardiaceae",
+        "Salicaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_008997B": [
+        "Rosaceae",
+        "Polemoniaceae",
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Pinaceae"
+    ],
+    "FLFO_004565B": [
+        "Anacardiaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Ranunculaceae",
+        "Rhizophoraceae"
+    ],
+    "FLFO_010803B": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Lauraceae"
+    ],
+    "CU_1374": [
+        "Myrtaceae",
+        "Pinaceae",
+        "Nyssaceae",
+        "Humiriaceae",
+        "Meliaceae"
+    ],
+    "FLFO_010271_L1": [
+        "Rosaceae",
+        "Pinaceae",
+        "Myrtaceae",
+        "Salicaceae",
+        "Anacardiaceae"
+    ],
+    "CU_0315": [
+        "Garryaceae",
+        "Fagaceae",
+        "Rhamnaceae",
+        "Phytolaccaceae",
+        "Meliaceae"
+    ],
+    "FLFO_004579": [
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Pinaceae",
+        "Fagaceae"
+    ],
+    "CU_0185": [
+        "Myrtaceae",
+        "Salicaceae",
+        "Rosaceae",
+        "Rhamnaceae",
+        "Polygalaceae"
+    ],
+    "CU_0214cu": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Rhamnaceae",
+        "Cupressaceae",
+        "Sapindaceae"
+    ],
+    "CU_0483cu": [
+        "Rosaceae",
+        "Acanthaceae",
+        "Polygalaceae",
+        "Fabaceae",
+        "Styracaceae"
+    ],
+    "FLFO_003042A": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Rosaceae",
+        "Rhamnaceae",
+        "Canellaceae"
+    ],
+    "FLFO_003175B": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Pinaceae",
+        "Rhamnaceae",
+        "Juglandaceae"
+    ],
+    "CU_0907cu": [
+        "Juglandaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Rhamnaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_004235B": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Rhamnaceae",
+        "Betulaceae",
+        "Meliaceae"
+    ],
+    "FLFO_010993A": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Juglandaceae",
+        "Saxifragaceae",
+        "Lythraceae"
+    ],
+    "FLFO_010397": [
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Polygalaceae",
+        "Berberidaceae"
+    ],
+    "FLFO_010321A 2": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Pinaceae",
+        "Cupressaceae",
+        "Myrtaceae"
+    ],
+    "CU_0769": [
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Nyssaceae",
+        "Rosaceae",
+        "Platanaceae"
+    ],
+    "FLFO_003990B": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Anacardiaceae"
+    ],
+    "CU_0157cu1": [
+        "Fabaceae",
+        "Cupressaceae",
+        "Rosaceae",
+        "Juglandaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_010805": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Myrtaceae",
+        "Betulaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_004623": [
+        "Myrtaceae",
+        "Polygalaceae",
+        "Rhizophoraceae",
+        "Rhamnaceae",
+        "Anacardiaceae"
+    ],
+    "FLFO_011036B": [
+        "Rhamnaceae",
+        "Rosaceae",
+        "Anacardiaceae",
+        "Dryopteridaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_010809A": [
+        "Pinaceae",
+        "Salicaceae",
+        "Rosaceae",
+        "Betulaceae",
+        "Humiriaceae"
+    ],
+    "CU_0336cptcu": [
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Meliaceae",
+        "Phytolaccaceae"
+    ],
+    "CU_0759": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Nyssaceae",
+        "Rhamnaceae",
+        "Violaceae"
+    ],
+    "FLFO_006606A": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0895cu": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Betulaceae",
+        "Meliaceae",
+        "Pinaceae"
+    ],
+    "FLFO_008980": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Polygalaceae",
+        "Betulaceae"
+    ],
+    "FLFO_006937": [
+        "Dryopteridaceae",
+        "Betulaceae",
+        "Rosaceae",
+        "Pinaceae",
+        "Fabaceae"
+    ],
+    "CU_0760": [
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Cupressaceae",
+        "Lythraceae",
+        "Garryaceae"
+    ],
+    "CU_0261": [
+        "Betulaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Sapindaceae",
+        "Rosaceae"
+    ],
+    "CU_0591": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Pinaceae",
+        "Fagaceae",
+        "Canellaceae"
+    ],
+    "FLFO_004598_1": [
+        "Rosaceae",
+        "Pinaceae",
+        "Salicaceae",
+        "Dryopteridaceae",
+        "Betulaceae"
+    ],
+    "CU_0655": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Anacardiaceae",
+        "Myrtaceae",
+        "Juglandaceae"
+    ],
+    "CU_0905": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Proteaceae",
+        "Styracaceae"
+    ],
+    "FLFO_003597A": [
+        "Cupressaceae",
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Styracaceae",
+        "Fagaceae"
+    ],
+    "FLFO_003233": [
+        "Dryopteridaceae",
+        "Ranunculaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Pinaceae"
+    ],
+    "FLFO_006932": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Anacardiaceae",
+        "Myrtaceae",
+        "Fagaceae"
+    ],
+    "FLFO_004692": [
+        "Rosaceae",
+        "Berberidaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Styracaceae"
+    ],
+    "FLFO_006961A": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_006939A": [
+        "Myrtaceae",
+        "Pinaceae",
+        "Rosaceae",
+        "Salicaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_009976A": [
+        "Rosaceae",
+        "Pinaceae",
+        "Dryopteridaceae",
+        "Betulaceae",
+        "Nyssaceae"
+    ],
+    "FLFO_002628B": [
+        "Anacardiaceae",
+        "Myrtaceae",
+        "Juglandaceae",
+        "Cupressaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_011020B": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Betulaceae",
+        "Myrtaceae",
+        "Polemoniaceae"
+    ],
+    "FLFO_006837A": [
+        "Rosaceae",
+        "Pinaceae",
+        "Juglandaceae",
+        "Meliaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_010540B": [
+        "Anacardiaceae",
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Cornaceae",
+        "Meliaceae"
+    ],
+    "FLFO_002833": [
+        "Salicaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Humiriaceae",
+        "Pinaceae"
+    ],
+    "FLFO_002676A": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Juglandaceae",
+        "Anacardiaceae",
+        "Rosaceae"
+    ],
+    "FLFO_008511A": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Humiriaceae",
+        "Canellaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_011515A": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Symplocaceae",
+        "Meliaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_004422": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Rosaceae",
+        "Anacardiaceae"
+    ],
+    "FLFO_010699B": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Fabaceae"
+    ],
+    "CU_0190": [
+        "Myrtaceae",
+        "Betulaceae",
+        "Garryaceae",
+        "Salicaceae",
+        "Rosaceae"
+    ],
+    "FLFO_010463B": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Betulaceae"
+    ],
+    "FLFO_001055": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Cupressaceae",
+        "Fabaceae",
+        "Ebenaceae"
+    ],
+    "FLFO_009708B": [
+        "Anacardiaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Pinaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_009029A": [
+        "Myrtaceae",
+        "Canellaceae",
+        "Humiriaceae",
+        "Meliaceae",
+        "Salicaceae"
+    ],
+    "CU_0503cpt": [
+        "Myrtaceae",
+        "Solanaceae",
+        "Betulaceae",
+        "Meliaceae",
+        "Rosaceae"
+    ],
+    "FLFO_011367": [
+        "Rhamnaceae",
+        "Cupressaceae",
+        "Dryopteridaceae",
+        "Polygalaceae",
+        "Pinaceae"
+    ],
+    "FLFO_002639A": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Humiriaceae",
+        "Pinaceae",
+        "Hamamelidaceae"
+    ],
+    "FLFO_003106": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Salicaceae",
+        "Meliaceae",
+        "Pinaceae"
+    ],
+    "FLFO_002660": [
+        "Rhamnaceae",
+        "Rosaceae",
+        "Ranunculaceae",
+        "Saxifragaceae",
+        "Sapindaceae"
+    ],
+    "CU_0721cu": [
+        "Cupressaceae",
+        "Meliaceae",
+        "Salicaceae",
+        "Platanaceae",
+        "Proteaceae"
+    ],
+    "CU_0111cu": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Betulaceae",
+        "Fabaceae"
+    ],
+    "CU_0194": [
+        "Betulaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Sapindaceae"
+    ],
+    "FLFO_004742B": [
+        "Betulaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Garryaceae",
+        "Fagaceae"
+    ],
+    "FLFO_003680B": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Lauraceae",
+        "Lythraceae",
+        "Meliaceae"
+    ],
+    "CU_0315cpt": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Sapindaceae",
+        "Pinaceae",
+        "Saxifragaceae"
+    ],
+    "CU_0490": [
+        "Cupressaceae",
+        "Saxifragaceae",
+        "Rhamnaceae",
+        "Styracaceae",
+        "Fagaceae"
+    ],
+    "FLFO_003172": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Betulaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0656": [
+        "Rosaceae",
+        "Polemoniaceae",
+        "Symplocaceae",
+        "Saxifragaceae",
+        "Meliaceae"
+    ],
+    "FLFO_004455": [
+        "Pinaceae",
+        "Icacinaceae",
+        "Simaroubaceae",
+        "Humiriaceae",
+        "Vitaceae"
+    ],
+    "CU_0486cu": [
+        "Cupressaceae",
+        "Meliaceae",
+        "Juglandaceae",
+        "Myrtaceae",
+        "Melastomataceae"
+    ],
+    "FLFO_008968B": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Myrtaceae",
+        "Juglandaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_010742B": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Anacardiaceae",
+        "Betulaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_008972A": [
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Rosaceae",
+        "Anacardiaceae",
+        "Achariaceae"
+    ],
+    "FLFO_004761A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Ranunculaceae",
+        "Rhamnaceae",
+        "Polygalaceae"
+    ],
+    "CU_0215cu": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Rhamnaceae",
+        "Betulaceae",
+        "Salicaceae"
+    ],
+    "CU_0076": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Proteaceae",
+        "Fagaceae",
+        "Salicaceae"
+    ],
+    "CU_0315cptcu": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Fabaceae"
+    ],
+    "CU_0654cu": [
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Polygalaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_010097B": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Betulaceae",
+        "Berberidaceae"
+    ],
+    "CU_0410cu": [
+        "Rosaceae",
+        "Pinaceae",
+        "Juglandaceae",
+        "Myrtaceae",
+        "Styracaceae"
+    ],
+    "FLFO_004611": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Canellaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_010955": [
+        "Rosaceae",
+        "Betulaceae",
+        "Myrtaceae",
+        "Fabaceae",
+        "Salicaceae"
+    ],
+    "FLFO_003597B": [
+        "Rosaceae",
+        "Juglandaceae",
+        "Cupressaceae",
+        "Dryopteridaceae",
+        "Anacardiaceae"
+    ],
+    "FLFO_004321": [
+        "Rosaceae",
+        "Salicaceae",
+        "Pinaceae",
+        "Myrtaceae",
+        "Betulaceae"
+    ],
+    "FLFO_009610B": [
+        "Myrtaceae",
+        "Betulaceae",
+        "Dryopteridaceae",
+        "Moraceae",
+        "Polygalaceae"
+    ],
+    "FLFO_004545": [
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Pinaceae",
+        "Iteaceae",
+        "Celastraceae"
+    ],
+    "FLFO_004550A": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Rhizophoraceae",
+        "Cupressaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_011522A": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Pinaceae",
+        "Lythraceae",
+        "Lauraceae"
+    ],
+    "FLFO_011652B": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Meliaceae"
+    ],
+    "FLFO_010578A": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Pinaceae",
+        "Juglandaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0743cu": [
+        "Fagaceae",
+        "Polygalaceae",
+        "Malvaceae",
+        "Acanthaceae",
+        "Phytolaccaceae"
+    ],
+    "FLFO_002926B": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Styracaceae",
+        "Juglandaceae"
+    ],
+    "CU_0743": [
+        "Fagaceae",
+        "Acanthaceae",
+        "Meliaceae",
+        "Rosaceae",
+        "Phytolaccaceae"
+    ],
+    "CU_0478cu": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Pinaceae",
+        "Cupressaceae",
+        "Canellaceae"
+    ],
+    "CU_0156": [
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Betulaceae",
+        "Berberidaceae",
+        "Pinaceae"
+    ],
+    "CU_1033": [
+        "Rhamnaceae",
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Styracaceae",
+        "Juglandaceae"
+    ],
+    "FLFO_004930": [
+        "Berberidaceae",
+        "Salicaceae",
+        "Myrtaceae",
+        "Cupressaceae",
+        "Sapindaceae"
+    ],
+    "FLFO_011081A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Dryopteridaceae",
+        "Polemoniaceae"
+    ],
+    "CU_0312": [
+        "Dryopteridaceae",
+        "Rhamnaceae",
+        "Rosaceae",
+        "Polygalaceae",
+        "Phytolaccaceae"
+    ],
+    "FLFO_010742A": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Myrtaceae",
+        "Betulaceae",
+        "Anacardiaceae"
+    ],
+    "CU_0485": [
+        "Dryopteridaceae",
+        "Fagaceae",
+        "Garryaceae",
+        "Meliaceae",
+        "Icacinaceae"
+    ],
+    "FLFO_002787B": [
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Myrtaceae",
+        "Rosaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_009791B": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Styracaceae",
+        "Anacardiaceae",
+        "Myrtaceae"
+    ],
+    "CU_0674cu": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Meliaceae",
+        "Betulaceae"
+    ],
+    "FLFO_010780B": [
+        "Rosaceae",
+        "Salicaceae",
+        "Meliaceae",
+        "Anacardiaceae",
+        "Cupressaceae"
+    ],
+    "CU_0778": [
+        "Rhamnaceae",
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Ranunculaceae",
+        "Juglandaceae"
+    ],
+    "FLFO_004707A": [
+        "Myrtaceae",
+        "Polygalaceae",
+        "Dryopteridaceae",
+        "Pinaceae",
+        "Myristicaceae"
+    ],
+    "FLFO_010016B": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Lauraceae",
+        "Acanthaceae",
+        "Styracaceae"
+    ],
+    "FLFO_010415B": [
+        "Rosaceae",
+        "Salicaceae",
+        "Canellaceae",
+        "Humiriaceae",
+        "Hamamelidaceae"
+    ],
+    "FLFO_011049B_L3": [
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Betulaceae",
+        "Myrtaceae",
+        "Lythraceae"
+    ],
+    "CU_0745cu": [
+        "Myrtaceae",
+        "Pinaceae",
+        "Betulaceae",
+        "Salicaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_010168A_L3": [
+        "Rosaceae",
+        "Betulaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_010123B": [
+        "Anacardiaceae",
+        "Lauraceae",
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Acanthaceae"
+    ],
+    "FLFO_009861B": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Lauraceae",
+        "Berberidaceae",
+        "Pinaceae"
+    ],
+    "CU_0601": [
+        "Rhamnaceae",
+        "Fagaceae",
+        "Myrtaceae",
+        "Saxifragaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_003301B": [
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Pinaceae",
+        "Rosaceae",
+        "Iteaceae"
+    ],
+    "FLFO_006232": [
+        "Rhamnaceae",
+        "Anacardiaceae",
+        "Styracaceae",
+        "Ranunculaceae",
+        "Pinaceae"
+    ],
+    "CU_0409cu": [
+        "Pinaceae",
+        "Myrtaceae",
+        "Fabaceae",
+        "Rosaceae",
+        "Juglandaceae"
+    ],
+    "FLFO_003354": [
+        "Rosaceae",
+        "Meliaceae",
+        "Cupressaceae",
+        "Pinaceae",
+        "Myrtaceae"
+    ],
+    "CU_0752cu1": [
+        "Cupressaceae",
+        "Malvaceae",
+        "Opiliaceae",
+        "Rhamnaceae",
+        "Styracaceae"
+    ],
+    "FLFO_008724": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Cupressaceae",
+        "Polygalaceae"
+    ],
+    "CU_0198": [
+        "Anacardiaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Chrysobalanaceae"
+    ],
+    "CU_0900cu": [
+        "Rosaceae",
+        "Fabaceae",
+        "Pinaceae",
+        "Sapindaceae",
+        "Betulaceae"
+    ],
+    "CU_0441cu": [
+        "Pinaceae",
+        "Rosaceae",
+        "Juglandaceae",
+        "Anacardiaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_003513": [
+        "Rosaceae",
+        "Ranunculaceae",
+        "Pinaceae",
+        "Juglandaceae",
+        "Styracaceae"
+    ],
+    "CU_0082": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Juglandaceae",
+        "Pinaceae"
+    ],
+    "FLFO_010774": [
+        "Rosaceae",
+        "Polemoniaceae",
+        "Juglandaceae",
+        "Myrtaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_010070B Cyperacites lacustris": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Anacardiaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_003492A": [
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Passifloraceae",
+        "Ebenaceae"
+    ],
+    "CU_0336cu1": [
+        "Rosaceae",
+        "Meliaceae",
+        "Rhamnaceae",
+        "Saxifragaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_011081B": [
+        "Rosaceae",
+        "Polygalaceae",
+        "Pinaceae",
+        "Myrtaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_003110B": [
+        "Polemoniaceae",
+        "Pinaceae",
+        "Anacardiaceae",
+        "Rosaceae",
+        "Cupressaceae"
+    ],
+    "CU_0231": [
+        "Rhamnaceae",
+        "Myrtaceae",
+        "Pinaceae",
+        "Acanthaceae",
+        "Rosaceae"
+    ],
+    "FLFO_010521B": [
+        "Rosaceae",
+        "Betulaceae",
+        "Dryopteridaceae",
+        "Cupressaceae",
+        "Acanthaceae"
+    ],
+    "FLFO_004838B": [
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_000094": [
+        "Cupressaceae",
+        "Fagaceae",
+        "Celastraceae",
+        "Dryopteridaceae",
+        "Rosaceae"
+    ],
+    "CU_0815cu": [
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Rhamnaceae",
+        "Juglandaceae"
+    ],
+    "CU_0459cu": [
+        "Dryopteridaceae",
+        "Pinaceae",
+        "Myrtaceae",
+        "Rosaceae",
+        "Juglandaceae"
+    ],
+    "FLFO_010271_L2": [
+        "Rosaceae",
+        "Salicaceae",
+        "Anacardiaceae",
+        "Pinaceae",
+        "Myrtaceae"
+    ],
+    "CU_0171cu": [
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Salicaceae",
+        "Styracaceae",
+        "Rosaceae"
+    ],
+    "FLFO_006624": [
+        "Anacardiaceae",
+        "Rosaceae",
+        "Rhamnaceae",
+        "Lauraceae",
+        "Cupressaceae"
+    ],
+    "FLFO_004550B": [
+        "Rhamnaceae",
+        "Anacardiaceae",
+        "Cupressaceae",
+        "Dryopteridaceae",
+        "Fagaceae"
+    ],
+    "FLFO_010409B": [
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Rhamnaceae",
+        "Phytolaccaceae",
+        "Garryaceae"
+    ],
+    "FLFO_010733A": [
+        "Rosaceae",
+        "Betulaceae",
+        "Anacardiaceae",
+        "Rhamnaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_004443A": [
+        "Rhamnaceae",
+        "Sapindaceae",
+        "Pinaceae",
+        "Betulaceae",
+        "Fabaceae"
+    ],
+    "CU_0231cu": [
+        "Rosaceae",
+        "Rhamnaceae",
+        "Meliaceae",
+        "Acanthaceae",
+        "Polygalaceae"
+    ],
+    "FLFO_005768A": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Meliaceae",
+        "Humiriaceae",
+        "Styracaceae"
+    ],
+    "CU_0147": [
+        "Myrtaceae",
+        "Meliaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Humiriaceae"
+    ],
+    "CU_0281": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Meliaceae",
+        "Salicaceae",
+        "Anacardiaceae"
+    ],
+    "FLFO_004540": [
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Canellaceae"
+    ],
+    "CU_0504cu": [
+        "Cupressaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Rhamnaceae",
+        "Berberidaceae"
+    ],
+    "FLFO_008550": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Fagaceae",
+        "Fabaceae",
+        "Hamamelidaceae"
+    ],
+    "FLFO_003420A": [
+        "Rosaceae",
+        "Pinaceae",
+        "Myrtaceae",
+        "Meliaceae",
+        "Polemoniaceae"
+    ],
+    "CU_0387": [
+        "Myrtaceae",
+        "Garryaceae",
+        "Lythraceae",
+        "Rhamnaceae",
+        "Rosaceae"
+    ],
+    "FLFO_000095": [
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Pinaceae",
+        "Cornaceae",
+        "Juglandaceae"
+    ],
+    "CU_0157": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Humiriaceae",
+        "Meliaceae",
+        "Rosaceae"
+    ],
+    "FLFO_002638A": [
+        "Pinaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Simaroubaceae",
+        "Salicaceae"
+    ],
+    "FLFO_009976B": [
+        "Symplocaceae",
+        "Cupressaceae",
+        "Berberidaceae",
+        "Calophyllaceae",
+        "Hamamelidaceae"
+    ],
+    "FLFO_010814B": [
+        "Anacardiaceae",
+        "Cupressaceae",
+        "Rosaceae",
+        "Juglandaceae",
+        "Pinaceae"
+    ],
+    "CU_0716": [
+        "Myrtaceae",
+        "Salicaceae",
+        "Rosaceae",
+        "Betulaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_010262A": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Pinaceae",
+        "Rhamnaceae",
+        "Dryopteridaceae"
+    ],
+    "CU_0753": [
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Myrtaceae",
+        "Passifloraceae",
+        "Fagaceae"
+    ],
+    "CU_0770cu": [
+        "Cupressaceae",
+        "Proteaceae",
+        "Platanaceae",
+        "Canellaceae",
+        "Fagaceae"
+    ],
+    "CU_0171": [
+        "Salicaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Pinaceae",
+        "Berberidaceae"
+    ],
+    "FLFO_010519B": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Betulaceae",
+        "Pinaceae",
+        "Salicaceae"
+    ],
+    "CU_0743cu1": [
+        "Rhamnaceae",
+        "Fagaceae",
+        "Acanthaceae",
+        "Dilleniaceae",
+        "Pinaceae"
+    ],
+    "CU_0122cu": [
+        "Salicaceae",
+        "Pinaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Sapindaceae"
+    ],
+    "CU_0072": [
+        "Betulaceae",
+        "Myrtaceae",
+        "Rosaceae",
+        "Garryaceae",
+        "Dryopteridaceae"
+    ],
+    "FLFO_002489B": [
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Rosaceae",
+        "Fabaceae",
+        "Cupressaceae"
+    ],
+    "FLFO_011515B": [
+        "Rosaceae",
+        "Fabaceae",
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Sapindaceae"
+    ],
+    "FLFO_008977": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0693cu": [
+        "Dryopteridaceae",
+        "Fagaceae",
+        "Rhamnaceae",
+        "Canellaceae",
+        "Phytolaccaceae"
+    ],
+    "FLFO_006734A": [
+        "Pinaceae",
+        "Dryopteridaceae",
+        "Rhizophoraceae",
+        "Betulaceae",
+        "Cupressaceae"
+    ],
+    "CU_0192cu2": [
+        "Rhamnaceae",
+        "Rosaceae",
+        "Myrtaceae",
+        "Phytolaccaceae",
+        "Acanthaceae"
+    ],
+    "FLFO_008532": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Sapindaceae"
+    ],
+    "CU_0165": [
+        "Myrtaceae",
+        "Betulaceae",
+        "Rosaceae",
+        "Rhamnaceae",
+        "Dryopteridaceae"
+    ],
+    "CU_0760cu": [
+        "Myrtaceae",
+        "Cupressaceae",
+        "Betulaceae",
+        "Rhamnaceae",
+        "Rosaceae"
+    ],
+    "FLFO_010663": [
+        "Cupressaceae",
+        "Rosaceae",
+        "Anacardiaceae",
+        "Calophyllaceae",
+        "Rhamnaceae"
+    ],
+    "CU_0798": [
+        "Rhamnaceae",
+        "Cupressaceae",
+        "Ranunculaceae",
+        "Rosaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_002869A": [
+        "Anacardiaceae",
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Pinaceae",
+        "Styracaceae"
+    ],
+    "FLFO_010973A": [
+        "Salicaceae",
+        "Rosaceae",
+        "Cupressaceae",
+        "Pinaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_006689": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Dryopteridaceae",
+        "Polemoniaceae",
+        "Salicaceae"
+    ],
+    "CU_0779": [
+        "Rhamnaceae",
+        "Juglandaceae",
+        "Rosaceae",
+        "Anacardiaceae",
+        "Ranunculaceae"
+    ],
+    "CU_0489cu1": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Rhamnaceae",
+        "Polygalaceae",
+        "Anacardiaceae"
+    ],
+    "FLFO_010196": [
+        "Dryopteridaceae",
+        "Berberidaceae",
+        "Betulaceae",
+        "Salicaceae",
+        "Myrtaceae"
+    ],
+    "FLFO_010429": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Cupressaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_010097A": [
+        "Rosaceae",
+        "Cupressaceae",
+        "Lythraceae",
+        "Calophyllaceae",
+        "Lauraceae"
+    ],
+    "FLFO_010329B": [
+        "Cupressaceae",
+        "Anacardiaceae",
+        "Rosaceae",
+        "Rhamnaceae",
+        "Iteaceae"
+    ],
+    "FLFO_011465": [
+        "Rosaceae",
+        "Pinaceae",
+        "Dryopteridaceae",
+        "Polygalaceae",
+        "Polemoniaceae"
+    ],
+    "CU_0902": [
+        "Cupressaceae",
+        "Juglandaceae",
+        "Myrtaceae",
+        "Anacardiaceae",
+        "Rhamnaceae"
+    ],
+    "FLFO_010308A": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Rhamnaceae",
+        "Anacardiaceae",
+        "Saxifragaceae"
+    ],
+    "FLFO_006939B": [
+        "Rosaceae",
+        "Myrtaceae",
+        "Pinaceae",
+        "Cupressaceae",
+        "Anacardiaceae"
+    ],
+    "FLFO_006502A": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Dryopteridaceae",
+        "Pinaceae",
+        "Myrtaceae"
+    ],
+    "CU_0752cu": [
+        "Dryopteridaceae",
+        "Pinaceae",
+        "Myrtaceae",
+        "Juglandaceae",
+        "Rosaceae"
+    ],
+    "FLFO_005672A": [
+        "Myrtaceae",
+        "Rosaceae",
+        "Dryopteridaceae",
+        "Cupressaceae",
+        "Meliaceae"
+    ]
+}
