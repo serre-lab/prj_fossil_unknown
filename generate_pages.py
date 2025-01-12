@@ -9,7 +9,7 @@ IMAGES_DIR = os.path.join(DOCS_DIR, "images")
 PAGES_DIR = os.path.join(DOCS_DIR, "pages")
 MKDOCS_YML = os.path.join(PROJECT_DIR, "mkdocs.yml")
 IMAGE_URL = "https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/{}/image.jpg"
-CONCEPT_URL = "https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts2/fossil_{}/{}"
+CONCEPT_URL = "https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts3/fossil_{}/{}"
 CONCEPT_INFO = "https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20{}/"
 # Ensure directories exist
 os.makedirs(IMAGES_DIR, exist_ok=True)
@@ -42,58 +42,59 @@ html_template = """
         .container {{
             max-width: 1200px;
             margin: 0 auto;
-            padding: 20px;
+            padding: 40px 20px;
         }}
         h1, h2 {{
             text-align: center;
-            color: #000;
+            color: #2c3e50;
+            margin-bottom: 30px;
         }}
         .image-name {{
             font-size: 24px;
             text-align: center;
-            margin-bottom: 20px;
-            color: #000;
+            margin-bottom: 30px;
+            color: #2c3e50;
         }}
         .predictions {{
             text-align: center;
             font-size: 18px;
-            margin-bottom: 30px;
+            margin-bottom: 40px;
             background-color: #fff;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }}
         .divider {{
-            width: 100%;
-            margin: 30px auto;
-            border-top: 1px solid #ddd;
+            width: 80%;
+            margin: 40px auto;
+            border-top: 1px solid #e0e0e0;
         }}
         .main-image-container {{
             text-align: center;
-            margin: 30px 0;
+            margin: 40px 0;
         }}
         .main-image-container img {{
             max-width: 100%;
             height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            border-radius: 10px;
+            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
         }}
         .concept-grid {{
             display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-            gap: 20px;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 30px;
             margin: 0 auto;
         }}
         .concept-image {{
             background-color: #fff;
-            border-radius: 8px;
+            border-radius: 10px;
             overflow: hidden;
             transition: transform 0.3s ease, box-shadow 0.3s ease;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }}
         .concept-image:hover {{
             transform: translateY(-5px);
-            box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+            box-shadow: 0 8px 15px rgba(0,0,0,0.15);
         }}
         .concept-image img {{
             width: 100%;
@@ -101,28 +102,32 @@ html_template = """
             display: block;
         }}
         .concept-caption {{
-            padding: 10px;
-            font-size: 14px;
-            color: #333;
-            font-weight: bold;
+            padding: 15px;
+            font-size: 16px;
+            color: #2c3e50;
+            font-weight: 600;
             text-align: center;
         }}
     </style>
 </head>
 <body>
-    <h1>Image and Concept Predictions</h1>
-    <div class="image-name">Image Name: <strong>{image_name}</strong></div>
-    <div class="predictions">
-        Top 5 Predictions: {class1}, {class2}, {class3}, {class4}, {class5}
-    </div>
-    <div class="divider"></div>
-    <div class="main-image-container">
-        <h2>Main Image</h2>
-        <img src="{main_image}" alt="Fossil Image" style="width: 300px; height: 600px; object-fit: contain;>
-    </div>
-    <div class="divider"></div>
-    <div class="concept-grid">
-        {concept_images}
+    <div class="container">
+        <h1>Image and Concept Predictions</h1>
+        <div class="image-name">Image Name: <strong>{image_name}</strong></div>
+        <div class="predictions">
+            <h2>Top 5 Predictions</h2>
+            <p>{class1}, {class2}, {class3}, {class4}, {class5}</p>
+        </div>
+        <div class="divider"></div>
+        <div class="main-image-container">
+            <h2>Main Image</h2>
+            <img src="{main_image}" alt="Fossil Image" style="width: 300px; height: 600px; object-fit: contain;">
+        </div>
+        <div class="divider"></div>
+        <h2>Concept Images</h2>
+        <div class="concept-grid">
+            {concept_images}
+        </div>
     </div>
 </body>
 </html>
@@ -134,7 +139,7 @@ for i, (key, value) in enumerate(image_names.items()):
     concept_images = "\n".join(
         [f'''<div class="concept-image">
             <a href="{CONCEPT_INFO.format(value[j].split("_")[-1][:-4])}" target="_blank">
-                <img src="{CONCEPT_URL.format(key, value[j])}" alt="Concept Image {j+1}">
+                <img src="{CONCEPT_URL.format(key, value[j])}" alt="Concept Image {j+1}" style="width: 300px; height: 600px; object-fit: contain;">
             </a>
             <div class="concept-caption">{value[j]}</div>
         </div>'''
