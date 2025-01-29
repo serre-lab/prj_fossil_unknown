@@ -107,11 +107,11 @@
         <div class="predictions">
             <h2>Top 5 Predictions</h2>
             <p>
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Cornaceae/" target="_blank"><em> Cornaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Cupressaceae/" target="_blank"><em> Cupressaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Malpighiaceae/" target="_blank"><em> Malpighiaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Lythraceae/" target="_blank"><em> Lythraceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Celastraceae/" target="_blank"><em> Celastraceae </em></a>
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Dipterocarpaceae/" target="_blank"><em> Dipterocarpaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Fabaceae/" target="_blank"><em> Fabaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Melastomataceae/" target="_blank"><em> Melastomataceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Malvaceae/" target="_blank"><em> Malvaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Connaraceae/" target="_blank"><em> Connaraceae </em></a>
             </p>
         </div>
         <div class="main-image-container">

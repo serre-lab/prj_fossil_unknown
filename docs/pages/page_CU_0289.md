@@ -107,11 +107,11 @@
         <div class="predictions">
             <h2>Top 5 Predictions</h2>
             <p>
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Nothofagaceae/" target="_blank"><em> Nothofagaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Salicaceae/" target="_blank"><em> Salicaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Magnoliaceae/" target="_blank"><em> Magnoliaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Myrtaceae/" target="_blank"><em> Myrtaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Cannabaceae/" target="_blank"><em> Cannabaceae </em></a>
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Ochnaceae/" target="_blank"><em> Ochnaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Viburnaceae/" target="_blank"><em> Viburnaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Marantaceae/" target="_blank"><em> Marantaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Rosaceae/" target="_blank"><em> Rosaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Chloranthaceae/" target="_blank"><em> Chloranthaceae </em></a>
             </p>
         </div>
         <div class="main-image-container">

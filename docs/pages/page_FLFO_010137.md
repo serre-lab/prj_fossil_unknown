@@ -107,11 +107,11 @@
         <div class="predictions">
             <h2>Top 5 Predictions</h2>
             <p>
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Rosaceae/" target="_blank"><em> Rosaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Polygalaceae/" target="_blank"><em> Polygalaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Pinaceae/" target="_blank"><em> Pinaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Calophyllaceae/" target="_blank"><em> Calophyllaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Styracaceae/" target="_blank"><em> Styracaceae </em></a>
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Ulmaceae/" target="_blank"><em> Ulmaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Proteaceae/" target="_blank"><em> Proteaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Salicaceae/" target="_blank"><em> Salicaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Capparaceae/" target="_blank"><em> Capparaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Thymelaeaceae/" target="_blank"><em> Thymelaeaceae </em></a>
             </p>
         </div>
         <div class="main-image-container">

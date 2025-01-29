@@ -108,10 +108,10 @@
             <h2>Top 5 Predictions</h2>
             <p>
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Anacardiaceae/" target="_blank"><em> Anacardiaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Ebenaceae/" target="_blank"><em> Ebenaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Cornaceae/" target="_blank"><em> Cornaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Actinidiaceae/" target="_blank"><em> Actinidiaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Asteraceae/" target="_blank"><em> Asteraceae </em></a>
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Euphorbiaceae/" target="_blank"><em> Euphorbiaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Dipterocarpaceae/" target="_blank"><em> Dipterocarpaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Apocynaceae/" target="_blank"><em> Apocynaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Calophyllaceae/" target="_blank"><em> Calophyllaceae </em></a>
             </p>
         </div>
         <div class="main-image-container">

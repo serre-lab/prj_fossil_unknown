@@ -107,11 +107,11 @@
         <div class="predictions">
             <h2>Top 5 Predictions</h2>
             <p>
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Myrtaceae/" target="_blank"><em> Myrtaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Dryopteridaceae/" target="_blank"><em> Dryopteridaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Dilleniaceae/" target="_blank"><em> Dilleniaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Rutaceae/" target="_blank"><em> Rutaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Proteaceae/" target="_blank"><em> Proteaceae </em></a>
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Rosaceae/" target="_blank"><em> Rosaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Fagaceae/" target="_blank"><em> Fagaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Ericaceae/" target="_blank"><em> Ericaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Sapotaceae/" target="_blank"><em> Sapotaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Rubiaceae/" target="_blank"><em> Rubiaceae </em></a>
             </p>
         </div>
         <div class="main-image-container">

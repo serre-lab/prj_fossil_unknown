@@ -107,11 +107,11 @@
         <div class="predictions">
             <h2>Top 5 Predictions</h2>
             <p>
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Pinaceae/" target="_blank"><em> Pinaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Icacinaceae/" target="_blank"><em> Icacinaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Simaroubaceae/" target="_blank"><em> Simaroubaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Humiriaceae/" target="_blank"><em> Humiriaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Vitaceae/" target="_blank"><em> Vitaceae </em></a>
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Salicaceae/" target="_blank"><em> Salicaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Lamiaceae/" target="_blank"><em> Lamiaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Staphyleaceae/" target="_blank"><em> Staphyleaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Iteaceae/" target="_blank"><em> Iteaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Actinidiaceae/" target="_blank"><em> Actinidiaceae </em></a>
             </p>
         </div>
         <div class="main-image-container">

@@ -107,11 +107,11 @@
         <div class="predictions">
             <h2>Top 5 Predictions</h2>
             <p>
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Lauraceae/" target="_blank"><em> Lauraceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Rhamnaceae/" target="_blank"><em> Rhamnaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Styracaceae/" target="_blank"><em> Styracaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Cornaceae/" target="_blank"><em> Cornaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Escalloniaceae/" target="_blank"><em> Escalloniaceae </em></a>
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Myrtaceae/" target="_blank"><em> Myrtaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Sapindaceae/" target="_blank"><em> Sapindaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Thymelaeaceae/" target="_blank"><em> Thymelaeaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Dipterocarpaceae/" target="_blank"><em> Dipterocarpaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Gnetaceae/" target="_blank"><em> Gnetaceae </em></a>
             </p>
         </div>
         <div class="main-image-container">
