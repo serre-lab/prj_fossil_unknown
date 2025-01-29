@@ -252,7 +252,7 @@ html_template = """
             </p>
         </div>
         <div class="main-image-container">
-            <h2>Unknown Fossil</h2>
+            <h2>Fossil Sample</h2>
             <img src="{main_image}" alt="Fossil Image">
         </div>
         <h2>Concept Images</h2>

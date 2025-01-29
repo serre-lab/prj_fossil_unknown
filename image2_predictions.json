@@ -1,11 +1,4 @@
 {
-    "FLFO_010221": [
-        "Rosaceae",
-        "Anacardiaceae",
-        "Sapindaceae",
-        "Fabaceae",
-        "Celastraceae"
-    ],
     "CU_0115": [
         "Salicaceae",
         "Rosaceae",
@@ -1034,6 +1027,13 @@
         "Fabaceae",
         "Elaeocarpaceae",
         "Sapindaceae"
+    ],
+    "FLFO_010221": [
+        "Rosaceae",
+        "Anacardiaceae",
+        "Sapindaceae",
+        "Fabaceae",
+        "Celastraceae"
     ],
     "FLFO_003166B": [
         "Betulaceae",
