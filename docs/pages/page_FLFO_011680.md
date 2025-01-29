@@ -7,160 +7,229 @@
     <title>Image and Predictions</title>
     <style>
         body {
-            font-family: 'Helvetica Neue', Arial, sans-serif;
+            font-family: Arial, sans-serif;
             margin: 0;
             padding: 0;
-            line-height: 1.6;
-            color: #333;
             background-color: #f8f8f8;
+            color: #333;
         }
         .container {
-            max-width: 1200px;
-            margin: 0 auto;
-            padding: 40px 20px;
+            max-width: 100%;
+            margin: 20px auto;
+            padding: 20px;
         }
         h1, h2 {
             text-align: center;
             color: #2c3e50;
-            margin-bottom: 30px;
         }
-        .image-name {
-            font-size: 24px;
+        .image-name, .predictions {
             text-align: center;
-            margin-bottom: 30px;
-            color: #2c3e50;
-        }
-        .predictions {
-            text-align: center;
-            font-size: 18px;
-            margin-bottom: 40px;
-            background-color: #fff;
-            padding: 20px;
-            border-radius: 10px;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-        }
-        .divider {
-            width: 80%;
-            margin: 40px auto;
-            border-top: 1px solid #e0e0e0;
+            margin-bottom: 20px;
+            background: #fff;
+            padding: 15px;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
         }
         .main-image-container {
             text-align: center;
-            margin: 40px 0;
+            margin-bottom: 20px;
         }
         .main-image-container img {
-            max-width: 100%;
+            width: 300px;
             height: auto;
-            border-radius: 10px;
-            box-shadow: 0 6px 12px rgba(0,0,0,0.1);
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
         }
-        .concept-grid {
-            display: grid;
-            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-            gap: 30px;
-            margin: 0 auto;
-        }
-        .concept-image {
-            background-color: #fff;
-            border-radius: 10px;
-            overflow: hidden;
+        .concept-card {
+            width: 100%; /* Full width of the container */
+            max-width: 900px; /* Increased max width */
+            padding: 30px; /* More padding for better spacing */
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
             transition: transform 0.3s ease, box-shadow 0.3s ease;
-            box-shadow: 0 4px 6px rgba(0,0,0,0.1);
         }
-        .concept-image:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 8px 15px rgba(0,0,0,0.15);
+
+        .concept-container {
+            display: flex;
+            flex-direction: column;
+            gap: 100px;
         }
-        .concept-image img {
-            width: 100%;
-            height: auto;
-            display: block;
+
+        .concept-card:hover {
+            transform: scale(1.07);
+            box-shadow: 0 8px 16px rgba(0,0,0,0.25);
         }
+
+        .concept-images {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+        }
+
+        .concept-images img {
+            width: 400px;
+            height: 400px;
+            object-fit: contain;
+            border-radius: 10px;
+        }
+
+        .concept-images img:hover {
+            transform: scale(1.5);
+            transition: transform 0.3s ease;
+            box-shadow: 0 8px 16px rgba(0,0,0,0);
+        }
+
         .concept-caption {
-            padding: 15px;
-            font-size: 16px;
-            color: #2c3e50;
-            font-weight: 600;
             text-align: center;
+            font-weight: bold;
+            margin-top: 15px;
+            width: 100%;
+            font-size: 1.2em;
+        }
+
+        .predictions a {
+            text-decoration: none;
+            color: green;
+            font-weight: bold;
+            transition: color 0.3s ease, transform 0.2s ease;
+        }
+
+        .predictions a:hover {
+            color: blue;
         }
     </style>
 </head>
 <body>
     <div class="container">
         <h1>Image and Concept Predictions</h1>
-        <div class="image-name">Image Name: <strong>Image FLFO_011680</strong></div>
+        <div class="image-name">Image Name: <strong>FLFO_011680</strong></div>
         <div class="predictions">
             <h2>Top 5 Predictions</h2>
-            <p>Rosaceae, Lauraceae, Berberidaceae, Malpighiaceae, Fabaceae</p>
+            <p>
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Rosaceae/" target="_blank"><em> Rosaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Lauraceae/" target="_blank"><em> Lauraceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Berberidaceae/" target="_blank"><em> Berberidaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Malpighiaceae/" target="_blank"><em> Malpighiaceae </em></a>,
+                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Fabaceae/" target="_blank"><em> Fabaceae </em></a>
+            </p>
         </div>
-        <div class="divider"></div>
         <div class="main-image-container">
-            <h2>Main Image</h2>
-            <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/FLFO_011680/image.jpg" alt="Fossil Image" style="width: 300px; height: 600px; object-fit: contain;">
+            <h2>Unknown Fossil</h2>
+            <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/FLFO_011680/image.jpg" alt="Fossil Image">
         </div>
-        <div class="divider"></div>
         <h2>Concept Images</h2>
-        <div class="concept-grid">
-            <div class="concept-image">
-            <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201683/" target="_blank">
-                <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts3/fossil_FLFO_011680/concept_1_1683.png" alt="Concept Image 1" style="width: 300px; height: 600px; object-fit: contain;">
-            </a>
-            <div class="concept-caption">concept_1_1683.png</div>
-        </div>
-<div class="concept-image">
-            <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20200/" target="_blank">
-                <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts3/fossil_FLFO_011680/concept_2_200.png" alt="Concept Image 2" style="width: 300px; height: 600px; object-fit: contain;">
-            </a>
-            <div class="concept-caption">concept_2_200.png</div>
-        </div>
-<div class="concept-image">
-            <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201283/" target="_blank">
-                <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts3/fossil_FLFO_011680/concept_3_1283.png" alt="Concept Image 3" style="width: 300px; height: 600px; object-fit: contain;">
-            </a>
-            <div class="concept-caption">concept_3_1283.png</div>
-        </div>
-<div class="concept-image">
-            <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201378/" target="_blank">
-                <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts3/fossil_FLFO_011680/concept_4_1378.png" alt="Concept Image 4" style="width: 300px; height: 600px; object-fit: contain;">
-            </a>
-            <div class="concept-caption">concept_4_1378.png</div>
-        </div>
-<div class="concept-image">
-            <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20970/" target="_blank">
-                <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts3/fossil_FLFO_011680/concept_5_970.png" alt="Concept Image 5" style="width: 300px; height: 600px; object-fit: contain;">
-            </a>
-            <div class="concept-caption">concept_5_970.png</div>
-        </div>
-<div class="concept-image">
-            <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201434/" target="_blank">
-                <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts3/fossil_FLFO_011680/concept_6_1434.png" alt="Concept Image 6" style="width: 300px; height: 600px; object-fit: contain;">
-            </a>
-            <div class="concept-caption">concept_6_1434.png</div>
-        </div>
-<div class="concept-image">
-            <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201954/" target="_blank">
-                <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts3/fossil_FLFO_011680/concept_7_1954.png" alt="Concept Image 7" style="width: 300px; height: 600px; object-fit: contain;">
-            </a>
-            <div class="concept-caption">concept_7_1954.png</div>
-        </div>
-<div class="concept-image">
-            <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201187/" target="_blank">
-                <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts3/fossil_FLFO_011680/concept_8_1187.png" alt="Concept Image 8" style="width: 300px; height: 600px; object-fit: contain;">
-            </a>
-            <div class="concept-caption">concept_8_1187.png</div>
-        </div>
-<div class="concept-image">
-            <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201338/" target="_blank">
-                <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts3/fossil_FLFO_011680/concept_9_1338.png" alt="Concept Image 9" style="width: 300px; height: 600px; object-fit: contain;">
-            </a>
-            <div class="concept-caption">concept_9_1338.png</div>
-        </div>
-<div class="concept-image">
-            <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20699/" target="_blank">
-                <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts3/fossil_FLFO_011680/concept_10_699.png" alt="Concept Image 10" style="width: 300px; height: 600px; object-fit: contain;">
-            </a>
-            <div class="concept-caption">concept_10_699.png</div>
-        </div>
+        <div class="concept-container">
+            <div class="concept-card">
+                <div class="concept-images">
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%2081/" target="_blank">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts4/fossil_FLFO_011680/concept_1_81.png" alt="Concept Image 1">
+                    </a>
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%2081/" target="_blank">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_81_fv.webp" alt="Feature Visualization 1">
+                    </a>
+                </div>
+                <div class="concept-caption"><em style="color:blue;">Concept: 81</em>, Relative_rank:  1</div>
+            </div>
+<div class="concept-card">
+                <div class="concept-images">
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201902/" target="_blank">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts4/fossil_FLFO_011680/concept_2_1902.png" alt="Concept Image 2">
+                    </a>
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201902/" target="_blank">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1902_fv.webp" alt="Feature Visualization 2">
+                    </a>
+                </div>
+                <div class="concept-caption"><em style="color:blue;">Concept: 1902</em>, Relative_rank:  2</div>
+            </div>
+<div class="concept-card">
+                <div class="concept-images">
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20290/" target="_blank">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts4/fossil_FLFO_011680/concept_3_290.png" alt="Concept Image 3">
+                    </a>
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20290/" target="_blank">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_290_fv.webp" alt="Feature Visualization 3">
+                    </a>
+                </div>
+                <div class="concept-caption"><em style="color:blue;">Concept: 290</em>, Relative_rank:  3</div>
+            </div>
+<div class="concept-card">
+                <div class="concept-images">
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20686/" target="_blank">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts4/fossil_FLFO_011680/concept_4_686.png" alt="Concept Image 4">
+                    </a>
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20686/" target="_blank">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_686_fv.webp" alt="Feature Visualization 4">
+                    </a>
+                </div>
+                <div class="concept-caption"><em style="color:blue;">Concept: 686</em>, Relative_rank:  4</div>
+            </div>
+<div class="concept-card">
+                <div class="concept-images">
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201656/" target="_blank">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts4/fossil_FLFO_011680/concept_5_1656.png" alt="Concept Image 5">
+                    </a>
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201656/" target="_blank">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1656_fv.webp" alt="Feature Visualization 5">
+                    </a>
+                </div>
+                <div class="concept-caption"><em style="color:blue;">Concept: 1656</em>, Relative_rank:  5</div>
+            </div>
+<div class="concept-card">
+                <div class="concept-images">
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20560/" target="_blank">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts4/fossil_FLFO_011680/concept_6_560.png" alt="Concept Image 6">
+                    </a>
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20560/" target="_blank">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_560_fv.webp" alt="Feature Visualization 6">
+                    </a>
+                </div>
+                <div class="concept-caption"><em style="color:blue;">Concept: 560</em>, Relative_rank:  6</div>
+            </div>
+<div class="concept-card">
+                <div class="concept-images">
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20606/" target="_blank">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts4/fossil_FLFO_011680/concept_7_606.png" alt="Concept Image 7">
+                    </a>
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20606/" target="_blank">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_606_fv.webp" alt="Feature Visualization 7">
+                    </a>
+                </div>
+                <div class="concept-caption"><em style="color:blue;">Concept: 606</em>, Relative_rank:  7</div>
+            </div>
+<div class="concept-card">
+                <div class="concept-images">
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20989/" target="_blank">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts4/fossil_FLFO_011680/concept_8_989.png" alt="Concept Image 8">
+                    </a>
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20989/" target="_blank">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_989_fv.webp" alt="Feature Visualization 8">
+                    </a>
+                </div>
+                <div class="concept-caption"><em style="color:blue;">Concept: 989</em>, Relative_rank:  8</div>
+            </div>
+<div class="concept-card">
+                <div class="concept-images">
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20216/" target="_blank">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts4/fossil_FLFO_011680/concept_9_216.png" alt="Concept Image 9">
+                    </a>
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20216/" target="_blank">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_216_fv.webp" alt="Feature Visualization 9">
+                    </a>
+                </div>
+                <div class="concept-caption"><em style="color:blue;">Concept: 216</em>, Relative_rank:  9</div>
+            </div>
+<div class="concept-card">
+                <div class="concept-images">
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201937/" target="_blank">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts4/fossil_FLFO_011680/concept_10_1937.png" alt="Concept Image 10">
+                    </a>
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201937/" target="_blank">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1937_fv.webp" alt="Feature Visualization 10">
+                    </a>
+                </div>
+                <div class="concept-caption"><em style="color:blue;">Concept: 1937</em>, Relative_rank:  10</div>
+            </div>
         </div>
     </div>
 </body>
