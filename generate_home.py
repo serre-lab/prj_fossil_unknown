@@ -131,16 +131,16 @@ html_template = """
 <body>
 <div class="container">
     <div class="guide">
-        <h2>🍃 Website Navigation Guide 🔍</h2>
+        <h1>🍃 Website Navigation Guide 🔍</h1>
 
         <h3>📋 Overview</h3>
-        <p>Welcome to our Unknown Fossil Classification Documentation! This guide will help you navigate and interact with our comprehensive fossil prediction system.</p>
+        <p>Welcome to our Unidentified Fossil Classification Documentation! This guide will help you navigate our website and understand our machine learning models' predictions for unidentified fossils.</p>
 
         <h3>🌟 How to Use the Website</h3>
 
         <h4>1. Understanding the Prediction Table 📊</h4>
         <ul>
-            <li>The table displays a comprehensive list of unknown fossils</li>
+            <li>The table displays a comprehensive list of unidentified fossils</li>
             <li>Each row contains:
                 <ul>
                     <li>Fossil name (clickable hyperlink)</li>
@@ -187,7 +187,7 @@ html_template = """
         <p>Enjoy exploring the fascinating world of leaf fossil classification! 🍂🌿</p>
     </div>
     <p> </p>
-    <h1>Unknown Fossils Predictions Table</h1>
+    <h1>Unidentified Fossils Predictions Table</h1>
     <div class="table-container">
         <table>
             <thead>
