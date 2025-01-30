@@ -196,8 +196,8 @@ html_template = """
                     <th style="width: 15%;">Fossil Name</th>
                     <th style="width: 15%;">Fossil Image</th>
                     <th style="width: 30%;">Top 5 Predictions</th>
-                    <th style="width: 10%;">Correct</th>
-                    <th style="width: 10%;">Incorrect</th>
+                    <th style="width: 10%;">Plausible</th>
+                    <th style="width: 10%;">Impossible</th>
                     <th style="width: 10%;">Maybe</th>
                 </tr>
             </thead>
@@ -219,8 +219,8 @@ html_template = """
             let cells = row.querySelectorAll("td");
             let fossilName = cells[1].innerText;
             let selected = null;
-            if (cells[4].querySelector("input").checked) selected = "Correct";
-            if (cells[5].querySelector("input").checked) selected = "Incorrect";
+            if (cells[4].querySelector("input").checked) selected = "Plausible";
+            if (cells[5].querySelector("input").checked) selected = "Impossible";
             if (cells[6].querySelector("input").checked) selected = "Maybe";
 
             data.push({{
