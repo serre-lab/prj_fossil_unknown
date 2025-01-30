@@ -115,7 +115,7 @@
             </p>
         </div>
         <div class="main-image-container">
-            <h2>Unknown Fossil</h2>
+            <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0215cu/image.jpg" alt="Fossil Image">
         </div>
         <h2>Concept Images</h2>

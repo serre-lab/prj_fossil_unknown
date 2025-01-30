@@ -300,7 +300,7 @@ for i, (key, value) in enumerate(image_names.items()):
 
 # Generate MkDocs configuration
 with open(MKDOCS_YML, "w") as f:
-    f.write("site_name: Unknown Fossil Predictions\n")
+    f.write("site_name: Unidentified Fossil Predictions\n")
     f.write("theme:\n")
     f.write("  name: material\n")
     f.write("  logo: images/logo.png\n")
@@ -316,5 +316,5 @@ with open(MKDOCS_YML, "w") as f:
 # Create index page
 index_path = os.path.join(DOCS_DIR, "index.md")
 with open(index_path, "w") as f:
-    f.write("# Unknown Fossil Predictions!\n\n")
+    f.write("# Unidentified Fossil Predictions!\n\n")
     f.write("Navigate through the sidebar to view all images.\n")
