@@ -111,7 +111,7 @@
           <ul>
               <li>Fossil name (clickable hyperlink)</li>
               <li>Fossil image</li>
-              <li>Top five predictions</li>
+              <li>Top five predictions (clickable hyperlink)</li>
               <li>Interactive classification options</li>
           </ul>
         </li>
