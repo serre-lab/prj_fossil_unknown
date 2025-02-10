@@ -6,16 +6,19 @@ NUM_IMAGES = 943
 PROJECT_DIR = "./"
 DOCS_DIR = os.path.join(PROJECT_DIR, "docs")
 IMAGES_DIR = os.path.join(DOCS_DIR, "images")
-PAGES_DIR = os.path.join(DOCS_DIR, "pages")
 MKDOCS_YML = os.path.join(PROJECT_DIR, "mkdocs.yml")
-IMAGE_URL = "https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/{}/image.jpg"
-CONCEPT_URL = "https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts4/fossil_{}/{}"
+
+Unknown_IMAGE_URL = "https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/{}/image.jpg"
+Unknown_CONCEPT_URL = "https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts4/fossil_{}/{}"
+
+Unidentified_IMAGE_URL = "https://storage.googleapis.com/serrelab/prj_fossils/2024/Unidentified/{}.jpg"
+Unidentified_CONCEPT_URL = "https://storage.googleapis.com/serrelab/prj_fossils/unidentified_fossils_concepts1/fossil_{}/{}"
+
 FEATURE_VIS_URL = "https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_{}_fv.webp"
 CONCEPT_INFO = "https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20{}/"
 CLASS_INFO = "https://fel-thomas.github.io/Leaf-Lens/classes/{}/"
 # Ensure directories exist
 os.makedirs(IMAGES_DIR, exist_ok=True)
-os.makedirs(PAGES_DIR, exist_ok=True)
 
 # Load image names from JSON
 with open("image_names2.json", "r") as file:
@@ -24,116 +27,11 @@ with open("image_names2.json", "r") as file:
 with open("image2_predictions.json", 'r') as file:
     image_predictions = json.load(file)
 
-# HTML Template
-# html_template = """
-# <!DOCTYPE html>
-# <html lang="en">
-# <head>
-#     <meta charset="UTF-8">
-#     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-#     <title>Image and Predictions</title>
-#     <style>
-#         body {{
-#             font-family: 'Helvetica Neue', Arial, sans-serif;
-#             margin: 0;
-#             padding: 0;
-#             line-height: 1.6;
-#             color: #333;
-#             background-color: #f8f8f8;
-#         }}
-#         .container {{
-#             max-width: 1200px;
-#             margin: 0 auto;
-#             padding: 40px 20px;
-#         }}
-#         h1, h2 {{
-#             text-align: center;
-#             color: #2c3e50;
-#             margin-bottom: 30px;
-#         }}
-#         .image-name {{
-#             font-size: 24px;
-#             text-align: center;
-#             margin-bottom: 30px;
-#             color: #2c3e50;
-#         }}
-#         .predictions {{
-#             text-align: center;
-#             font-size: 18px;
-#             margin-bottom: 40px;
-#             background-color: #fff;
-#             padding: 20px;
-#             border-radius: 10px;
-#             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-#         }}
-#         .divider {{
-#             width: 80%;
-#             margin: 40px auto;
-#             border-top: 1px solid #e0e0e0;
-#         }}
-#         .main-image-container {{
-#             text-align: center;
-#             margin: 40px 0;
-#         }}
-#         .main-image-container img {{
-#             max-width: 100%;
-#             height: auto;
-#             border-radius: 10px;
-#             box-shadow: 0 6px 12px rgba(0,0,0,0.1);
-#         }}
-#         .concept-grid {{
-#             display: grid;
-#             grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-#             gap: 30px;
-#             margin: 0 auto;
-#         }}
-#         .concept-image {{
-#             background-color: #fff;
-#             border-radius: 10px;
-#             overflow: hidden;
-#             transition: transform 0.3s ease, box-shadow 0.3s ease;
-#             box-shadow: 0 4px 6px rgba(0,0,0,0.1);
-#         }}
-#         .concept-image:hover {{
-#             transform: translateY(-5px);
-#             box-shadow: 0 8px 15px rgba(0,0,0,0.15);
-#         }}
-#         .concept-image img {{
-#             width: 100%;
-#             height: auto;
-#             display: block;
-#         }}
-#         .concept-caption {{
-#             padding: 15px;
-#             font-size: 16px;
-#             color: #2c3e50;
-#             font-weight: 600;
-#             text-align: center;
-#         }}
-#     </style>
-# </head>
-# <body>
-#     <div class="container">
-#         <h1>Image and Concept Predictions</h1>
-#         <div class="image-name">Image Name: <strong>{image_name}</strong></div>
-#         <div class="predictions">
-#             <h2>Top 5 Predictions</h2>
-#             <p>{class1}, {class2}, {class3}, {class4}, {class5}</p>
-#         </div>
-#         <div class="divider"></div>
-#         <div class="main-image-container">
-#             <h2>Main Image</h2>
-#             <img src="{main_image}" alt="Fossil Image" style="width: 300px; height: 600px; object-fit: contain;">
-#         </div>
-#         <div class="divider"></div>
-#         <h2>Concept Images</h2>
-#         <div class="concept-grid">
-#             {concept_images}
-#         </div>
-#     </div>
-# </body>
-# </html>
-# """
+with open("unidentified_image_names.json", "r") as file:
+    unidentified_image_names = json.load(file)
+
+with open("unidentified_fossil_predictions.json", "r") as file:
+    unidentified_image_predictions = json.load(file)
 
 html_template = """
 <!DOCTYPE html>
@@ -266,6 +164,12 @@ html_template = """
 
 
 # Generate Markdown pages with inline HTML
+all_images = [image_names, unidentified_image_names]
+Unknown_PAGES_DIR = os.path.join(DOCS_DIR, "pages/unknown")
+Unidentified_PAGES_DIR = os.path.join(DOCS_DIR, "pages/unidentified")
+os.makedirs(Unknown_PAGES_DIR, exist_ok = True)
+os.makedirs(Unidentified_PAGES_DIR, exist_ok = True)
+
 for i, (key, value) in enumerate(image_names.items()):
     class1, class2, class3, class4, class5 = image_predictions[key]
     value.sort(key = lambda x : int(x.split("_")[1]))
@@ -273,7 +177,7 @@ for i, (key, value) in enumerate(image_names.items()):
         [f'''<div class="concept-card">
                 <div class="concept-images">
                     <a href="{CONCEPT_INFO.format(value[j].split("_")[-1][:-4])}" target="_blank">
-                        <img src="{CONCEPT_URL.format(key, value[j])}" alt="Concept Image {j+1}">
+                        <img src="{Unknown_CONCEPT_URL.format(key, value[j])}" alt="Concept Image {j+1}">
                     </a>
                     <a href="{CONCEPT_INFO.format(value[j].split("_")[-1][:-4])}" target="_blank">
                         <img src="{FEATURE_VIS_URL.format(value[j].split("_")[-1][:-4])}" alt="Feature Visualization {j+1}">
@@ -290,17 +194,49 @@ for i, (key, value) in enumerate(image_names.items()):
         class3 = class3,
         class4 = class4,
         class5 = class5,
-        main_image=IMAGE_URL.format(key),
-        concept_images=concept_images
+        main_image = Unknown_IMAGE_URL.format(key),
+        concept_images = concept_images
     )
-    page_path = os.path.join(PAGES_DIR, f"page_{key}.md")
+    page_path = os.path.join(Unknown_PAGES_DIR, f"page_{key}.md")
+    print(page_path)
+    with open(page_path, "w") as f:
+        f.write(html_content)
+
+for i, (key, value) in enumerate(unidentified_image_names.items()):
+    class1, class2, class3, class4, class5 =unidentified_image_predictions[key]
+    value.sort(key = lambda x : int(x.split("_")[1]))
+    concept_images = "\n".join(
+        [f'''<div class="concept-card">
+                <div class="concept-images">
+                    <a href="{CONCEPT_INFO.format(value[j].split("_")[-1][:-4])}" target="_blank">
+                        <img src="{Unidentified_CONCEPT_URL.format(key, value[j])}" alt="Concept Image {j+1}">
+                    </a>
+                    <a href="{CONCEPT_INFO.format(value[j].split("_")[-1][:-4])}" target="_blank">
+                        <img src="{FEATURE_VIS_URL.format(value[j].split("_")[-1][:-4])}" alt="Feature Visualization {j+1}">
+                    </a>
+                </div>
+                <div class="concept-caption"><em style="color:blue;">Concept: {value[j].split("_")[-1][:-4]}</em>, Relative_rank:  {value[j].split("_")[-2]}</div>
+            </div>''' for j in range(len(value))]
+    )
+
+    html_content = html_template.format(
+        image_name=f"{key}",
+        class1 = class1,
+        class2 = class2,
+        class3 = class3,
+        class4 = class4,
+        class5 = class5,
+        main_image = Unidentified_IMAGE_URL.format(key),
+        concept_images = concept_images
+    )
+    page_path = os.path.join(Unidentified_PAGES_DIR, f"page_{key}.md")
     print(page_path)
     with open(page_path, "w") as f:
         f.write(html_content)
 
 # Generate MkDocs configuration
 with open(MKDOCS_YML, "w") as f:
-    f.write("site_name: Unidentified Fossil Predictions\n")
+    f.write("site_name: Leaf Fossil Predictions\n")
     f.write("theme:\n")
     f.write("  name: material\n")
     f.write("  logo: images/logo.png\n")
@@ -309,12 +245,18 @@ with open(MKDOCS_YML, "w") as f:
     f.write("    primary: black\n")
     f.write("    accent: white\n")
     f.write("nav:\n")
-    f.write("  - Home: index.md\n")
-    for i, key in enumerate(image_names.keys()):
-        f.write(f"  - {key}: pages/page_{key}.md\n")
+    f.write("  - <b>Home</b>: index.md\n")
+    f.write("  - <b>Unknown Fossils</b>:\n")
+    f.write("    - '<b><i>Feedback Table</i></b> 📋': unknown_table.md\n")
+    for i, (key, value) in enumerate(image_predictions.items(), start = 1):
+        f.write(f"    - {i}. {key}: pages/unknown/page_{key}.md\n")
+    f.write("  - <b>Unidentified Fossils</b>:\n")
+    f.write("    - '<b><i>Feedback Table</i></b> 📋': unidentified_table.md\n")
+    for i, (key, value) in enumerate(unidentified_image_predictions.items(), start = 1):
+        f.write(f"    - {i}. {key}: pages/unidentified/page_{key}.md\n")
 
-# Create index page
-index_path = os.path.join(DOCS_DIR, "index.md")
-with open(index_path, "w") as f:
-    f.write("# Unidentified Fossil Predictions!\n\n")
-    f.write("Navigate through the sidebar to view all images.\n")
+# # Create index page
+# index_path = os.path.join(DOCS_DIR, "index.md")
+# with open(index_path, "w") as f:
+#     f.write("# Unidentified Fossil Predictions!\n\n")
+#     f.write("Navigate through the sidebar to view all images.\n")
