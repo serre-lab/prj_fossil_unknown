@@ -36603,49 +36603,53 @@
             margin-bottom: 10px;
         }
 
-        /* Table Styles */
-        .table-container {
-            max-height: 600px;
-            overflow-y: auto;
-            border-radius: 8px;
-            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
-        }
-
-        table {
-            width: 100%;
-            border-collapse: collapse;
-            background-color: #fff;
-        }
-
-        thead th {
-            position: sticky;
-            top: 0;
-            background-color: #2c3e50;
-            color: white;
-            padding: 12px;
-            font-size: 14px;
-        }
-
-        th, td {
-            padding: 12px;
+        .main-image-container {{
             text-align: center;
-            border-bottom: 1px solid #eaeaea;
-        }
-
-        tr:hover {
-            background-color: #f9f9f9;
-        }
-
-        img {
-            width: 80px;
+            margin-bottom: 20px;
+        }}
+        .main-image-container img {{
+            width: 300px;
             height: auto;
             border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }}
+
+        /* Flex container for GIF */
+        .flex-gif {
+            display: flex; /* Use flexbox */
+            justify-content: center; /* Center horizontally */
+            align-items: center; /* Center vertically */
+            margin-top: 20px; /* Add some spacing above */
         }
+
+        /* Styling for GIF container */
+        .gif-intro {
+            width: auto; /* Allow flexibility for resizing */
+            text-align: center; /* Center content inside */
+            box-shadow: 0px 4px 20px rgba(0, 0, 0, 0.2); /* Add shadow for elegance */
+            border-radius: 3%; /* Rounded corners */
+            overflow: hidden; /* Prevent content overflow */
+        }
+
+        /* Styling for GIF image */
+        .gif-intro img {
+            max-width: 100%; /* Ensure it doesn't exceed container width */
+            width: 400px; /* Set a larger width for better visibility */
+            height: auto; /* Maintain aspect ratio */
+            display: block; /* Center the image inside the div */
+        }
+
     </style>
 </head>
 <body>
 <div class="container">
     <h1>🍃 Website Navigation Guide 🔍</h1>
+
+    <div class = "flex-gif">
+        <div class = "gif-intro">
+            <img src="images/fossil.gif" alt="Navigation Guide GIF">
+        </div>
+    </div>
 
     <h3>📋 Overview</h3>
     <p>Welcome to our Unidentified Fossil Classification Documentation! This guide will help you navigate our website and understand our machine learning models' predictions for unidentified fossils.</p>
