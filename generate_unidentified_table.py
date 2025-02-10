@@ -194,7 +194,7 @@ for index, (key, value) in enumerate(image_predictions.items(), start=1):
     row = f"""
     <tr>
         <td>{index}</td>
-        <td><a href="https://serre-lab.github.io/prj_fossil_unknown/pages/unknown/page_{key}/" target="_blank">{key}</a></td>
+        <td><a href="https://serre-lab.github.io/prj_fossil_unknown/pages/unidentified/page_{key}/" target="_blank">{key}</a></td>
         <td><img src="{IMAGE_URL.format(key)}" alt="Fossil Image"></td>
         <td>{predictions_html}</td>
         <td><input type="radio" name="row{index}" value="Plausible"></td>
