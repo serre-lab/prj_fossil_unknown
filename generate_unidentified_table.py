@@ -115,7 +115,7 @@ html_template = """
 </head>
 <body>
 <div class="container">
-    <h1>Unknown Fossils Predictions Table</h1>
+    <h1>Unidentified Fossils Predictions Table</h1>
     <div class="table-container">
         <table>
             <thead>
