@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Viburnaceae/" target="_blank"><em> Viburnaceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['UCM-18548', 'UCM-18548']
+            </p>
+            <p>
+                Family: ['Pinaceae', 'Pinaceae']
+            </p>
+            <p>
+                Genus: ['Pinus', 'Pinus']
+            </p>
+            <p>
+                Species: ['florissanti', 'sturgisi']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Unidentified/CU_0296cptcu.jpg" alt="Fossil Image">

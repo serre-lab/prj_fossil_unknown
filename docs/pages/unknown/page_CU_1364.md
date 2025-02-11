@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Viburnaceae/" target="_blank"><em> Viburnaceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['YPM-37033', 'YPM-37033']
+            </p>
+            <p>
+                Family: ['Meliaceae', 'Ebenaceae']
+            </p>
+            <p>
+                Genus: ['Trichilia', 'Diospyros']
+            </p>
+            <p>
+                Species: [nan, nan]
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_1364/image.jpg" alt="Fossil Image">

@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Proteaceae/" target="_blank"><em> Proteaceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['USNM-40780', 'USNM-40780']
+            </p>
+            <p>
+                Family: ['Anacardiaceae', 'Saxifragaceae']
+            </p>
+            <p>
+                Genus: ['Astronium', 'Saxifraga (?)']
+            </p>
+            <p>
+                Species: ['truncatum', 'peritula']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0209/image.jpg" alt="Fossil Image">

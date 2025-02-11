@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Vitaceae/" target="_blank"><em> Vitaceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['USNM-40769A', 'USNM-40769A']
+            </p>
+            <p>
+                Family: ['Cannabaceae', 'Vitaceae']
+            </p>
+            <p>
+                Genus: ['Humulus', 'Vitis']
+            </p>
+            <p>
+                Species: ['florissantella', 'florissantella']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0194/image.jpg" alt="Fossil Image">

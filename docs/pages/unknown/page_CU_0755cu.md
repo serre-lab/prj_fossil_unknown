@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Juglandaceae/" target="_blank"><em> Juglandaceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['USNM-1798', 'USNM-1798']
+            </p>
+            <p>
+                Family: ['Meliaceae', 'Sapotaceae']
+            </p>
+            <p>
+                Genus: ['Trichilia', 'Bumelia']
+            </p>
+            <p>
+                Species: ['florissanti', 'florissanti']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0755cu/image.jpg" alt="Fossil Image">

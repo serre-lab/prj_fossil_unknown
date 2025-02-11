@@ -1,5 +1,19 @@
 import os
 import json
+import pandas as pd
+
+
+cu_df = pd.read_excel("../Florissant_CUmetadata.xlsx")
+flfo_df = pd.read_excel("../Florissant_FLFOmetadata.xls")
+
+cols_cu = ['InstPrefix+Catalog #', 'Family', 'Genus', 'Species']
+cols_flfo = ['Class 2, Kingdom', 'Sci. Name, Obj/Science', 'Identified By', 'Geo Unit', 'Description']
+
+cu_df = cu_df.groupby('Inventory Number (CU filename)')[cols_cu].agg(lambda x: x.tolist()).reset_index()
+flfo_df = flfo_df.groupby('Catalog #')[cols_flfo].agg(lambda x: x.tolist()).reset_index()
+
+flfo_df['Catalog #'] = flfo_df['Catalog #'].apply(lambda x: x.split(' ')[-1])
+
 
 # Constants
 NUM_IMAGES = 943
@@ -149,6 +163,21 @@ html_template = """
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/{class5}/" target="_blank"><em> {class5} </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                {info1}: {value1}
+            </p>
+            <p>
+                {info2}: {value2}
+            </p>
+            <p>
+                {info3}: {value3}
+            </p>
+            <p>
+                {info4}: {value4}
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="{main_image}" alt="Fossil Image">
@@ -171,6 +200,42 @@ os.makedirs(Unknown_PAGES_DIR, exist_ok = True)
 os.makedirs(Unidentified_PAGES_DIR, exist_ok = True)
 
 for i, (key, value) in enumerate(image_names.items()):
+    print(key, key.split("_"))
+    x = key.split("_")
+    root = x[0]
+    try: 
+        index = int(x[1])
+    except:
+        digit = ""
+        n = len(x[1])
+        for i in range(n):
+            if 48 <= ord(x[1][i]) < 58:
+                digit += x[1][i]
+            else:
+                break
+        index = int(digit)
+
+    info1 = info2 = info3 = info4 = "Not Found"
+    value1 = value2 = value3 = value4 = ' '
+
+    if root == "CU":
+        row_values = cu_df[cu_df['Inventory Number (CU filename)'] == index]
+        if len(row_values) > 0: 
+            row_dict = row_values.to_dict(orient='records')[0]
+            info1, value1 = 'InstPrefix+Catalog #', row_dict['InstPrefix+Catalog #']
+            info2, value2 = 'Family', row_dict['Family']
+            info3, value3 = 'Genus', row_dict['Genus']
+            info4, value4 = 'Species', row_dict['Species']
+    else:
+        row_values = flfo_df[flfo_df['Catalog #'] == index]
+        if len(row_values) > 0: 
+            row_dict = row_values.to_dict(orient='records')[0]
+            info1, value1 = 'Class 2, Kingdom', row_dict['Class 2, Kingdom']
+            info2, value2 = 'Sci. Name, Obj/Science', row_dict['Sci. Name, Obj/Science']
+            info3, value3 = 'Identified By', row_dict['Identified By']
+            info4, value4 = 'Description', row_dict['Description']
+
+    
     class1, class2, class3, class4, class5 = image_predictions[key]
     value.sort(key = lambda x : int(x.split("_")[1]))
     concept_images = "\n".join(
@@ -194,6 +259,14 @@ for i, (key, value) in enumerate(image_names.items()):
         class3 = class3,
         class4 = class4,
         class5 = class5,
+        info1  = info1, 
+        value1 = value1,
+        info2  = info2,
+        value2 = value2,
+        info3  = info3,
+        value3 = value3,
+        info4  = info4,
+        value4 = value4,
         main_image = Unknown_IMAGE_URL.format(key),
         concept_images = concept_images
     )
@@ -203,8 +276,46 @@ for i, (key, value) in enumerate(image_names.items()):
         f.write(html_content)
 
 for i, (key, value) in enumerate(unidentified_image_names.items()):
+    print(key, key.split("_"))
+    x = key.split("_")
+    root = x[0]
+    try: 
+        index = int(x[1])
+    except:
+        digit = ""
+        n = len(x[1])
+        for i in range(n):
+            if 48 <= ord(x[1][i]) < 58:
+                digit += x[1][i]
+            else:
+                break
+        index = int(digit)
+
+
+
     class1, class2, class3, class4, class5 =unidentified_image_predictions[key]
     value.sort(key = lambda x : int(x.split("_")[1]))
+
+    info1 = info2 = info3 = info4 = "Not Found"
+    value1 = value2 = value3 = value4 = ' '
+
+    if root == "CU":
+        row_values = cu_df[cu_df['Inventory Number (CU filename)'] == index]
+        if len(row_values) > 0: 
+            row_dict = row_values.to_dict(orient='records')[0]
+            info1, value1 = 'InstPrefix+Catalog #', row_dict['InstPrefix+Catalog #']
+            info2, value2 = 'Family', row_dict['Family']
+            info3, value3 = 'Genus', row_dict['Genus']
+            info4, value4 = 'Species', row_dict['Species']
+    else:
+        row_values = flfo_df[flfo_df['Catalog #'] == index]
+        if len(row_values) > 0: 
+            row_dict = row_values.to_dict(orient='records')[0]
+            info1, value1 = 'Class 2, Kingdom', row_dict['Class 2, Kingdom']
+            info2, value2 = 'Sci. Name, Obj/Science', row_dict['Sci. Name, Obj/Science']
+            info3, value3 = 'Identified By', row_dict['Identified By']
+            info4, value4 = 'Description', row_dict['Description']
+
     concept_images = "\n".join(
         [f'''<div class="concept-card">
                 <div class="concept-images">
@@ -226,6 +337,14 @@ for i, (key, value) in enumerate(unidentified_image_names.items()):
         class3 = class3,
         class4 = class4,
         class5 = class5,
+        info1  = info1, 
+        value1 = value1,
+        info2  = info2,
+        value2 = value2,
+        info3  = info3,
+        value3 = value3,
+        info4  = info4,
+        value4 = value4,
         main_image = Unidentified_IMAGE_URL.format(key),
         concept_images = concept_images
     )

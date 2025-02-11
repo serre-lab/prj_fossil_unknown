@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Juglandaceae/" target="_blank"><em> Juglandaceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['UCMP-3624']
+            </p>
+            <p>
+                Family: ['Rhamnaceae']
+            </p>
+            <p>
+                Genus: ['Colubrina']
+            </p>
+            <p>
+                Species: ['spireaefolia']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0484cu1/image.jpg" alt="Fossil Image">

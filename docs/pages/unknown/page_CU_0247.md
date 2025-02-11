@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Sapindaceae/" target="_blank"><em> Sapindaceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['USNM-145', 'USNM-145', 'USNM-145']
+            </p>
+            <p>
+                Family: ['Myricaceae', 'Myricaceae', 'Ulmaceae']
+            </p>
+            <p>
+                Genus: ['Myrica', 'Myrica', 'Zelkova']
+            </p>
+            <p>
+                Species: ['acuminata', 'drymeja', 'drymeja']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0247/image.jpg" alt="Fossil Image">

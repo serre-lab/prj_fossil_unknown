@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Sapindaceae/" target="_blank"><em> Sapindaceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['USNM-50323', 'USNM-50323']
+            </p>
+            <p>
+                Family: ['Anacardiaceae', 'Oleaceae']
+            </p>
+            <p>
+                Genus: ['Cotinus', 'Fraxinus']
+            </p>
+            <p>
+                Species: ['fraterna', 'ungeri']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0902/image.jpg" alt="Fossil Image">

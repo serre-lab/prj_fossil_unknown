@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Moraceae/" target="_blank"><em> Moraceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['UCMP-3871']
+            </p>
+            <p>
+                Family: ['Rhamnaceae']
+            </p>
+            <p>
+                Genus: ['Rhamnites']
+            </p>
+            <p>
+                Species: ['pseudostenophyllus']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0486cu/image.jpg" alt="Fossil Image">

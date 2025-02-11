@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Betulaceae/" target="_blank"><em> Betulaceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['USNM-50266', 'USNM-50266', 'USNM-50266']
+            </p>
+            <p>
+                Family: ['Anacardiaceae', 'Oleaceae', 'Betulaceae']
+            </p>
+            <p>
+                Genus: ['Astronium', 'Fraxinus', 'Ostrya']
+            </p>
+            <p>
+                Species: ['truncatum', 'libbeyi', 'betuloides']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0900cu/image.jpg" alt="Fossil Image">

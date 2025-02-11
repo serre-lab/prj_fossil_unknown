@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Sapindaceae/" target="_blank"><em> Sapindaceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['USNM-1628', 'USNM-1628']
+            </p>
+            <p>
+                Family: ['Lemnaceae', 'Lemnaceae']
+            </p>
+            <p>
+                Genus: ['Lemna', 'Spirodela']
+            </p>
+            <p>
+                Species: ['penicillata', 'penicillata']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0631/image.jpg" alt="Fossil Image">

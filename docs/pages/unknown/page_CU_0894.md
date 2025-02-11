@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Fabaceae/" target="_blank"><em> Fabaceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['USNM-50321', 'USNM-50321']
+            </p>
+            <p>
+                Family: ['Oleaceae', 'Oleaceae']
+            </p>
+            <p>
+                Genus: ['Osmanthus', 'Fraxinus']
+            </p>
+            <p>
+                Species: ['praemissa', 'ungeri']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0894/image.jpg" alt="Fossil Image">

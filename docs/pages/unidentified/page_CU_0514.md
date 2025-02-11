@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Fagaceae/" target="_blank"><em> Fagaceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['UCMP-3694']
+            </p>
+            <p>
+                Family: ['Incertae sedis']
+            </p>
+            <p>
+                Genus: ['Antholithes']
+            </p>
+            <p>
+                Species: ['pediloides']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Unidentified/CU_0514.jpg" alt="Fossil Image">

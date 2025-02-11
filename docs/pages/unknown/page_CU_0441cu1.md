@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Urticaceae/" target="_blank"><em> Urticaceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['UCMP-3863']
+            </p>
+            <p>
+                Family: ['Burseraceae']
+            </p>
+            <p>
+                Genus: ['Bursera']
+            </p>
+            <p>
+                Species: ['serrulata']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0441cu1/image.jpg" alt="Fossil Image">

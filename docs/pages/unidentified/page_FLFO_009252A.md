@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Polygonaceae/" target="_blank"><em> Polygonaceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                Not Found:  
+            </p>
+            <p>
+                Not Found:  
+            </p>
+            <p>
+                Not Found:  
+            </p>
+            <p>
+                Not Found:  
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Unidentified/FLFO_009252A.jpg" alt="Fossil Image">

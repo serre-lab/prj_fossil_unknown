@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Platanaceae/" target="_blank"><em> Platanaceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['USNM-50271', 'USNM-50271']
+            </p>
+            <p>
+                Family: ['Aristolochiaceae', 'Aristolochiaceae']
+            </p>
+            <p>
+                Genus: ['Aristolochia', 'Aristolochia']
+            </p>
+            <p>
+                Species: ['mortua', 'williardiana']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0073/image.jpg" alt="Fossil Image">

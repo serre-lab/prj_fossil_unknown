@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Vitaceae/" target="_blank"><em> Vitaceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['USNM-40589', 'USNM-40589']
+            </p>
+            <p>
+                Family: ['Burseraceae', 'Rutaceae']
+            </p>
+            <p>
+                Genus: ['Bursera', 'Ptelea']
+            </p>
+            <p>
+                Species: ['serrulata', 'modesta']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0214/image.jpg" alt="Fossil Image">

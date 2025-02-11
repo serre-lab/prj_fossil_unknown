@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Berberidaceae/" target="_blank"><em> Berberidaceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['UCMP-3621']
+            </p>
+            <p>
+                Family: ['Incertae sedis']
+            </p>
+            <p>
+                Genus: ['Sterculia']
+            </p>
+            <p>
+                Species: ['rigida']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0513cu/image.jpg" alt="Fossil Image">

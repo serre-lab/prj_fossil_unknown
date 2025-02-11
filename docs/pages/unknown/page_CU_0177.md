@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Primulaceae/" target="_blank"><em> Primulaceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['USNM-40765']
+            </p>
+            <p>
+                Family: ['Oleaceae']
+            </p>
+            <p>
+                Genus: ['Osmanthus']
+            </p>
+            <p>
+                Species: ['praemissa']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0177/image.jpg" alt="Fossil Image">

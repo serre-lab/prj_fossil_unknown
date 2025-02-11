@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Rhamnaceae/" target="_blank"><em> Rhamnaceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['USNM-1636', 'USNM-1636', 'USNM-1636']
+            </p>
+            <p>
+                Family: ['Myricaceae', 'Ulmaceae', 'Myricaceae']
+            </p>
+            <p>
+                Genus: ['Myrica', 'Zelkova', 'Myrica']
+            </p>
+            <p>
+                Species: ['drymeja', 'drymeja', 'callicomaefolia']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0657/image.jpg" alt="Fossil Image">

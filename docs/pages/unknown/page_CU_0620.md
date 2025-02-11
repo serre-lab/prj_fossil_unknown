@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Apiaceae/" target="_blank"><em> Apiaceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['USNM-387524']
+            </p>
+            <p>
+                Family: ['Fontinalaceae']
+            </p>
+            <p>
+                Genus: ['Fontinalis']
+            </p>
+            <p>
+                Species: ['pristina']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0620/image.jpg" alt="Fossil Image">

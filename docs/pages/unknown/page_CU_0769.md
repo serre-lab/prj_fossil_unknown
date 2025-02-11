@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Polygonaceae/" target="_blank"><em> Polygonaceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['USNM-387580']
+            </p>
+            <p>
+                Family: ['Staphyleaceae']
+            </p>
+            <p>
+                Genus: ['Staphylea']
+            </p>
+            <p>
+                Species: ['acuminata']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0769/image.jpg" alt="Fossil Image">

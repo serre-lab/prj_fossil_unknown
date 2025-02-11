@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Lauraceae/" target="_blank"><em> Lauraceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['USNM-50322', 'USNM-50322']
+            </p>
+            <p>
+                Family: ['Meliaceae', 'Oleaceae']
+            </p>
+            <p>
+                Genus: ['Trichilia', 'Fraxinus']
+            </p>
+            <p>
+                Species: ['florissanti', 'ungeri']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0895/image.jpg" alt="Fossil Image">

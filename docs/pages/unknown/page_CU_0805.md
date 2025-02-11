@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Rutaceae/" target="_blank"><em> Rutaceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['USNM-1913', 'USNM-1913', 'USNM-1913']
+            </p>
+            <p>
+                Family: ['Burseraceae', 'Fabaceae', 'Rutaceae']
+            </p>
+            <p>
+                Genus: ['Bursera', 'Cytisus', 'Ptelea']
+            </p>
+            <p>
+                Species: ['serrulata', 'modestus', 'modesta']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0805/image.jpg" alt="Fossil Image">

@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Fagaceae/" target="_blank"><em> Fagaceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['USNM-1839', 'USNM-1839']
+            </p>
+            <p>
+                Family: ['Sapindaceae', 'Sapindaceae']
+            </p>
+            <p>
+                Genus: ['Sapindus', 'Sapindus']
+            </p>
+            <p>
+                Species: ['coloradensis', 'angustifolius']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0780/image.jpg" alt="Fossil Image">

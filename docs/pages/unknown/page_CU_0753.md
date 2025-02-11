@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Lauraceae/" target="_blank"><em> Lauraceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['USNM-387569', 'USNM-387569']
+            </p>
+            <p>
+                Family: ['Meliaceae', 'Ebenaceae']
+            </p>
+            <p>
+                Genus: ['Trichilia', 'Diospyros']
+            </p>
+            <p>
+                Species: ['florissanti', 'brachysepala']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0753/image.jpg" alt="Fossil Image">

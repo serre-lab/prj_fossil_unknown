@@ -114,6 +114,21 @@
                 <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Ulmaceae/" target="_blank"><em> Ulmaceae </em></a>
             </p>
         </div>
+        <div class="predictions">
+            <h2>Information</h2>
+            <p>
+                InstPrefix+Catalog #: ['USNM-390', 'USNM-390', 'USNM-390']
+            </p>
+            <p>
+                Family: ['Sapindaceae', 'Sapindaceae', 'Sapindaceae']
+            </p>
+            <p>
+                Genus: ['Sapindus', 'Sapindus', 'Sapindus']
+            </p>
+            <p>
+                Species: ['coloradensis', 'angustifolius', 'spokanensis']
+            </p>
+        </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0265/image.jpg" alt="Fossil Image">
