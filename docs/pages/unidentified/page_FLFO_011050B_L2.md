@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                Not Found:  
+                <b>Class 2, Kingdom</b>: Plantae
             </p>
             <p>
-                Not Found:  
+                <b>Sci. Name, Obj/Science</b>: Cedrelospermum __ __lineatum
             </p>
             <p>
-                Not Found:  
+                <b>Geo Unit</b>: Middle Shale Unit
             </p>
             <p>
-                Not Found:  
+                <b>Description</b>: Hand sample also has a leaflet of Cardiospermum terminale (Lesq.) MacGinitie.
             </p>
         </div>
         <div class="main-image-container">

@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['UCM-8620']
+                <b>InstPrefix+Catalog #</b>: UCM-8620
             </p>
             <p>
-                Family: ['Smilacaceae']
+                <b>Family</b>: Smilacaceae
             </p>
             <p>
-                Genus: ['Smilax']
+                <b>Genus</b>: Smilax
             </p>
             <p>
-                Species: ['labidurommae']
+                <b>Species</b>: labidurommae
             </p>
         </div>
         <div class="main-image-container">

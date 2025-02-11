@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                Not Found:  
+                <b>Class 2, Kingdom</b>: Plantae
             </p>
             <p>
-                Not Found:  
+                <b>Sci. Name, Obj/Science</b>: Ziziphus __ __florissanti
             </p>
             <p>
-                Not Found:  
+                <b>Geo Unit</b>: 
             </p>
             <p>
-                Not Found:  
+                <b>Description</b>: LEAF:  30 X 12 MM.  ON SHALE PIECE 55 X 35 X 9 MM.  TIP OF LEAF IS MISSING.  MAJOR VENATION IS PROMINENT.  PETIOLE IS APPROX. 8 MM LONG.
             </p>
         </div>
         <div class="main-image-container">

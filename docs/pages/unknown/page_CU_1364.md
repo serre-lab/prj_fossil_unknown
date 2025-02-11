@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['YPM-37033', 'YPM-37033']
+                <b>InstPrefix+Catalog #</b>: YPM-37033, YPM-37033
             </p>
             <p>
-                Family: ['Meliaceae', 'Ebenaceae']
+                <b>Family</b>: Meliaceae, Ebenaceae
             </p>
             <p>
-                Genus: ['Trichilia', 'Diospyros']
+                <b>Genus</b>: Trichilia, Diospyros
             </p>
             <p>
-                Species: [nan, nan]
+                <b>Species</b>: 
             </p>
         </div>
         <div class="main-image-container">

@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['UCM-18546', 'UCM-18546']
+                <b>InstPrefix+Catalog #</b>: UCM-18546, UCM-18546
             </p>
             <p>
-                Family: ['Myrtaceae', 'Magnoliaceae']
+                <b>Family</b>: Myrtaceae, Magnoliaceae
             </p>
             <p>
-                Genus: ['Eugenia', 'Magnolia']
+                <b>Genus</b>: Eugenia, Magnolia
             </p>
             <p>
-                Species: ['arenaceaformis', 'florissanticola']
+                <b>Species</b>: arenaceaformis, florissanticola
             </p>
         </div>
         <div class="main-image-container">

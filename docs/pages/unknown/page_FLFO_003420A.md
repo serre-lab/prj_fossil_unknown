@@ -117,16 +117,18 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                Not Found:  
+                <b>Class 2, Kingdom</b>: Plantae
             </p>
             <p>
-                Not Found:  
+                <b>Sci. Name, Obj/Science</b>: Hydrangea __ __fraxinifolia?
             </p>
             <p>
-                Not Found:  
+                <b>Geo Unit</b>: Middle Shale Unit
             </p>
             <p>
-                Not Found:  
+                <b>Description</b>: Hydrangea or Staphylea acuminata; Tf2; 
+D.M.Smith Diss.
+No Damage
             </p>
         </div>
         <div class="main-image-container">

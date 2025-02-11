@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-405894', 'USNM-405894']
+                <b>InstPrefix+Catalog #</b>: USNM-405894, USNM-405894
             </p>
             <p>
-                Family: ['Anacardiaceae', 'Anacardiaceae']
+                <b>Family</b>: Anacardiaceae, Anacardiaceae
             </p>
             <p>
-                Genus: ['Cotinus', 'Rhus']
+                <b>Genus</b>: Cotinus, Rhus
             </p>
             <p>
-                Species: ['fraterna', 'fraterna']
+                <b>Species</b>: fraterna, fraterna
             </p>
         </div>
         <div class="main-image-container">

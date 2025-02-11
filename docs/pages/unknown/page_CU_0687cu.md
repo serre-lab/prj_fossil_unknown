@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-387550', 'USNM-387550', 'USNM-387550']
+                <b>InstPrefix+Catalog #</b>: USNM-387550, USNM-387550, USNM-387550
             </p>
             <p>
-                Family: ['Rosaceae', 'Fagaceae', 'Fagaceae']
+                <b>Family</b>: Rosaceae, Fagaceae, Fagaceae
             </p>
             <p>
-                Genus: ['Malus', 'Quercus', 'Quercus']
+                <b>Genus</b>: Malus, Quercus, Quercus
             </p>
             <p>
-                Species: ['florissantensis', 'pyrifolia', 'florissantensis']
+                <b>Species</b>: florissantensis, pyrifolia, florissantensis
             </p>
         </div>
         <div class="main-image-container">

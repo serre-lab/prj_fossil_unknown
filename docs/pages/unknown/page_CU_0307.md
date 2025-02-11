@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['UCM-18591', 'UCM-18591', 'UCM-18591']
+                <b>InstPrefix+Catalog #</b>: UCM-18591, UCM-18591, UCM-18591
             </p>
             <p>
-                Family: ['Rosaceae', 'Rosaceae', 'Rosaceae']
+                <b>Family</b>: Rosaceae, Rosaceae, Rosaceae
             </p>
             <p>
-                Genus: ['Crataegus', 'Rosa', 'Rosa']
+                <b>Genus</b>: Crataegus, Rosa, Rosa
             </p>
             <p>
-                Species: [nan, 'hilliae', 'wilmattae']
+                <b>Species</b>: hilliae, wilmattae
             </p>
         </div>
         <div class="main-image-container">

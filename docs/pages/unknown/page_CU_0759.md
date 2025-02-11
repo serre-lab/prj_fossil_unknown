@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-387572']
+                <b>InstPrefix+Catalog #</b>: USNM-387572
             </p>
             <p>
-                Family: ['Incertae sedis']
+                <b>Family</b>: Incertae sedis
             </p>
             <p>
-                Genus: ['Sterculia']
+                <b>Genus</b>: Sterculia
             </p>
             <p>
-                Species: ['rigida']
+                <b>Species</b>: rigida
             </p>
         </div>
         <div class="main-image-container">

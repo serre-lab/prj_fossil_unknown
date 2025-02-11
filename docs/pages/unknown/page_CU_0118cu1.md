@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-40552']
+                <b>InstPrefix+Catalog #</b>: USNM-40552
             </p>
             <p>
-                Family: ['Celastroideae']
+                <b>Family</b>: Celastroideae
             </p>
             <p>
-                Genus: ['Celastrus']
+                <b>Genus</b>: Celastrus
             </p>
             <p>
-                Species: ['typica']
+                <b>Species</b>: typica
             </p>
         </div>
         <div class="main-image-container">

@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                Not Found:  
+                <b>Class 2, Kingdom</b>: Plantae
             </p>
             <p>
-                Not Found:  
+                <b>Sci. Name, Obj/Science</b>: Unidentified Plantae
             </p>
             <p>
-                Not Found:  
+                <b>Geo Unit</b>: 
             </p>
             <p>
-                Not Found:  
+                <b>Description</b>: on the same slab as FLFO-8960, FLFO-8961, and FLFO-8962
             </p>
         </div>
         <div class="main-image-container">

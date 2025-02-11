@@ -117,16 +117,18 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                Not Found:  
+                <b>Class 2, Kingdom</b>: Plantae
             </p>
             <p>
-                Not Found:  
+                <b>Sci. Name, Obj/Science</b>: UNIDENTIFIED PLANTAE
             </p>
             <p>
-                Not Found:  
+                <b>Geo Unit</b>: Middle Shale Unit
             </p>
             <p>
-                Not Found:  
+                <b>Description</b>: UNIDENTIFIED LEAF
+
+was L.2009.5-DMNS
             </p>
         </div>
         <div class="main-image-container">

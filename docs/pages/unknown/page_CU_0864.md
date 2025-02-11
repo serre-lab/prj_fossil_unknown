@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-1779', 'USNM-1779']
+                <b>InstPrefix+Catalog #</b>: USNM-1779, USNM-1779
             </p>
             <p>
-                Family: ['Incertae sedis', 'Incertae sedis']
+                <b>Family</b>: Incertae sedis, Incertae sedis
             </p>
             <p>
-                Genus: ['Lomatites', 'Lomatia']
+                <b>Genus</b>: Lomatites, Lomatia
             </p>
             <p>
-                Species: ['spinosa', 'spinosa']
+                <b>Species</b>: spinosa, spinosa
             </p>
         </div>
         <div class="main-image-container">

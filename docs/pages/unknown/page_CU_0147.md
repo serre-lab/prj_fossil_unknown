@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-40570']
+                <b>InstPrefix+Catalog #</b>: USNM-40570
             </p>
             <p>
-                Family: ['Rhamnaceae']
+                <b>Family</b>: Rhamnaceae
             </p>
             <p>
-                Genus: ['Rhamnites']
+                <b>Genus</b>: Rhamnites
             </p>
             <p>
-                Species: ['pseudostenophyllus']
+                <b>Species</b>: pseudostenophyllus
             </p>
         </div>
         <div class="main-image-container">

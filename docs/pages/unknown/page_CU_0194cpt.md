@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-40769A', 'USNM-40769A']
+                <b>InstPrefix+Catalog #</b>: USNM-40769A, USNM-40769A
             </p>
             <p>
-                Family: ['Cannabaceae', 'Vitaceae']
+                <b>Family</b>: Cannabaceae, Vitaceae
             </p>
             <p>
-                Genus: ['Humulus', 'Vitis']
+                <b>Genus</b>: Humulus, Vitis
             </p>
             <p>
-                Species: ['florissantella', 'florissantella']
+                <b>Species</b>: florissantella, florissantella
             </p>
         </div>
         <div class="main-image-container">

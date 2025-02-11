@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-1913', 'USNM-1913', 'USNM-1913']
+                <b>InstPrefix+Catalog #</b>: USNM-1913, USNM-1913, USNM-1913
             </p>
             <p>
-                Family: ['Burseraceae', 'Fabaceae', 'Rutaceae']
+                <b>Family</b>: Burseraceae, Fabaceae, Rutaceae
             </p>
             <p>
-                Genus: ['Bursera', 'Cytisus', 'Ptelea']
+                <b>Genus</b>: Bursera, Cytisus, Ptelea
             </p>
             <p>
-                Species: ['serrulata', 'modestus', 'modesta']
+                <b>Species</b>: serrulata, modestus, modesta
             </p>
         </div>
         <div class="main-image-container">

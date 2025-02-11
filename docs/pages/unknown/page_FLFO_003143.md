@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                Not Found:  
+                <b>Class 2, Kingdom</b>: Plantae
             </p>
             <p>
-                Not Found:  
+                <b>Sci. Name, Obj/Science</b>: Hydrangea __ __fraxinifolia
             </p>
             <p>
-                Not Found:  
+                <b>Geo Unit</b>: 
             </p>
             <p>
-                Not Found:  
+                <b>Description</b>: Fossil leaf, base missing, tip bent over.  Margin dentate, second- aries alternate, curved and anastonosing near margin.  Broken and repaired. Dark brown on brown shale.
             </p>
         </div>
         <div class="main-image-container">

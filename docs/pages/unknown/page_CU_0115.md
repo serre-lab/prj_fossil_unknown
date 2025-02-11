@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-40578']
+                <b>InstPrefix+Catalog #</b>: USNM-40578
             </p>
             <p>
-                Family: ['Anacardiaceae']
+                <b>Family</b>: Anacardiaceae
             </p>
             <p>
-                Genus: ['Astronium']
+                <b>Genus</b>: Astronium
             </p>
             <p>
-                Species: ['truncatum']
+                <b>Species</b>: truncatum
             </p>
         </div>
         <div class="main-image-container">

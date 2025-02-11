@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-40780', 'USNM-40780']
+                <b>InstPrefix+Catalog #</b>: USNM-40780, USNM-40780
             </p>
             <p>
-                Family: ['Anacardiaceae', 'Saxifragaceae']
+                <b>Family</b>: Anacardiaceae, Saxifragaceae
             </p>
             <p>
-                Genus: ['Astronium', 'Saxifraga (?)']
+                <b>Genus</b>: Astronium, Saxifraga (?)
             </p>
             <p>
-                Species: ['truncatum', 'peritula']
+                <b>Species</b>: truncatum, peritula
             </p>
         </div>
         <div class="main-image-container">

@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-405885', 'USNM-405885']
+                <b>InstPrefix+Catalog #</b>: USNM-405885, USNM-405885
             </p>
             <p>
-                Family: ['Hydrangeaceae', 'Celastroideae']
+                <b>Family</b>: Hydrangeaceae, Celastroideae
             </p>
             <p>
-                Genus: ['Hydrangea', 'Celastrus']
+                <b>Genus</b>: Hydrangea, Celastrus
             </p>
             <p>
-                Species: ['fraxinifolia', 'fraxinifolius']
+                <b>Species</b>: fraxinifolia, fraxinifolius
             </p>
         </div>
         <div class="main-image-container">

@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['UCMP-3649']
+                <b>InstPrefix+Catalog #</b>: UCMP-3649
             </p>
             <p>
-                Family: ['Fabaceae']
+                <b>Family</b>: Fabaceae
             </p>
             <p>
-                Genus: ['Phaseolites']
+                <b>Genus</b>: Phaseolites
             </p>
             <p>
-                Species: ['dedal']
+                <b>Species</b>: dedal
             </p>
         </div>
         <div class="main-image-container">

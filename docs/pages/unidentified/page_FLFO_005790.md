@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                Not Found:  
+                <b>Class 2, Kingdom</b>: Plantae
             </p>
             <p>
-                Not Found:  
+                <b>Sci. Name, Obj/Science</b>: Unidentified plant
             </p>
             <p>
-                Not Found:  
+                <b>Geo Unit</b>: 
             </p>
             <p>
-                Not Found:  
+                <b>Description</b>: Collected from the ditch along the road near inventory site 5.
             </p>
         </div>
         <div class="main-image-container">

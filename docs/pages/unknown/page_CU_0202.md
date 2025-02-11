@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-40776']
+                <b>InstPrefix+Catalog #</b>: USNM-40776
             </p>
             <p>
-                Family: ['Typhaceae']
+                <b>Family</b>: Typhaceae
             </p>
             <p>
-                Genus: ['Typha']
+                <b>Genus</b>: Typha
             </p>
             <p>
-                Species: ['lesquereuxii']
+                <b>Species</b>: lesquereuxii
             </p>
         </div>
         <div class="main-image-container">

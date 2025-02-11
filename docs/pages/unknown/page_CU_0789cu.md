@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-405869']
+                <b>InstPrefix+Catalog #</b>: USNM-405869
             </p>
             <p>
-                Family: ['Ulmaceae']
+                <b>Family</b>: Ulmaceae
             </p>
             <p>
-                Genus: ['Celtis']
+                <b>Genus</b>: Celtis
             </p>
             <p>
-                Species: ['mccoshii']
+                <b>Species</b>: mccoshii
             </p>
         </div>
         <div class="main-image-container">

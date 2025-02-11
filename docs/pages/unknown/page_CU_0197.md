@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-40773']
+                <b>InstPrefix+Catalog #</b>: USNM-40773
             </p>
             <p>
-                Family: ['Celastraceae']
+                <b>Family</b>: Celastraceae
             </p>
             <p>
-                Genus: ['Pachistima (?)']
+                <b>Genus</b>: Pachistima (?)
             </p>
             <p>
-                Species: ['integra']
+                <b>Species</b>: integra
             </p>
         </div>
         <div class="main-image-container">

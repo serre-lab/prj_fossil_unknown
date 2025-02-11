@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                Not Found:  
+                <b>Class 2, Kingdom</b>: Animalia
             </p>
             <p>
-                Not Found:  
+                <b>Sci. Name, Obj/Science</b>: Gyraulus __ __florissantensis __Cockerell __1906
             </p>
             <p>
-                Not Found:  
+                <b>Geo Unit</b>: Middle Shale Unit
             </p>
             <p>
-                Not Found:  
+                <b>Description</b>: on same slab as FLFO-10207
             </p>
         </div>
         <div class="main-image-container">

@@ -117,16 +117,17 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                Not Found:  
+                <b>Class 2, Kingdom</b>: Plantae
             </p>
             <p>
-                Not Found:  
+                <b>Sci. Name, Obj/Science</b>: Athyana __ __haydenii
             </p>
             <p>
-                Not Found:  
+                <b>Geo Unit</b>: Middle Shale Unit
             </p>
             <p>
-                Not Found:  
+                <b>Description</b>: identification questionable, could be Rhus; Tf2
+on the same slab as FLFO 4276 ab and 4277 ab
             </p>
         </div>
         <div class="main-image-container">

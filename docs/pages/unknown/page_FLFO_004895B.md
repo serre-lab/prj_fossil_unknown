@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                Not Found:  
+                <b>Class 2, Kingdom</b>: Plantae
             </p>
             <p>
-                Not Found:  
+                <b>Sci. Name, Obj/Science</b>: cf. Paracarpinus fraterna
             </p>
             <p>
-                Not Found:  
+                <b>Geo Unit</b>: Upper Shale Unit
             </p>
             <p>
-                Not Found:  
+                <b>Description</b>: On same slab as FLFO- 4894, 4896, and 4897
             </p>
         </div>
         <div class="main-image-container">

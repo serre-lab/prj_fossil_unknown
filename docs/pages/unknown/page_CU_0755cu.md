@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-1798', 'USNM-1798']
+                <b>InstPrefix+Catalog #</b>: USNM-1798, USNM-1798
             </p>
             <p>
-                Family: ['Meliaceae', 'Sapotaceae']
+                <b>Family</b>: Meliaceae, Sapotaceae
             </p>
             <p>
-                Genus: ['Trichilia', 'Bumelia']
+                <b>Genus</b>: Trichilia, Bumelia
             </p>
             <p>
-                Species: ['florissanti', 'florissanti']
+                <b>Species</b>: florissanti, florissanti
             </p>
         </div>
         <div class="main-image-container">

@@ -117,16 +117,19 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                Not Found:  
+                <b>Class 2, Kingdom</b>: Plantae
             </p>
             <p>
-                Not Found:  
+                <b>Sci. Name, Obj/Science</b>: Trichilia __ __florissantii
             </p>
             <p>
-                Not Found:  
+                <b>Geo Unit</b>: Unknown
             </p>
             <p>
-                Not Found:  
+                <b>Description</b>: D.M.Smith Diss.
+Damage
+
+Note: Was used in an educational display by Linda Lutz-Ryan, 1999.
             </p>
         </div>
         <div class="main-image-container">

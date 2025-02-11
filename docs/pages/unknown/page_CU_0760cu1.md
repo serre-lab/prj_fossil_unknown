@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-387573']
+                <b>InstPrefix+Catalog #</b>: USNM-387573
             </p>
             <p>
-                Family: ['Tiliaceae']
+                <b>Family</b>: Tiliaceae
             </p>
             <p>
-                Genus: ['Tilia']
+                <b>Genus</b>: Tilia
             </p>
             <p>
-                Species: ['populifolia']
+                <b>Species</b>: populifolia
             </p>
         </div>
         <div class="main-image-container">

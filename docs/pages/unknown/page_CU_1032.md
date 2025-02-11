@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['YPM-23947']
+                <b>InstPrefix+Catalog #</b>: YPM-23947
             </p>
             <p>
-                Family: ['Anacardiaceae']
+                <b>Family</b>: Anacardiaceae
             </p>
             <p>
-                Genus: ['Cotinus']
+                <b>Genus</b>: Cotinus
             </p>
             <p>
-                Species: ['fraterna']
+                <b>Species</b>: fraterna
             </p>
         </div>
         <div class="main-image-container">

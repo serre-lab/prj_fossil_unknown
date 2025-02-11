@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-1787', 'USNM-1787']
+                <b>InstPrefix+Catalog #</b>: USNM-1787, USNM-1787
             </p>
             <p>
-                Family: ['Staphyleaceae', 'Oleaceae']
+                <b>Family</b>: Staphyleaceae, Oleaceae
             </p>
             <p>
-                Genus: ['Staphylea', 'Fraxinus']
+                <b>Genus</b>: Staphylea, Fraxinus
             </p>
             <p>
-                Species: ['acuminata', 'mespilifolia']
+                <b>Species</b>: acuminata, mespilifolia
             </p>
         </div>
         <div class="main-image-container">

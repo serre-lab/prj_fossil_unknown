@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-1629', 'USNM-1629', 'USNM-1629']
+                <b>InstPrefix+Catalog #</b>: USNM-1629, USNM-1629, USNM-1629
             </p>
             <p>
-                Family: ['Myricaceae', 'Ulmaceae', 'Myricaceae']
+                <b>Family</b>: Myricaceae, Ulmaceae, Myricaceae
             </p>
             <p>
-                Genus: ['Myrica', 'Zelkova', 'Myrica']
+                <b>Genus</b>: Myrica, Zelkova, Myrica
             </p>
             <p>
-                Species: ['drymeja', 'drymeja', 'obscura']
+                <b>Species</b>: drymeja, drymeja, obscura
             </p>
         </div>
         <div class="main-image-container">

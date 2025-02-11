@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-1782', 'USNM-1782', 'USNM-1782']
+                <b>InstPrefix+Catalog #</b>: USNM-1782, USNM-1782, USNM-1782
             </p>
             <p>
-                Family: ['Pimeleae', 'Thymelaeaceae', 'Rosaceae']
+                <b>Family</b>: Pimeleae, Thymelaeaceae, Rosaceae
             </p>
             <p>
-                Genus: ['Pimelea', 'Daphne', 'Peraphyllum']
+                <b>Genus</b>: Pimelea, Daphne, Peraphyllum
             </p>
             <p>
-                Species: ['delicatula', 'septentrionalis', 'septentionalis']
+                <b>Species</b>: delicatula, septentrionalis, septentionalis
             </p>
         </div>
         <div class="main-image-container">

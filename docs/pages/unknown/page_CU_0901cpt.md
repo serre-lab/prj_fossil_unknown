@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-50326', 'USNM-50326']
+                <b>InstPrefix+Catalog #</b>: USNM-50326, USNM-50326
             </p>
             <p>
-                Family: ['Rhamnaceae', 'Incertae sedis']
+                <b>Family</b>: Rhamnaceae, Incertae sedis
             </p>
             <p>
-                Genus: ['Rhamnites', 'Ilex']
+                <b>Genus</b>: Rhamnites, Ilex
             </p>
             <p>
-                Species: ['pseudostenophyllus', 'pseudostenophylla']
+                <b>Species</b>: pseudostenophyllus, pseudostenophylla
             </p>
         </div>
         <div class="main-image-container">

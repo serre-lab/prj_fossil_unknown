@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['UCMP-3682']
+                <b>InstPrefix+Catalog #</b>: UCMP-3682
             </p>
             <p>
-                Family: ['Hydrangeaceae']
+                <b>Family</b>: Hydrangeaceae
             </p>
             <p>
-                Genus: ['Hydrangea']
+                <b>Genus</b>: Hydrangea
             </p>
             <p>
-                Species: ['fraxinifolia']
+                <b>Species</b>: fraxinifolia
             </p>
         </div>
         <div class="main-image-container">

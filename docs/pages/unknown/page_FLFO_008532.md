@@ -117,16 +117,17 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                Not Found:  
+                <b>Class 2, Kingdom</b>: Plantae
             </p>
             <p>
-                Not Found:  
+                <b>Sci. Name, Obj/Science</b>: Hydrangea __ __fraxinifolia?
             </p>
             <p>
-                Not Found:  
+                <b>Geo Unit</b>: Middle Shale Unit
             </p>
             <p>
-                Not Found:  
+                <b>Description</b>: possibly Staphylea, no base/petiole present
+on the same slab as FLFO-8530ab, FLFO-8531ab, FLFO-8533, FLFO-8534
             </p>
         </div>
         <div class="main-image-container">

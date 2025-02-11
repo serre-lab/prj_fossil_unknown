@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['UCMP-3874']
+                <b>InstPrefix+Catalog #</b>: UCMP-3874
             </p>
             <p>
-                Family: ['Anacardiaceae']
+                <b>Family</b>: Anacardiaceae
             </p>
             <p>
-                Genus: ['Astronium']
+                <b>Genus</b>: Astronium
             </p>
             <p>
-                Species: ['truncatum']
+                <b>Species</b>: truncatum
             </p>
         </div>
         <div class="main-image-container">

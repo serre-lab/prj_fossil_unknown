@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-387552']
+                <b>InstPrefix+Catalog #</b>: USNM-387552
             </p>
             <p>
-                Family: ['Ulmaceae']
+                <b>Family</b>: Ulmaceae
             </p>
             <p>
-                Genus: ['Planera']
+                <b>Genus</b>: Planera
             </p>
             <p>
-                Species: ['longifolia']
+                <b>Species</b>: longifolia
             </p>
         </div>
         <div class="main-image-container">

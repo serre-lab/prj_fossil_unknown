@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-50343', 'USNM-50343', 'USNM-50343']
+                <b>InstPrefix+Catalog #</b>: USNM-50343, USNM-50343, USNM-50343
             </p>
             <p>
-                Family: ['Anacardiaceae', 'Ericaceae', 'Ericaceae']
+                <b>Family</b>: Anacardiaceae, Ericaceae, Ericaceae
             </p>
             <p>
-                Genus: ['Cotinus', 'Andromeda', 'Andromeda']
+                <b>Genus</b>: Cotinus, Andromeda, Andromeda
             </p>
             <p>
-                Species: ['fraterna', 'rhombiodalis', 'scudderiana']
+                <b>Species</b>: fraterna, rhombiodalis, scudderiana
             </p>
         </div>
         <div class="main-image-container">

@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['YPM-30133', 'YPM-30133']
+                <b>InstPrefix+Catalog #</b>: YPM-30133, YPM-30133
             </p>
             <p>
-                Family: ['Hydrangeaceae', 'Ebenaceae']
+                <b>Family</b>: Hydrangeaceae, Ebenaceae
             </p>
             <p>
-                Genus: ['Hydrangea', 'Diospyros']
+                <b>Genus</b>: Hydrangea, Diospyros
             </p>
             <p>
-                Species: ['fraxinifolia', nan]
+                <b>Species</b>: fraxinifolia
             </p>
         </div>
         <div class="main-image-container">

@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                Not Found:  
+                <b>Not Found</b>:  
             </p>
             <p>
-                Not Found:  
+                <b>Not Found</b>:  
             </p>
             <p>
-                Not Found:  
+                <b>Not Found</b>:  
             </p>
             <p>
-                Not Found:  
+                <b>Not Found</b>:  
             </p>
         </div>
         <div class="main-image-container">

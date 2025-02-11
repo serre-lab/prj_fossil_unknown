@@ -9,11 +9,15 @@ flfo_df = pd.read_excel("../Florissant_FLFOmetadata.xls")
 cols_cu = ['InstPrefix+Catalog #', 'Family', 'Genus', 'Species']
 cols_flfo = ['Class 2, Kingdom', 'Sci. Name, Obj/Science', 'Identified By', 'Geo Unit', 'Description']
 
-cu_df = cu_df.groupby('Inventory Number (CU filename)')[cols_cu].agg(lambda x: x.tolist()).reset_index()
-flfo_df = flfo_df.groupby('Catalog #')[cols_flfo].agg(lambda x: x.tolist()).reset_index()
+cu_df = cu_df.groupby('Inventory Number (CU filename)')[cols_cu].agg(
+    lambda x: [v for v in x if isinstance(v, str)]
+).reset_index()
+
+flfo_df = flfo_df.groupby('Catalog #')[cols_flfo].agg(
+    lambda x: [v for v in x if isinstance(v, str)]
+).reset_index()
 
 flfo_df['Catalog #'] = flfo_df['Catalog #'].apply(lambda x: x.split(' ')[-1])
-
 
 # Constants
 NUM_IMAGES = 943
@@ -166,16 +170,16 @@ html_template = """
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                {info1}: {value1}
+                <b>{info1}</b>: {value1}
             </p>
             <p>
-                {info2}: {value2}
+                <b>{info2}</b>: {value2}
             </p>
             <p>
-                {info3}: {value3}
+                <b>{info3}</b>: {value3}
             </p>
             <p>
-                {info4}: {value4}
+                <b>{info4}</b>: {value4}
             </p>
         </div>
         <div class="main-image-container">
@@ -222,18 +226,18 @@ for i, (key, value) in enumerate(image_names.items()):
         row_values = cu_df[cu_df['Inventory Number (CU filename)'] == index]
         if len(row_values) > 0: 
             row_dict = row_values.to_dict(orient='records')[0]
-            info1, value1 = 'InstPrefix+Catalog #', row_dict['InstPrefix+Catalog #']
-            info2, value2 = 'Family', row_dict['Family']
-            info3, value3 = 'Genus', row_dict['Genus']
-            info4, value4 = 'Species', row_dict['Species']
+            info1, value1 = 'InstPrefix+Catalog #', ", ".join(row_dict['InstPrefix+Catalog #'])
+            info2, value2 = 'Family', ", ".join(row_dict['Family'])
+            info3, value3 = 'Genus', ", ".join(row_dict['Genus'])
+            info4, value4 = 'Species', ", ".join(row_dict['Species'])
     else:
-        row_values = flfo_df[flfo_df['Catalog #'] == index]
+        row_values = flfo_df[flfo_df['Catalog #'] == str(index)]
         if len(row_values) > 0: 
             row_dict = row_values.to_dict(orient='records')[0]
-            info1, value1 = 'Class 2, Kingdom', row_dict['Class 2, Kingdom']
-            info2, value2 = 'Sci. Name, Obj/Science', row_dict['Sci. Name, Obj/Science']
-            info3, value3 = 'Identified By', row_dict['Identified By']
-            info4, value4 = 'Description', row_dict['Description']
+            info1, value1 = 'Class 2, Kingdom', ", ".join(row_dict['Class 2, Kingdom'])
+            info2, value2 = 'Sci. Name, Obj/Science', ", ".join(row_dict['Sci. Name, Obj/Science'])
+            info3, value3 = 'Geo Unit', ", ".join(row_dict['Geo Unit'])
+            info4, value4 = 'Description', ", ".join(row_dict['Description'])
 
     
     class1, class2, class3, class4, class5 = image_predictions[key]
@@ -303,18 +307,18 @@ for i, (key, value) in enumerate(unidentified_image_names.items()):
         row_values = cu_df[cu_df['Inventory Number (CU filename)'] == index]
         if len(row_values) > 0: 
             row_dict = row_values.to_dict(orient='records')[0]
-            info1, value1 = 'InstPrefix+Catalog #', row_dict['InstPrefix+Catalog #']
-            info2, value2 = 'Family', row_dict['Family']
-            info3, value3 = 'Genus', row_dict['Genus']
-            info4, value4 = 'Species', row_dict['Species']
+            info1, value1 = 'InstPrefix+Catalog #', ", ".join(row_dict['InstPrefix+Catalog #'])
+            info2, value2 = 'Family', ", ".join(row_dict['Family'])
+            info3, value3 = 'Genus', ", ".join(row_dict['Genus'])
+            info4, value4 = 'Species', ", ".join(row_dict['Species'])
     else:
-        row_values = flfo_df[flfo_df['Catalog #'] == index]
+        row_values = flfo_df[flfo_df['Catalog #'] == str(index)]
         if len(row_values) > 0: 
             row_dict = row_values.to_dict(orient='records')[0]
-            info1, value1 = 'Class 2, Kingdom', row_dict['Class 2, Kingdom']
-            info2, value2 = 'Sci. Name, Obj/Science', row_dict['Sci. Name, Obj/Science']
-            info3, value3 = 'Identified By', row_dict['Identified By']
-            info4, value4 = 'Description', row_dict['Description']
+            info1, value1 = 'Class 2, Kingdom', ", ".join(row_dict['Class 2, Kingdom'])
+            info2, value2 = 'Sci. Name, Obj/Science', ", ".join(row_dict['Sci. Name, Obj/Science'])
+            info3, value3 = 'Geo Unit', ", ".join(row_dict['Geo Unit'])
+            info4, value4 = 'Description', ", ".join(row_dict['Description'])
 
     concept_images = "\n".join(
         [f'''<div class="concept-card">

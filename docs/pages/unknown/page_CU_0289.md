@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['UCM-18555']
+                <b>InstPrefix+Catalog #</b>: UCM-18555
             </p>
             <p>
-                Family: ['Poaceae']
+                <b>Family</b>: Poaceae
             </p>
             <p>
-                Genus: ['Melica']
+                <b>Genus</b>: Melica
             </p>
             <p>
-                Species: ['primaeva']
+                <b>Species</b>: primaeva
             </p>
         </div>
         <div class="main-image-container">

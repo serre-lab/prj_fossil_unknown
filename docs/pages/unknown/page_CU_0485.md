@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['UCMP-3663']
+                <b>InstPrefix+Catalog #</b>: UCMP-3663
             </p>
             <p>
-                Family: ['Rhamnaceae']
+                <b>Family</b>: Rhamnaceae
             </p>
             <p>
-                Genus: ['Colubrina']
+                <b>Genus</b>: Colubrina
             </p>
             <p>
-                Species: ['spireaefolia']
+                <b>Species</b>: spireaefolia
             </p>
         </div>
         <div class="main-image-container">

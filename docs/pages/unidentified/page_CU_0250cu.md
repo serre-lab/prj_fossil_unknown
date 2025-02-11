@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-147', 'USNM-147']
+                <b>InstPrefix+Catalog #</b>: USNM-147, USNM-147
             </p>
             <p>
-                Family: ['Rosaceae', 'Myricaceae']
+                <b>Family</b>: Rosaceae, Myricaceae
             </p>
             <p>
-                Genus: ['Crataegus', 'Myrica']
+                <b>Genus</b>: Crataegus, Myrica
             </p>
             <p>
-                Species: ['copeana', 'copeana']
+                <b>Species</b>: copeana, copeana
             </p>
         </div>
         <div class="main-image-container">

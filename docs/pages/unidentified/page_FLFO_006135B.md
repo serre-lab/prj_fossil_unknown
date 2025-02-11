@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                Not Found:  
+                <b>Class 2, Kingdom</b>: Plantae
             </p>
             <p>
-                Not Found:  
+                <b>Sci. Name, Obj/Science</b>: Unidentified leaf
             </p>
             <p>
-                Not Found:  
+                <b>Geo Unit</b>: Upper Shale Unit
             </p>
             <p>
-                Not Found:  
+                <b>Description</b>: CF. FABACEAE PART AND COUNTERPART
             </p>
         </div>
         <div class="main-image-container">

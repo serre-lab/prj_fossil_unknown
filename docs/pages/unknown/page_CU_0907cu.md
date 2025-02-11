@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-50296', 'USNM-50296', 'USNM-50296']
+                <b>InstPrefix+Catalog #</b>: USNM-50296, USNM-50296, USNM-50296
             </p>
             <p>
-                Family: ['Staphyleaceae', 'Fabaceae', 'Fabaceae']
+                <b>Family</b>: Staphyleaceae, Fabaceae, Fabaceae
             </p>
             <p>
-                Genus: ['Staphylea', 'Cytisus', 'Cassia']
+                <b>Genus</b>: Staphylea, Cytisus, Cassia
             </p>
             <p>
-                Species: ['acuminata', 'florissantianus', 'fischeri']
+                <b>Species</b>: acuminata, florissantianus, fischeri
             </p>
         </div>
         <div class="main-image-container">

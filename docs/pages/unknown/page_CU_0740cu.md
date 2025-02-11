@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-87566', 'USNM-87566']
+                <b>InstPrefix+Catalog #</b>: USNM-87566, USNM-87566
             </p>
             <p>
-                Family: ['Oleaceae', 'Oleaceae']
+                <b>Family</b>: Oleaceae, Oleaceae
             </p>
             <p>
-                Genus: ['Osmanthus', 'Olea']
+                <b>Genus</b>: Osmanthus, Olea
             </p>
             <p>
-                Species: ['praemissa', 'praemissa']
+                <b>Species</b>: praemissa, praemissa
             </p>
         </div>
         <div class="main-image-container">

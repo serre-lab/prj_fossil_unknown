@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['UCM-16688']
+                <b>InstPrefix+Catalog #</b>: UCM-16688
             </p>
             <p>
-                Family: ['Lamiaceae']
+                <b>Family</b>: Lamiaceae
             </p>
             <p>
-                Genus: ['Nepeta (?)']
+                <b>Genus</b>: Nepeta (?)
             </p>
             <p>
-                Species: ['pseudaeluri']
+                <b>Species</b>: pseudaeluri
             </p>
         </div>
         <div class="main-image-container">

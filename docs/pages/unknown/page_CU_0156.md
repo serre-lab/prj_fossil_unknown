@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-33678', 'USNM-33678', 'USNM-33678']
+                <b>InstPrefix+Catalog #</b>: USNM-33678, USNM-33678, USNM-33678
             </p>
             <p>
-                Family: ['Incertae sedis', 'Incertae sedis', 'Incertae sedis']
+                <b>Family</b>: Incertae sedis, Incertae sedis, Incertae sedis
             </p>
             <p>
-                Genus: ['Archaeomnium', 'Hypnum', 'Hypnum (?)']
+                <b>Genus</b>: Archaeomnium, Hypnum, Hypnum (?)
             </p>
             <p>
-                Species: ['brownii', 'brownii', 'brownii']
+                <b>Species</b>: brownii, brownii, brownii
             </p>
         </div>
         <div class="main-image-container">

@@ -117,16 +117,18 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                Not Found:  
+                <b>Class 2, Kingdom</b>: Plantae
             </p>
             <p>
-                Not Found:  
+                <b>Sci. Name, Obj/Science</b>: Cotinus __ __fraterna
             </p>
             <p>
-                Not Found:  
+                <b>Geo Unit</b>: Middle Shale Unit
             </p>
             <p>
-                Not Found:  
+                <b>Description</b>: Leaf from bulk
+very faint fruit (Diplodipelta reniptera?) on same slab
+tf2
             </p>
         </div>
         <div class="main-image-container">

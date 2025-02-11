@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                Not Found:  
+                <b>Class 2, Kingdom</b>: Plantae
             </p>
             <p>
-                Not Found:  
+                <b>Sci. Name, Obj/Science</b>: Sapindus __ __coloradensis
             </p>
             <p>
-                Not Found:  
+                <b>Geo Unit</b>: 
             </p>
             <p>
-                Not Found:  
+                <b>Description</b>: PART OF THE COMPOUND LEAF Sapindus (SOAPBERRY).  MAX LENGTH APPROX. 90 MM AND WIDTH 75 MM.  THERE ARE APPROX. 11 LEAFLETS VISIBLE.  THE PETIOLE AND LOWER LEAFLETS ARE MISSING.  THE ROCK IS SPLIT IN TWO.  IT MEASURES 130 X 98 X 25 MM.
             </p>
         </div>
         <div class="main-image-container">

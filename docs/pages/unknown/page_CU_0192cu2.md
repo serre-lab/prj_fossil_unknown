@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-40771']
+                <b>InstPrefix+Catalog #</b>: USNM-40771
             </p>
             <p>
-                Family: ['Aristolochiaceae']
+                <b>Family</b>: Aristolochiaceae
             </p>
             <p>
-                Genus: ['Aristolochia']
+                <b>Genus</b>: Aristolochia
             </p>
             <p>
-                Species: ['mortua']
+                <b>Species</b>: mortua
             </p>
         </div>
         <div class="main-image-container">

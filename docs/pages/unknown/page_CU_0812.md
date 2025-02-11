@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-1906', 'USNM-1906', 'USNM-1906']
+                <b>InstPrefix+Catalog #</b>: USNM-1906, USNM-1906, USNM-1906
             </p>
             <p>
-                Family: ['Rhamnaceae', 'Rutaceae', 'Rutaceae']
+                <b>Family</b>: Rhamnaceae, Rutaceae, Rutaceae
             </p>
             <p>
-                Genus: ['Colubrina', 'Zanthoxylon', 'Fagara']
+                <b>Genus</b>: Colubrina, Zanthoxylon, Fagara
             </p>
             <p>
-                Species: ['spireaefolia', 'spireaefolium', 'spireaefolia']
+                <b>Species</b>: spireaefolia, spireaefolium, spireaefolia
             </p>
         </div>
         <div class="main-image-container">

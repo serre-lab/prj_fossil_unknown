@@ -99,6 +99,11 @@
         </div>
     </div>
 
+    <h3>📑 Metadata (Google Spreadsheet)</h3>
+    <ul>
+        <li><a href = "https://docs.google.com/spreadsheets/d/1IxU4YjUBWdJyolYbKlNUQetb7sDlN3sV/edit?usp=sharing&ouid=117124297544856301307&rtpof=true&sd=true" target="_blank">Florissant CU Metadata </a></li>
+        <li><a href = "https://docs.google.com/spreadsheets/d/1o7OIcT5ikbqbk5bJIWYm-jesXnIc5whp/edit?usp=sharing&ouid=117124297544856301307&rtpof=true&sd=true" target="_blank">Florissant FLFO Metadata</a></li>
+    </ul>
     <h3>📋 Overview</h3>
     <p>Welcome to our Unidentified Fossil Classification Documentation! This guide will help you navigate our website and understand our machine learning models' predictions for unidentified fossils.</p>
 

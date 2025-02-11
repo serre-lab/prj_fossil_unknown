@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['UCM-18583']
+                <b>InstPrefix+Catalog #</b>: UCM-18583
             </p>
             <p>
-                Family: ['Moraceae']
+                <b>Family</b>: Moraceae
             </p>
             <p>
-                Genus: ['Morus']
+                <b>Genus</b>: Morus
             </p>
             <p>
-                Species: ['symmetrica']
+                <b>Species</b>: symmetrica
             </p>
         </div>
         <div class="main-image-container">

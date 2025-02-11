@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                Not Found:  
+                <b>Class 2, Kingdom</b>: Plantae
             </p>
             <p>
-                Not Found:  
+                <b>Sci. Name, Obj/Science</b>: Sapindus __cf. __coloradensis
             </p>
             <p>
-                Not Found:  
+                <b>Geo Unit</b>: Unknown
             </p>
             <p>
-                Not Found:  
+                <b>Description</b>: LEAF IS 1 X 4 CM, ON SHALE 10 CM X 8 CM X 2 MM.  IT IS THE BOOK MATCH TO FLFO 95.
             </p>
         </div>
         <div class="main-image-container">

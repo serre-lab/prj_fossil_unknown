@@ -117,16 +117,18 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                Not Found:  
+                <b>Class 2, Kingdom</b>: Plantae
             </p>
             <p>
-                Not Found:  
+                <b>Sci. Name, Obj/Science</b>:  __ __ __ __ __Unidentified Rosaceae
             </p>
             <p>
-                Not Found:  
+                <b>Geo Unit</b>: Middle Shale Unit
             </p>
             <p>
-                Not Found:  
+                <b>Description</b>: unknown Rosaceae, could be Rosa hilliae, could be new morphotype; Tf2;
+D.M.Smith Diss.
+No Damage
             </p>
         </div>
         <div class="main-image-container">

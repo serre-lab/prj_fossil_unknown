@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-40588A']
+                <b>InstPrefix+Catalog #</b>: USNM-40588A
             </p>
             <p>
-                Family: ['Sapindaceae']
+                <b>Family</b>: Sapindaceae
             </p>
             <p>
-                Genus: ['Sapindus']
+                <b>Genus</b>: Sapindus
             </p>
             <p>
-                Species: ['coloradensis']
+                <b>Species</b>: coloradensis
             </p>
         </div>
         <div class="main-image-container">

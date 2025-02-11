@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-1742', 'USNM-1742']
+                <b>InstPrefix+Catalog #</b>: USNM-1742, USNM-1742
             </p>
             <p>
-                Family: ['Anacardiaceae', 'Betulaceae']
+                <b>Family</b>: Anacardiaceae, Betulaceae
             </p>
             <p>
-                Genus: ['Astronium', 'Betula']
+                <b>Genus</b>: Astronium, Betula
             </p>
             <p>
-                Species: ['truncatum', 'truncata']
+                <b>Species</b>: truncatum, truncata
             </p>
         </div>
         <div class="main-image-container">

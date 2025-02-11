@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-1615', 'USNM-1615']
+                <b>InstPrefix+Catalog #</b>: USNM-1615, USNM-1615
             </p>
             <p>
-                Family: ['Filices', 'Anemiaceae']
+                <b>Family</b>: Filices, Anemiaceae
             </p>
             <p>
-                Genus: ['Adiantites', 'Aneimia (?)']
+                <b>Genus</b>: Adiantites, Aneimia (?)
             </p>
             <p>
-                Species: ['gracillimus', 'gracillima']
+                <b>Species</b>: gracillimus, gracillima
             </p>
         </div>
         <div class="main-image-container">

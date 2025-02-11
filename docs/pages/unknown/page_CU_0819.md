@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-405887', 'USNM-405887']
+                <b>InstPrefix+Catalog #</b>: USNM-405887, USNM-405887
             </p>
             <p>
-                Family: ['Celastroideae', 'Rosaceae']
+                <b>Family</b>: Celastroideae, Rosaceae
             </p>
             <p>
-                Genus: ['Celastrus', 'Amelanchier']
+                <b>Genus</b>: Celastrus, Amelanchier
             </p>
             <p>
-                Species: ['typica', 'typica']
+                <b>Species</b>: typica, typica
             </p>
         </div>
         <div class="main-image-container">

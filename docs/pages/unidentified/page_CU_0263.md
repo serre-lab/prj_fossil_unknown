@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-360', 'USNM-360', 'USNM-360']
+                <b>InstPrefix+Catalog #</b>: USNM-360, USNM-360, USNM-360
             </p>
             <p>
-                Family: ['Saxifragaceae', 'Anacardiaceae', 'Saxifragaceae']
+                <b>Family</b>: Saxifragaceae, Anacardiaceae, Saxifragaceae
             </p>
             <p>
-                Genus: ['Weinmannia', 'Rhus', 'Weinmannia (?)']
+                <b>Genus</b>: Weinmannia, Rhus, Weinmannia (?)
             </p>
             <p>
-                Species: ['rosaefolia', 'rosaefolia', 'dubiosa']
+                <b>Species</b>: rosaefolia, rosaefolia, dubiosa
             </p>
         </div>
         <div class="main-image-container">

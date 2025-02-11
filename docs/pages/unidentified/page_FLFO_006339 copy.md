@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                Not Found:  
+                <b>Class 2, Kingdom</b>: Animalia
             </p>
             <p>
-                Not Found:  
+                <b>Sci. Name, Obj/Science</b>:  __ __ __ __ __Unidentified Elateridae
             </p>
             <p>
-                Not Found:  
+                <b>Geo Unit</b>: Middle Shale Unit
             </p>
             <p>
-                Not Found:  
+                <b>Description</b>: On same slab as FLFO-6340, FLFO-6341, AND FLFO-6342. Identification questionable
             </p>
         </div>
         <div class="main-image-container">

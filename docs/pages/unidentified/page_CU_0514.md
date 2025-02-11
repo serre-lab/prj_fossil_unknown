@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['UCMP-3694']
+                <b>InstPrefix+Catalog #</b>: UCMP-3694
             </p>
             <p>
-                Family: ['Incertae sedis']
+                <b>Family</b>: Incertae sedis
             </p>
             <p>
-                Genus: ['Antholithes']
+                <b>Genus</b>: Antholithes
             </p>
             <p>
-                Species: ['pediloides']
+                <b>Species</b>: pediloides
             </p>
         </div>
         <div class="main-image-container">

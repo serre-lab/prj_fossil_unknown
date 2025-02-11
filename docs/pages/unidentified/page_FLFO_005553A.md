@@ -117,16 +117,17 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                Not Found:  
+                <b>Class 2, Kingdom</b>: 
             </p>
             <p>
-                Not Found:  
+                <b>Sci. Name, Obj/Science</b>: Unidentified Plantae
             </p>
             <p>
-                Not Found:  
+                <b>Geo Unit</b>: Upper Shale Unit
             </p>
             <p>
-                Not Found:  
+                <b>Description</b>: UNSPECIFIED LEAF PART AND COUNTERPART
+On same slab as FLFO 5552 and FLFO 5554
             </p>
         </div>
         <div class="main-image-container">

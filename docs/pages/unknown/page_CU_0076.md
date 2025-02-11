@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-50348 [SEE NOTES]']
+                <b>InstPrefix+Catalog #</b>: USNM-50348 [SEE NOTES]
             </p>
             <p>
-                Family: ['Frangulaceae']
+                <b>Family</b>: Frangulaceae
             </p>
             <p>
-                Genus: ['Celastrinites']
+                <b>Genus</b>: Celastrinites
             </p>
             <p>
-                Species: ['elegans']
+                <b>Species</b>: elegans
             </p>
         </div>
         <div class="main-image-container">

@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-34759']
+                <b>InstPrefix+Catalog #</b>: USNM-34759
             </p>
             <p>
-                Family: ['Grimmiaceae']
+                <b>Family</b>: Grimmiaceae
             </p>
             <p>
-                Genus: ['Plagiopodopsis']
+                <b>Genus</b>: Plagiopodopsis
             </p>
             <p>
-                Species: ['scudderi']
+                <b>Species</b>: scudderi
             </p>
         </div>
         <div class="main-image-container">

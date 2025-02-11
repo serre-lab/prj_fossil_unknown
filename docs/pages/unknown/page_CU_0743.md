@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-1794', 'USNM-1794']
+                <b>InstPrefix+Catalog #</b>: USNM-1794, USNM-1794
             </p>
             <p>
-                Family: ['Incertae sedis', 'Oleaceae']
+                <b>Family</b>: Incertae sedis, Oleaceae
             </p>
             <p>
-                Genus: ['Populites', 'Fraxinus']
+                <b>Genus</b>: Populites, Fraxinus
             </p>
             <p>
-                Species: ['heeri', 'heeri']
+                <b>Species</b>: heeri, heeri
             </p>
         </div>
         <div class="main-image-container">

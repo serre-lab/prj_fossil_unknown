@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-387524']
+                <b>InstPrefix+Catalog #</b>: USNM-387524
             </p>
             <p>
-                Family: ['Fontinalaceae']
+                <b>Family</b>: Fontinalaceae
             </p>
             <p>
-                Genus: ['Fontinalis']
+                <b>Genus</b>: Fontinalis
             </p>
             <p>
-                Species: ['pristina']
+                <b>Species</b>: pristina
             </p>
         </div>
         <div class="main-image-container">

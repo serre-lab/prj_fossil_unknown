@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['UCMP-3725']
+                <b>InstPrefix+Catalog #</b>: UCMP-3725
             </p>
             <p>
-                Family: ['Aristolochiaceae']
+                <b>Family</b>: Aristolochiaceae
             </p>
             <p>
-                Genus: ['Aristolochia']
+                <b>Genus</b>: Aristolochia
             </p>
             <p>
-                Species: ['mortua']
+                <b>Species</b>: mortua
             </p>
         </div>
         <div class="main-image-container">

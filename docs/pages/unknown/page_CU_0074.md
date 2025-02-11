@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-34764', 'USNM-34764']
+                <b>InstPrefix+Catalog #</b>: USNM-34764, USNM-34764
             </p>
             <p>
-                Family: ['Moraceae', 'Betulaceae']
+                <b>Family</b>: Moraceae, Betulaceae
             </p>
             <p>
-                Genus: ['Morus', 'Betula']
+                <b>Genus</b>: Morus, Betula
             </p>
             <p>
-                Species: ['symmetrica', 'deltoides']
+                <b>Species</b>: symmetrica, deltoides
             </p>
         </div>
         <div class="main-image-container">

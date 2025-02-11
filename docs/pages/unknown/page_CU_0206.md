@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-40590']
+                <b>InstPrefix+Catalog #</b>: USNM-40590
             </p>
             <p>
-                Family: ['Incertae sedis']
+                <b>Family</b>: Incertae sedis
             </p>
             <p>
-                Genus: ['Aster']
+                <b>Genus</b>: Aster
             </p>
             <p>
-                Species: ['florissantia']
+                <b>Species</b>: florissantia
             </p>
         </div>
         <div class="main-image-container">

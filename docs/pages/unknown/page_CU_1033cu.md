@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['YPM-23950']
+                <b>InstPrefix+Catalog #</b>: YPM-23950
             </p>
             <p>
-                Family: ['Rutaceae']
+                <b>Family</b>: Rutaceae
             </p>
             <p>
-                Genus: ['Ptelea']
+                <b>Genus</b>: Ptelea
             </p>
             <p>
-                Species: ['cassoides']
+                <b>Species</b>: cassoides
             </p>
         </div>
         <div class="main-image-container">

@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                Not Found:  
+                <b>Class 2, Kingdom</b>: Plantae
             </p>
             <p>
-                Not Found:  
+                <b>Sci. Name, Obj/Science</b>: UNSPECIFIED URTICALES
             </p>
             <p>
-                Not Found:  
+                <b>Geo Unit</b>: 
             </p>
             <p>
-                Not Found:  
+                <b>Description</b>: UNSPECIFIED URTICALES FROM SHALE THAT WAS TAKEN FROM BOULDER CREEK TRAIL DURING THE SUMMER OF 2008
             </p>
         </div>
         <div class="main-image-container">

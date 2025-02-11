@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['USNM-50323', 'USNM-50323']
+                <b>InstPrefix+Catalog #</b>: USNM-50323, USNM-50323
             </p>
             <p>
-                Family: ['Anacardiaceae', 'Oleaceae']
+                <b>Family</b>: Anacardiaceae, Oleaceae
             </p>
             <p>
-                Genus: ['Cotinus', 'Fraxinus']
+                <b>Genus</b>: Cotinus, Fraxinus
             </p>
             <p>
-                Species: ['fraterna', 'ungeri']
+                <b>Species</b>: fraterna, ungeri
             </p>
         </div>
         <div class="main-image-container">

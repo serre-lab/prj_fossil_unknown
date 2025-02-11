@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                InstPrefix+Catalog #: ['YPM-30076']
+                <b>InstPrefix+Catalog #</b>: YPM-30076
             </p>
             <p>
-                Family: [nan]
+                <b>Family</b>: 
             </p>
             <p>
-                Genus: ['Aspidium']
+                <b>Genus</b>: Aspidium
             </p>
             <p>
-                Species: [nan]
+                <b>Species</b>: 
             </p>
         </div>
         <div class="main-image-container">

@@ -117,16 +117,16 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                Not Found:  
+                <b>Class 2, Kingdom</b>: Plantae
             </p>
             <p>
-                Not Found:  
+                <b>Sci. Name, Obj/Science</b>: Ginkgo __ __sp.
             </p>
             <p>
-                Not Found:  
+                <b>Geo Unit</b>: Unknown
             </p>
             <p>
-                Not Found:  
+                <b>Description</b>: FIRST GINKGO FOUND IN FLORISSANT FORMATION AT I&M SITE 26 DURING SUMMER 2008 EXCAVATION
             </p>
         </div>
         <div class="main-image-container">
