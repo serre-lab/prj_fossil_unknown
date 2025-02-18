@@ -187,27 +187,27 @@
             <h3>Similar Specimens</h3>
             <div class="similar-images-grid">
                 <div class="similar-image-container">
-                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Sapindaceae/Sapindaceae_Acer_sp_Florissant_FLFO_010822.jpg" alt="Similar specimen">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Sapindaceae/Sapindaceae_Acer_sp_Florissant_FLFO_010822.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Sapindaceae/Sapindaceae_Acer_sp_Florissant_FLFO_010822.jpg" alt="Similar specimen"></a>
                     <div class="image-caption">Sapindaceae_Acer_sp_Florissant_FLFO_010822</div>
                 </div>
                 <div class="similar-image-container">
-                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Sapindaceae/Sapindaceae_Cardiospermum_terminalis_Florissant_CU_0605cu1.jpg" alt="Similar specimen">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Sapindaceae/Sapindaceae_Cardiospermum_terminalis_Florissant_CU_0605cu1.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Sapindaceae/Sapindaceae_Cardiospermum_terminalis_Florissant_CU_0605cu1.jpg" alt="Similar specimen"></a>
                     <div class="image-caption">Sapindaceae_Cardiospermum_terminalis_Florissant_CU_0605cu1</div>
                 </div>
                 <div class="similar-image-container">
-                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Berberidaceae/Berberidaceae_Mahonia_sp_Florissant_FLFO_004936.jpg" alt="Similar specimen">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Berberidaceae/Berberidaceae_Mahonia_sp_Florissant_FLFO_004936.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Berberidaceae/Berberidaceae_Mahonia_sp_Florissant_FLFO_004936.jpg" alt="Similar specimen"></a>
                     <div class="image-caption">Berberidaceae_Mahonia_sp_Florissant_FLFO_004936</div>
                 </div>
                 <div class="similar-image-container">
-                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Berberidaceae/Berberidaceae_Mahonia_marginata_Florissant_CU_0134.jpg" alt="Similar specimen">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Berberidaceae/Berberidaceae_Mahonia_marginata_Florissant_CU_0134.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Berberidaceae/Berberidaceae_Mahonia_marginata_Florissant_CU_0134.jpg" alt="Similar specimen"></a>
                     <div class="image-caption">Berberidaceae_Mahonia_marginata_Florissant_CU_0134</div>
                 </div>
                 <div class="similar-image-container">
-                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Sapindaceae/Sapindaceae_Acer_florissantii_Florissant_CU_1197.jpg" alt="Similar specimen">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Sapindaceae/Sapindaceae_Acer_florissantii_Florissant_CU_1197.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Sapindaceae/Sapindaceae_Acer_florissantii_Florissant_CU_1197.jpg" alt="Similar specimen"></a>
                     <div class="image-caption">Sapindaceae_Acer_florissantii_Florissant_CU_1197</div>
                 </div>
                 <div class="similar-image-container">
-                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Sapindaceae/Sapindaceae_Cardiospermum_terminalis_Florissant_FLFO_006928.jpg" alt="Similar specimen">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Sapindaceae/Sapindaceae_Cardiospermum_terminalis_Florissant_FLFO_006928.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Sapindaceae/Sapindaceae_Cardiospermum_terminalis_Florissant_FLFO_006928.jpg" alt="Similar specimen"></a>
                     <div class="image-caption">Sapindaceae_Cardiospermum_terminalis_Florissant_FLFO_006928</div>
                 </div>
             </div>

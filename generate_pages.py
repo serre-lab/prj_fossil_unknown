@@ -249,27 +249,27 @@ html_template = """
             <h3>Similar Specimens</h3>
             <div class="similar-images-grid">
                 <div class="similar-image-container">
-                    <img class="similar-image" src="{sm1}" alt="Similar specimen">
+                    <a href="{sm1}" target="_blank"><img class="similar-image" src="{sm1}" alt="Similar specimen"></a>
                     <div class="image-caption">{sm1_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <img class="similar-image" src="{sm2}" alt="Similar specimen">
+                    <a href="{sm2}" target="_blank"><img class="similar-image" src="{sm2}" alt="Similar specimen"></a>
                     <div class="image-caption">{sm2_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <img class="similar-image" src="{sm3}" alt="Similar specimen">
+                    <a href="{sm3}" target="_blank"><img class="similar-image" src="{sm3}" alt="Similar specimen"></a>
                     <div class="image-caption">{sm3_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <img class="similar-image" src="{sm4}" alt="Similar specimen">
+                    <a href="{sm4}" target="_blank"><img class="similar-image" src="{sm4}" alt="Similar specimen"></a>
                     <div class="image-caption">{sm4_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <img class="similar-image" src="{sm5}" alt="Similar specimen">
+                    <a href="{sm5}" target="_blank"><img class="similar-image" src="{sm5}" alt="Similar specimen"></a>
                     <div class="image-caption">{sm5_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <img class="similar-image" src="{sm6}" alt="Similar specimen">
+                    <a href="{sm6}" target="_blank"><img class="similar-image" src="{sm6}" alt="Similar specimen"></a>
                     <div class="image-caption">{sm6_name}</div>
                 </div>
             </div>

@@ -187,27 +187,27 @@
             <h3>Similar Specimens</h3>
             <div class="similar-images-grid">
                 <div class="similar-image-container">
-                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Juglandaceae/Juglandaceae_Carya_libbeyi_Florissant_FLFO_003613.jpg" alt="Similar specimen">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Juglandaceae/Juglandaceae_Carya_libbeyi_Florissant_FLFO_003613.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Juglandaceae/Juglandaceae_Carya_libbeyi_Florissant_FLFO_003613.jpg" alt="Similar specimen"></a>
                     <div class="image-caption">Juglandaceae_Carya_libbeyi_Florissant_FLFO_003613</div>
                 </div>
                 <div class="similar-image-container">
-                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Juglandaceae/Juglandaceae_Carya_libbeyi_Florissant_CU_0668cu.jpg" alt="Similar specimen">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Juglandaceae/Juglandaceae_Carya_libbeyi_Florissant_CU_0668cu.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Juglandaceae/Juglandaceae_Carya_libbeyi_Florissant_CU_0668cu.jpg" alt="Similar specimen"></a>
                     <div class="image-caption">Juglandaceae_Carya_libbeyi_Florissant_CU_0668cu</div>
                 </div>
                 <div class="similar-image-container">
-                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Juglandaceae/Juglandaceae_Carya_libbeyi_Florissant_FLFO_010621.jpg" alt="Similar specimen">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Juglandaceae/Juglandaceae_Carya_libbeyi_Florissant_FLFO_010621.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Juglandaceae/Juglandaceae_Carya_libbeyi_Florissant_FLFO_010621.jpg" alt="Similar specimen"></a>
                     <div class="image-caption">Juglandaceae_Carya_libbeyi_Florissant_FLFO_010621</div>
                 </div>
                 <div class="similar-image-container">
-                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Ulmaceae/Ulmaceae_Cedrelospermum_lineatum_Florissant_FLFO_010694B.jpg" alt="Similar specimen">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Ulmaceae/Ulmaceae_Cedrelospermum_lineatum_Florissant_FLFO_010694B.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Ulmaceae/Ulmaceae_Cedrelospermum_lineatum_Florissant_FLFO_010694B.jpg" alt="Similar specimen"></a>
                     <div class="image-caption">Ulmaceae_Cedrelospermum_lineatum_Florissant_FLFO_010694B</div>
                 </div>
                 <div class="similar-image-container">
-                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Ulmaceae/Ulmaceae_Cedrelospermum_lineatum_Florissant_FLFO_010984A.jpg" alt="Similar specimen">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Ulmaceae/Ulmaceae_Cedrelospermum_lineatum_Florissant_FLFO_010984A.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Ulmaceae/Ulmaceae_Cedrelospermum_lineatum_Florissant_FLFO_010984A.jpg" alt="Similar specimen"></a>
                     <div class="image-caption">Ulmaceae_Cedrelospermum_lineatum_Florissant_FLFO_010984A</div>
                 </div>
                 <div class="similar-image-container">
-                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Ulmaceae/Ulmaceae_Cedrelospermum_lineatum_Florissant_FLFO_002864A.jpg" alt="Similar specimen">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Ulmaceae/Ulmaceae_Cedrelospermum_lineatum_Florissant_FLFO_002864A.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Ulmaceae/Ulmaceae_Cedrelospermum_lineatum_Florissant_FLFO_002864A.jpg" alt="Similar specimen"></a>
                     <div class="image-caption">Ulmaceae_Cedrelospermum_lineatum_Florissant_FLFO_002864A</div>
                 </div>
             </div>
