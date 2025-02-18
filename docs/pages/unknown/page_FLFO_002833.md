@@ -98,6 +98,56 @@
         .predictions a:hover {
             color: blue;
         }
+
+        .similar-images {
+            margin-top: 2em;
+            padding: 1em;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+        }
+
+        .similar-images h3 {
+            margin-bottom: 1em;
+            color: #333;
+        }
+        .similar-images-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1em;
+        }
+        .similar-image {
+            width: 100%;
+            aspect-ratio: 1;
+            object-fit: contain;
+            border-radius: 4px;
+            transition: transform 0.2s;
+        }
+
+        .similar-image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%; /* Matches image width */
+        }
+
+        .similar-image:hover {
+            transform: scale(1.4);
+        }
+
+        .image-caption {
+            width: 150px; /* Match image width */
+            text-align: center;
+            font-size: 0.5em;
+            margin-top: 5px;
+            word-wrap: break-word; /* Ensures text wraps within width */
+            overflow-wrap: break-word; /* Alternative for better compatibility */
+        }
+
+        @media (max-width: 768px) {
+            .similar-images-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
     </style>
 </head>
 <body>
@@ -133,6 +183,35 @@ tf2
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/FLFO_002833/image.jpg" alt="Fossil Image">
+        </div>
+        <div class="similar-images">
+            <h3>Similar Specimens</h3>
+            <div class="similar-images-grid">
+                <div class="similar-image-container">
+                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Salicaceae/Salicaceae_Populus_crassa_Florissant_FLFO_003908.jpg" alt="Similar specimen">
+                    <div class="image-caption">Salicaceae_Populus_crassa_Florissant_FLFO_003908</div>
+                </div>
+                <div class="similar-image-container">
+                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Viburnaceae/Viburnaceae_Sambucus_newtoni_Florissant_CU_0141.jpg" alt="Similar specimen">
+                    <div class="image-caption">Viburnaceae_Sambucus_newtoni_Florissant_CU_0141</div>
+                </div>
+                <div class="similar-image-container">
+                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Viburnaceae/Viburnaceae_Sambucus_newtoni_Florissant_CU_0509.jpg" alt="Similar specimen">
+                    <div class="image-caption">Viburnaceae_Sambucus_newtoni_Florissant_CU_0509</div>
+                </div>
+                <div class="similar-image-container">
+                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Ulmaceae/Ulmaceae_Cedrelospermum_lineatum_Florissant_FLFO_011688_L1.jpg" alt="Similar specimen">
+                    <div class="image-caption">Ulmaceae_Cedrelospermum_lineatum_Florissant_FLFO_011688_L1</div>
+                </div>
+                <div class="similar-image-container">
+                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Salicaceae/Salicaceae_Populus_sp_Florissant_CU_0600.jpg" alt="Similar specimen">
+                    <div class="image-caption">Salicaceae_Populus_sp_Florissant_CU_0600</div>
+                </div>
+                <div class="similar-image-container">
+                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Ulmaceae/Ulmaceae_Cedrelospermum_lineatum_Florissant_FLFO_010679B.jpg" alt="Similar specimen">
+                    <div class="image-caption">Ulmaceae_Cedrelospermum_lineatum_Florissant_FLFO_010679B</div>
+                </div>
+            </div>
         </div>
         <h2>Concept Images</h2>
         <div class="concept-container">

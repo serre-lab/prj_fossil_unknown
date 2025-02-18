@@ -98,6 +98,56 @@
         .predictions a:hover {
             color: blue;
         }
+
+        .similar-images {
+            margin-top: 2em;
+            padding: 1em;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+        }
+
+        .similar-images h3 {
+            margin-bottom: 1em;
+            color: #333;
+        }
+        .similar-images-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1em;
+        }
+        .similar-image {
+            width: 100%;
+            aspect-ratio: 1;
+            object-fit: contain;
+            border-radius: 4px;
+            transition: transform 0.2s;
+        }
+
+        .similar-image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%; /* Matches image width */
+        }
+
+        .similar-image:hover {
+            transform: scale(1.4);
+        }
+
+        .image-caption {
+            width: 150px; /* Match image width */
+            text-align: center;
+            font-size: 0.5em;
+            margin-top: 5px;
+            word-wrap: break-word; /* Ensures text wraps within width */
+            overflow-wrap: break-word; /* Alternative for better compatibility */
+        }
+
+        @media (max-width: 768px) {
+            .similar-images-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
     </style>
 </head>
 <body>
@@ -134,6 +184,35 @@ Collected in Brooks Elwood excavation section 3, first shale layer from the bott
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/FLFO_009610B/image.jpg" alt="Fossil Image">
+        </div>
+        <div class="similar-images">
+            <h3>Similar Specimens</h3>
+            <div class="similar-images-grid">
+                <div class="similar-image-container">
+                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Rosaceae/Rosaceae_Rosa_sp_Florissant_FLFO_003118.jpg" alt="Similar specimen">
+                    <div class="image-caption">Rosaceae_Rosa_sp_Florissant_FLFO_003118</div>
+                </div>
+                <div class="similar-image-container">
+                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Rosaceae/Rosaceae_Crataegus_copeana_Florissant_CU_0649.jpg" alt="Similar specimen">
+                    <div class="image-caption">Rosaceae_Crataegus_copeana_Florissant_CU_0649</div>
+                </div>
+                <div class="similar-image-container">
+                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Rosaceae/Rosaceae_Crataegus_sp_Florissant_FLFO_006049.jpg" alt="Similar specimen">
+                    <div class="image-caption">Rosaceae_Crataegus_sp_Florissant_FLFO_006049</div>
+                </div>
+                <div class="similar-image-container">
+                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Rosaceae/Rosaceae_Rosa_sp_Florissant_FLFO_010782A.jpg" alt="Similar specimen">
+                    <div class="image-caption">Rosaceae_Rosa_sp_Florissant_FLFO_010782A</div>
+                </div>
+                <div class="similar-image-container">
+                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Rosaceae/Rosaceae_Vauquelinia_sp_Florissant_CU_0548.jpg" alt="Similar specimen">
+                    <div class="image-caption">Rosaceae_Vauquelinia_sp_Florissant_CU_0548</div>
+                </div>
+                <div class="similar-image-container">
+                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Rosaceae/Rosaceae_Cercocarpus_myricaefolius_Florissant_FLFO_011492A.jpg" alt="Similar specimen">
+                    <div class="image-caption">Rosaceae_Cercocarpus_myricaefolius_Florissant_FLFO_011492A</div>
+                </div>
+            </div>
         </div>
         <h2>Concept Images</h2>
         <div class="concept-container">

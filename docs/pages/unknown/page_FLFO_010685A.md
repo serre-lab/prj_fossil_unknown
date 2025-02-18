@@ -98,6 +98,56 @@
         .predictions a:hover {
             color: blue;
         }
+
+        .similar-images {
+            margin-top: 2em;
+            padding: 1em;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+        }
+
+        .similar-images h3 {
+            margin-bottom: 1em;
+            color: #333;
+        }
+        .similar-images-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1em;
+        }
+        .similar-image {
+            width: 100%;
+            aspect-ratio: 1;
+            object-fit: contain;
+            border-radius: 4px;
+            transition: transform 0.2s;
+        }
+
+        .similar-image-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%; /* Matches image width */
+        }
+
+        .similar-image:hover {
+            transform: scale(1.4);
+        }
+
+        .image-caption {
+            width: 150px; /* Match image width */
+            text-align: center;
+            font-size: 0.5em;
+            margin-top: 5px;
+            word-wrap: break-word; /* Ensures text wraps within width */
+            overflow-wrap: break-word; /* Alternative for better compatibility */
+        }
+
+        @media (max-width: 768px) {
+            .similar-images-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
+        }
     </style>
 </head>
 <body>
@@ -132,6 +182,35 @@
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/FLFO_010685A/image.jpg" alt="Fossil Image">
+        </div>
+        <div class="similar-images">
+            <h3>Similar Specimens</h3>
+            <div class="similar-images-grid">
+                <div class="similar-image-container">
+                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Fabaceae/Fabaceae_Robinia_lesquereuxi_Florissant_FLFO_003285.jpg" alt="Similar specimen">
+                    <div class="image-caption">Fabaceae_Robinia_lesquereuxi_Florissant_FLFO_003285</div>
+                </div>
+                <div class="similar-image-container">
+                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Fabaceae/Fabaceae_Robinia_lesquereuxi_Florissant_FLFO_008507.jpg" alt="Similar specimen">
+                    <div class="image-caption">Fabaceae_Robinia_lesquereuxi_Florissant_FLFO_008507</div>
+                </div>
+                <div class="similar-image-container">
+                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Fabaceae/Fabaceae_Fabaceae_sp_Florissant_FLFO_011039A.jpg" alt="Similar specimen">
+                    <div class="image-caption">Fabaceae_Fabaceae_sp_Florissant_FLFO_011039A</div>
+                </div>
+                <div class="similar-image-container">
+                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Fabaceae/Fabaceae_Robinia_lesquereuxi_Florissant_FLFO_003557A.jpg" alt="Similar specimen">
+                    <div class="image-caption">Fabaceae_Robinia_lesquereuxi_Florissant_FLFO_003557A</div>
+                </div>
+                <div class="similar-image-container">
+                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Fabaceae/Fabaceae_Robinia_lesquereuxi_Florissant_FLFO_003383.jpg" alt="Similar specimen">
+                    <div class="image-caption">Fabaceae_Robinia_lesquereuxi_Florissant_FLFO_003383</div>
+                </div>
+                <div class="similar-image-container">
+                    <img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Fabaceae/Fabaceae_Robinia_lesquereuxi_Florissant_FLFO_010509.jpg" alt="Similar specimen">
+                    <div class="image-caption">Fabaceae_Robinia_lesquereuxi_Florissant_FLFO_010509</div>
+                </div>
+            </div>
         </div>
         <h2>Concept Images</h2>
         <div class="concept-container">

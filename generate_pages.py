@@ -1,7 +1,8 @@
 import os
 import json
 import pandas as pd
-
+import numpy as np
+from sklearn.metrics.pairwise import cosine_similarity
 
 cu_df = pd.read_excel("../Florissant_CUmetadata.xlsx")
 flfo_df = pd.read_excel("../Florissant_FLFOmetadata.xls")
@@ -29,6 +30,8 @@ MKDOCS_YML = os.path.join(PROJECT_DIR, "mkdocs.yml")
 Unknown_IMAGE_URL = "https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/{}/image.jpg"
 Unknown_CONCEPT_URL = "https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts4/fossil_{}/{}"
 
+Known_IMAGE_URL = "https://storage.googleapis.com/{}.jpg"
+
 Unidentified_IMAGE_URL = "https://storage.googleapis.com/serrelab/prj_fossils/2024/Unidentified/{}.jpg"
 Unidentified_CONCEPT_URL = "https://storage.googleapis.com/serrelab/prj_fossils/unidentified_fossils_concepts1/fossil_{}/{}"
 
@@ -50,6 +53,12 @@ with open("unidentified_image_names.json", "r") as file:
 
 with open("unidentified_fossil_predictions.json", "r") as file:
     unidentified_image_predictions = json.load(file)
+
+with open("unknown_closest.json", "r") as file:
+    unknown_closest = json.load(file)
+
+with open("unidentified_closest.json", "r") as file:
+    unidentified_closest = json.load(file)
 
 html_template = """
 <!DOCTYPE html>
@@ -151,6 +160,56 @@ html_template = """
         .predictions a:hover {{
             color: blue;
         }}
+
+        .similar-images {{
+            margin-top: 2em;
+            padding: 1em;
+            background-color: #f5f5f5;
+            border-radius: 8px;
+        }}
+
+        .similar-images h3 {{
+            margin-bottom: 1em;
+            color: #333;
+        }}
+        .similar-images-grid {{
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 1em;
+        }}
+        .similar-image {{
+            width: 100%;
+            aspect-ratio: 1;
+            object-fit: contain;
+            border-radius: 4px;
+            transition: transform 0.2s;
+        }}
+
+        .similar-image-container {{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            width: 100%; /* Matches image width */
+        }}
+
+        .similar-image:hover {{
+            transform: scale(1.4);
+        }}
+
+        .image-caption {{
+            width: 150px; /* Match image width */
+            text-align: center;
+            font-size: 0.5em;
+            margin-top: 5px;
+            word-wrap: break-word; /* Ensures text wraps within width */
+            overflow-wrap: break-word; /* Alternative for better compatibility */
+        }}
+
+        @media (max-width: 768px) {{
+            .similar-images-grid {{
+                grid-template-columns: repeat(2, 1fr);
+            }}
+        }}
     </style>
 </head>
 <body>
@@ -185,6 +244,35 @@ html_template = """
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
             <img src="{main_image}" alt="Fossil Image">
+        </div>
+        <div class="similar-images">
+            <h3>Similar Specimens</h3>
+            <div class="similar-images-grid">
+                <div class="similar-image-container">
+                    <img class="similar-image" src="{sm1}" alt="Similar specimen">
+                    <div class="image-caption">{sm1_name}</div>
+                </div>
+                <div class="similar-image-container">
+                    <img class="similar-image" src="{sm2}" alt="Similar specimen">
+                    <div class="image-caption">{sm2_name}</div>
+                </div>
+                <div class="similar-image-container">
+                    <img class="similar-image" src="{sm3}" alt="Similar specimen">
+                    <div class="image-caption">{sm3_name}</div>
+                </div>
+                <div class="similar-image-container">
+                    <img class="similar-image" src="{sm4}" alt="Similar specimen">
+                    <div class="image-caption">{sm4_name}</div>
+                </div>
+                <div class="similar-image-container">
+                    <img class="similar-image" src="{sm5}" alt="Similar specimen">
+                    <div class="image-caption">{sm5_name}</div>
+                </div>
+                <div class="similar-image-container">
+                    <img class="similar-image" src="{sm6}" alt="Similar specimen">
+                    <div class="image-caption">{sm6_name}</div>
+                </div>
+            </div>
         </div>
         <h2>Concept Images</h2>
         <div class="concept-container">
@@ -256,6 +344,8 @@ for i, (key, value) in enumerate(image_names.items()):
             </div>''' for j in range(len(value))]
     )
 
+    known_image_urls = [(file_path.split("/")[-1], Known_IMAGE_URL.format(file_path)) for file_path in unknown_closest[key]["closest_filenames"]]
+
     html_content = html_template.format(
         image_name=f"{key}",
         class1 = class1,
@@ -272,6 +362,18 @@ for i, (key, value) in enumerate(image_names.items()):
         info4  = info4,
         value4 = value4,
         main_image = Unknown_IMAGE_URL.format(key),
+        sm1 = known_image_urls[0][1],
+        sm2 = known_image_urls[1][1],
+        sm3 = known_image_urls[2][1],
+        sm4 = known_image_urls[3][1],
+        sm5 = known_image_urls[4][1],    
+        sm6 = known_image_urls[5][1],
+        sm1_name = known_image_urls[0][0],
+        sm2_name = known_image_urls[1][0],
+        sm3_name = known_image_urls[2][0],
+        sm4_name = known_image_urls[3][0],
+        sm5_name = known_image_urls[4][0],
+        sm6_name = known_image_urls[5][0],
         concept_images = concept_images
     )
     page_path = os.path.join(Unknown_PAGES_DIR, f"page_{key}.md")
@@ -334,6 +436,8 @@ for i, (key, value) in enumerate(unidentified_image_names.items()):
             </div>''' for j in range(len(value))]
     )
 
+    known_image_urls = [(file_path.split("/")[-1], Known_IMAGE_URL.format(file_path)) for file_path in unidentified_closest[key]["closest_filenames"]]
+
     html_content = html_template.format(
         image_name=f"{key}",
         class1 = class1,
@@ -350,6 +454,18 @@ for i, (key, value) in enumerate(unidentified_image_names.items()):
         info4  = info4,
         value4 = value4,
         main_image = Unidentified_IMAGE_URL.format(key),
+        sm1 = known_image_urls[0][1],
+        sm2 = known_image_urls[1][1],
+        sm3 = known_image_urls[2][1],
+        sm4 = known_image_urls[3][1],
+        sm5 = known_image_urls[4][1], 
+        sm6 = known_image_urls[5][1],
+        sm1_name = known_image_urls[0][0],
+        sm2_name = known_image_urls[1][0],
+        sm3_name = known_image_urls[2][0],
+        sm4_name = known_image_urls[3][0],
+        sm5_name = known_image_urls[4][0],
+        sm6_name = known_image_urls[5][0],
         concept_images = concept_images
     )
     page_path = os.path.join(Unidentified_PAGES_DIR, f"page_{key}.md")
