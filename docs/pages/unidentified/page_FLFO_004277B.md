@@ -184,7 +184,7 @@ on the same slab as FLFO 4276 ab and 4278 ab.
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Unidentified/FLFO_004277B.jpg" alt="Fossil Image">
         </div>
-        <div class="similar-images">
+        <div class="main-image-container">
             <h3>Similar Specimens</h3>
             <div class="similar-images-grid">
                 <div class="similar-image-container">

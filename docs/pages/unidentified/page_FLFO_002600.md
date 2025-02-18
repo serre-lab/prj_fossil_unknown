@@ -184,7 +184,7 @@ tf2
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Unidentified/FLFO_002600.jpg" alt="Fossil Image">
         </div>
-        <div class="similar-images">
+        <div class="main-image-container">
             <h3>Similar Specimens</h3>
             <div class="similar-images-grid">
                 <div class="similar-image-container">

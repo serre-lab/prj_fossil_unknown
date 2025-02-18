@@ -183,7 +183,7 @@
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_1367/image.jpg" alt="Fossil Image">
         </div>
-        <div class="similar-images">
+        <div class="main-image-container">
             <h3>Similar Specimens</h3>
             <div class="similar-images-grid">
                 <div class="similar-image-container">
