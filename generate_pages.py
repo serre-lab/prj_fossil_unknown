@@ -215,7 +215,7 @@ html_template = """
 <body>
     <div class="container">
         <h1>Image and Concept Predictions</h1>
-        <div class="image-name">Image Name: <strong>{image_name}</strong></div>
+        <div class="image-name">Unidentified Fossil Name: <strong>{image_name}</strong></div>
         <div class="predictions">
             <h2>Top 5 Predictions</h2>
             <p>
@@ -485,14 +485,17 @@ with open(MKDOCS_YML, "w") as f:
     f.write("    accent: white\n")
     f.write("nav:\n")
     f.write("  - <b>Home</b>: index.md\n")
-    f.write("  - <b>Unknown Fossils</b>:\n")
-    f.write("    - '<b><i>Feedback Table</i></b> 📋': unknown_table.md\n")
-    for i, (key, value) in enumerate(image_predictions.items(), start = 1):
-        f.write(f"    - {i}. {key}: pages/unknown/page_{key}.md\n")
+    # f.write("  - <b>Unknown Fossils</b>:\n")
+    # f.write("    - '<b><i>Feedback Table</i></b> 📋': unknown_table.md\n")
+    # for i, (key, value) in enumerate(image_predictions.items(), start = 1):
+    #     f.write(f"    - {i}. {key}: pages/unknown/page_{key}.md\n")
     f.write("  - <b>Unidentified Fossils</b>:\n")
     f.write("    - '<b><i>Feedback Table</i></b> 📋': unidentified_table.md\n")
+    for i, (key, value) in enumerate(image_predictions.items(), start = 1):
+        f.write(f"    - {i}. {key}: pages/unknown/page_{key}.md\n")
+    total_unknown_images = len(image_predictions)
     for i, (key, value) in enumerate(unidentified_image_predictions.items(), start = 1):
-        f.write(f"    - {i}. {key}: pages/unidentified/page_{key}.md\n")
+        f.write(f"    - {i + total_unknown_images}. {key}: pages/unidentified/page_{key}.md\n")
 
 # # Create index page
 # index_path = os.path.join(DOCS_DIR, "index.md")

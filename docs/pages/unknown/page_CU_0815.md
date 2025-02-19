@@ -153,7 +153,7 @@
 <body>
     <div class="container">
         <h1>Image and Concept Predictions</h1>
-        <div class="image-name">Image Name: <strong>CU_0815</strong></div>
+        <div class="image-name">Unidentified Fossil Name: <strong>CU_0815</strong></div>
         <div class="predictions">
             <h2>Top 5 Predictions</h2>
             <p>

@@ -1,6 +1,7 @@
 import json
 
 IMAGE_URL = "https://storage.googleapis.com/serrelab/prj_fossils/2024/Unidentified/{}.jpg"
+UNKNOWN_IMAGE_URL = "https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/{}/image.jpg"
 
 html_template = """
 <!DOCTYPE html>
@@ -180,16 +181,35 @@ html_template = """
 """
 
 
-# Load image names from JSON
-with open("unidentified_image_names.json", "r") as file:
-    image_names = json.load(file)
+with open("image2_predictions.json", 'r') as file:
+    unknown_image_predictions = json.load(file)
+
 
 with open("unidentified_fossil_predictions.json", 'r') as file:
     image_predictions = json.load(file)
 
+
+
 # Generate table rows dynamically
 table_rows = ""
+
+for index, (key, value) in enumerate(unknown_image_predictions.items(), start=1):
+    predictions_html = "<br>".join([f'<a href="https://fel-thomas.github.io/Leaf-Lens/classes/{p}/" target="_blank">{p}</a>' for p in value])
+    row = f"""
+    <tr>
+        <td>{index}</td>
+        <td><a href="https://serre-lab.github.io/prj_fossil_unknown/pages/unidentified/page_{key}/" target="_blank">{key}</a></td>
+        <td><img src="{UNKNOWN_IMAGE_URL.format(key)}" alt="Fossil Image"></td>
+        <td>{predictions_html}</td>
+        <td><input type="radio" name="row{index}" value="Plausible"></td>
+        <td><input type="radio" name="row{index}" value="Impossible"></td>
+        <td><input type="radio" name="row{index}" value="Maybe"></td>
+    </tr>
+    """
+    table_rows += row
+total_unknown_images = len(unknown_image_predictions)
 for index, (key, value) in enumerate(image_predictions.items(), start=1):
+    index = total_unknown_images + index
     predictions_html = "<br>".join([f'<a href="https://fel-thomas.github.io/Leaf-Lens/classes/{p}/" target="_blank">{p}</a>' for p in value])
     row = f"""
     <tr>
