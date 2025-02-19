@@ -314,7 +314,7 @@ for i, (key, value) in enumerate(image_names.items()):
         row_values = flfo_df[flfo_df['Catalog #'] == str(index)]
         if len(row_values) > 0: 
             row_dict = row_values.to_dict(orient='records')[0]
-            info1, value1 = "Catalog #", "FLFO " + ", ".join(row_dict['Catalog #'])
+            info1, value1 = "Catalog #", "FLFO " + row_dict['Catalog #']
             # info1, value1 = 'Class 2, Kingdom', ", ".join(row_dict['Class 2, Kingdom'])
             # info2, value2 = 'Sci. Name, Obj/Science', ", ".join(row_dict['Sci. Name, Obj/Science'])
             # info3, value3 = 'Geo Unit', ", ".join(row_dict['Geo Unit'])
@@ -409,9 +409,10 @@ for i, (key, value) in enumerate(unidentified_image_names.items()):
     else:
         row_values = flfo_df[flfo_df['Catalog #'] == str(index)]
         if len(row_values) > 0: 
+
             row_dict = row_values.to_dict(orient='records')[0]
             # info1, value1 = 'Class 2, Kingdom', ", ".join(row_dict['Class 2, Kingdom'])
-            info1, value1 = "Catalog #", "FLFO " + ", ".join(row_dict['Catalog #'])
+            info1, value1 = "Catalog #", "FLFO " + row_dict['Catalog #']
             # info2, value2 = 'Sci. Name, Obj/Science', ", ".join(row_dict['Sci. Name, Obj/Science'])
             # info3, value3 = 'Geo Unit', ", ".join(row_dict['Geo Unit'])
             # info4, value4 = 'Description', ", ".join(row_dict['Description'])

@@ -167,7 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Catalog #</b>: FLFO 1, 1, 3, 6, 0
+                <b>Catalog #</b>: FLFO 11360
             </p>
         </div>
         <div class="main-image-container">
