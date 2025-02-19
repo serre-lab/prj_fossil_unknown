@@ -214,7 +214,7 @@ html_template = """
 </head>
 <body>
     <div class="container">
-        <h1>Image and Concept Predictions</h1>
+        <h1>Leaf Fossil and Concept Predictions</h1>
         <div class="image-name">Unidentified Fossil Name: <strong>{image_name}</strong></div>
         <div class="predictions">
             <h2>Top 5 Predictions</h2>
