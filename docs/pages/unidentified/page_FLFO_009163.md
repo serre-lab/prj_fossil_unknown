@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: UNIDENTIFIED PLANTAE __ __unidentified plant
-            </p>
-            <p>
-                <b>Geo Unit</b>: 
-            </p>
-            <p>
-                <b>Description</b>: Unidentified Plant
+                <b>Catalog #</b>: FLFO 9, 1, 6, 3
             </p>
         </div>
         <div class="main-image-container">

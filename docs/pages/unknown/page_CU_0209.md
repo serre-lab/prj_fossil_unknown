@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-40780, USNM-40780
             </p>
-            <p>
-                <b>Family</b>: Anacardiaceae, Saxifragaceae
-            </p>
-            <p>
-                <b>Genus</b>: Astronium, Saxifraga (?)
-            </p>
-            <p>
-                <b>Species</b>: truncatum, peritula
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

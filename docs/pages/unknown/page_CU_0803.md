@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-1914, USNM-1914, USNM-1914
             </p>
-            <p>
-                <b>Family</b>: Burseraceae, Fabaceae, Rutaceae
-            </p>
-            <p>
-                <b>Genus</b>: Bursera, Cytisus, Ptelea
-            </p>
-            <p>
-                <b>Species</b>: serrulata, modestus, modesta
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Koelreuteria __ __allenii
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: fossil fruit
+                <b>Catalog #</b>: FLFO 8, 5, 5, 2
             </p>
         </div>
         <div class="main-image-container">

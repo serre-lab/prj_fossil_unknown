@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-1839, USNM-1839
             </p>
-            <p>
-                <b>Family</b>: Sapindaceae, Sapindaceae
-            </p>
-            <p>
-                <b>Genus</b>: Sapindus, Sapindus
-            </p>
-            <p>
-                <b>Species</b>: coloradensis, angustifolius
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

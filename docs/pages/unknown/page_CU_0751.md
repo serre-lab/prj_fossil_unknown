@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-1783, USNM-1783, USNM-1783
             </p>
-            <p>
-                <b>Family</b>: Pimeleae, Thymelaeaceae, Rosaceae
-            </p>
-            <p>
-                <b>Genus</b>: Pimelea, Daphne, Peraphyllum
-            </p>
-            <p>
-                <b>Species</b>: delicatula, septentrionalis, septentionalis
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

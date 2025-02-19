@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: cf. Salix ramaleyi
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: On the same slab as FLFO-4544.
+                <b>Catalog #</b>: FLFO 4, 5, 4, 3
             </p>
         </div>
         <div class="main-image-container">

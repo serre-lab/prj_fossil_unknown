@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-1856, USNM-1856
             </p>
-            <p>
-                <b>Family</b>: Hydrangeaceae, Celastroideae
-            </p>
-            <p>
-                <b>Genus</b>: Hydrangea, Celastrus
-            </p>
-            <p>
-                <b>Species</b>: fraxinifolia, fraxinifolia
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

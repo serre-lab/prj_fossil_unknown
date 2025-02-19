@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Unidentified Anacardiaceae
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: unknown fossil leaf: obovate, untoothed, cladodromous secondaries
+                <b>Catalog #</b>: FLFO 6, 6, 7, 5
             </p>
         </div>
         <div class="main-image-container">

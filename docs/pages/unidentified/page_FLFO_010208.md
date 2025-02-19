@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Animalia
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Gyraulus __ __florissantensis __Cockerell __1906
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: on same slab as FLFO-10207
+                <b>Catalog #</b>: FLFO 1, 0, 2, 0, 8
             </p>
         </div>
         <div class="main-image-container">

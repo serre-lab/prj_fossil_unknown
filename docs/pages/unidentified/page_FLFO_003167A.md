@@ -167,17 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>:  __ __ __ __ __Unspecified Fabaceae
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: unknown legume leaf; leaf from bulk; Extensive margin feeding - HM 3/6/2014
-tf2
+                <b>Catalog #</b>: FLFO 3, 1, 6, 7
             </p>
         </div>
         <div class="main-image-container">

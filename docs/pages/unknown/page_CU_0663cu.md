@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-387543, USNM-387543
             </p>
-            <p>
-                <b>Family</b>: Juglandaceae, Ulmaceae
-            </p>
-            <p>
-                <b>Genus</b>: Carya, Ulmus
-            </p>
-            <p>
-                <b>Species</b>: libbeyi, braunii
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

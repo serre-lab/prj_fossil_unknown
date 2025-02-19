@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-405869
             </p>
-            <p>
-                <b>Family</b>: Ulmaceae
-            </p>
-            <p>
-                <b>Genus</b>: Celtis
-            </p>
-            <p>
-                <b>Species</b>: mccoshii
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

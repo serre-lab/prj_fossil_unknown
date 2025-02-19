@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>:  __ __ __ __ __Unidentified leaf
-            </p>
-            <p>
-                <b>Geo Unit</b>: Lower Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: unknown fossil leaf
+                <b>Catalog #</b>: FLFO 9, 7, 8, 6
             </p>
         </div>
         <div class="main-image-container">

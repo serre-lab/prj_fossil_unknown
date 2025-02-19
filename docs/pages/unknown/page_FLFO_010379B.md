@@ -167,17 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Staphylea __ __acuminata
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: could be Hydrangea fraxinifolia
-two leaves (leaflets?) attached to a branch
+                <b>Catalog #</b>: FLFO 1, 0, 3, 7, 9
             </p>
         </div>
         <div class="main-image-container">

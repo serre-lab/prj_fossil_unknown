@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Animalia
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>:  __ __ __ __ __Unidentified Diptera
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: fossil leaf of Fagopsis also on slab - ID'ed by C. Thornton
+                <b>Catalog #</b>: FLFO 3, 6, 2, 2
             </p>
         </div>
         <div class="main-image-container">

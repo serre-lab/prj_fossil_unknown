@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Rhamnites __ __pseudostenophyllus
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: Chamaecyparis cone on the reverse; Tf2; -140 to -150 cm below Tf3.
+                <b>Catalog #</b>: FLFO 3, 6, 6, 5
             </p>
         </div>
         <div class="main-image-container">

@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: UCM-18595, UCM-18595
             </p>
-            <p>
-                <b>Family</b>: Myrtaceae, Annonaceae
-            </p>
-            <p>
-                <b>Genus</b>: Eugenia, Annona
-            </p>
-            <p>
-                <b>Species</b>: arenaceaformis, spoliata
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

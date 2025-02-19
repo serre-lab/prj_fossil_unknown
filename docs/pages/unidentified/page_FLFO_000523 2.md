@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Animalia
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Nucla sp
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: Gray shale containing clams (Nucla sp ?).  Shale is 185 x 75 x 10 mm and is the counterpart to FLFO 524.
+                <b>Catalog #</b>: FLFO 5, 2, 3
             </p>
         </div>
         <div class="main-image-container">

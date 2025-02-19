@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: UCM-8620
             </p>
-            <p>
-                <b>Family</b>: Smilacaceae
-            </p>
-            <p>
-                <b>Genus</b>: Smilax
-            </p>
-            <p>
-                <b>Species</b>: labidurommae
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

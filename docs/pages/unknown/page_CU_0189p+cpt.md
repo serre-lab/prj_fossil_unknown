@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-40555A
             </p>
-            <p>
-                <b>Family</b>: Incertae sedis
-            </p>
-            <p>
-                <b>Genus</b>: Pellea
-            </p>
-            <p>
-                <b>Species</b>: antiquella
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

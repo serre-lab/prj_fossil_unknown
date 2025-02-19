@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Amelanchier __ __scudderi
-            </p>
-            <p>
-                <b>Geo Unit</b>: Lower Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: 
+                <b>Catalog #</b>: FLFO 4, 4, 5, 4
             </p>
         </div>
         <div class="main-image-container">

@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-358, USNM-358, USNM-358
             </p>
-            <p>
-                <b>Family</b>: Saxifragaceae, Anacardiaceae, Saxifragaceae
-            </p>
-            <p>
-                <b>Genus</b>: Weinmannia, Rhus, Weinmannia (?)
-            </p>
-            <p>
-                <b>Species</b>: rosaefolia, rosaefolia, dubiosa
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

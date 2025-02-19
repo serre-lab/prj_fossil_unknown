@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: HUMULUS __ __florissantella
-            </p>
-            <p>
-                <b>Geo Unit</b>: 
-            </p>
-            <p>
-                <b>Description</b>: elm family
+                <b>Catalog #</b>: FLFO 6, 1, 1, 4
             </p>
         </div>
         <div class="main-image-container">

@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-1808, USNM-1808
             </p>
-            <p>
-                <b>Family</b>: Sapindaceae, Saxifragaceae
-            </p>
-            <p>
-                <b>Genus</b>: Athyana, Weinmannia
-            </p>
-            <p>
-                <b>Species</b>: haydenii, integrifolia
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

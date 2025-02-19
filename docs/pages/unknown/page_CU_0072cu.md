@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-34756, USNM-34756
             </p>
-            <p>
-                <b>Family</b>: Aristolochiaceae, Aristolochiaceae
-            </p>
-            <p>
-                <b>Genus</b>: Aristolochia, Aristolochia
-            </p>
-            <p>
-                <b>Species</b>: mortua, williardiana
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

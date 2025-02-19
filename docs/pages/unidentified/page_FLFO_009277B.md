@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Cercis
-            </p>
-            <p>
-                <b>Geo Unit</b>: 
-            </p>
-            <p>
-                <b>Description</b>: 
+                <b>Catalog #</b>: FLFO 9, 2, 7, 7
             </p>
         </div>
         <div class="main-image-container">

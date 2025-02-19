@@ -167,17 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: UNIDENTIFIED
-            </p>
-            <p>
-                <b>Geo Unit</b>: Upper Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: UNIDENTIFIED LEAF PART AND COUNTER PART
-On same slab as FLFO 5552 and FLFO 5553
+                <b>Catalog #</b>: FLFO 5, 5, 5, 4
             </p>
         </div>
         <div class="main-image-container">

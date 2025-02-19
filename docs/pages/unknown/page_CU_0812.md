@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-1906, USNM-1906, USNM-1906
             </p>
-            <p>
-                <b>Family</b>: Rhamnaceae, Rutaceae, Rutaceae
-            </p>
-            <p>
-                <b>Genus</b>: Colubrina, Zanthoxylon, Fagara
-            </p>
-            <p>
-                <b>Species</b>: spireaefolia, spireaefolium, spireaefolia
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

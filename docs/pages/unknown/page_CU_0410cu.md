@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: UCMP-3683
             </p>
-            <p>
-                <b>Family</b>: Hydrangeaceae
-            </p>
-            <p>
-                <b>Genus</b>: Hydrangea
-            </p>
-            <p>
-                <b>Species</b>: fraxinifolia
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

@@ -169,15 +169,6 @@
             <p>
                 <b>Not Found</b>:  
             </p>
-            <p>
-                <b>Not Found</b>:  
-            </p>
-            <p>
-                <b>Not Found</b>:  
-            </p>
-            <p>
-                <b>Not Found</b>:  
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

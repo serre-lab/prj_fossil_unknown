@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-50355, USNM-50355
             </p>
-            <p>
-                <b>Family</b>: Celastroideae, Juglandaceae
-            </p>
-            <p>
-                <b>Genus</b>: Celastrus, Juglans
-            </p>
-            <p>
-                <b>Species</b>: typica, florissanti
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

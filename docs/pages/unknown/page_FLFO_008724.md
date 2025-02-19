@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Typha
-            </p>
-            <p>
-                <b>Geo Unit</b>: 
-            </p>
-            <p>
-                <b>Description</b>: on same slab as FLFO-8725
+                <b>Catalog #</b>: FLFO 8, 7, 2, 4
             </p>
         </div>
         <div class="main-image-container">

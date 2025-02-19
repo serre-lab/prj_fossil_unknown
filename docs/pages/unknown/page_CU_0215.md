@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-50357, USNM-50357
             </p>
-            <p>
-                <b>Family</b>: Moraceae, Betulaceae
-            </p>
-            <p>
-                <b>Genus</b>: Morus, Alnus
-            </p>
-            <p>
-                <b>Species</b>: symmetrica, praecordata
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

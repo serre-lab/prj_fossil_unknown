@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: YPM-23950
             </p>
-            <p>
-                <b>Family</b>: Rutaceae
-            </p>
-            <p>
-                <b>Genus</b>: Ptelea
-            </p>
-            <p>
-                <b>Species</b>: cassoides
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

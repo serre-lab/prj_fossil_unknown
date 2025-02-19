@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-390, USNM-390, USNM-390
             </p>
-            <p>
-                <b>Family</b>: Sapindaceae, Sapindaceae, Sapindaceae
-            </p>
-            <p>
-                <b>Genus</b>: Sapindus, Sapindus, Sapindus
-            </p>
-            <p>
-                <b>Species</b>: coloradensis, angustifolius, spokanensis
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

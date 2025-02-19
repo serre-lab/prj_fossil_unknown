@@ -167,17 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Typha __ __lesquereuxii
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: 2 stems
-on the same slab as FLFO 10029
+                <b>Catalog #</b>: FLFO 1, 0, 0, 2, 8
             </p>
         </div>
         <div class="main-image-container">

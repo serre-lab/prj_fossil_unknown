@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-50297, USNM-50297, USNM-50297
             </p>
-            <p>
-                <b>Family</b>: Staphyleaceae, Fabaceae, Fabaceae
-            </p>
-            <p>
-                <b>Genus</b>: Staphylea, Cytisus, Cassia
-            </p>
-            <p>
-                <b>Species</b>: acuminata, florissantianus, fischeri
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

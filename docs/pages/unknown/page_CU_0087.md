@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-33707
             </p>
-            <p>
-                <b>Family</b>: Incertae sedis
-            </p>
-            <p>
-                <b>Genus</b>: Ilex
-            </p>
-            <p>
-                <b>Species</b>: knightiaefolia
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

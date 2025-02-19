@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: __
-            </p>
-            <p>
-                <b>Geo Unit</b>: 
-            </p>
-            <p>
-                <b>Description</b>: No collection slip, therefore unknown accession, collector, date, and stratigraphy level.
+                <b>Catalog #</b>: FLFO 1, 1, 3, 6, 0
             </p>
         </div>
         <div class="main-image-container">

@@ -167,18 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: cf. Fagopsis longifolia
-            </p>
-            <p>
-                <b>Geo Unit</b>: Upper Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: Many ostracods on same slab (GSA 11/1/2016)
-Fagopsis likely, alternately Paracarpinus.  Unfortunately you really cannot see the teeth/margin on this specimen (SEA)
-Collected in Brooks Elwood excavation section 3, first shale layer from the bottom. 
+                <b>Catalog #</b>: FLFO 9, 6, 1, 0
             </p>
         </div>
         <div class="main-image-container">

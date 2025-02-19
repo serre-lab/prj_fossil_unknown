@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Unidentified plant __ __ __ __ __
-            </p>
-            <p>
-                <b>Geo Unit</b>: Unknown
-            </p>
-            <p>
-                <b>Description</b>: A fossil leaf--probably Koelreuteria or Ribes.  It is located on one corner of the shale layer.  The apex is broken off.  It has three lobes.  It is 13 mm from top to petiole.  Petiole is approx. 6 mm in length.  Maximum width is 14 mm.  The leaf is located on a light colored shale 77 x 50 x 1 mm.  This is the counterpart to Catalog No. 441.
+                <b>Catalog #</b>: FLFO 4, 4, 0
             </p>
         </div>
         <div class="main-image-container">

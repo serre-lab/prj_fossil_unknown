@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: YPM-37170, YPM-37170
             </p>
-            <p>
-                <b>Family</b>: Meliaceae, Ebenaceae
-            </p>
-            <p>
-                <b>Genus</b>: Trichilia, Diospyros
-            </p>
-            <p>
-                <b>Species</b>: florissanti
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

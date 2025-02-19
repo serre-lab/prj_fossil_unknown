@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: UCMP-3624
             </p>
-            <p>
-                <b>Family</b>: Rhamnaceae
-            </p>
-            <p>
-                <b>Genus</b>: Colubrina
-            </p>
-            <p>
-                <b>Species</b>: spireaefolia
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

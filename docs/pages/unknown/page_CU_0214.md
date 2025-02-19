@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-40589, USNM-40589
             </p>
-            <p>
-                <b>Family</b>: Burseraceae, Rutaceae
-            </p>
-            <p>
-                <b>Genus</b>: Bursera, Ptelea
-            </p>
-            <p>
-                <b>Species</b>: serrulata, modesta
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

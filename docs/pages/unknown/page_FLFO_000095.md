@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Sapindus __cf. __coloradensis
-            </p>
-            <p>
-                <b>Geo Unit</b>: 
-            </p>
-            <p>
-                <b>Description</b>: LEAF IS 1 CM X 4 CM ON SHALE 10 CM X 8 CM X 2MM.  IT IS THE BOOK MATCH TO FLFO 94.
+                <b>Catalog #</b>: FLFO 9, 5
             </p>
         </div>
         <div class="main-image-container">

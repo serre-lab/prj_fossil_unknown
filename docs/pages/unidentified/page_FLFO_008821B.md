@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Unidentified Plantae
-            </p>
-            <p>
-                <b>Geo Unit</b>: 
-            </p>
-            <p>
-                <b>Description</b>: on back of FLFO-7438
+                <b>Catalog #</b>: FLFO 8, 8, 2, 1
             </p>
         </div>
         <div class="main-image-container">

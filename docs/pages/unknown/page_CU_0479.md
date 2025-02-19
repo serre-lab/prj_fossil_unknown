@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: UCMP-3620, UCMP-3620
             </p>
-            <p>
-                <b>Family</b>: Sterculiaceae, Sapindaceae
-            </p>
-            <p>
-                <b>Genus</b>: Florissantia, Koelreuteria
-            </p>
-            <p>
-                <b>Species</b>: speirii, allenii
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

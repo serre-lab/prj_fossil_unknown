@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Ginkgo __ __sp.
-            </p>
-            <p>
-                <b>Geo Unit</b>: Unknown
-            </p>
-            <p>
-                <b>Description</b>: FIRST GINKGO FOUND IN FLORISSANT FORMATION AT I&M SITE 26 DURING SUMMER 2008 EXCAVATION
+                <b>Catalog #</b>: FLFO 5, 5, 7, 9
             </p>
         </div>
         <div class="main-image-container">

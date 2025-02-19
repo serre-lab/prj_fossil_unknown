@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-387552
             </p>
-            <p>
-                <b>Family</b>: Ulmaceae
-            </p>
-            <p>
-                <b>Genus</b>: Planera
-            </p>
-            <p>
-                <b>Species</b>: longifolia
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

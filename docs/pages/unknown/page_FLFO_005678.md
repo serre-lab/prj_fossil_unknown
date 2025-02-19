@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: cf. Quercus scottii
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: Poor venation, so challenging to ID, but teeth are similar to Q. scottii
+                <b>Catalog #</b>: FLFO 5, 6, 7, 8
             </p>
         </div>
         <div class="main-image-container">

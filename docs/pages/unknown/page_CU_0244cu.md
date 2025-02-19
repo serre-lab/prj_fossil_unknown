@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-334, USNM-334
             </p>
-            <p>
-                <b>Family</b>: Hydrangeaceae, Oleaceae
-            </p>
-            <p>
-                <b>Genus</b>: Hydrangea, Fraxinus
-            </p>
-            <p>
-                <b>Species</b>: fraxinifolia, praedicta
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Animalia
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>:  __ __ __ __ __Unidentified Insecta
-            </p>
-            <p>
-                <b>Geo Unit</b>: Antero Formation
-            </p>
-            <p>
-                <b>Description</b>: Identification questionable. Possible a crane fly (Diptera: Tipulidae) abdomen.
+                <b>Catalog #</b>: FLFO 9, 0, 8, 3
             </p>
         </div>
         <div class="main-image-container">

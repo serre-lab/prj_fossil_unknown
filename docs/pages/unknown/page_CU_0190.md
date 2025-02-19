@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-40770
             </p>
-            <p>
-                <b>Family</b>: Moraceae
-            </p>
-            <p>
-                <b>Genus</b>: Morus
-            </p>
-            <p>
-                <b>Species</b>: symmetrica
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

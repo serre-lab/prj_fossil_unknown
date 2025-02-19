@@ -167,17 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Carya __ __libbeyi?
-            </p>
-            <p>
-                <b>Geo Unit</b>: Lower Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: identification questionable
-counterpart was in box with FLFO-11547 (Cab2 Dwr4)
+                <b>Catalog #</b>: FLFO 1, 1, 5, 5, 0
             </p>
         </div>
         <div class="main-image-container">

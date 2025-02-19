@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: YPM-23947
             </p>
-            <p>
-                <b>Family</b>: Anacardiaceae
-            </p>
-            <p>
-                <b>Genus</b>: Cotinus
-            </p>
-            <p>
-                <b>Species</b>: fraterna
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

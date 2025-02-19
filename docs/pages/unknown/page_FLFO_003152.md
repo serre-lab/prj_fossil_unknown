@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Rhamnites __ __pseudostenophyllus
-            </p>
-            <p>
-                <b>Geo Unit</b>: Upper Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: Rhamnites __ __pseudostenophyllus ?  Fossil leaf.  Small, margin entire, base cuneate, secondaries obscure, tip rounded. Light brown on gray shale.
+                <b>Catalog #</b>: FLFO 3, 1, 5, 2
             </p>
         </div>
         <div class="main-image-container">

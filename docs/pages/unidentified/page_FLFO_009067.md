@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: 
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: 
-            </p>
-            <p>
-                <b>Geo Unit</b>: 
-            </p>
-            <p>
-                <b>Description</b>: 
+                <b>Catalog #</b>: FLFO 9, 0, 6, 7
             </p>
         </div>
         <div class="main-image-container">

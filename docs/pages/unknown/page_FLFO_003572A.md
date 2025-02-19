@@ -167,18 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Rhamnites __ __pseudostenophyllus
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: Tf2, -4 to -3 meters from Tf3
-D.M.Smith Diss.
-No Damage
+                <b>Catalog #</b>: FLFO 3, 5, 7, 2
             </p>
         </div>
         <div class="main-image-container">

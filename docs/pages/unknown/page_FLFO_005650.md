@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Cyperacites __ __lacustris
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: 3 Pinus needles below
+                <b>Catalog #</b>: FLFO 5, 6, 5, 0
             </p>
         </div>
         <div class="main-image-container">

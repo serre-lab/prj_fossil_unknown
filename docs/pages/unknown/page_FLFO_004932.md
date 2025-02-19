@@ -167,18 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Aristolochia __ __mortua
-            </p>
-            <p>
-                <b>Geo Unit</b>: Unknown
-            </p>
-            <p>
-                <b>Description</b>: On same slab as FLFO 4933
-
-Leaf has similarities to MacGinitie's (1953) Aristolochia mortua Cockerell (page 109; plate 35)
+                <b>Catalog #</b>: FLFO 4, 9, 3, 2
             </p>
         </div>
         <div class="main-image-container">

@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Rosaceae
-            </p>
-            <p>
-                <b>Geo Unit</b>: 
-            </p>
-            <p>
-                <b>Description</b>: Fossil leaf.  Small,finely serrate upper 2/3; acuminate tip, base rounded, stout midrib.  Cracked through middle. Brown on tan shale.
+                <b>Catalog #</b>: FLFO 3, 1, 0, 6
             </p>
         </div>
         <div class="main-image-container">

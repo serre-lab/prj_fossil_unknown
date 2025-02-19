@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Sapindus __ __coloradensis?
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: Sapindus coloradensis or Caesalpinites acuminatus; identification questionable; Tf-2
+                <b>Catalog #</b>: FLFO 4, 2, 3, 5
             </p>
         </div>
         <div class="main-image-container">

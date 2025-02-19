@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: UNIDENTIFIED
-            </p>
-            <p>
-                <b>Geo Unit</b>: Antero Formation
-            </p>
-            <p>
-                <b>Description</b>: 
+                <b>Catalog #</b>: FLFO 6, 4, 2, 4
             </p>
         </div>
         <div class="main-image-container">

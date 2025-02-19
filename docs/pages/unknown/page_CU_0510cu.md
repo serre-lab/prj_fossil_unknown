@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: UCMP-3693
             </p>
-            <p>
-                <b>Family</b>: Incertae sedis
-            </p>
-            <p>
-                <b>Genus</b>: Populites
-            </p>
-            <p>
-                <b>Species</b>: heeri
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

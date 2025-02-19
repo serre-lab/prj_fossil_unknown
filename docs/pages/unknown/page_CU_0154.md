@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-33677, USNM-33677
             </p>
-            <p>
-                <b>Family</b>: Incertae sedis, Incertae sedis
-            </p>
-            <p>
-                <b>Genus</b>: Ficus, Ficus
-            </p>
-            <p>
-                <b>Species</b>: florissantia, haydenii
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

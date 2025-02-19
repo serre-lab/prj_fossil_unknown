@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Rhamnites __ __pseudostenophyllus
-            </p>
-            <p>
-                <b>Geo Unit</b>: Lower Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: 
+                <b>Catalog #</b>: FLFO 9, 7, 9, 1
             </p>
         </div>
         <div class="main-image-container">

@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-144, USNM-144, USNM-144
             </p>
-            <p>
-                <b>Family</b>: Myricaceae, Myricaceae, Ulmaceae
-            </p>
-            <p>
-                <b>Genus</b>: Myrica, Myrica, Zelkova
-            </p>
-            <p>
-                <b>Species</b>: acuminata, drymeja, drymeja
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

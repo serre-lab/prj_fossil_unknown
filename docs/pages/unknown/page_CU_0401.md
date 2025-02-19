@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: UCMP-3854
             </p>
-            <p>
-                <b>Family</b>: Staphyleaceae
-            </p>
-            <p>
-                <b>Genus</b>: Staphylea
-            </p>
-            <p>
-                <b>Species</b>: acuminata
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

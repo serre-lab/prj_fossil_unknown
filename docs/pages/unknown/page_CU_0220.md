@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-40785
             </p>
-            <p>
-                <b>Family</b>: Rutaceae
-            </p>
-            <p>
-                <b>Genus</b>: Fagara (?)
-            </p>
-            <p>
-                <b>Species</b>: delicatula
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

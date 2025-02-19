@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Animalia
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Unidentified Insecta
-            </p>
-            <p>
-                <b>Geo Unit</b>: 
-            </p>
-            <p>
-                <b>Description</b>: 
+                <b>Catalog #</b>: FLFO 9, 7, 0, 0
             </p>
         </div>
         <div class="main-image-container">

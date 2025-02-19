@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-40776
             </p>
-            <p>
-                <b>Family</b>: Typhaceae
-            </p>
-            <p>
-                <b>Genus</b>: Typha
-            </p>
-            <p>
-                <b>Species</b>: lesquereuxii
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

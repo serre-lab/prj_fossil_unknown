@@ -167,18 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Unspecified __ __ __ __ __
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: Section of Greek cedar twig with 5 branchlets in mudstone.
-
-leaf likely Fagopsis longifolia (SEA, 8/4/2017)
+                <b>Catalog #</b>: FLFO 1, 0, 7, 1
             </p>
         </div>
         <div class="main-image-container">

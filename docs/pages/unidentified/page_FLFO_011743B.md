@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: 
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: __
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: Unidenified leaf with part and counterpart.  Previously stored in ACC 277, Cat# 4974, field specimen #70ab.
+                <b>Catalog #</b>: FLFO 1, 1, 7, 4, 3
             </p>
         </div>
         <div class="main-image-container">

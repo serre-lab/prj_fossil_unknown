@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-40588A
             </p>
-            <p>
-                <b>Family</b>: Sapindaceae
-            </p>
-            <p>
-                <b>Genus</b>: Sapindus
-            </p>
-            <p>
-                <b>Species</b>: coloradensis
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

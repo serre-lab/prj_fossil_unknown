@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-387538, USNM-387538
             </p>
-            <p>
-                <b>Family</b>: Myricaceae, Myricaceae
-            </p>
-            <p>
-                <b>Genus</b>: Myrica, Myrica
-            </p>
-            <p>
-                <b>Species</b>: drymeja, zachariensis
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

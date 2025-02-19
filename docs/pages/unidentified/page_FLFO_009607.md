@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>:  __ __ __ __ __Unidentified Plantae
-            </p>
-            <p>
-                <b>Geo Unit</b>: 
-            </p>
-            <p>
-                <b>Description</b>: Collected in Brooks Elwood excavation section 3, second shale layer from the bottom.
+                <b>Catalog #</b>: FLFO 9, 6, 0, 7
             </p>
         </div>
         <div class="main-image-container">

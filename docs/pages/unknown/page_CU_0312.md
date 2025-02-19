@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: UCM-16688
             </p>
-            <p>
-                <b>Family</b>: Lamiaceae
-            </p>
-            <p>
-                <b>Genus</b>: Nepeta (?)
-            </p>
-            <p>
-                <b>Species</b>: pseudaeluri
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

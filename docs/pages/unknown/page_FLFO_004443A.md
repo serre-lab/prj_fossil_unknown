@@ -167,17 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Hydrangea __sp.?
-            </p>
-            <p>
-                <b>Geo Unit</b>: Lower Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: identification questionable
-on the same slab as FLFO-4444
+                <b>Catalog #</b>: FLFO 4, 4, 4, 3
             </p>
         </div>
         <div class="main-image-container">

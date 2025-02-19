@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-387555
             </p>
-            <p>
-                <b>Family</b>: Salicaceae
-            </p>
-            <p>
-                <b>Genus</b>: Salix
-            </p>
-            <p>
-                <b>Species</b>: libbeyi
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

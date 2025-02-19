@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Trichilia __ __florissantii
-            </p>
-            <p>
-                <b>Geo Unit</b>: 
-            </p>
-            <p>
-                <b>Description</b>: On the same slab as FLFO-4549ab.
+                <b>Catalog #</b>: FLFO 4, 5, 5, 0
             </p>
         </div>
         <div class="main-image-container">

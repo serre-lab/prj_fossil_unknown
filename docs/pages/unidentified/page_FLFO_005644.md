@@ -167,18 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: UNIDENTIFIED PLANTAE
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: UNIDENTIFIED LEAF
-
-was L.2009.5-DMNS
+                <b>Catalog #</b>: FLFO 5, 6, 4, 4
             </p>
         </div>
         <div class="main-image-container">

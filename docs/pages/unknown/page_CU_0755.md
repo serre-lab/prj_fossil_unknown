@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-1798, USNM-1798
             </p>
-            <p>
-                <b>Family</b>: Meliaceae, Sapotaceae
-            </p>
-            <p>
-                <b>Genus</b>: Trichilia, Bumelia
-            </p>
-            <p>
-                <b>Species</b>: florissanti, florissanti
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

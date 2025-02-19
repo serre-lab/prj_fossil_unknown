@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Hydrangea __ __fraxinifolia?
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: Hydrangea or Staphylea acuminata
+                <b>Catalog #</b>: FLFO 9, 9, 7, 6
             </p>
         </div>
         <div class="main-image-container">

@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: UCM-18548, UCM-18548
             </p>
-            <p>
-                <b>Family</b>: Pinaceae, Pinaceae
-            </p>
-            <p>
-                <b>Genus</b>: Pinus, Pinus
-            </p>
-            <p>
-                <b>Species</b>: florissanti, sturgisi
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-387537, USNM-387537, USNM-387537
             </p>
-            <p>
-                <b>Family</b>: Myricaceae, Ulmaceae, Myricaceae
-            </p>
-            <p>
-                <b>Genus</b>: Myrica, Zelkova, Myrica
-            </p>
-            <p>
-                <b>Species</b>: drymeja, drymeja, rigida
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

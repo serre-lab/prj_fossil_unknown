@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-1793, USNM-1793
             </p>
-            <p>
-                <b>Family</b>: Sapindaceae, Oleaceae
-            </p>
-            <p>
-                <b>Genus</b>: Sapindus, Fraxinus
-            </p>
-            <p>
-                <b>Species</b>: coloradensis, heeri
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

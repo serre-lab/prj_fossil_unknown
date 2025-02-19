@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Hydrangea
-            </p>
-            <p>
-                <b>Geo Unit</b>: 
-            </p>
-            <p>
-                <b>Description</b>: THIS COULD BE STAPHYLEA PER H. MEYER
+                <b>Catalog #</b>: FLFO 1, 1, 1, 8, 1
             </p>
         </div>
         <div class="main-image-container">

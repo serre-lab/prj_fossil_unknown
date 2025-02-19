@@ -167,17 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Unidentified Plantae
-            </p>
-            <p>
-                <b>Geo Unit</b>: 
-            </p>
-            <p>
-                <b>Description</b>: on same slab as FLFO-8721, FLFO-8722, and FLFO-8723
-Other larvae pieces on slab as well (per Jenell's note)
+                <b>Catalog #</b>: FLFO 8, 7, 2, 3
             </p>
         </div>
         <div class="main-image-container">

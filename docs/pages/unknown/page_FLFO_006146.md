@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: SAPINDUS __ __COLORADENSIS
-            </p>
-            <p>
-                <b>Geo Unit</b>: 
-            </p>
-            <p>
-                <b>Description</b>: SAPINDUS COLORADENSIS WITH OSTRACODS
+                <b>Catalog #</b>: FLFO 6, 1, 4, 6
             </p>
         </div>
         <div class="main-image-container">

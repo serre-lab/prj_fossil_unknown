@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-40552
             </p>
-            <p>
-                <b>Family</b>: Celastroideae
-            </p>
-            <p>
-                <b>Genus</b>: Celastrus
-            </p>
-            <p>
-                <b>Species</b>: typica
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

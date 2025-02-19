@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: UCMP-3686
             </p>
-            <p>
-                <b>Family</b>: Sapindaceae
-            </p>
-            <p>
-                <b>Genus</b>: Thouinia
-            </p>
-            <p>
-                <b>Species</b>: straciata
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

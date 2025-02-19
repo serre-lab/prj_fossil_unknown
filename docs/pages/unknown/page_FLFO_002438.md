@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Sapindus __ __coloradensis
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: Fossil leaf without counterpart. Brown image on light gray blocky shale.  Small section missing on left side of leaf. Order: Sapindales.  Family: Sapindaceae. Block 44 x 27mm.  Image 29 x 5mm.
+                <b>Catalog #</b>: FLFO 2, 4, 3, 8
             </p>
         </div>
         <div class="main-image-container">

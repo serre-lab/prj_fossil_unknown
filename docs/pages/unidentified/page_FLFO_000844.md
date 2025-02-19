@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Unidentified plant __ __ __ __ __
-            </p>
-            <p>
-                <b>Geo Unit</b>: 
-            </p>
-            <p>
-                <b>Description</b>: Gray shale with leaf.  Shale is 285 x 95 x 6 mm.
+                <b>Catalog #</b>: FLFO 8, 4, 4
             </p>
         </div>
         <div class="main-image-container">

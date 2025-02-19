@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: UCMP-3695
             </p>
-            <p>
-                <b>Family</b>: Styracaceae
-            </p>
-            <p>
-                <b>Genus</b>: Halesia
-            </p>
-            <p>
-                <b>Species</b>: reticulata
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

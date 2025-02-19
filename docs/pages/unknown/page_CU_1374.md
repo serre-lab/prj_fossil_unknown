@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: YPM-30133, YPM-30133
             </p>
-            <p>
-                <b>Family</b>: Hydrangeaceae, Ebenaceae
-            </p>
-            <p>
-                <b>Genus</b>: Hydrangea, Diospyros
-            </p>
-            <p>
-                <b>Species</b>: fraxinifolia
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

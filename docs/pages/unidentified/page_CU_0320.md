@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: UCM-18546, UCM-18546
             </p>
-            <p>
-                <b>Family</b>: Myrtaceae, Magnoliaceae
-            </p>
-            <p>
-                <b>Genus</b>: Eugenia, Magnolia
-            </p>
-            <p>
-                <b>Species</b>: arenaceaformis, florissanticola
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

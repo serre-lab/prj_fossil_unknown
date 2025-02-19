@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-405872, USNM-405872
             </p>
-            <p>
-                <b>Family</b>: Primulaceae, Primulaceae
-            </p>
-            <p>
-                <b>Genus</b>: Myrsine, Myrsine
-            </p>
-            <p>
-                <b>Species</b>: latifolia, laminarum
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

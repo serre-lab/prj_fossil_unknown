@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-50323, USNM-50323
             </p>
-            <p>
-                <b>Family</b>: Anacardiaceae, Oleaceae
-            </p>
-            <p>
-                <b>Genus</b>: Cotinus, Fraxinus
-            </p>
-            <p>
-                <b>Species</b>: fraterna, ungeri
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-40769A, USNM-40769A
             </p>
-            <p>
-                <b>Family</b>: Cannabaceae, Vitaceae
-            </p>
-            <p>
-                <b>Genus</b>: Humulus, Vitis
-            </p>
-            <p>
-                <b>Species</b>: florissantella, florissantella
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

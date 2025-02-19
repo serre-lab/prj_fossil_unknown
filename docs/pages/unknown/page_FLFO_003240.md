@@ -167,18 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Sapindus __ __coloradensis
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: Leaf from bulk
-Sapindus or Rhus stellariaefolia - HM 11/19/2013
-tf2
+                <b>Catalog #</b>: FLFO 3, 2, 4, 0
             </p>
         </div>
         <div class="main-image-container">

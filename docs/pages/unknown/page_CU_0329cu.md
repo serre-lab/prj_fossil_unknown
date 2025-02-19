@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: UCM-18587
             </p>
-            <p>
-                <b>Family</b>: Incertae sedis
-            </p>
-            <p>
-                <b>Genus</b>: Panax
-            </p>
-            <p>
-                <b>Species</b>: andrewsii
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

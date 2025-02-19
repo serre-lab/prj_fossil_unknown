@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Hydrangea __ __fraxinifolia
-            </p>
-            <p>
-                <b>Geo Unit</b>: 
-            </p>
-            <p>
-                <b>Description</b>: Fossil leaf, base missing, tip bent over.  Margin dentate, second- aries alternate, curved and anastonosing near margin.  Broken and repaired. Dark brown on brown shale.
+                <b>Catalog #</b>: FLFO 3, 1, 4, 3
             </p>
         </div>
         <div class="main-image-container">

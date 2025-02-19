@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-1887, USNM-1887
             </p>
-            <p>
-                <b>Family</b>: Rutaceae, Anacardiaceae
-            </p>
-            <p>
-                <b>Genus</b>: Ptelea, Rhus
-            </p>
-            <p>
-                <b>Species</b>: cassoides, cassioides
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

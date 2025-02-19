@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-387559
             </p>
-            <p>
-                <b>Family</b>: Frangulaceae
-            </p>
-            <p>
-                <b>Genus</b>: Celastrinites
-            </p>
-            <p>
-                <b>Species</b>: elegans
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

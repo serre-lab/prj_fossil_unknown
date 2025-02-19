@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Animalia
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>:  __ __ __ __ __Unidentified Aves Feather
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: Feather. Fagopsis on slab with counterpart not cataloged.
+                <b>Catalog #</b>: FLFO 1, 1, 2, 0, 1
             </p>
         </div>
         <div class="main-image-container">

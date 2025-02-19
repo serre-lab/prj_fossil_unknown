@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: UNSPECIFIED URTICALES
-            </p>
-            <p>
-                <b>Geo Unit</b>: 
-            </p>
-            <p>
-                <b>Description</b>: UNSPECIFIED URTICALES FROM SHALE THAT WAS TAKEN FROM BOULDER CREEK TRAIL DURING THE SUMMER OF 2008
+                <b>Catalog #</b>: FLFO 6, 1, 5, 2
             </p>
         </div>
         <div class="main-image-container">

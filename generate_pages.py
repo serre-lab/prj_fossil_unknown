@@ -60,6 +60,7 @@ with open("unknown_closest.json", "r") as file:
 with open("unidentified_closest.json", "r") as file:
     unidentified_closest = json.load(file)
 
+
 html_template = """
 <!DOCTYPE html>
 <html lang="en">
@@ -231,15 +232,6 @@ html_template = """
             <p>
                 <b>{info1}</b>: {value1}
             </p>
-            <p>
-                <b>{info2}</b>: {value2}
-            </p>
-            <p>
-                <b>{info3}</b>: {value3}
-            </p>
-            <p>
-                <b>{info4}</b>: {value4}
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
@@ -315,17 +307,18 @@ for i, (key, value) in enumerate(image_names.items()):
         if len(row_values) > 0: 
             row_dict = row_values.to_dict(orient='records')[0]
             info1, value1 = 'InstPrefix+Catalog #', ", ".join(row_dict['InstPrefix+Catalog #'])
-            info2, value2 = 'Family', ", ".join(row_dict['Family'])
-            info3, value3 = 'Genus', ", ".join(row_dict['Genus'])
-            info4, value4 = 'Species', ", ".join(row_dict['Species'])
+            # info2, value2 = 'Family', ", ".join(row_dict['Family'])
+            # info3, value3 = 'Genus', ", ".join(row_dict['Genus'])
+            # info4, value4 = 'Species', ", ".join(row_dict['Species'])
     else:
         row_values = flfo_df[flfo_df['Catalog #'] == str(index)]
         if len(row_values) > 0: 
             row_dict = row_values.to_dict(orient='records')[0]
-            info1, value1 = 'Class 2, Kingdom', ", ".join(row_dict['Class 2, Kingdom'])
-            info2, value2 = 'Sci. Name, Obj/Science', ", ".join(row_dict['Sci. Name, Obj/Science'])
-            info3, value3 = 'Geo Unit', ", ".join(row_dict['Geo Unit'])
-            info4, value4 = 'Description', ", ".join(row_dict['Description'])
+            info1, value1 = "Catalog #", "FLFO " + ", ".join(row_dict['Catalog #'])
+            # info1, value1 = 'Class 2, Kingdom', ", ".join(row_dict['Class 2, Kingdom'])
+            # info2, value2 = 'Sci. Name, Obj/Science', ", ".join(row_dict['Sci. Name, Obj/Science'])
+            # info3, value3 = 'Geo Unit', ", ".join(row_dict['Geo Unit'])
+            # info4, value4 = 'Description', ", ".join(row_dict['Description'])
 
     
     class1, class2, class3, class4, class5 = image_predictions[key]
@@ -355,12 +348,12 @@ for i, (key, value) in enumerate(image_names.items()):
         class5 = class5,
         info1  = info1, 
         value1 = value1,
-        info2  = info2,
-        value2 = value2,
-        info3  = info3,
-        value3 = value3,
-        info4  = info4,
-        value4 = value4,
+        # info2  = info2,
+        # value2 = value2,
+        # info3  = info3,
+        # value3 = value3,
+        # info4  = info4,
+        # value4 = value4,
         main_image = Unknown_IMAGE_URL.format(key),
         sm1 = known_image_urls[0][1],
         sm2 = known_image_urls[1][1],
@@ -410,17 +403,18 @@ for i, (key, value) in enumerate(unidentified_image_names.items()):
         if len(row_values) > 0: 
             row_dict = row_values.to_dict(orient='records')[0]
             info1, value1 = 'InstPrefix+Catalog #', ", ".join(row_dict['InstPrefix+Catalog #'])
-            info2, value2 = 'Family', ", ".join(row_dict['Family'])
-            info3, value3 = 'Genus', ", ".join(row_dict['Genus'])
-            info4, value4 = 'Species', ", ".join(row_dict['Species'])
+            # info2, value2 = 'Family', ", ".join(row_dict['Family'])
+            # info3, value3 = 'Genus', ", ".join(row_dict['Genus'])
+            # info4, value4 = 'Species', ", ".join(row_dict['Species'])
     else:
         row_values = flfo_df[flfo_df['Catalog #'] == str(index)]
         if len(row_values) > 0: 
             row_dict = row_values.to_dict(orient='records')[0]
-            info1, value1 = 'Class 2, Kingdom', ", ".join(row_dict['Class 2, Kingdom'])
-            info2, value2 = 'Sci. Name, Obj/Science', ", ".join(row_dict['Sci. Name, Obj/Science'])
-            info3, value3 = 'Geo Unit', ", ".join(row_dict['Geo Unit'])
-            info4, value4 = 'Description', ", ".join(row_dict['Description'])
+            # info1, value1 = 'Class 2, Kingdom', ", ".join(row_dict['Class 2, Kingdom'])
+            info1, value1 = "Catalog #", "FLFO " + ", ".join(row_dict['Catalog #'])
+            # info2, value2 = 'Sci. Name, Obj/Science', ", ".join(row_dict['Sci. Name, Obj/Science'])
+            # info3, value3 = 'Geo Unit', ", ".join(row_dict['Geo Unit'])
+            # info4, value4 = 'Description', ", ".join(row_dict['Description'])
 
     concept_images = "\n".join(
         [f'''<div class="concept-card">
@@ -447,12 +441,12 @@ for i, (key, value) in enumerate(unidentified_image_names.items()):
         class5 = class5,
         info1  = info1, 
         value1 = value1,
-        info2  = info2,
-        value2 = value2,
-        info3  = info3,
-        value3 = value3,
-        info4  = info4,
-        value4 = value4,
+        # info2  = info2,
+        # value2 = value2,
+        # info3  = info3,
+        # value3 = value3,
+        # info4  = info4,
+        # value4 = value4,
         main_image = Unidentified_IMAGE_URL.format(key),
         sm1 = known_image_urls[0][1],
         sm2 = known_image_urls[1][1],

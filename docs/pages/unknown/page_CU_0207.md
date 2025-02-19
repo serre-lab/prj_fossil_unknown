@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-40779
             </p>
-            <p>
-                <b>Family</b>: Cucurbitaceae
-            </p>
-            <p>
-                <b>Genus</b>: Melothria (?)
-            </p>
-            <p>
-                <b>Species</b>: coloradensis
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

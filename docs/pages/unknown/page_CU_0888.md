@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-50347, USNM-50347
             </p>
-            <p>
-                <b>Family</b>: Frangulaceae, Celastroideae
-            </p>
-            <p>
-                <b>Genus</b>: Celastrinites, Celastrus
-            </p>
-            <p>
-                <b>Species</b>: elegans, greithianus
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

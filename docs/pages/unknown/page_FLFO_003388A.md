@@ -167,17 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Staphylea __ __acuminata
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: Staphylea or Hydrangea fraxinifolia 
-Tf2, -4 to -3 meters from Tf3.
+                <b>Catalog #</b>: FLFO 3, 3, 8, 8
             </p>
         </div>
         <div class="main-image-container">

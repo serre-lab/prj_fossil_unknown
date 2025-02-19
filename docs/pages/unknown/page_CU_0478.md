@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: UCMP-3696
             </p>
-            <p>
-                <b>Family</b>: Sapindaceae
-            </p>
-            <p>
-                <b>Genus</b>: Dodonaea
-            </p>
-            <p>
-                <b>Species</b>: umbrina
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

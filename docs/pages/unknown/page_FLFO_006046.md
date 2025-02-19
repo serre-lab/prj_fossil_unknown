@@ -167,17 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: cf. Salicaceae
-            </p>
-            <p>
-                <b>Geo Unit</b>: 
-            </p>
-            <p>
-                <b>Description</b>: Damaged leaf (insect?).  On loan from Waynesburg College for exhibit.
-Populus?
+                <b>Catalog #</b>: FLFO 6, 0, 4, 6
             </p>
         </div>
         <div class="main-image-container">

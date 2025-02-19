@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-33723, USNM-33723, USNM-33723
             </p>
-            <p>
-                <b>Family</b>: Cannabaceae, Vitaceae, Vitaceae
-            </p>
-            <p>
-                <b>Genus</b>: Humulus, Vitis, Vitis
-            </p>
-            <p>
-                <b>Species</b>: florissantella, hesperia, florissantella
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

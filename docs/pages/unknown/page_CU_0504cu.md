@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: UCMP-3703
             </p>
-            <p>
-                <b>Family</b>: Convolvulaceae
-            </p>
-            <p>
-                <b>Genus</b>: Convolvulites
-            </p>
-            <p>
-                <b>Species</b>: orchitus
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

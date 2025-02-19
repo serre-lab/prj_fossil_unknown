@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: UCM-18555
             </p>
-            <p>
-                <b>Family</b>: Poaceae
-            </p>
-            <p>
-                <b>Genus</b>: Melica
-            </p>
-            <p>
-                <b>Species</b>: primaeva
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

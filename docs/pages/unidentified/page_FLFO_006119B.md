@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Unidentified Plantae
-            </p>
-            <p>
-                <b>Geo Unit</b>: Upper Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: UNIDENTIFIED LEAF (FRAGMENTARY) PART AND COUNTERPART
+                <b>Catalog #</b>: FLFO 6, 1, 1, 9
             </p>
         </div>
         <div class="main-image-container">

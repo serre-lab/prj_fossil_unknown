@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Rosa __sp.
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: doesn't appear to be Rosa hilliae; Tf-2
+                <b>Catalog #</b>: FLFO 4, 1, 1, 2
             </p>
         </div>
         <div class="main-image-container">

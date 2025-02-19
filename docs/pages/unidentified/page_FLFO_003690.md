@@ -167,19 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>:  __ __ __ __ __Unidentified plant
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: fossil branch with 4 alternating branchlets
-on the same slab as FLFO 3694 and 3695
-Tf2, -260 TO -275 cm below Tf3
-
+                <b>Catalog #</b>: FLFO 3, 6, 9, 0
             </p>
         </div>
         <div class="main-image-container">

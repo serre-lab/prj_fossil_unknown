@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-43731, USNM-43731
             </p>
-            <p>
-                <b>Family</b>: Oleaceae, Lauraceae
-            </p>
-            <p>
-                <b>Genus</b>: Osmanthus, Persea
-            </p>
-            <p>
-                <b>Species</b>: praemissa, coloradica
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

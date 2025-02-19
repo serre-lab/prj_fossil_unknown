@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Robinia __ __lesquereuxi?
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: questionable identification; Tf2; -4 to -3 meters from Tf3.
+                <b>Catalog #</b>: FLFO 3, 5, 9, 3
             </p>
         </div>
         <div class="main-image-container">

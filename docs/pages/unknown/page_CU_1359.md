@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: YPM-30076
             </p>
-            <p>
-                <b>Family</b>: 
-            </p>
-            <p>
-                <b>Genus</b>: Aspidium
-            </p>
-            <p>
-                <b>Species</b>: 
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

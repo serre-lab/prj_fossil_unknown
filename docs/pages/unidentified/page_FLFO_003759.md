@@ -167,17 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>:  __ __ __ __ __Unidentified leaf
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: unknown fossil leaf; on the same slab as FLFO 3758
-Fossil dipteran (fly) on same slab, in addition to FLFO 3758 (GSA 1/19/2017)
+                <b>Catalog #</b>: FLFO 3, 7, 5, 9
             </p>
         </div>
         <div class="main-image-container">

@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Taxodaceae (?)
-            </p>
-            <p>
-                <b>Geo Unit</b>: 
-            </p>
-            <p>
-                <b>Description</b>: Fossil leaf.  Book matched pair of conifer twig.
+                <b>Catalog #</b>: FLFO 1, 0, 8, 0
             </p>
         </div>
         <div class="main-image-container">

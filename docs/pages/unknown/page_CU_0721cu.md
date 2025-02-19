@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: USNM-387560
             </p>
-            <p>
-                <b>Family</b>: Sapindaceae
-            </p>
-            <p>
-                <b>Genus</b>: Sapindus
-            </p>
-            <p>
-                <b>Species</b>: inflexus
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>

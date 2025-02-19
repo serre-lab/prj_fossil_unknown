@@ -167,16 +167,7 @@
         <div class="predictions">
             <h2>Information</h2>
             <p>
-                <b>Class 2, Kingdom</b>: Plantae
-            </p>
-            <p>
-                <b>Sci. Name, Obj/Science</b>: Staphylea __ __acuminata
-            </p>
-            <p>
-                <b>Geo Unit</b>: Middle Shale Unit
-            </p>
-            <p>
-                <b>Description</b>: 3 attached leaves, one only a petiole
+                <b>Catalog #</b>: FLFO 1, 0, 9, 0, 1
             </p>
         </div>
         <div class="main-image-container">

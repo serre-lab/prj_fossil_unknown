@@ -169,15 +169,6 @@
             <p>
                 <b>InstPrefix+Catalog #</b>: UCMP-3725
             </p>
-            <p>
-                <b>Family</b>: Aristolochiaceae
-            </p>
-            <p>
-                <b>Genus</b>: Aristolochia
-            </p>
-            <p>
-                <b>Species</b>: mortua
-            </p>
         </div>
         <div class="main-image-container">
             <h2>Fossil Sample</h2>
