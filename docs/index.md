@@ -99,62 +99,62 @@
         </div>
     </div>
 
-    <h3>📑 Metadata (Google Spreadsheet)</h3>
-    <ul>
-        <li><a href = "https://docs.google.com/spreadsheets/d/1IxU4YjUBWdJyolYbKlNUQetb7sDlN3sV/edit?usp=sharing&ouid=117124297544856301307&rtpof=true&sd=true" target="_blank">Florissant CU Metadata </a></li>
-        <li><a href = "https://docs.google.com/spreadsheets/d/1o7OIcT5ikbqbk5bJIWYm-jesXnIc5whp/edit?usp=sharing&ouid=117124297544856301307&rtpof=true&sd=true" target="_blank">Florissant FLFO Metadata</a></li>
-    </ul>
-    <h3>📋 Overview</h3>
-    <p>Welcome to our Unidentified Fossil Classification Documentation! This guide will help you navigate our website and understand our machine learning models' predictions for unidentified fossils.</p>
+    <h3><em> Welcome to our website! </em></h3>
+    <p>We are excited to share the fruits of years of research and innovation aimed at solving one of paleobotany's most challenging puzzles: identifying fossil angiosperm leaves, which are abundant yet notoriously difficult to classify, especially in the absence of organic attachments or cuticles, due to their complexity, variation, and the often limited quality of available images. Through the power of AI and computer vision, we have developed a deep learning model that synthesizes photorealistic fossil images from modern, cleared, and x-rayed leaves. This approach allows machine identifications of fossil and extant leaves at the family level, the starting point for most investigations, with levels of accuracy sufficient to provide useful suggestions for experts.</p>
+    <p>Initially, to limit the immense variation in leaf preservation among fossil sites, we present the tool for leaf fossils from a single, extraordinarily well-studied and photo-documented site: Florissant Fossil Beds, late Eocene of Colorado. The images were gathered over many years by Dr. Herbert Meyer (retired, National Parks Service) from museums around the world, as explained in Wilf et al. <a href = "https://doi.org/10.3897/phytokeys.187.723502021" target="_blank"> 2021</a> (PhytoKeys), who made a vetted subset of Florissant fossils available as part of a large <a href = "https://doi.org/10.25452/figshare.plus.14980698.v2" target="_blank">image collection</a> of living and fossil leaves.</a></p>
+    <p>On this website, we share the  results  of our model for hundreds of hard-to-identify fossil leaves from Florissant that were not included in the 2021 vetted subset,, including both unidentified specimens and those attributed previously to botanical names that are now uncertain. The model’s training images include the vetted Florissant images and all the cleared and x-rayed leaf images described in Wilf et al. 2021. We hope that this tool will stimulate new research into the world-famous Florissant flora, as we work to generalize the algorithms to apply to other fossil sites.</p>
+    <p>We are eager to hear from the expert community. Your feedback will help us gauge how many of these classifications are plausible and where further exploration is needed. We look forward to your input in advancing this exciting field!</p>
+    <p>The website includes the following features.</p>
 
-    <h3>🌟 How to Use the Website</h3>
-
-    <h4>1. Understanding the Prediction Table 📊</h4>
+    <h4>1. Feedback Table 📊</h4>
     <ul>
         <li>The table displays a comprehensive list of unidentified fossils.</li>
         <li>Each row contains:
           <ul>
               <li>Fossil name (clickable hyperlink)</li>
-              <li>Fossil image</li>
-              <li>Top five predictions (clickable hyperlink)</li>
-              <li>Interactive classification options</li>
+              <li>Fossil image of the given specimen</li>
+              <li>Top five predictions (clickable hyperlink to class concept page)</li>
+              <li>Feedback button: We are looking to see what  classifications are “Plausible”, “Impossible”, “Maybe”. To assess our model fitness for this task. Please simply skip over poorly preserved or inapplicable specimens (see Disclaimers below).</li>
           </ul>
         </li>
     </ul>
 
-    <h4>2. Fossil Name Details 🔬</h4>
-    <ul>
-        <li>Clicking the fossil name opens a detailed information page.</li>
-        <li>The page includes:
-          <ul>
-              <li>Full fossil image</li>
-              <li>Model predictions</li>
-              <li>Top ten key visual concepts influencing the prediction</li>
-              <li>Hyperlinks to detailed concept pages on our Fossil Lens website</li>
-          </ul>
-        </li>
-    </ul>
+    <h4>2. Fossil detail website 🔬</h4>
 
-    <h4>3. Prediction Interaction 🤔</h4>
+        <p>In this view, you will find details about the Fossil specimen, including its repository number. You can easily find additional metadata for the specimens, including prior identifications, from their filenames (CU- or FLFO- prefix), with these metadata tables kindly provided by Dr. Meyer (see Wilf et al. 2021 for more information about these two image sets): </p>
+        <ul>
+            <li><a href = "https://docs.google.com/spreadsheets/d/1IxU4YjUBWdJyolYbKlNUQetb7sDlN3sV/edit?usp=sharing&ouid=117124297544856301307&rtpof=true&sd=true" target="_blank">Florissant CU Metadata </a></li>
+            <li><a href = "https://docs.google.com/spreadsheets/d/1o7OIcT5ikbqbk5bJIWYm-jesXnIc5whp/edit?usp=sharing&ouid=117124297544856301307&rtpof=true&sd=true" target="_blank">Florissant FLFO Metadata</a></li>
+        </ul>
+        <p>As well you will find the top 5 family predictions associated with this specimen. The samples from our dataset that are most similar to the provided specimen.</p>
+        <p>Finally, you will find the concepts that were utilized by the model in the classification process. These concepts are parts of the images that are useful for family identification through the dataset. In this context, concepts are visual or structural patterns in the specimen that the model uses for classification. These often correspond to diagnostic morphological traits used in traditional taxonomy, such as: Pattern of dentation, leaf venation, symmetry, etc. You can also click on them to explore more details about the concept and other families where the concept is common. </p>
+
+    <h4>3. The Feedback Procedure</h4>
     <p>You can interact with each fossil prediction by:</p>
-    <ul>
-      <li><strong>✅ Marking as "Correct"</strong></li>
-      <li><strong>❌ Marking as "Incorrect"</strong></li>
-      <li><strong>🤷‍♀️ Selecting "Maybe"</strong></li>
-    </ul>
+    <ol>
+      <li>For each row you can mark any of the following interactions</li>
+      <ul>
+        <li>✅ Marking as "Plausible" : In your best judgement, one or multiple of the families proposed can be actually the family of the specimen.</li>
+        <li>❌ Marking as "Impossible" : No way! None of the predictions make sense for this specimen. </li>
+        <li>🤷‍♀️ Selecting "Maybe" : Actually, not sure, maybe some could be.</li>
+      </ul>
+      <li>Response Tracking 💾</li>
+      <ul>
+        <li>Use the "Download Responses" button (bottom right) to save your choices as a JSON file.</li>
+        <li><strong>Important:</strong> Download before closing the website to avoid losing responses.</li>
+      </ul>
+      <li> Resuming Your Work 🔄</li>
+      <ul>
+        <li>You can resume work using serial numbers during your next visit.</li>
+      </ul>
+      <li>Sending your feedback: your feedback on any portion of the dataset is greatly appreciated. Feel free to send the downloaded Json file to ivan_felipe_rodriguez@brown.edu</li>
+    </ol>
 
-    <h4>4. Response Tracking 💾</h4>
-    <ul>
-      <li>Use the "Download Responses" button (bottom right) to save your choices as a JSON file.</li>
-      <li><strong>Important:</strong> Download before closing the website to avoid losing responses.</li>
-    </ul>
+    <h4>Disclaimers</h4>
+    
+    <p>Please note that while our dataset is extensive, many fossil samples are badly preserved and may lack the detail needed for accurate classification. In addition, although the images were manually filtered several years ago to remove most of them, there remain many images of monocots (which are severely undersampled in the training dataset), reproductive organs (likewise), and non-plant fossils (feathers, fish, and so on). We recommend simply skipping these poorly preserved or inapplicable specimens to ensure more reliable results. Finally, please be aware that the model can only predict families that are in its training dataset, listed here.</p>
+    <p><em>We invite you to explore this innovative blend of paleobotany and artificial intelligence, and to join us in refining the art and science of fossil leaf identification! 🍂🌿</em></p>
 
-    <h4>5. Resuming Your Work 🔄</h4>
-    <ul>
-      <li>You can resume work using serial numbers during your next visit.</li>
-    </ul>
-
-    <p><em>Enjoy exploring the fascinating world of leaf fossil classification! 🍂🌿</em></p>
 </div>
 
 </body>
