@@ -136,10 +136,10 @@ html_template = """
     <ol>
       <li>For each row you can mark any of the following interactions</li>
       <ul>
-        <li>✅ Mark as "Plausible" : In your best judgement, one or multiple of the families proposed can be actually the family of the specimen.</li>
-        <li>❌ Mark as "Impossible" : No way! None of the predictions make sense for this specimen. </li>
-        <li>🤷‍♀️ Not Sure: You don't recognize the features of all the top-5 families offered by the system, and further study is needed.</li>
-        <li>🚫 Not Applicable: The specimen doesn't belong in the dataset (e.g., non-dicot leaf, too degraded, or not a leaf fossil).</li>
+        <li>✅ Mark as <strong><em>Plausible</em></strong>: In your best judgement, one or multiple of the families proposed can be actually the family of the specimen.</li>
+        <li>❌ Mark as <strong><em>Impossible</em></strong>: No way! None of the predictions make sense for this specimen. </li>
+        <li>🤷‍♀️ Selecting <strong><em>Not Sure</em></strong>: You don't recognize the features of all the top-5 families offered by the system, and further study is needed.</li>
+        <li>🚫 Selecting <strong><em>Not Applicable</em></strong>: The specimen doesn't belong in the dataset (e.g., non-dicot leaf, too degraded, or not a leaf fossil).</li>
       </ul>
       <li>Response Tracking 💾</li>
       <ul>
