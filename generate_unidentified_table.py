@@ -121,13 +121,14 @@ html_template = """
         <table>
             <thead>
                 <tr>
-                    <th style="width: 10%;">Sr. No.</th>
-                    <th style="width: 15%;">Fossil Name</th>
-                    <th style="width: 15%;">Fossil Image</th>
-                    <th style="width: 30%;">Top 5 Predictions</th>
+                    <th style="width: 5%;">Sr. No.</th>
+                    <th style="width: 10%;">Fossil Name</th>
+                    <th style="width: 20%;">Fossil Image</th>
+                    <th style="width: 25%;">Top 5 Predictions</th>
                     <th style="width: 10%;">Plausible</th>
                     <th style="width: 10%;">Impossible</th>
-                    <th style="width: 10%;">Maybe</th>
+                    <th style="width: 10%;">Not Sure</th>
+                    <th style="width: 10%;">Not Applicable</th>
                 </tr>
             </thead>
             <tbody>
@@ -203,7 +204,8 @@ for index, (key, value) in enumerate(unknown_image_predictions.items(), start=1)
         <td>{predictions_html}</td>
         <td><input type="radio" name="row{index}" value="Plausible"></td>
         <td><input type="radio" name="row{index}" value="Impossible"></td>
-        <td><input type="radio" name="row{index}" value="Maybe"></td>
+        <td><input type="radio" name="row{index}" value="Not Sure"></td>
+        <td><input type="radio" name="row{index}" value="Not Applicable"></td>
     </tr>
     """
     table_rows += row
@@ -219,7 +221,8 @@ for index, (key, value) in enumerate(image_predictions.items(), start=1):
         <td>{predictions_html}</td>
         <td><input type="radio" name="row{index}" value="Plausible"></td>
         <td><input type="radio" name="row{index}" value="Impossible"></td>
-        <td><input type="radio" name="row{index}" value="Maybe"></td>
+        <td><input type="radio" name="row{index}" value="Not Sure"></td>
+        <td><input type="radio" name="row{index}" value="Not Applicable"></td>
     </tr>
     """
     table_rows += row
