@@ -75,12 +75,12 @@ html_template = """
             top: 0;
             background-color: #2c3e50;
             color: white;
-            padding: 12px;
+            padding: 6px;
             font-size: 14px;
         }}
 
         th, td {{
-            padding: 12px;
+            padding: 6px;
             text-align: center;
             border-bottom: 1px solid #eaeaea;
         }}
@@ -90,9 +90,9 @@ html_template = """
         }}
 
         img {{
-            width: 80px;
+            width: 200px;
             height: auto;
-            border-radius: 8px;
+            border-radius: 6px;
         }}
 
         .fixed-button {{
@@ -121,14 +121,11 @@ html_template = """
         <table>
             <thead>
                 <tr>
-                    <th style="width: 5%;">Sr. No.</th>
-                    <th style="width: 10%;">Fossil Name</th>
-                    <th style="width: 20%;">Fossil Image</th>
-                    <th style="width: 25%;">Top 5 Predictions</th>
-                    <th style="width: 10%;">Plausible</th>
-                    <th style="width: 10%;">Impossible</th>
-                    <th style="width: 10%;">Not Sure</th>
-                    <th style="width: 10%;">Not Applicable</th>
+                    <th style="width: 1%;">Sr. No.</th>
+                    <th style="width: 4%;">Fossil Name</th>
+                    <th style="width: 50%;">Fossil Image</th>
+                    <th style="width: 5%;">Top 5 Predictions</th>
+                    <th style="width: 40%;">Selection</th>
                 </tr>
             </thead>
             <tbody>
@@ -197,17 +194,20 @@ table_rows = ""
 for index, (key, value) in enumerate(unknown_image_predictions.items(), start=1):
     predictions_html = "<br>".join([f'<a href="https://fel-thomas.github.io/Leaf-Lens/classes/{p}/" target="_blank">{p}</a>' for p in value])
     row = f"""
-    <tr>
-        <td>{index}</td>
-        <td><a href="https://serre-lab.github.io/prj_fossil_unknown/pages/unidentified/page_{key}/" target="_blank">{key}</a></td>
-        <td><img src="{UNKNOWN_IMAGE_URL.format(key)}" alt="Fossil Image"></td>
-        <td>{predictions_html}</td>
-        <td><input type="radio" name="row{index}" value="Plausible"></td>
-        <td><input type="radio" name="row{index}" value="Impossible"></td>
-        <td><input type="radio" name="row{index}" value="Not Sure"></td>
-        <td><input type="radio" name="row{index}" value="Not Applicable"></td>
-    </tr>
-    """
+        <tr>
+            <td>{index}</td>
+            <td><a href="https://serre-lab.github.io/prj_fossil_unknown/pages/unidentified/page_{key}/" target="_blank">{key}</a></td>
+            <td><img src="{UNKNOWN_IMAGE_URL.format(key)}" alt="Fossil Image"></td>
+            <td>{predictions_html}</td>
+            <td>
+                <label><input type="radio" name="row{index}" value="Plausible">Plausible</label><br>
+                <label><input type="radio" name="row{index}" value="Impossible">Impossible</label><br>
+                <label><input type="radio" name="row{index}" value="Not Sure">Not Sure</label><br>
+                <label><input type="radio" name="row{index}" value="Not Applicable">NA</label>
+            </td>
+        </tr>
+        """
+
     table_rows += row
 total_unknown_images = len(unknown_image_predictions)
 for index, (key, value) in enumerate(image_predictions.items(), start=1):
@@ -219,10 +219,12 @@ for index, (key, value) in enumerate(image_predictions.items(), start=1):
         <td><a href="https://serre-lab.github.io/prj_fossil_unknown/pages/unidentified/page_{key}/" target="_blank">{key}</a></td>
         <td><img src="{IMAGE_URL.format(key)}" alt="Fossil Image"></td>
         <td>{predictions_html}</td>
-        <td><input type="radio" name="row{index}" value="Plausible"></td>
-        <td><input type="radio" name="row{index}" value="Impossible"></td>
-        <td><input type="radio" name="row{index}" value="Not Sure"></td>
-        <td><input type="radio" name="row{index}" value="Not Applicable"></td>
+        <td>
+            <label><input type="radio" name="row{index}" value="Plausible">Plausible</label><br>
+            <label><input type="radio" name="row{index}" value="Impossible">Impossible</label><br>
+            <label><input type="radio" name="row{index}" value="Not Sure">Not Sure</label><br>
+            <label><input type="radio" name="row{index}" value="Not Applicable">NA</label>
+        </td>
     </tr>
     """
     table_rows += row
