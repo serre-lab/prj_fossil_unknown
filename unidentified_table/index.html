@@ -36492,6 +36492,8 @@
                   
 
 
+  <h1><b><i>Feedback Table</i></b> 📋</h1>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -36510,13 +36512,13 @@
         }
 
         .container {
-            max-width: 900px;
-            margin: 40px auto;
-            padding: 20px;
-            background: #ffffff;
-            border-radius: 12px;
-            box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+            max-width: 95vw;  /* Allow the container to expand */
+            width: 95vw;
+            margin: 0 auto;  /* Center the container */
+            overflow-x: hidden; /* Prevent overflow */
         }
+
+
 
         h1 {
             text-align: center;
@@ -36546,16 +36548,15 @@
 
         /* Table Styles */
         .table-container {
-            max-height: 600px;
-            overflow-y: auto;
-            border-radius: 8px;
-            box-shadow: 0px 4px 10px rgba(0,0,0,0.1);
+            width: 100% !important;
+            overflow-x: auto;
         }
 
         table {
-            width: 100%;
-            border-collapse: collapse;
-            background-color: #fff;
+            width: 100%;  /* Ensure table fills the container */
+            table-layout: auto;  /* Allow columns to adjust dynamically */
+            white-space: nowrap; /* Prevent text from wrapping */
+            overflow-x: auto;
         }
 
         thead th {
@@ -36604,7 +36605,6 @@
 </head>
 <body>
 <div class="container">
-    <h1>Unidentified Fossils Predictions Table</h1>
     <div class="table-container">
         <table>
             <thead>
