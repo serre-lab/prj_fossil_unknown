@@ -11,7 +11,6 @@ html_template = """
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Unidentified Fossils Predictions Table</title>
     <style>
-        /* General Styles */
         body {{
             font-family: 'Inter', sans-serif;
             background-color: #f4f7f8;
@@ -20,16 +19,12 @@ html_template = """
             padding: 0;
             line-height: 1.6;
         }}
-
         .container {{
-            max-width: 95vw;  /* Allow the container to expand */
+            max-width: 95vw;
             width: 95vw;
-            margin: 0 auto;  /* Center the container */
-            overflow-x: hidden; /* Prevent overflow */
+            margin: 0 auto;
+            overflow-x: hidden;
         }}
-
-
-
         h1 {{
             text-align: center;
             font-size: 32px;
@@ -37,38 +32,15 @@ html_template = """
             color: #2c3e50;
             margin-bottom: 20px;
         }}
-
-        h3, h4 {{
-            color: #2c3e50;
-            margin-top: 20px;
-        }}
-
-        p {{
-            color: #555555;
-            margin-bottom: 15px;
-        }}
-
-        ul {{
-            margin-left: 20px;
-        }}
-
-        ul li {{
-            margin-bottom: 10px;
-        }}
-
-        /* Table Styles */
         .table-container {{
             width: 100% !important;
             overflow-x: auto;
         }}
-
         table {{
-            width: 100%;  /* Ensure table fills the container */
-            table-layout: auto;  /* Allow columns to adjust dynamically */
-            white-space: nowrap; /* Prevent text from wrapping */
-            overflow-x: auto;
+            width: 100%;
+            table-layout: auto;
+            white-space: nowrap;
         }}
-
         thead th {{
             position: sticky;
             top: 0;
@@ -77,23 +49,25 @@ html_template = """
             padding: 6px;
             font-size: 14px;
         }}
-
         th, td {{
             padding: 6px;
             text-align: center;
             border-bottom: 1px solid #eaeaea;
         }}
-
         tr:hover {{
             background-color: #f9f9f9;
         }}
-
         img {{
             width: 200px;
             height: auto;
             border-radius: 6px;
         }}
 
+        td img {{
+            display: block;
+            margin: 0 auto;
+        }}
+        
         .fixed-button {{
             position: fixed;
             bottom: 20px;
@@ -107,7 +81,6 @@ html_template = """
             font-size: 16px;
             transition: background-color 0.3s;
         }}
-        
         .fixed-button:hover {{
             background-color: #45a049;
         }}
@@ -119,11 +92,11 @@ html_template = """
         <table>
             <thead>
                 <tr>
-                    <th style="width: 1%;">Sr. No.</th>
-                    <th style="width: 4%;">Fossil Name</th>
-                    <th style="width: 50%;">Fossil Image</th>
-                    <th style="width: 5%;">Top 5 Predictions</th>
-                    <th style="width: 40%;">Selection</th>
+                    <th>Sr. No.</th>
+                    <th>Fossil Name</th>
+                    <th>Fossil Image</th>
+                    <th>Top 5 Predictions</th>
+                    <th>Selection</th>
                 </tr>
             </thead>
             <tbody>
@@ -136,7 +109,6 @@ html_template = """
 <button class="fixed-button" onclick="downloadJSON()">Download Responses</button>
 
 <script>
-
     function downloadJSON() {{
         let rows = document.querySelectorAll("tbody tr");
         let data = [];
@@ -144,17 +116,9 @@ html_template = """
         rows.forEach((row, index) => {{
             let cells = row.querySelectorAll("td");
             let fossilName = cells[1].innerText;
-
             let selected = null;
-
-            // Get the selected radio button in the row
             let radios = row.querySelectorAll('input[type="radio"]');
-            
-            radios.forEach((radio) => {{
-                if (radio.checked) {{
-                    selected = radio.value; // Get the value of the selected radio button
-                }}
-            }});
+            radios.forEach(radio => {{ if (radio.checked) {{ selected = radio.value; }}}});
 
             data.push({{
                 "Serial Number": index + 1,
