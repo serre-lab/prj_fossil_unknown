@@ -6,9 +6,6 @@ theme:
   palette:
     primary: black
     accent: white
-markdown_extensions:
-  - attr_list
-  - md_in_html
 nav:
   - <b>Home</b>: index.md
   - <b>Unidentified Fossils</b>:

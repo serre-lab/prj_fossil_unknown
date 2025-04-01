@@ -47,12 +47,13 @@ html_template = """
             background-color: #2c3e50;
             color: white;
             padding: 6px;
-            font-size: 14px;
+            font-size: 18px;
         }}
         th, td {{
             padding: 6px;
             text-align: center;
             border-bottom: 1px solid #eaeaea;
+            font-size: 14px;
         }}
         tr:hover {{
             background-color: #f9f9f9;
@@ -61,11 +62,6 @@ html_template = """
             width: 200px;
             height: auto;
             border-radius: 6px;
-        }}
-
-        td img {{
-            display: block;
-            margin: 0 auto;
         }}
         
         .fixed-button {{
@@ -158,7 +154,7 @@ for index, (key, value) in enumerate(unknown_image_predictions.items(), start=1)
     row = f"""
         <tr>
             <td>{index}</td>
-            <td><a href="https://serre-lab.github.io/prj_fossil_unknown/pages/unidentified/page_{key}/" target="_blank">{key}</a></td>
+            <td><a href="https://serre-lab.github.io/prj_fossil_unknown/pages/unknown/page_{key}/" target="_blank">{key}</a></td>
             <td><img src="{UNKNOWN_IMAGE_URL.format(key)}" alt="Fossil Image"></td>
             <td>{predictions_html}</td>
             <td>
