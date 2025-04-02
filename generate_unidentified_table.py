@@ -20,10 +20,10 @@ html_template = """
             line-height: 1.6;
         }}
         .container {{
-            max-width: 95vw;
-            width: 95vw;
+            max-width: 100%;
+            width: 100%;
             margin: 0 auto;
-            overflow-x: hidden;
+            overflow-x: auto;
         }}
         h1 {{
             text-align: center;
@@ -33,37 +33,41 @@ html_template = """
             margin-bottom: 20px;
         }}
         .table-container {{
-            width: 100% !important;
-            overflow-x: auto;
+            width: 100%;
         }}
         table {{
             width: 100%;
-            table-layout: auto;
-            white-space: nowrap;
         }}
         thead th {{
             position: sticky;
             top: 0;
             background-color: #2c3e50;
             color: white;
-            padding: 6px;
+            padding: 10px;
             font-size: 18px;
         }}
         th, td {{
-            padding: 6px;
+            padding: 10px;
             text-align: center;
             border-bottom: 1px solid #eaeaea;
-            font-size: 14px;
+            font-size: 16px;
         }}
         tr:hover {{
             background-color: #f9f9f9;
         }}
         img {{
-            width: 200px;
+            width: 100%; /* Make it responsive */
+            max-width: 100%; /* Prevents overflow */
             height: auto;
+            display: block;
+            margin: auto;
             border-radius: 6px;
         }}
-        
+        .radio-container {{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }}
         .fixed-button {{
             position: fixed;
             bottom: 20px;
@@ -80,19 +84,48 @@ html_template = """
         .fixed-button:hover {{
             background-color: #45a049;
         }}
+
+        .md-sidebar.md-sidebar--secondary{{
+            width: 0px !important;
+        }}
+
+        /* Responsive adjustments */
+        @media (max-width: 768px) {{
+            th, td {{
+                font-size: 14px;
+                padding: 8px;
+            }}
+            img {{
+                width: 150px;
+            }}
+        }}
+        @media (max-width: 480px) {{
+            th, td {{
+                font-size: 12px;
+                padding: 5px;
+            }}
+            img {{
+                width: 120px;
+            }}
+            .fixed-button {{
+                font-size: 14px;
+                padding: 12px 24px;
+            }}
+        }}
     </style>
 </head>
 <body>
 <div class="container">
+    <h1>Unidentified Fossils Predictions Table</h1>
     <div class="table-container">
         <table>
             <thead>
                 <tr>
-                    <th>Sr. No.</th>
-                    <th>Fossil Name</th>
-                    <th>Fossil Image</th>
-                    <th>Top 5 Predictions</th>
-                    <th>Selection</th>
+                    <th style="width: 2%;">Sr. No.</th>
+                    <th style="width: 8%;">Fossil Name</th>
+                    <th style="width: 50%;">Fossil Image</th>
+                    <th style="width: 10%;">Top 5 Predictions</th>
+                    <th style="width: 30%;">Selection</th>
                 </tr>
             </thead>
             <tbody>
@@ -114,7 +147,7 @@ html_template = """
             let fossilName = cells[1].innerText;
             let selected = null;
             let radios = row.querySelectorAll('input[type="radio"]');
-            radios.forEach(radio => {{ if (radio.checked) {{ selected = radio.value; }}}});
+            radios.forEach(radio => {{ if (radio.checked) {{ selected = radio.value; }} }});
 
             data.push({{
                 "Serial Number": index + 1,
