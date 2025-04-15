@@ -214,7 +214,7 @@
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1427_fv.webp" alt="Feature Visualization 1">
                     </a>
                 </div>
-                <div class="concept-caption"><em style="color:blue;">Concept: 1427</em>, Relative_rank:  1</div>
+                <div class="concept-caption"><em style="color:blue;">Concept: 1427</em>, relative rank:  1</div>
             </div>
 <div class="concept-card">
                 <div class="concept-images">
@@ -225,7 +225,7 @@
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_653_fv.webp" alt="Feature Visualization 2">
                     </a>
                 </div>
-                <div class="concept-caption"><em style="color:blue;">Concept: 653</em>, Relative_rank:  2</div>
+                <div class="concept-caption"><em style="color:blue;">Concept: 653</em>, relative rank:  2</div>
             </div>
 <div class="concept-card">
                 <div class="concept-images">
@@ -236,7 +236,7 @@
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1520_fv.webp" alt="Feature Visualization 3">
                     </a>
                 </div>
-                <div class="concept-caption"><em style="color:blue;">Concept: 1520</em>, Relative_rank:  3</div>
+                <div class="concept-caption"><em style="color:blue;">Concept: 1520</em>, relative rank:  3</div>
             </div>
 <div class="concept-card">
                 <div class="concept-images">
@@ -247,7 +247,7 @@
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_776_fv.webp" alt="Feature Visualization 4">
                     </a>
                 </div>
-                <div class="concept-caption"><em style="color:blue;">Concept: 776</em>, Relative_rank:  4</div>
+                <div class="concept-caption"><em style="color:blue;">Concept: 776</em>, relative rank:  4</div>
             </div>
 <div class="concept-card">
                 <div class="concept-images">
@@ -258,7 +258,7 @@
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_2043_fv.webp" alt="Feature Visualization 5">
                     </a>
                 </div>
-                <div class="concept-caption"><em style="color:blue;">Concept: 2043</em>, Relative_rank:  5</div>
+                <div class="concept-caption"><em style="color:blue;">Concept: 2043</em>, relative rank:  5</div>
             </div>
 <div class="concept-card">
                 <div class="concept-images">
@@ -269,7 +269,7 @@
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_280_fv.webp" alt="Feature Visualization 6">
                     </a>
                 </div>
-                <div class="concept-caption"><em style="color:blue;">Concept: 280</em>, Relative_rank:  6</div>
+                <div class="concept-caption"><em style="color:blue;">Concept: 280</em>, relative rank:  6</div>
             </div>
 <div class="concept-card">
                 <div class="concept-images">
@@ -280,7 +280,7 @@
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1876_fv.webp" alt="Feature Visualization 7">
                     </a>
                 </div>
-                <div class="concept-caption"><em style="color:blue;">Concept: 1876</em>, Relative_rank:  7</div>
+                <div class="concept-caption"><em style="color:blue;">Concept: 1876</em>, relative rank:  7</div>
             </div>
 <div class="concept-card">
                 <div class="concept-images">
@@ -291,7 +291,7 @@
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1807_fv.webp" alt="Feature Visualization 8">
                     </a>
                 </div>
-                <div class="concept-caption"><em style="color:blue;">Concept: 1807</em>, Relative_rank:  8</div>
+                <div class="concept-caption"><em style="color:blue;">Concept: 1807</em>, relative rank:  8</div>
             </div>
 <div class="concept-card">
                 <div class="concept-images">
@@ -302,7 +302,7 @@
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_216_fv.webp" alt="Feature Visualization 9">
                     </a>
                 </div>
-                <div class="concept-caption"><em style="color:blue;">Concept: 216</em>, Relative_rank:  9</div>
+                <div class="concept-caption"><em style="color:blue;">Concept: 216</em>, relative rank:  9</div>
             </div>
 <div class="concept-card">
                 <div class="concept-images">
@@ -313,7 +313,7 @@
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1300_fv.webp" alt="Feature Visualization 10">
                     </a>
                 </div>
-                <div class="concept-caption"><em style="color:blue;">Concept: 1300</em>, Relative_rank:  10</div>
+                <div class="concept-caption"><em style="color:blue;">Concept: 1300</em>, relative rank:  10</div>
             </div>
         </div>
     </div>

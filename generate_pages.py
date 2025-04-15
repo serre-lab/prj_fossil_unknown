@@ -333,7 +333,7 @@ for i, (key, value) in enumerate(image_names.items()):
                         <img src="{FEATURE_VIS_URL.format(value[j].split("_")[-1][:-4])}" alt="Feature Visualization {j+1}">
                     </a>
                 </div>
-                <div class="concept-caption"><em style="color:blue;">Concept: {value[j].split("_")[-1][:-4]}</em>, Relative_rank:  {value[j].split("_")[-2]}</div>
+                <div class="concept-caption"><em style="color:blue;">Concept: {value[j].split("_")[-1][:-4]}</em>, relative rank:  {value[j].split("_")[-2]}</div>
             </div>''' for j in range(len(value))]
     )
 
