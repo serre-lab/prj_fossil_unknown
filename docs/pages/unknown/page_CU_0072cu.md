@@ -175,7 +175,7 @@
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0072cu/image.jpg" alt="Fossil Image">
         </div>
         <div class="main-image-container">
-            <h3>Similar Specimens</h3>
+            <h3>Similar Fossil Specimens</h3>
             <div class="similar-images-grid">
                 <div class="similar-image-container">
                     <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Lauraceae/Lauraceae_Lindera_coloradica_Florissant_CU_0405cu1.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Lauraceae/Lauraceae_Lindera_coloradica_Florissant_CU_0405cu1.jpg" alt="Similar specimen"></a>
@@ -200,6 +200,34 @@
                 <div class="similar-image-container">
                     <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Lauraceae/Lauraceae_Lindera_coloradica_Florissant_FLFO_007254.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Lauraceae/Lauraceae_Lindera_coloradica_Florissant_FLFO_007254.jpg" alt="Similar specimen"></a>
                     <div class="image-caption">Lauraceae_Lindera_coloradica_Florissant_FLFO_007254</div>
+                </div>
+            </div>
+
+            <h3>Similar Leaf Specimens</h3>
+            <div class="similar-images-grid">
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Menispermaceae/Menispermaceae_Tiliacora_racemosa_Wolfe_Wolfe_8820b.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Menispermaceae/Menispermaceae_Tiliacora_racemosa_Wolfe_Wolfe_8820b.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Menispermaceae_Tiliacora_racemosa_Wolfe_Wolfe_8820b</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Vitaceae/Vitaceae_Vitis_aestivalis_NMNS_T1565.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Vitaceae/Vitaceae_Vitis_aestivalis_NMNS_T1565.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Vitaceae_Vitis_aestivalis_NMNS_T1565</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Malvaceae/Malvaceae_Sparmannia_africana_Wing_Wing_544-002.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Malvaceae/Malvaceae_Sparmannia_africana_Wing_Wing_544-002.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Malvaceae_Sparmannia_africana_Wing_Wing_544-002</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Cornaceae/Cornaceae_Alangium_chinense_Hickey_Hickey_604.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Cornaceae/Cornaceae_Alangium_chinense_Hickey_Hickey_604.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Cornaceae_Alangium_chinense_Hickey_Hickey_604</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Hamamelidaceae/Hamamelidaceae_Disanthus_cercidifolius_Wing_Wing_930-003.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Hamamelidaceae/Hamamelidaceae_Disanthus_cercidifolius_Wing_Wing_930-003.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Hamamelidaceae_Disanthus_cercidifolius_Wing_Wing_930-003</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Vitaceae/Vitaceae_Parthenocissus_quinquefolia_NMNS_U1048.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Vitaceae/Vitaceae_Parthenocissus_quinquefolia_NMNS_U1048.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Vitaceae_Parthenocissus_quinquefolia_NMNS_U1048</div>
                 </div>
             </div>
         </div>

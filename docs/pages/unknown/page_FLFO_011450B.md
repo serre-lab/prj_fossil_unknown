@@ -175,7 +175,7 @@
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/FLFO_011450B/image.jpg" alt="Fossil Image">
         </div>
         <div class="main-image-container">
-            <h3>Similar Specimens</h3>
+            <h3>Similar Fossil Specimens</h3>
             <div class="similar-images-grid">
                 <div class="similar-image-container">
                     <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Fabaceae/Fabaceae_Caesalpinites_acuminatus_Florissant_FLFO_004477.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Fabaceae/Fabaceae_Caesalpinites_acuminatus_Florissant_FLFO_004477.jpg" alt="Similar specimen"></a>
@@ -200,6 +200,34 @@
                 <div class="similar-image-container">
                     <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Hydrangeaceae/Hydrangeaceae_Philadelphus_minutus_Florissant_CU_0406.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Hydrangeaceae/Hydrangeaceae_Philadelphus_minutus_Florissant_CU_0406.jpg" alt="Similar specimen"></a>
                     <div class="image-caption">Hydrangeaceae_Philadelphus_minutus_Florissant_CU_0406</div>
+                </div>
+            </div>
+
+            <h3>Similar Leaf Specimens</h3>
+            <div class="similar-images-grid">
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Rosaceae/Rosaceae_Rosa_sp_Hickey_Hickey_2337_2.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Rosaceae/Rosaceae_Rosa_sp_Hickey_Hickey_2337_2.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Rosaceae_Rosa_sp_Hickey_Hickey_2337_2</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Pentaphragmataceae/Pentaphragmataceae_Pentaphragma_begoniifolium_Hickey_Hickey_8076.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Pentaphragmataceae/Pentaphragmataceae_Pentaphragma_begoniifolium_Hickey_Hickey_8076.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Pentaphragmataceae_Pentaphragma_begoniifolium_Hickey_Hickey_8076</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Salicaceae/Salicaceae_Populus_dimorpha_Wolfe_Wolfe_40017.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Salicaceae/Salicaceae_Populus_dimorpha_Wolfe_Wolfe_40017.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Salicaceae_Populus_dimorpha_Wolfe_Wolfe_40017</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Salicaceae/Salicaceae_Populus_brandegeei_Wolfe_Wolfe_14831b.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Salicaceae/Salicaceae_Populus_brandegeei_Wolfe_Wolfe_14831b.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Salicaceae_Populus_brandegeei_Wolfe_Wolfe_14831b</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Staphyleaceae/Staphyleaceae_Staphylea_ternata_NMNS_T0267.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Staphyleaceae/Staphyleaceae_Staphylea_ternata_NMNS_T0267.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Staphyleaceae_Staphylea_ternata_NMNS_T0267</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Malvaceae/Malvaceae_Sterculia_cuneata_Wolfe_Wolfe_11430.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Malvaceae/Malvaceae_Sterculia_cuneata_Wolfe_Wolfe_11430.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Malvaceae_Sterculia_cuneata_Wolfe_Wolfe_11430</div>
                 </div>
             </div>
         </div>

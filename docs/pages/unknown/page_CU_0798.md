@@ -175,7 +175,7 @@
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0798/image.jpg" alt="Fossil Image">
         </div>
         <div class="main-image-container">
-            <h3>Similar Specimens</h3>
+            <h3>Similar Fossil Specimens</h3>
             <div class="similar-images-grid">
                 <div class="similar-image-container">
                     <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Sapindaceae/Sapindaceae_Athyana_haydenii_Florissant_FLFO_004144.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Sapindaceae/Sapindaceae_Athyana_haydenii_Florissant_FLFO_004144.jpg" alt="Similar specimen"></a>
@@ -200,6 +200,34 @@
                 <div class="similar-image-container">
                     <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Grossulariaceae/Grossulariaceae_Ribes_errans_Florissant_CU_0407.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Grossulariaceae/Grossulariaceae_Ribes_errans_Florissant_CU_0407.jpg" alt="Similar specimen"></a>
                     <div class="image-caption">Grossulariaceae_Ribes_errans_Florissant_CU_0407</div>
+                </div>
+            </div>
+
+            <h3>Similar Leaf Specimens</h3>
+            <div class="similar-images-grid">
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Fabaceae/Fabaceae_Chamaecrista_glandulosa_Wolfe_Wolfe_30395b.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Fabaceae/Fabaceae_Chamaecrista_glandulosa_Wolfe_Wolfe_30395b.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Fabaceae_Chamaecrista_glandulosa_Wolfe_Wolfe_30395b</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Sapindaceae/Sapindaceae_Guioa_subfalcata_Wolfe_Wolfe_632.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Sapindaceae/Sapindaceae_Guioa_subfalcata_Wolfe_Wolfe_632.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Sapindaceae_Guioa_subfalcata_Wolfe_Wolfe_632</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Sapindaceae/Sapindaceae_Guioa_subfalcata_Wolfe_Wolfe_631.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Sapindaceae/Sapindaceae_Guioa_subfalcata_Wolfe_Wolfe_631.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Sapindaceae_Guioa_subfalcata_Wolfe_Wolfe_631</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Acanthaceae/Acanthaceae_Anisacanthus_thurberi_Axelrod_Axelrod_989.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Acanthaceae/Acanthaceae_Anisacanthus_thurberi_Axelrod_Axelrod_989.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Acanthaceae_Anisacanthus_thurberi_Axelrod_Axelrod_989</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Fabaceae/Fabaceae_Acaciopsis_amentacea_Wolfe_Wolfe_10637.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Fabaceae/Fabaceae_Acaciopsis_amentacea_Wolfe_Wolfe_10637.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Fabaceae_Acaciopsis_amentacea_Wolfe_Wolfe_10637</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Fabaceae/Fabaceae_Chamaecrista_nictitans_Wolfe_Wolfe_30383b.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Fabaceae/Fabaceae_Chamaecrista_nictitans_Wolfe_Wolfe_30383b.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Fabaceae_Chamaecrista_nictitans_Wolfe_Wolfe_30383b</div>
                 </div>
             </div>
         </div>
