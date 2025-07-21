@@ -1,82 +1,143 @@
-from constants import berberidaceae_samples,berberidaceae_tree, berberidaceae_leaf_examples, berberidaceae_fossil_examples, juglandaceae_samples, juglandaceae_tree, juglandaceae_leaf_examples, juglandaceae_fossil_examples
+from constants import (
+    berberidaceae_samples, berberidaceae_tree, berberidaceae_leaf_examples, berberidaceae_fossil_examples,
+    juglandaceae_samples, juglandaceae_tree, juglandaceae_leaf_examples, juglandaceae_fossil_examples
+)
 
-def generate_markdown(triplets, output_path="concepts_visualization.md"):
-    """
-    Generate a clean and professional markdown file visualizing leaf-concept-fossil triplets,
-    with minimal whitespace and maximally sized images.
-    """
-    main_img_width = 99  # percent of cell/table width, for max size
-    sample_img_width = 110  # big, but not crowding
+import json
+
+def generate_markdown(class_name, concepts, reference_examples, leaf_triplets, fossil_triplets, output_path="concepts_visualization.md"):
+    
+    def captioned_clickable_img(concept_name, path, width="300px"):
+        return (
+            f"<div style='text-align: center;'>"
+            f"<div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>{concept_name}</div>"
+            f"<a href='{path}' target='_blank'>"
+            f"<img src='{path}' style='width:{width}; margin: 5px; border-radius: 8px; border: 1px solid #888;' />"
+            f"</a></div>"
+        )
+    
+    def markdown_clickable_img(concept_name, path, width="300px"):
+        return (
+            f"<div style='text-align: center; display: inline-block; margin: 10px;'>"
+            f"<div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>{concept_name}</div>"
+            f"<a href='{path}' target='_blank'>"
+            f"<img src='{path}' style='width:{width}; margin: 5px; border-radius: 8px; border: 1px solid #888; "
+            f"transition: transform 0.3s ease;' "
+            f"onmouseover='this.style.transform=\"scale(1.5)\"' "
+            f"onmouseout='this.style.transform=\"scale(1)\"' />"
+            f"</a></div>"
+        )
+    
+    def markdown_concept_clickable_img(concept_name, path, url,width="300px"):
+        return (
+            f"<div style='text-align: center; display: inline-block; margin: 10px;'>"
+            f"<div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>{concept_name}</div>"
+            f"<a href='{url}' target='_blank'>"
+            f"<img src='{path}' style='width:{width}; margin: 5px; border-radius: 8px; border: 1px solid #888; "
+            f"transition: transform 0.3s ease;' "
+            f"onmouseover='this.style.transform=\"scale(2.0)\"' "
+            f"onmouseout='this.style.transform=\"scale(1)\"' />"
+            f"</a></div>"
+        )
+
+    def make_image_row(images, concept_name="Concept", width="200px"):
+        return (
+            "<div style='display: flex; gap: 20px; flex-wrap: wrap;'>\n" +
+            "\n".join([
+                captioned_clickable_img("", img, width)
+                for img in images
+            ]) + "\n</div>"
+        )
+
+    def checkbox(sample_type, sample_name):
+        return (
+            f"<label style='display: block; margin: 10px 0;'>"
+            f"<input type='checkbox' name='{sample_type}' value='{sample_name}' /> Select <b>{sample_name}</b>"
+            f"</label>"
+        )
+
+    def js_download_block():
+        return f"""
+<script>
+function downloadSelections() {{
+    const leaf = [];
+    const fossil = [];
+
+    document.querySelectorAll("input[name='leaf']:checked").forEach(el => leaf.push(el.value));
+    document.querySelectorAll("input[name='fossil']:checked").forEach(el => fossil.push(el.value));
+
+    const data = {{ leaf, fossil }};
+    const filename = "{class_name}_selected_samples.json";
+    const blob = new Blob([JSON.stringify(data, null, 2)], {{ type: 'application/json' }});
+    const url = URL.createObjectURL(blob);
+    
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    a.click();
+    URL.revokeObjectURL(url);
+}}
+</script>
+
+<button onclick="downloadSelections()" style="padding: 10px 20px; background: #333; color: white; border: none; border-radius: 5px; cursor: pointer; margin: 20px 0;">
+Download Selected Samples as JSON
+</button>
+"""
 
     with open(output_path, 'w') as f:
-        f.write("# Concept Visualizations\n\n")
-        f.write("_Visualizations showing shared concepts between extant leaves and fossil samples._\n\n")
-        f.write("<hr>\n")
-        
-        for i, triplet in enumerate(triplets):
-            f.write("\n\n---\n\n")
-            f.write(f"## Sample {i+1}\n\n")
-            
-            for j, concept in enumerate(triplet["concepts"]):
-                leaf_desc = f"<span style='color:#2A5D3E;font-weight:600;'>Leaf: <em>{concept['leaf_name'][7:]}</em></span>"
-                fossil_desc = f"<span style='color:#7A4B22;font-weight:600;'>Fossil: <em>{concept['fossil_name'][7:]}</em></span>"
-                concept_desc = f"<span style='color:#2F4CD6;font-weight:600;'>Concept: {concept['concept_name']}</span>"
+        # Title and Instructions
+        f.write(f"# {class_name} Concept Review for Paper Inclusion\n\n")
+        f.write("This page presents two learned visual concepts, along with sample leaf and fossil images that exhibit these concepts. You can help us **selecting samples where both concepts are clearly represented**, then click the download button.\n\n")
 
-                if j == 0:
-                    f.write(f"### {leaf_desc}<br>{fossil_desc}\n\n")
-                
-                f.write(f"**{concept_desc}**\n\n")
-                
-                # Remove border-spacing, use largest possible image
-                f.write(f"""
-<table align="center" style="margin:0 auto 10px auto; border-spacing:0; width:100%; table-layout:fixed;">
-<tr>
-    <td align="center" style="padding:0;">
-        <b>Leaf</b><br>
-        <a href="{concept['leaf_main']}" target="_blank">
-            <img src="{concept['leaf_main']}" style="width:{main_img_width}%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Concept</b><br>
-        <a href="{concept['concept_main']}" target="_blank">
-            <img src="{concept['concept_main']}" style="width:{main_img_width}%; min-width:240px; max-width:600px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Fossil</b><br>
-        <a href="{concept['fossil_main']}" target="_blank">
-            <img src="{concept['fossil_main']}" style="width:{main_img_width}%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-</tr>
-</table>
-""")
-                
-                # Similar leaf samples
-                f.write("<div style='margin-bottom:4px; font-weight:600;'>Similar Leaf Samples</div>\n")
-                f.write('<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:8px; justify-content:left;">\n')
-                for url in concept["leaf_samples"]:
-                    f.write(
-                        f"<a href='{url}' target='_blank'>"
-                        f"<img src='{url}' style='width:{sample_img_width}px; height:{sample_img_width}px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>\n"
-                    )
-                f.write("</div>\n")
+        # Concept Images
+        f.write("## 1. Visual Concepts\n\n")
+        f.write("<div style='display: flex; gap: 40px;'>\n")
+        f.write(markdown_concept_clickable_img(f"Concept - {concept_name['concept1']}", concepts['concept1'], concept_page['concept1'], width="400px") + "\n")
+        f.write(markdown_concept_clickable_img(f"Concept - {concept_name['concept2']}", concepts['concept2'], concept_page['concept2'], width="400px") + "\n")
+        f.write("</div>\n\n")
 
-                # Similar fossil samples
-                f.write("<div style='margin-top:2px; font-weight:600;'>Similar Fossil Samples</div>\n")
-                f.write('<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:10px; justify-content:left;">\n')
-                for url in concept["fossil_samples"]:
-                    f.write(
-                        f"<a href='{url}' target='_blank'>"
-                        f"<img src='{url}' style='width:{sample_img_width}px; height:{sample_img_width}px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>\n"
-                    )
-                f.write("</div>\n")
+        # Reference Examples
+        for i, concept_key in enumerate(["concept1", "concept2"], 1):
+            f.write(f"## 2.{i} Reference Samples for Concept {concept_name[concept_key]}\n\n")
 
-        f.write("\n<hr>\n")
-        f.write('<div style="font-size:13px; color:#999;">Auto-generated on Sunday, July 20, 2025, 5:45 PM PDT</div>\n')
+            f.write("### Leaf Samples\n")
+            f.write(make_image_row(reference_examples[concept_key]["leaves"], concept_name=f"Concept {i} — Leaf"))
+            f.write("\n\n")
 
-    print(f"✅ Clean Markdown saved to `{output_path}`")
+            f.write("### Fossil Samples\n")
+            f.write(make_image_row(reference_examples[concept_key]["fossils"], concept_name=f"Concept {i} — Fossil"))
+            f.write("\n\n")
+
+        # Leaf Review Section
+        f.write("## 3. Leaf Review Section\n\n")
+        for triplet in leaf_triplets:
+            # f.write(f"### Leaf: {triplet['sample_name']}\n\n")
+            f.write(checkbox("leaf", f"{triplet['sample_name']}") + "\n\n")
+            f.write("<div style='display: flex; gap: 20px;'>\n")
+            f.write(markdown_clickable_img(f"{concept_name['concept1']}", triplet['concept1']))
+            f.write(markdown_clickable_img(f"{concept_name['concept2']}", triplet['concept2']))
+            f.write("</div>\n")
+            # f.write(checkbox("leaf", triplet['sample_name']) + "\n")
+            f.write("<br><br>\n")
+
+        # Fossil Review Section
+        f.write("## 4. Fossil Review Section\n\n")
+        for triplet in fossil_triplets:
+            # f.write(f"### Fossil: {triplet['sample_name']}\n\n")
+            f.write(checkbox("fossil", f"{triplet['sample_name']}") + "\n\n")
+            f.write("<div style='display: flex; gap: 20px;'>\n")
+            f.write(markdown_clickable_img(f"{concept_name['concept1']}", triplet['concept1']))
+            f.write(markdown_clickable_img(f"{concept_name['concept2']}", triplet['concept2']))
+            f.write("</div>\n")
+            # f.write(checkbox("fossil", triplet['sample_name']) + "\n")
+            f.write("<br><br>\n")
+
+        # Add JS Download Button
+        f.write("---\n")
+        f.write(js_download_block())
+
+        f.write("\n\n---\n")
+        f.write("**Thank you for your review!** Select your samples above and download them using the button.\n")
 
 
 
@@ -86,12 +147,24 @@ def find_image_by_concept(files, concept_number):
         return f
     return None
 
-fossil_dir = f"https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/"
-leaf_dir = f"https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/"
-concept_url = "https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_{concept_number}_fv.webp"
+
 
 concept1 = "1810"
 concept2 = "899"
+
+reference_examples = {
+    "concept1": {
+        "leaves": juglandaceae_leaf_examples[concept1],
+        "fossils": juglandaceae_fossil_examples[concept1][:6]
+    },
+    "concept2": {
+        "leaves": juglandaceae_leaf_examples[concept2],
+        "fossils": juglandaceae_fossil_examples[concept2][:6]
+    }
+}
+
+fossil_dir = f"https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/"
+leaf_dir = f"https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/"
 
 leaf_folders = {leaf: leaf_dir + leaf for leaf in juglandaceae_samples['leaf']}
 fossil_folders = {fossil: fossil_dir + fossil for fossil in juglandaceae_samples['fossil']}
@@ -119,61 +192,28 @@ for fossil, concepts in fossil_files.items():
     fossil_c1.append(url)
     fossil_c2.append(url2)
 
-triplets = []
+concept_name = {
+    "concept1": concept1,
+    "concept2": concept2
+}
+concept_page = {
+    "concept1": f"https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%{concept1}/",
+    "concept2": f"https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%{concept2}/",
+}
+concepts = {
+    "concept1": f"https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_{concept1}_fv.webp",
+    "concept2": f"https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_{concept2}_fv.webp",
+}
 
-n = min(len(leaf_c1), len(leaf_c2), len(fossil_c1), len(fossil_c2), 10)
-for k in range(n):
-    concepts = []
-    for i, concept in enumerate([concept1, concept2]):
-        if i == 0:
-            leaf = leaf_c1[k]
-            fossil = fossil_c1[k]
-        else:
-            leaf = leaf_c2[k]
-            fossil = fossil_c2[k]
-        leaf_name = leaf.split("/")[-2]
-        fossil_name = fossil.split("/")[-2]
-        concepts.append({
-            "leaf_main": leaf,
-            "concept_main": concept_url.format(concept_number=concept),
-            "fossil_main": fossil,
-            "leaf_name": leaf_name,
-            "fossil_name": fossil_name,
-            "concept_name": concept,
-            "leaf_samples": juglandaceae_leaf_examples[concept],
-            "fossil_samples": juglandaceae_fossil_examples[concept][:6],
-        })
-    triplets.append({
-        "concepts": concepts
-    })
+leaf_triplets = [
+    {"concept1": leaf_c1[i], "concept2": leaf_c2[i], "sample_name": leaf_c1[i].split("/")[-2][7:]}
+    for i in range(10)
+]
 
+fossil_triplets = [
+    {"concept1": fossil_c1[i], "concept2": fossil_c2[i], "sample_name": fossil_c1[i].split("/")[-2][7:]}
+    for i in range(10)
+]
 
-# triplets = [
-#     {
-#         "concepts": [
-#             {
-#                 "leaf_main": "https://.../leaf1.webp",
-#                 "concept_main": "https://.../concept1.webp",
-#                 "fossil_main": "https://.../fossil1.webp",
-#                 "leaf_samples": ["https://.../leaf1_s1.webp", "..."],
-#                 "fossil_samples": ["https://.../fossil1_s1.webp", "..."],
-#                 "leaf_name": "Leaf1",
-#                 "fossil_name": "Fossil1",
-#                 "concept_name": "Concept506"
-#             },
-#             {
-#                 "leaf_main": "https://.../leaf2.webp",
-#                 "concept_main": "https://.../concept2.webp",
-#                 "fossil_main": "https://.../fossil2.webp",
-#                 "leaf_samples": ["https://.../leaf2_s1.webp", "..."],
-#                 "fossil_samples": ["https://.../fossil2_s1.webp", "..."],
-#                 "leaf_name": "Leaf2",
-#                 "fossil_name": "Fossil2",
-#                 "concept_name": "Concept1034"
-#             }
-#         ]
-#     },
-#     # Add more triplets if needed
-# ]
-
-generate_markdown(triplets, output_path="docs/figure_sample/juglandaceae.md")
+class_name = "Juglandaceae"
+generate_markdown(class_name, concepts, reference_examples, leaf_triplets, fossil_triplets, output_path="docs/figure_sample/juglandaceae.md")

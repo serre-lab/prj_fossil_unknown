@@ -1,948 +1,189 @@
-# Concept Visualizations
+# Juglandaceae Concept Review for Paper Inclusion
 
-_Visualizations showing shared concepts between extant leaves and fossil samples._
+This page presents two learned visual concepts, along with sample leaf and fossil images that exhibit these concepts. You can help us **selecting samples where both concepts are clearly represented**, then click the download button.
 
-<hr>
+## 1. Visual Concepts
+
+<div style='display: flex; gap: 40px;'>
+<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>Concept - 1810</div><a href='https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%1810/' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_fv.webp' style='width:400px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(2.0)"' onmouseout='this.style.transform="scale(1)"' /></a></div>
+<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>Concept - 899</div><a href='https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%899/' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_fv.webp' style='width:400px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(2.0)"' onmouseout='this.style.transform="scale(1)"' /></a></div>
+</div>
+
+## 2.1 Reference Samples for Concept 1810
+
+### Leaf Samples
+<div style='display: flex; gap: 20px; flex-wrap: wrap;'>
+<div style='text-align: center;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'></div><a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_1.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_1.webp' style='width:200px; margin: 5px; border-radius: 8px; border: 1px solid #888;' /></a></div>
+<div style='text-align: center;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'></div><a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_2.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_2.webp' style='width:200px; margin: 5px; border-radius: 8px; border: 1px solid #888;' /></a></div>
+<div style='text-align: center;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'></div><a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_4.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_4.webp' style='width:200px; margin: 5px; border-radius: 8px; border: 1px solid #888;' /></a></div>
+<div style='text-align: center;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'></div><a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_5.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_5.webp' style='width:200px; margin: 5px; border-radius: 8px; border: 1px solid #888;' /></a></div>
+<div style='text-align: center;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'></div><a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_6.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_6.webp' style='width:200px; margin: 5px; border-radius: 8px; border: 1px solid #888;' /></a></div>
+<div style='text-align: center;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'></div><a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_8.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_8.webp' style='width:200px; margin: 5px; border-radius: 8px; border: 1px solid #888;' /></a></div>
+</div>
+
+### Fossil Samples
+<div style='display: flex; gap: 20px; flex-wrap: wrap;'>
+<div style='text-align: center;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'></div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085/concept_5_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085/concept_5_1810.png' style='width:200px; margin: 5px; border-radius: 8px; border: 1px solid #888;' /></a></div>
+<div style='text-align: center;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'></div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png' style='width:200px; margin: 5px; border-radius: 8px; border: 1px solid #888;' /></a></div>
+<div style='text-align: center;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'></div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu/concept_1_1810.png' style='width:200px; margin: 5px; border-radius: 8px; border: 1px solid #888;' /></a></div>
+<div style='text-align: center;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'></div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu1/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu1/concept_1_1810.png' style='width:200px; margin: 5px; border-radius: 8px; border: 1px solid #888;' /></a></div>
+<div style='text-align: center;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'></div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362/concept_1_1810.png' style='width:200px; margin: 5px; border-radius: 8px; border: 1px solid #888;' /></a></div>
+<div style='text-align: center;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'></div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362cu/concept_7_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362cu/concept_7_1810.png' style='width:200px; margin: 5px; border-radius: 8px; border: 1px solid #888;' /></a></div>
+</div>
+
+## 2.2 Reference Samples for Concept 899
+
+### Leaf Samples
+<div style='display: flex; gap: 20px; flex-wrap: wrap;'>
+<div style='text-align: center;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'></div><a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_1.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_1.webp' style='width:200px; margin: 5px; border-radius: 8px; border: 1px solid #888;' /></a></div>
+<div style='text-align: center;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'></div><a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_2.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_2.webp' style='width:200px; margin: 5px; border-radius: 8px; border: 1px solid #888;' /></a></div>
+<div style='text-align: center;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'></div><a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_3.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_3.webp' style='width:200px; margin: 5px; border-radius: 8px; border: 1px solid #888;' /></a></div>
+<div style='text-align: center;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'></div><a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_4.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_4.webp' style='width:200px; margin: 5px; border-radius: 8px; border: 1px solid #888;' /></a></div>
+<div style='text-align: center;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'></div><a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_5.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_5.webp' style='width:200px; margin: 5px; border-radius: 8px; border: 1px solid #888;' /></a></div>
+<div style='text-align: center;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'></div><a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_6.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_6.webp' style='width:200px; margin: 5px; border-radius: 8px; border: 1px solid #888;' /></a></div>
+</div>
+
+### Fossil Samples
+<div style='display: flex; gap: 20px; flex-wrap: wrap;'>
+<div style='text-align: center;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'></div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png' style='width:200px; margin: 5px; border-radius: 8px; border: 1px solid #888;' /></a></div>
+<div style='text-align: center;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'></div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png' style='width:200px; margin: 5px; border-radius: 8px; border: 1px solid #888;' /></a></div>
+<div style='text-align: center;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'></div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png' style='width:200px; margin: 5px; border-radius: 8px; border: 1px solid #888;' /></a></div>
+<div style='text-align: center;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'></div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png' style='width:200px; margin: 5px; border-radius: 8px; border: 1px solid #888;' /></a></div>
+<div style='text-align: center;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'></div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png' style='width:200px; margin: 5px; border-radius: 8px; border: 1px solid #888;' /></a></div>
+<div style='text-align: center;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'></div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png' style='width:200px; margin: 5px; border-radius: 8px; border: 1px solid #888;' /></a></div>
+</div>
+
+## 3. Leaf Review Section
+
+<label style='display: block; margin: 10px 0;'><input type='checkbox' name='leaf' value='Juglandaceae_Alfaroa_costaricensis_Wolfe_Wolfe_958a' /> Select <b>Juglandaceae_Alfaroa_costaricensis_Wolfe_Wolfe_958a</b></label>
+
+<div style='display: flex; gap: 20px;'>
+<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>1810</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Alfaroa_costaricensis_Wolfe_Wolfe_958a/concept_5_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Alfaroa_costaricensis_Wolfe_Wolfe_958a/concept_5_1810.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div><div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>899</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Alfaroa_costaricensis_Wolfe_Wolfe_958a/concept_10_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Alfaroa_costaricensis_Wolfe_Wolfe_958a/concept_10_899.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div></div>
+<br><br>
+<label style='display: block; margin: 10px 0;'><input type='checkbox' name='leaf' value='Juglandaceae_Alfaroa_manningii_Hickey_Hickey_343' /> Select <b>Juglandaceae_Alfaroa_manningii_Hickey_Hickey_343</b></label>
+
+<div style='display: flex; gap: 20px;'>
+<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>1810</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Alfaroa_manningii_Hickey_Hickey_343/concept_2_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Alfaroa_manningii_Hickey_Hickey_343/concept_2_1810.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div><div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>899</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Alfaroa_manningii_Hickey_Hickey_343/concept_3_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Alfaroa_manningii_Hickey_Hickey_343/concept_3_899.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div></div>
+<br><br>
+<label style='display: block; margin: 10px 0;'><input type='checkbox' name='leaf' value='Juglandaceae_Carya_arkansana_Wolfe_Wolfe_65' /> Select <b>Juglandaceae_Carya_arkansana_Wolfe_Wolfe_65</b></label>
+
+<div style='display: flex; gap: 20px;'>
+<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>1810</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_arkansana_Wolfe_Wolfe_65/concept_3_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_arkansana_Wolfe_Wolfe_65/concept_3_1810.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div><div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>899</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_arkansana_Wolfe_Wolfe_65/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_arkansana_Wolfe_Wolfe_65/concept_7_899.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div></div>
+<br><br>
+<label style='display: block; margin: 10px 0;'><input type='checkbox' name='leaf' value='Juglandaceae_Carya_cordiformis_Wolfe_Wolfe_252' /> Select <b>Juglandaceae_Carya_cordiformis_Wolfe_Wolfe_252</b></label>
+
+<div style='display: flex; gap: 20px;'>
+<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>1810</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_cordiformis_Wolfe_Wolfe_252/concept_7_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_cordiformis_Wolfe_Wolfe_252/concept_7_1810.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div><div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>899</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_cordiformis_Wolfe_Wolfe_252/concept_1_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_cordiformis_Wolfe_Wolfe_252/concept_1_899.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div></div>
+<br><br>
+<label style='display: block; margin: 10px 0;'><input type='checkbox' name='leaf' value='Juglandaceae_Carya_floridana_Hickey_Hickey_546' /> Select <b>Juglandaceae_Carya_floridana_Hickey_Hickey_546</b></label>
+
+<div style='display: flex; gap: 20px;'>
+<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>1810</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_floridana_Hickey_Hickey_546/concept_2_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_floridana_Hickey_Hickey_546/concept_2_1810.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div><div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>899</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_floridana_Hickey_Hickey_546/concept_8_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_floridana_Hickey_Hickey_546/concept_8_899.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div></div>
+<br><br>
+<label style='display: block; margin: 10px 0;'><input type='checkbox' name='leaf' value='Juglandaceae_Carya_glabra_Hickey_Hickey_545' /> Select <b>Juglandaceae_Carya_glabra_Hickey_Hickey_545</b></label>
+
+<div style='display: flex; gap: 20px;'>
+<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>1810</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_glabra_Hickey_Hickey_545/concept_7_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_glabra_Hickey_Hickey_545/concept_7_1810.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div><div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>899</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_glabra_Hickey_Hickey_545/concept_10_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_glabra_Hickey_Hickey_545/concept_10_899.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div></div>
+<br><br>
+<label style='display: block; margin: 10px 0;'><input type='checkbox' name='leaf' value='Juglandaceae_Carya_glabra_Hickey_Hickey_547' /> Select <b>Juglandaceae_Carya_glabra_Hickey_Hickey_547</b></label>
+
+<div style='display: flex; gap: 20px;'>
+<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>1810</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_glabra_Hickey_Hickey_547/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_glabra_Hickey_Hickey_547/concept_1_1810.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div><div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>899</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_glabra_Hickey_Hickey_547/concept_5_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_glabra_Hickey_Hickey_547/concept_5_899.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div></div>
+<br><br>
+<label style='display: block; margin: 10px 0;'><input type='checkbox' name='leaf' value='Juglandaceae_Carya_ovata_Hickey_Hickey_552a' /> Select <b>Juglandaceae_Carya_ovata_Hickey_Hickey_552a</b></label>
+
+<div style='display: flex; gap: 20px;'>
+<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>1810</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_ovata_Hickey_Hickey_552a/concept_2_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_ovata_Hickey_Hickey_552a/concept_2_1810.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div><div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>899</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_ovata_Hickey_Hickey_552a/concept_4_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_ovata_Hickey_Hickey_552a/concept_4_899.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div></div>
+<br><br>
+<label style='display: block; margin: 10px 0;'><input type='checkbox' name='leaf' value='Juglandaceae_Carya_ovata_Wolfe_Wolfe_6794' /> Select <b>Juglandaceae_Carya_ovata_Wolfe_Wolfe_6794</b></label>
+
+<div style='display: flex; gap: 20px;'>
+<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>1810</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_ovata_Wolfe_Wolfe_6794/concept_6_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_ovata_Wolfe_Wolfe_6794/concept_6_1810.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div><div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>899</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_ovata_Wolfe_Wolfe_6794/concept_5_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_ovata_Wolfe_Wolfe_6794/concept_5_899.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div></div>
+<br><br>
+<label style='display: block; margin: 10px 0;'><input type='checkbox' name='leaf' value='Juglandaceae_Carya_pallida_Hickey_Hickey_550' /> Select <b>Juglandaceae_Carya_pallida_Hickey_Hickey_550</b></label>
+
+<div style='display: flex; gap: 20px;'>
+<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>1810</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_pallida_Hickey_Hickey_550/concept_2_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_pallida_Hickey_Hickey_550/concept_2_1810.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div><div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>899</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_pallida_Hickey_Hickey_550/concept_10_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_pallida_Hickey_Hickey_550/concept_10_899.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div></div>
+<br><br>
+## 4. Fossil Review Section
+
+<label style='display: block; margin: 10px 0;'><input type='checkbox' name='fossil' value='Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu' /> Select <b>Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu</b></label>
+
+<div style='display: flex; gap: 20px;'>
+<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>1810</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div><div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>899</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div></div>
+<br><br>
+<label style='display: block; margin: 10px 0;'><input type='checkbox' name='fossil' value='Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu' /> Select <b>Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu</b></label>
+
+<div style='display: flex; gap: 20px;'>
+<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>1810</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_1_1810.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div><div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>899</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div></div>
+<br><br>
+<label style='display: block; margin: 10px 0;'><input type='checkbox' name='fossil' value='Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A' /> Select <b>Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A</b></label>
+
+<div style='display: flex; gap: 20px;'>
+<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>1810</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_1_1810.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div><div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>899</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div></div>
+<br><br>
+<label style='display: block; margin: 10px 0;'><input type='checkbox' name='fossil' value='Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B' /> Select <b>Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B</b></label>
+
+<div style='display: flex; gap: 20px;'>
+<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>1810</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_1_1810.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div><div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>899</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div></div>
+<br><br>
+<label style='display: block; margin: 10px 0;'><input type='checkbox' name='fossil' value='Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A' /> Select <b>Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A</b></label>
+
+<div style='display: flex; gap: 20px;'>
+<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>1810</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_1_1810.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div><div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>899</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div></div>
+<br><br>
+<label style='display: block; margin: 10px 0;'><input type='checkbox' name='fossil' value='Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B' /> Select <b>Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B</b></label>
+
+<div style='display: flex; gap: 20px;'>
+<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>1810</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_1_1810.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div><div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>899</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div></div>
+<br><br>
+<label style='display: block; margin: 10px 0;'><input type='checkbox' name='fossil' value='Juglandaceae_Carya_libbeyi_Florissant_FLFO_003480A' /> Select <b>Juglandaceae_Carya_libbeyi_Florissant_FLFO_003480A</b></label>
+
+<div style='display: flex; gap: 20px;'>
+<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>1810</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003480A/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003480A/concept_1_1810.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div><div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>899</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003480A/concept_10_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003480A/concept_10_899.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div></div>
+<br><br>
+<label style='display: block; margin: 10px 0;'><input type='checkbox' name='fossil' value='Juglandaceae_Carya_libbeyi_Florissant_FLFO_003480B' /> Select <b>Juglandaceae_Carya_libbeyi_Florissant_FLFO_003480B</b></label>
+
+<div style='display: flex; gap: 20px;'>
+<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>1810</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003480B/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003480B/concept_1_1810.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div><div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>899</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003480B/concept_5_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003480B/concept_5_899.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div></div>
+<br><br>
+<label style='display: block; margin: 10px 0;'><input type='checkbox' name='fossil' value='Juglandaceae_Carya_libbeyi_Florissant_FLFO_003613' /> Select <b>Juglandaceae_Carya_libbeyi_Florissant_FLFO_003613</b></label>
+
+<div style='display: flex; gap: 20px;'>
+<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>1810</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003613/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003613/concept_1_1810.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div><div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>899</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003613/concept_9_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003613/concept_9_899.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div></div>
+<br><br>
+<label style='display: block; margin: 10px 0;'><input type='checkbox' name='fossil' value='Juglandaceae_Carya_libbeyi_Florissant_FLFO_004143' /> Select <b>Juglandaceae_Carya_libbeyi_Florissant_FLFO_004143</b></label>
+
+<div style='display: flex; gap: 20px;'>
+<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>1810</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_004143/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_004143/concept_1_1810.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div><div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>899</div><a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_004143/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_004143/concept_7_899.png' style='width:300px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(1.5)"' onmouseout='this.style.transform="scale(1)"' /></a></div></div>
+<br><br>
+---
+
+<script>
+function downloadSelections() {
+    const leaf = [];
+    const fossil = [];
+
+    document.querySelectorAll("input[name='leaf']:checked").forEach(el => leaf.push(el.value));
+    document.querySelectorAll("input[name='fossil']:checked").forEach(el => fossil.push(el.value));
+
+    const data = { leaf, fossil };
+    const filename = "Juglandaceae_selected_samples.json";
+    const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+    const url = URL.createObjectURL(blob);
+    
+    const a = document.createElement('a');
+    a.href = url;
+    a.download = filename;
+    a.click();
+    URL.revokeObjectURL(url);
+}
+</script>
+
+<button onclick="downloadSelections()" style="padding: 10px 20px; background: #333; color: white; border: none; border-radius: 5px; cursor: pointer; margin: 20px 0;">
+Download Selected Samples as JSON
+</button>
 
 
 ---
-
-## Sample 1
-
-### <span style='color:#2A5D3E;font-weight:600;'>Leaf: <em>Juglandaceae_Alfaroa_costaricensis_Wolfe_Wolfe_958a</em></span><br><span style='color:#7A4B22;font-weight:600;'>Fossil: <em>Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu</em></span>
-
-**<span style='color:#2F4CD6;font-weight:600;'>Concept: 1810</span>**
-
-
-<table align="center" style="margin:0 auto 10px auto; border-spacing:0; width:100%; table-layout:fixed;">
-<tr>
-    <td align="center" style="padding:0;">
-        <b>Leaf</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Alfaroa_costaricensis_Wolfe_Wolfe_958a/concept_5_1810.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Alfaroa_costaricensis_Wolfe_Wolfe_958a/concept_5_1810.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Concept</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_fv.webp" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_fv.webp" style="width:99%; min-width:240px; max-width:600px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Fossil</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-</tr>
-</table>
-<div style='margin-bottom:4px; font-weight:600;'>Similar Leaf Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:8px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_1.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_1.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_2.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_2.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_4.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_4.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_5.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_5.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_6.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_6.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_8.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_8.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-<div style='margin-top:2px; font-weight:600;'>Similar Fossil Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:10px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085/concept_5_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085/concept_5_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu1/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu1/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362cu/concept_7_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362cu/concept_7_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-**<span style='color:#2F4CD6;font-weight:600;'>Concept: 899</span>**
-
-
-<table align="center" style="margin:0 auto 10px auto; border-spacing:0; width:100%; table-layout:fixed;">
-<tr>
-    <td align="center" style="padding:0;">
-        <b>Leaf</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Alfaroa_costaricensis_Wolfe_Wolfe_958a/concept_10_899.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Alfaroa_costaricensis_Wolfe_Wolfe_958a/concept_10_899.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Concept</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_fv.webp" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_fv.webp" style="width:99%; min-width:240px; max-width:600px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Fossil</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-</tr>
-</table>
-<div style='margin-bottom:4px; font-weight:600;'>Similar Leaf Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:8px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_1.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_1.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_2.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_2.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_3.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_3.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_4.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_4.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_5.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_5.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_6.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_6.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-<div style='margin-top:2px; font-weight:600;'>Similar Fossil Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:10px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-
-
----
-
-## Sample 2
-
-### <span style='color:#2A5D3E;font-weight:600;'>Leaf: <em>Juglandaceae_Alfaroa_manningii_Hickey_Hickey_343</em></span><br><span style='color:#7A4B22;font-weight:600;'>Fossil: <em>Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu</em></span>
-
-**<span style='color:#2F4CD6;font-weight:600;'>Concept: 1810</span>**
-
-
-<table align="center" style="margin:0 auto 10px auto; border-spacing:0; width:100%; table-layout:fixed;">
-<tr>
-    <td align="center" style="padding:0;">
-        <b>Leaf</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Alfaroa_manningii_Hickey_Hickey_343/concept_2_1810.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Alfaroa_manningii_Hickey_Hickey_343/concept_2_1810.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Concept</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_fv.webp" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_fv.webp" style="width:99%; min-width:240px; max-width:600px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Fossil</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_1_1810.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_1_1810.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-</tr>
-</table>
-<div style='margin-bottom:4px; font-weight:600;'>Similar Leaf Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:8px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_1.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_1.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_2.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_2.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_4.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_4.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_5.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_5.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_6.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_6.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_8.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_8.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-<div style='margin-top:2px; font-weight:600;'>Similar Fossil Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:10px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085/concept_5_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085/concept_5_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu1/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu1/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362cu/concept_7_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362cu/concept_7_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-**<span style='color:#2F4CD6;font-weight:600;'>Concept: 899</span>**
-
-
-<table align="center" style="margin:0 auto 10px auto; border-spacing:0; width:100%; table-layout:fixed;">
-<tr>
-    <td align="center" style="padding:0;">
-        <b>Leaf</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Alfaroa_manningii_Hickey_Hickey_343/concept_3_899.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Alfaroa_manningii_Hickey_Hickey_343/concept_3_899.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Concept</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_fv.webp" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_fv.webp" style="width:99%; min-width:240px; max-width:600px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Fossil</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-</tr>
-</table>
-<div style='margin-bottom:4px; font-weight:600;'>Similar Leaf Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:8px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_1.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_1.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_2.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_2.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_3.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_3.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_4.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_4.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_5.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_5.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_6.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_6.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-<div style='margin-top:2px; font-weight:600;'>Similar Fossil Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:10px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-
-
----
-
-## Sample 3
-
-### <span style='color:#2A5D3E;font-weight:600;'>Leaf: <em>Juglandaceae_Carya_arkansana_Wolfe_Wolfe_65</em></span><br><span style='color:#7A4B22;font-weight:600;'>Fossil: <em>Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A</em></span>
-
-**<span style='color:#2F4CD6;font-weight:600;'>Concept: 1810</span>**
-
-
-<table align="center" style="margin:0 auto 10px auto; border-spacing:0; width:100%; table-layout:fixed;">
-<tr>
-    <td align="center" style="padding:0;">
-        <b>Leaf</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_arkansana_Wolfe_Wolfe_65/concept_3_1810.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_arkansana_Wolfe_Wolfe_65/concept_3_1810.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Concept</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_fv.webp" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_fv.webp" style="width:99%; min-width:240px; max-width:600px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Fossil</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_1_1810.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_1_1810.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-</tr>
-</table>
-<div style='margin-bottom:4px; font-weight:600;'>Similar Leaf Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:8px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_1.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_1.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_2.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_2.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_4.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_4.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_5.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_5.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_6.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_6.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_8.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_8.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-<div style='margin-top:2px; font-weight:600;'>Similar Fossil Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:10px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085/concept_5_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085/concept_5_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu1/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu1/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362cu/concept_7_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362cu/concept_7_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-**<span style='color:#2F4CD6;font-weight:600;'>Concept: 899</span>**
-
-
-<table align="center" style="margin:0 auto 10px auto; border-spacing:0; width:100%; table-layout:fixed;">
-<tr>
-    <td align="center" style="padding:0;">
-        <b>Leaf</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_arkansana_Wolfe_Wolfe_65/concept_7_899.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_arkansana_Wolfe_Wolfe_65/concept_7_899.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Concept</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_fv.webp" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_fv.webp" style="width:99%; min-width:240px; max-width:600px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Fossil</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-</tr>
-</table>
-<div style='margin-bottom:4px; font-weight:600;'>Similar Leaf Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:8px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_1.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_1.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_2.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_2.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_3.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_3.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_4.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_4.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_5.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_5.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_6.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_6.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-<div style='margin-top:2px; font-weight:600;'>Similar Fossil Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:10px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-
-
----
-
-## Sample 4
-
-### <span style='color:#2A5D3E;font-weight:600;'>Leaf: <em>Juglandaceae_Carya_cordiformis_Wolfe_Wolfe_252</em></span><br><span style='color:#7A4B22;font-weight:600;'>Fossil: <em>Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B</em></span>
-
-**<span style='color:#2F4CD6;font-weight:600;'>Concept: 1810</span>**
-
-
-<table align="center" style="margin:0 auto 10px auto; border-spacing:0; width:100%; table-layout:fixed;">
-<tr>
-    <td align="center" style="padding:0;">
-        <b>Leaf</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_cordiformis_Wolfe_Wolfe_252/concept_7_1810.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_cordiformis_Wolfe_Wolfe_252/concept_7_1810.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Concept</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_fv.webp" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_fv.webp" style="width:99%; min-width:240px; max-width:600px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Fossil</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_1_1810.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_1_1810.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-</tr>
-</table>
-<div style='margin-bottom:4px; font-weight:600;'>Similar Leaf Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:8px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_1.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_1.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_2.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_2.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_4.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_4.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_5.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_5.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_6.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_6.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_8.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_8.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-<div style='margin-top:2px; font-weight:600;'>Similar Fossil Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:10px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085/concept_5_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085/concept_5_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu1/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu1/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362cu/concept_7_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362cu/concept_7_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-**<span style='color:#2F4CD6;font-weight:600;'>Concept: 899</span>**
-
-
-<table align="center" style="margin:0 auto 10px auto; border-spacing:0; width:100%; table-layout:fixed;">
-<tr>
-    <td align="center" style="padding:0;">
-        <b>Leaf</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_cordiformis_Wolfe_Wolfe_252/concept_1_899.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_cordiformis_Wolfe_Wolfe_252/concept_1_899.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Concept</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_fv.webp" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_fv.webp" style="width:99%; min-width:240px; max-width:600px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Fossil</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-</tr>
-</table>
-<div style='margin-bottom:4px; font-weight:600;'>Similar Leaf Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:8px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_1.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_1.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_2.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_2.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_3.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_3.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_4.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_4.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_5.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_5.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_6.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_6.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-<div style='margin-top:2px; font-weight:600;'>Similar Fossil Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:10px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-
-
----
-
-## Sample 5
-
-### <span style='color:#2A5D3E;font-weight:600;'>Leaf: <em>Juglandaceae_Carya_floridana_Hickey_Hickey_546</em></span><br><span style='color:#7A4B22;font-weight:600;'>Fossil: <em>Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A</em></span>
-
-**<span style='color:#2F4CD6;font-weight:600;'>Concept: 1810</span>**
-
-
-<table align="center" style="margin:0 auto 10px auto; border-spacing:0; width:100%; table-layout:fixed;">
-<tr>
-    <td align="center" style="padding:0;">
-        <b>Leaf</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_floridana_Hickey_Hickey_546/concept_2_1810.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_floridana_Hickey_Hickey_546/concept_2_1810.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Concept</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_fv.webp" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_fv.webp" style="width:99%; min-width:240px; max-width:600px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Fossil</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_1_1810.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_1_1810.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-</tr>
-</table>
-<div style='margin-bottom:4px; font-weight:600;'>Similar Leaf Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:8px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_1.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_1.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_2.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_2.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_4.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_4.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_5.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_5.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_6.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_6.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_8.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_8.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-<div style='margin-top:2px; font-weight:600;'>Similar Fossil Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:10px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085/concept_5_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085/concept_5_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu1/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu1/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362cu/concept_7_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362cu/concept_7_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-**<span style='color:#2F4CD6;font-weight:600;'>Concept: 899</span>**
-
-
-<table align="center" style="margin:0 auto 10px auto; border-spacing:0; width:100%; table-layout:fixed;">
-<tr>
-    <td align="center" style="padding:0;">
-        <b>Leaf</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_floridana_Hickey_Hickey_546/concept_8_899.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_floridana_Hickey_Hickey_546/concept_8_899.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Concept</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_fv.webp" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_fv.webp" style="width:99%; min-width:240px; max-width:600px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Fossil</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-</tr>
-</table>
-<div style='margin-bottom:4px; font-weight:600;'>Similar Leaf Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:8px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_1.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_1.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_2.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_2.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_3.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_3.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_4.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_4.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_5.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_5.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_6.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_6.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-<div style='margin-top:2px; font-weight:600;'>Similar Fossil Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:10px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-
-
----
-
-## Sample 6
-
-### <span style='color:#2A5D3E;font-weight:600;'>Leaf: <em>Juglandaceae_Carya_glabra_Hickey_Hickey_545</em></span><br><span style='color:#7A4B22;font-weight:600;'>Fossil: <em>Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B</em></span>
-
-**<span style='color:#2F4CD6;font-weight:600;'>Concept: 1810</span>**
-
-
-<table align="center" style="margin:0 auto 10px auto; border-spacing:0; width:100%; table-layout:fixed;">
-<tr>
-    <td align="center" style="padding:0;">
-        <b>Leaf</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_glabra_Hickey_Hickey_545/concept_7_1810.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_glabra_Hickey_Hickey_545/concept_7_1810.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Concept</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_fv.webp" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_fv.webp" style="width:99%; min-width:240px; max-width:600px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Fossil</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_1_1810.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_1_1810.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-</tr>
-</table>
-<div style='margin-bottom:4px; font-weight:600;'>Similar Leaf Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:8px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_1.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_1.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_2.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_2.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_4.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_4.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_5.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_5.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_6.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_6.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_8.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_8.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-<div style='margin-top:2px; font-weight:600;'>Similar Fossil Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:10px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085/concept_5_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085/concept_5_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu1/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu1/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362cu/concept_7_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362cu/concept_7_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-**<span style='color:#2F4CD6;font-weight:600;'>Concept: 899</span>**
-
-
-<table align="center" style="margin:0 auto 10px auto; border-spacing:0; width:100%; table-layout:fixed;">
-<tr>
-    <td align="center" style="padding:0;">
-        <b>Leaf</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_glabra_Hickey_Hickey_545/concept_10_899.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_glabra_Hickey_Hickey_545/concept_10_899.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Concept</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_fv.webp" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_fv.webp" style="width:99%; min-width:240px; max-width:600px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Fossil</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-</tr>
-</table>
-<div style='margin-bottom:4px; font-weight:600;'>Similar Leaf Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:8px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_1.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_1.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_2.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_2.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_3.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_3.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_4.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_4.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_5.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_5.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_6.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_6.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-<div style='margin-top:2px; font-weight:600;'>Similar Fossil Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:10px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-
-
----
-
-## Sample 7
-
-### <span style='color:#2A5D3E;font-weight:600;'>Leaf: <em>Juglandaceae_Carya_glabra_Hickey_Hickey_547</em></span><br><span style='color:#7A4B22;font-weight:600;'>Fossil: <em>Juglandaceae_Carya_libbeyi_Florissant_FLFO_003480A</em></span>
-
-**<span style='color:#2F4CD6;font-weight:600;'>Concept: 1810</span>**
-
-
-<table align="center" style="margin:0 auto 10px auto; border-spacing:0; width:100%; table-layout:fixed;">
-<tr>
-    <td align="center" style="padding:0;">
-        <b>Leaf</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_glabra_Hickey_Hickey_547/concept_1_1810.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_glabra_Hickey_Hickey_547/concept_1_1810.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Concept</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_fv.webp" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_fv.webp" style="width:99%; min-width:240px; max-width:600px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Fossil</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003480A/concept_1_1810.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003480A/concept_1_1810.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-</tr>
-</table>
-<div style='margin-bottom:4px; font-weight:600;'>Similar Leaf Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:8px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_1.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_1.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_2.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_2.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_4.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_4.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_5.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_5.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_6.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_6.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_8.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_8.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-<div style='margin-top:2px; font-weight:600;'>Similar Fossil Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:10px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085/concept_5_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085/concept_5_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu1/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu1/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362cu/concept_7_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362cu/concept_7_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-**<span style='color:#2F4CD6;font-weight:600;'>Concept: 899</span>**
-
-
-<table align="center" style="margin:0 auto 10px auto; border-spacing:0; width:100%; table-layout:fixed;">
-<tr>
-    <td align="center" style="padding:0;">
-        <b>Leaf</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_glabra_Hickey_Hickey_547/concept_5_899.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_glabra_Hickey_Hickey_547/concept_5_899.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Concept</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_fv.webp" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_fv.webp" style="width:99%; min-width:240px; max-width:600px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Fossil</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003480A/concept_10_899.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003480A/concept_10_899.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-</tr>
-</table>
-<div style='margin-bottom:4px; font-weight:600;'>Similar Leaf Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:8px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_1.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_1.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_2.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_2.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_3.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_3.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_4.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_4.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_5.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_5.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_6.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_6.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-<div style='margin-top:2px; font-weight:600;'>Similar Fossil Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:10px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-
-
----
-
-## Sample 8
-
-### <span style='color:#2A5D3E;font-weight:600;'>Leaf: <em>Juglandaceae_Carya_ovata_Hickey_Hickey_552a</em></span><br><span style='color:#7A4B22;font-weight:600;'>Fossil: <em>Juglandaceae_Carya_libbeyi_Florissant_FLFO_003480B</em></span>
-
-**<span style='color:#2F4CD6;font-weight:600;'>Concept: 1810</span>**
-
-
-<table align="center" style="margin:0 auto 10px auto; border-spacing:0; width:100%; table-layout:fixed;">
-<tr>
-    <td align="center" style="padding:0;">
-        <b>Leaf</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_ovata_Hickey_Hickey_552a/concept_2_1810.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_ovata_Hickey_Hickey_552a/concept_2_1810.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Concept</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_fv.webp" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_fv.webp" style="width:99%; min-width:240px; max-width:600px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Fossil</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003480B/concept_1_1810.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003480B/concept_1_1810.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-</tr>
-</table>
-<div style='margin-bottom:4px; font-weight:600;'>Similar Leaf Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:8px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_1.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_1.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_2.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_2.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_4.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_4.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_5.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_5.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_6.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_6.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_8.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_8.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-<div style='margin-top:2px; font-weight:600;'>Similar Fossil Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:10px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085/concept_5_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085/concept_5_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu1/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu1/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362cu/concept_7_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362cu/concept_7_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-**<span style='color:#2F4CD6;font-weight:600;'>Concept: 899</span>**
-
-
-<table align="center" style="margin:0 auto 10px auto; border-spacing:0; width:100%; table-layout:fixed;">
-<tr>
-    <td align="center" style="padding:0;">
-        <b>Leaf</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_ovata_Hickey_Hickey_552a/concept_4_899.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_ovata_Hickey_Hickey_552a/concept_4_899.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Concept</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_fv.webp" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_fv.webp" style="width:99%; min-width:240px; max-width:600px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Fossil</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003480B/concept_5_899.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003480B/concept_5_899.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-</tr>
-</table>
-<div style='margin-bottom:4px; font-weight:600;'>Similar Leaf Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:8px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_1.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_1.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_2.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_2.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_3.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_3.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_4.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_4.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_5.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_5.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_6.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_6.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-<div style='margin-top:2px; font-weight:600;'>Similar Fossil Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:10px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-
-
----
-
-## Sample 9
-
-### <span style='color:#2A5D3E;font-weight:600;'>Leaf: <em>Juglandaceae_Carya_ovata_Wolfe_Wolfe_6794</em></span><br><span style='color:#7A4B22;font-weight:600;'>Fossil: <em>Juglandaceae_Carya_libbeyi_Florissant_FLFO_003613</em></span>
-
-**<span style='color:#2F4CD6;font-weight:600;'>Concept: 1810</span>**
-
-
-<table align="center" style="margin:0 auto 10px auto; border-spacing:0; width:100%; table-layout:fixed;">
-<tr>
-    <td align="center" style="padding:0;">
-        <b>Leaf</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_ovata_Wolfe_Wolfe_6794/concept_6_1810.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_ovata_Wolfe_Wolfe_6794/concept_6_1810.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Concept</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_fv.webp" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_fv.webp" style="width:99%; min-width:240px; max-width:600px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Fossil</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003613/concept_1_1810.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003613/concept_1_1810.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-</tr>
-</table>
-<div style='margin-bottom:4px; font-weight:600;'>Similar Leaf Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:8px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_1.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_1.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_2.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_2.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_4.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_4.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_5.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_5.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_6.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_6.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_8.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_8.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-<div style='margin-top:2px; font-weight:600;'>Similar Fossil Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:10px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085/concept_5_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085/concept_5_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu1/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu1/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362cu/concept_7_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362cu/concept_7_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-**<span style='color:#2F4CD6;font-weight:600;'>Concept: 899</span>**
-
-
-<table align="center" style="margin:0 auto 10px auto; border-spacing:0; width:100%; table-layout:fixed;">
-<tr>
-    <td align="center" style="padding:0;">
-        <b>Leaf</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_ovata_Wolfe_Wolfe_6794/concept_5_899.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_ovata_Wolfe_Wolfe_6794/concept_5_899.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Concept</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_fv.webp" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_fv.webp" style="width:99%; min-width:240px; max-width:600px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Fossil</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003613/concept_9_899.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003613/concept_9_899.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-</tr>
-</table>
-<div style='margin-bottom:4px; font-weight:600;'>Similar Leaf Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:8px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_1.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_1.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_2.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_2.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_3.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_3.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_4.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_4.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_5.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_5.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_6.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_6.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-<div style='margin-top:2px; font-weight:600;'>Similar Fossil Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:10px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-
-
----
-
-## Sample 10
-
-### <span style='color:#2A5D3E;font-weight:600;'>Leaf: <em>Juglandaceae_Carya_pallida_Hickey_Hickey_550</em></span><br><span style='color:#7A4B22;font-weight:600;'>Fossil: <em>Juglandaceae_Carya_libbeyi_Florissant_FLFO_004143</em></span>
-
-**<span style='color:#2F4CD6;font-weight:600;'>Concept: 1810</span>**
-
-
-<table align="center" style="margin:0 auto 10px auto; border-spacing:0; width:100%; table-layout:fixed;">
-<tr>
-    <td align="center" style="padding:0;">
-        <b>Leaf</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_pallida_Hickey_Hickey_550/concept_2_1810.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_pallida_Hickey_Hickey_550/concept_2_1810.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Concept</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_fv.webp" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_fv.webp" style="width:99%; min-width:240px; max-width:600px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Fossil</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_004143/concept_1_1810.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_004143/concept_1_1810.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-</tr>
-</table>
-<div style='margin-bottom:4px; font-weight:600;'>Similar Leaf Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:8px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_1.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_1.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_2.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_2.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_4.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_4.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_5.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_5.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_6.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_6.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_8.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_8.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-<div style='margin-top:2px; font-weight:600;'>Similar Fossil Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:10px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085/concept_5_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085/concept_5_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu1/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0158cu1/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362/concept_1_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362/concept_1_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362cu/concept_7_1810.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0362cu/concept_7_1810.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-**<span style='color:#2F4CD6;font-weight:600;'>Concept: 899</span>**
-
-
-<table align="center" style="margin:0 auto 10px auto; border-spacing:0; width:100%; table-layout:fixed;">
-<tr>
-    <td align="center" style="padding:0;">
-        <b>Leaf</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_pallida_Hickey_Hickey_550/concept_10_899.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/fossil_Juglandaceae_Carya_pallida_Hickey_Hickey_550/concept_10_899.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Concept</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_fv.webp" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_fv.webp" style="width:99%; min-width:240px; max-width:600px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-    <td align="center" style="padding:0;">
-        <b>Fossil</b><br>
-        <a href="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_004143/concept_7_899.png" target="_blank">
-            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_004143/concept_7_899.png" style="width:99%; min-width:220px; max-width:500px; height:auto; border-radius:14px; box-shadow:0 2px 12px #ccc; display:block; margin: 0 auto;">
-        </a>
-    </td>
-</tr>
-</table>
-<div style='margin-bottom:4px; font-weight:600;'>Similar Leaf Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:8px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_1.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_1.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_2.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_2.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_3.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_3.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_4.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_4.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_5.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_5.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_6.webp' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_899_6.webp' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-<div style='margin-top:2px; font-weight:600;'>Similar Fossil Samples</div>
-<div style="display: flex; flex-wrap: wrap; gap: 6px 6px; margin-bottom:10px; justify-content:left;">
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_0085cu/concept_9_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_CU_1059cu/concept_10_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000A/concept_7_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003000B/concept_7_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276A/concept_5_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-<a href='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/fossil_Juglandaceae_Carya_libbeyi_Florissant_FLFO_003276B/concept_6_899.png' style='width:110px; height:110px; object-fit:cover; border-radius:8px; box-shadow:0 1px 4px #eee; display:inline-block; margin:0;'></a>
-</div>
-
-<hr>
-<div style="font-size:13px; color:#999;">Auto-generated on Sunday, July 20, 2025, 5:45 PM PDT</div>
+**Thank you for your review!** Select your samples above and download them using the button.
