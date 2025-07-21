@@ -1,7 +1,9 @@
 # Berberidaceae Concept Review for Paper Inclusion
 
 This page presents two learned visual concepts, along with sample leaf and fossil images that exhibit these concepts. You can help us **selecting samples where both concepts are clearly represented**, then click the download button.
+
 Here is how you can do it. Go throught the visual concepts and use the reference samples to understand the concepts. Then, go through the leaf and fossil review sections and select the samples where both concepts are clearly represented.
+
 ## 1. Visual Concepts
 
 <div style='display: flex; gap: 40px;'>

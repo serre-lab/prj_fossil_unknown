@@ -87,8 +87,8 @@ Download Selected Samples as JSON
     with open(output_path, 'w') as f:
         # Title and Instructions
         f.write(f"# {class_name} Concept Review for Paper Inclusion\n\n")
-        f.write("This page presents two learned visual concepts, along with sample leaf and fossil images that exhibit these concepts. You can help us **selecting samples where both concepts are clearly represented**, then click the download button.\n")
-        f.write("Here is how you can do it. Go throught the visual concepts and use the reference samples to understand the concepts. Then, go through the leaf and fossil review sections and select the samples where both concepts are clearly represented.\n")
+        f.write("This page presents two learned visual concepts, along with sample leaf and fossil images that exhibit these concepts. You can help us **selecting samples where both concepts are clearly represented**, then click the download button.\n\n")
+        f.write("Here is how you can do it. Go throught the visual concepts and use the reference samples to understand the concepts. Then, go through the leaf and fossil review sections and select the samples where both concepts are clearly represented.\n\n")
 
         # Concept Images
         f.write("## 1. Visual Concepts\n\n")
@@ -150,28 +150,28 @@ def find_image_by_concept(files, concept_number):
 
 
 
-concept1 = "506"
-concept2 = "1034"
+concept1 = "1810"
+concept2 = "899"
 
 reference_examples = {
     "concept1": {
-        "leaves": berberidaceae_leaf_examples[concept1],
-        "fossils": berberidaceae_fossil_examples[concept1][:6]
+        "leaves": juglandaceae_leaf_examples[concept1],
+        "fossils": juglandaceae_fossil_examples[concept1][:6]
     },
     "concept2": {
-        "leaves": berberidaceae_leaf_examples[concept2],
-        "fossils": berberidaceae_fossil_examples[concept2][:6]
+        "leaves": juglandaceae_leaf_examples[concept2],
+        "fossils": juglandaceae_fossil_examples[concept2][:6]
     }
 }
 
-fossil_dir = f"https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/"
-leaf_dir = f"https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/"
+fossil_dir = f"https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/"
+leaf_dir = f"https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/"
 
-leaf_folders = {leaf: leaf_dir + leaf for leaf in berberidaceae_samples['leaf']}
-fossil_folders = {fossil: fossil_dir + fossil for fossil in berberidaceae_samples['fossil']}
+leaf_folders = {leaf: leaf_dir + leaf for leaf in juglandaceae_samples['leaf']}
+fossil_folders = {fossil: fossil_dir + fossil for fossil in juglandaceae_samples['fossil']}
 
-leaf_files = {leaf: berberidaceae_tree['Berberidaceae_leaf_sae_concepts6'][leaf]['__files__'] for leaf in berberidaceae_samples['leaf']}
-fossil_files = {fossil: berberidaceae_tree['Berberidaceae_fossil_sae_concepts6'][fossil]['__files__'] for fossil in berberidaceae_samples['fossil']}
+leaf_files = {leaf: juglandaceae_tree['Juglandaceae_leaf_sae_concepts6'][leaf]['__files__'] for leaf in juglandaceae_samples['leaf']}
+fossil_files = {fossil: juglandaceae_tree['Juglandaceae_fossil_sae_concepts6'][fossil]['__files__'] for fossil in juglandaceae_samples['fossil']}
 
 leaf_c1 = []
 leaf_c2 = []
@@ -216,5 +216,5 @@ fossil_triplets = [
     for i in range(10)
 ]
 
-class_name = "Berberidaceae"
-generate_markdown(class_name, concepts, reference_examples, leaf_triplets, fossil_triplets, output_path="docs/figure_sample/berberidaceae.md")
+class_name = "Juglandaceae"
+generate_markdown(class_name, concepts, reference_examples, leaf_triplets, fossil_triplets, output_path="docs/figure_sample/juglandaceae.md")
