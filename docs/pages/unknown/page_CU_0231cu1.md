@@ -175,7 +175,7 @@
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0231cu1/image.jpg" alt="Fossil Image">
         </div>
         <div class="main-image-container">
-            <h3>Similar Fossil Specimens</h3>
+            <h3>Similar Leaf Fossil Specimens</h3>
             <div class="similar-images-grid">
                 <div class="similar-image-container">
                     <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Fabaceae/Fabaceae_Caesalpinites_acuminatus_Florissant_FLFO_010928A.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Fabaceae/Fabaceae_Caesalpinites_acuminatus_Florissant_FLFO_010928A.jpg" alt="Similar specimen"></a>
@@ -203,7 +203,7 @@
                 </div>
             </div>
 
-            <h3>Similar Leaf Specimens</h3>
+            <h3>Similar Extant Leaf Specimens</h3>
             <div class="similar-images-grid">
                 <div class="similar-image-container">
                     <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Monimiaceae/Monimiaceae_Kibara_coriacea_Hickey_Hickey_6720.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Monimiaceae/Monimiaceae_Kibara_coriacea_Hickey_Hickey_6720.jpg" alt="Similar specimen"></a>
@@ -229,6 +229,78 @@
                     <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Akaniaceae/Akaniaceae_Akania_hillii_Wing_Wing_809-001.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Akaniaceae/Akaniaceae_Akania_hillii_Wing_Wing_809-001.jpg" alt="Similar specimen"></a>
                     <div class="image-caption">Akaniaceae_Akania_hillii_Wing_Wing_809-001</div>
                 </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Ericaceae/Ericaceae_Rhododendron_arboreum_Wing_Wing_359-003.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Ericaceae/Ericaceae_Rhododendron_arboreum_Wing_Wing_359-003.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Ericaceae_Rhododendron_arboreum_Wing_Wing_359-003</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Sapindaceae/Sapindaceae_Eriocoelum_microsperum_Wing_Wing_718-001.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Sapindaceae/Sapindaceae_Eriocoelum_microsperum_Wing_Wing_718-001.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Sapindaceae_Eriocoelum_microsperum_Wing_Wing_718-001</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Ericaceae/Ericaceae_Malea_pilosa_Wing_Wing_436-002.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Ericaceae/Ericaceae_Malea_pilosa_Wing_Wing_436-002.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Ericaceae_Malea_pilosa_Wing_Wing_436-002</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Sapindaceae/Sapindaceae_Loxodiscus_coriaceus_Wing_Wing_781-001a.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Sapindaceae/Sapindaceae_Loxodiscus_coriaceus_Wing_Wing_781-001a.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Sapindaceae_Loxodiscus_coriaceus_Wing_Wing_781-001a</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Berberidaceae/Berberidaceae_Diphylleia_grayi_Hickey_Hickey_1168b.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Berberidaceae/Berberidaceae_Diphylleia_grayi_Hickey_Hickey_1168b.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Berberidaceae_Diphylleia_grayi_Hickey_Hickey_1168b</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Akaniaceae/Akaniaceae_Akania_hillii_Wing_Wing_809-002.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Akaniaceae/Akaniaceae_Akania_hillii_Wing_Wing_809-002.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Akaniaceae_Akania_hillii_Wing_Wing_809-002</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Ericaceae/Ericaceae_Vaccinium_uliginosum_Axelrod_Axelrod_715.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Ericaceae/Ericaceae_Vaccinium_uliginosum_Axelrod_Axelrod_715.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Ericaceae_Vaccinium_uliginosum_Axelrod_Axelrod_715</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Sapindaceae/Sapindaceae_Matayba_camptoneura_Wing_Wing_706-002b.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Sapindaceae/Sapindaceae_Matayba_camptoneura_Wing_Wing_706-002b.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Sapindaceae_Matayba_camptoneura_Wing_Wing_706-002b</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Sapindaceae/Sapindaceae_Storthocalyx_chryseus_Wing_Wing_732-001.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Sapindaceae/Sapindaceae_Storthocalyx_chryseus_Wing_Wing_732-001.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Sapindaceae_Storthocalyx_chryseus_Wing_Wing_732-001</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Cucurbitaceae/Cucurbitaceae_Sicyos_malvifolius_Hickey_Hickey_2055.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Cucurbitaceae/Cucurbitaceae_Sicyos_malvifolius_Hickey_Hickey_2055.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Cucurbitaceae_Sicyos_malvifolius_Hickey_Hickey_2055</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Martyniaceae/Martyniaceae_Martynia_annua_Hickey_Hickey_1706b.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Martyniaceae/Martyniaceae_Martynia_annua_Hickey_Hickey_1706b.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Martyniaceae_Martynia_annua_Hickey_Hickey_1706b</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Sapindaceae/Sapindaceae_Koelreuteria_bipinnata_Wing_Wing_772-002a.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Sapindaceae/Sapindaceae_Koelreuteria_bipinnata_Wing_Wing_772-002a.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Sapindaceae_Koelreuteria_bipinnata_Wing_Wing_772-002a</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Berberidaceae/Berberidaceae_Diphylleia_grayi_Hickey_Hickey_1168a.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Berberidaceae/Berberidaceae_Diphylleia_grayi_Hickey_Hickey_1168a.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Berberidaceae_Diphylleia_grayi_Hickey_Hickey_1168a</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Sapindaceae/Sapindaceae_Cubilia_cubili_Wing_Wing_810-002.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Sapindaceae/Sapindaceae_Cubilia_cubili_Wing_Wing_810-002.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Sapindaceae_Cubilia_cubili_Wing_Wing_810-002</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Sapindaceae/Sapindaceae_Acer_circinnatum_Wolfe_Wolfe_594.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Sapindaceae/Sapindaceae_Acer_circinnatum_Wolfe_Wolfe_594.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Sapindaceae_Acer_circinnatum_Wolfe_Wolfe_594</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Sapindaceae/Sapindaceae_Glenniea_unijuga_Wing_Wing_659-002.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Sapindaceae/Sapindaceae_Glenniea_unijuga_Wing_Wing_659-002.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Sapindaceae_Glenniea_unijuga_Wing_Wing_659-002</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Martyniaceae/Martyniaceae_Martynia_annua_Hickey_Hickey_1706c.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Martyniaceae/Martyniaceae_Martynia_annua_Hickey_Hickey_1706c.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Martyniaceae_Martynia_annua_Hickey_Hickey_1706c</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Sapindaceae/Sapindaceae_Acer_laetum_Wolfe_Wolfe_8602b.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Sapindaceae/Sapindaceae_Acer_laetum_Wolfe_Wolfe_8602b.jpg" alt="Similar specimen"></a>
+                    <div class="image-caption">Sapindaceae_Acer_laetum_Wolfe_Wolfe_8602b</div>
+                </div>
             </div>
         </div>
         <h2>Concept Images</h2>
@@ -236,7 +308,7 @@
             <div class="concept-card">
                 <div class="concept-images">
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20539/" target="_blank">
-                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts4/fossil_CU_0231cu1/concept_1_539.png" alt="Concept Image 1">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0231cu1/concept_1_539.png" alt="Concept Image 1">
                     </a>
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20539/" target="_blank">
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_539_fv.webp" alt="Feature Visualization 1">
@@ -247,7 +319,7 @@
 <div class="concept-card">
                 <div class="concept-images">
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201564/" target="_blank">
-                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts4/fossil_CU_0231cu1/concept_2_1564.png" alt="Concept Image 2">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0231cu1/concept_2_1564.png" alt="Concept Image 2">
                     </a>
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201564/" target="_blank">
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1564_fv.webp" alt="Feature Visualization 2">
@@ -258,7 +330,7 @@
 <div class="concept-card">
                 <div class="concept-images">
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201175/" target="_blank">
-                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts4/fossil_CU_0231cu1/concept_3_1175.png" alt="Concept Image 3">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0231cu1/concept_3_1175.png" alt="Concept Image 3">
                     </a>
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201175/" target="_blank">
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1175_fv.webp" alt="Feature Visualization 3">
@@ -269,7 +341,7 @@
 <div class="concept-card">
                 <div class="concept-images">
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20653/" target="_blank">
-                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts4/fossil_CU_0231cu1/concept_4_653.png" alt="Concept Image 4">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0231cu1/concept_4_653.png" alt="Concept Image 4">
                     </a>
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20653/" target="_blank">
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_653_fv.webp" alt="Feature Visualization 4">
@@ -280,7 +352,7 @@
 <div class="concept-card">
                 <div class="concept-images">
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201810/" target="_blank">
-                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts4/fossil_CU_0231cu1/concept_5_1810.png" alt="Concept Image 5">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0231cu1/concept_5_1810.png" alt="Concept Image 5">
                     </a>
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201810/" target="_blank">
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1810_fv.webp" alt="Feature Visualization 5">
@@ -291,7 +363,7 @@
 <div class="concept-card">
                 <div class="concept-images">
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201858/" target="_blank">
-                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts4/fossil_CU_0231cu1/concept_6_1858.png" alt="Concept Image 6">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0231cu1/concept_6_1858.png" alt="Concept Image 6">
                     </a>
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201858/" target="_blank">
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1858_fv.webp" alt="Feature Visualization 6">
@@ -302,7 +374,7 @@
 <div class="concept-card">
                 <div class="concept-images">
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20989/" target="_blank">
-                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts4/fossil_CU_0231cu1/concept_7_989.png" alt="Concept Image 7">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0231cu1/concept_7_989.png" alt="Concept Image 7">
                     </a>
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20989/" target="_blank">
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_989_fv.webp" alt="Feature Visualization 7">
@@ -313,7 +385,7 @@
 <div class="concept-card">
                 <div class="concept-images">
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201692/" target="_blank">
-                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts4/fossil_CU_0231cu1/concept_8_1692.png" alt="Concept Image 8">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0231cu1/concept_8_1692.png" alt="Concept Image 8">
                     </a>
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201692/" target="_blank">
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1692_fv.webp" alt="Feature Visualization 8">
@@ -324,7 +396,7 @@
 <div class="concept-card">
                 <div class="concept-images">
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20757/" target="_blank">
-                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts4/fossil_CU_0231cu1/concept_9_757.png" alt="Concept Image 9">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0231cu1/concept_9_757.png" alt="Concept Image 9">
                     </a>
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20757/" target="_blank">
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_757_fv.webp" alt="Feature Visualization 9">
@@ -335,7 +407,7 @@
 <div class="concept-card">
                 <div class="concept-images">
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201037/" target="_blank">
-                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts4/fossil_CU_0231cu1/concept_10_1037.png" alt="Concept Image 10">
+                        <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0231cu1/concept_10_1037.png" alt="Concept Image 10">
                     </a>
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201037/" target="_blank">
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1037_fv.webp" alt="Feature Visualization 10">

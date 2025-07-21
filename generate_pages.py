@@ -29,13 +29,13 @@ IMAGES_DIR = os.path.join(DOCS_DIR, "images")
 MKDOCS_YML = os.path.join(PROJECT_DIR, "mkdocs.yml")
 
 Unknown_IMAGE_URL = "https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/{}/image.jpg"
-Unknown_CONCEPT_URL = "https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts4/fossil_{}/{}"
+Unknown_CONCEPT_URL = "https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_{}/{}"
 
 Known_IMAGE_URL = "https://storage.googleapis.com/{}.jpg"
 Known_LEAF_IMAGE_URL = "https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/{}/{}"
 
 Unidentified_IMAGE_URL = "https://storage.googleapis.com/serrelab/prj_fossils/2024/Unidentified/{}.jpg"
-Unidentified_CONCEPT_URL = "https://storage.googleapis.com/serrelab/prj_fossils/unidentified_fossils_concepts1/fossil_{}/{}"
+Unidentified_CONCEPT_URL = "https://storage.googleapis.com/serrelab/prj_fossils/unidentified_fossils_concepts_viridis/fossil_{}/{}"
 
 FEATURE_VIS_URL = "https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_{}_fv.webp"
 CONCEPT_INFO = "https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20{}/"
@@ -62,9 +62,11 @@ with open("unknown_closest.json", "r") as file:
 with open("unidentified_closest.json", "r") as file:
     unidentified_closest = json.load(file)
 
-with open("closest_extant_examples_gpu.json", "r") as file:
+with open("closest_extant_examples_checkpoint_gpu.json", "r") as file:
     closest_extant_examples = json.load(file)
 
+with open("closest_extant_examples_gpu.json", "r") as file:
+    closest_extant_examples_uni = json.load(file)
 
 # Create a new dictionary with just the image name as key
 simplified_dict = {}
@@ -73,6 +75,7 @@ for raw_key, value in closest_extant_examples.items():
     # Extract image name from the messy key
     try:
         # Step 1: Convert raw_key string to actual Python list string (if needed)
+        raw_key = raw_key.replace("\n", ",")
         cleaned_key = eval(raw_key)  # Not safe for untrusted input, but okay for controlled data
 
         # Step 2: Extract image name from the full path
@@ -83,6 +86,25 @@ for raw_key, value in closest_extant_examples.items():
 
     except Exception as e:
         print(f"Skipping malformed key: {raw_key} due to error: {e}")
+
+simplified_dict_uni = {}
+
+for raw_key, value in closest_extant_examples_uni.items():
+    # Extract image name from the messy key
+    try:
+        # Step 1: Convert raw_key string to actual Python list string (if needed)
+        raw_key = raw_key.replace("\n", ",")
+        cleaned_key = eval(raw_key)  # Not safe for untrusted input, but okay for controlled data
+
+        # Step 2: Extract image name from the full path
+        image_path = cleaned_key[0]
+        image_name = image_path.strip().split("/")[-1].split(".")[0] # Get only the filename
+
+        simplified_dict_uni[image_name] = value
+
+    except Exception as e:
+        print(f"Skipping malformed key: {raw_key} due to error: {e}")
+    
 
 
 html_template = """
@@ -262,7 +284,7 @@ html_template = """
             <img src="{main_image}" alt="Fossil Image">
         </div>
         <div class="main-image-container">
-            <h3>Similar Fossil Specimens</h3>
+            <h3>Similar Leaf Fossil Specimens</h3>
             <div class="similar-images-grid">
                 <div class="similar-image-container">
                     <a href="{sm1}" target="_blank"><img class="similar-image" src="{sm1}" alt="Similar specimen"></a>
@@ -290,7 +312,7 @@ html_template = """
                 </div>
             </div>
 
-            <h3>Similar Leaf Specimens</h3>
+            <h3>Similar Extant Leaf Specimens</h3>
             <div class="similar-images-grid">
                 <div class="similar-image-container">
                     <a href="{sm1l}" target="_blank"><img class="similar-image" src="{sm1l}" alt="Similar specimen"></a>
@@ -315,6 +337,78 @@ html_template = """
                 <div class="similar-image-container">
                     <a href="{sm6l}" target="_blank"><img class="similar-image" src="{sm6l}" alt="Similar specimen"></a>
                     <div class="image-caption">{sm6l_name}</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="{sm7l}" target="_blank"><img class="similar-image" src="{sm7l}" alt="Similar specimen"></a>
+                    <div class="image-caption">{sm7l_name}</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="{sm8l}" target="_blank"><img class="similar-image" src="{sm8l}" alt="Similar specimen"></a>
+                    <div class="image-caption">{sm8l_name}</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="{sm9l}" target="_blank"><img class="similar-image" src="{sm9l}" alt="Similar specimen"></a>
+                    <div class="image-caption">{sm9l_name}</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="{sm10l}" target="_blank"><img class="similar-image" src="{sm10l}" alt="Similar specimen"></a>
+                    <div class="image-caption">{sm10l_name}</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="{sm11l}" target="_blank"><img class="similar-image" src="{sm11l}" alt="Similar specimen"></a>
+                    <div class="image-caption">{sm11l_name}</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="{sm12l}" target="_blank"><img class="similar-image" src="{sm12l}" alt="Similar specimen"></a>
+                    <div class="image-caption">{sm12l_name}</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="{sm13l}" target="_blank"><img class="similar-image" src="{sm13l}" alt="Similar specimen"></a>
+                    <div class="image-caption">{sm13l_name}</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="{sm14l}" target="_blank"><img class="similar-image" src="{sm14l}" alt="Similar specimen"></a>
+                    <div class="image-caption">{sm14l_name}</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="{sm15l}" target="_blank"><img class="similar-image" src="{sm15l}" alt="Similar specimen"></a>
+                    <div class="image-caption">{sm15l_name}</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="{sm16l}" target="_blank"><img class="similar-image" src="{sm16l}" alt="Similar specimen"></a>
+                    <div class="image-caption">{sm16l_name}</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="{sm17l}" target="_blank"><img class="similar-image" src="{sm17l}" alt="Similar specimen"></a>
+                    <div class="image-caption">{sm17l_name}</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="{sm18l}" target="_blank"><img class="similar-image" src="{sm18l}" alt="Similar specimen"></a>
+                    <div class="image-caption">{sm18l_name}</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="{sm19l}" target="_blank"><img class="similar-image" src="{sm19l}" alt="Similar specimen"></a>
+                    <div class="image-caption">{sm19l_name}</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="{sm20l}" target="_blank"><img class="similar-image" src="{sm20l}" alt="Similar specimen"></a>
+                    <div class="image-caption">{sm20l_name}</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="{sm21l}" target="_blank"><img class="similar-image" src="{sm21l}" alt="Similar specimen"></a>
+                    <div class="image-caption">{sm21l_name}</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="{sm22l}" target="_blank"><img class="similar-image" src="{sm22l}" alt="Similar specimen"></a>
+                    <div class="image-caption">{sm22l_name}</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="{sm23l}" target="_blank"><img class="similar-image" src="{sm23l}" alt="Similar specimen"></a>
+                    <div class="image-caption">{sm23l_name}</div>
+                </div>
+                <div class="similar-image-container">
+                    <a href="{sm24l}" target="_blank"><img class="similar-image" src="{sm24l}" alt="Similar specimen"></a>
+                    <div class="image-caption">{sm24l_name}</div>
                 </div>
             </div>
         </div>
@@ -390,7 +484,7 @@ for i, (key, value) in enumerate(image_names.items()):
     )
 
     known_image_urls = [(file_path.split("/")[-1], Known_IMAGE_URL.format(file_path)) for file_path in unknown_closest[key]["closest_filenames"]]
-    leaf_image_urls = [(file_name.split(".")[0], Known_LEAF_IMAGE_URL.format(file_name.split("_")[0], file_name)) for file_name in simplified_dict[key]]
+    leaf_image_urls = [(fs['filename'].split(".")[0], Known_LEAF_IMAGE_URL.format(fs['filename'].split("_")[0], fs['filename'])) for fs in simplified_dict[key]]
 
     html_content = html_template.format(
         image_name=f"{key}",
@@ -415,6 +509,7 @@ for i, (key, value) in enumerate(image_names.items()):
         sm4 = known_image_urls[3][1],
         sm5 = known_image_urls[4][1],    
         sm6 = known_image_urls[5][1],
+    
         sm1_name = known_image_urls[0][0],
         sm2_name = known_image_urls[1][0],
         sm3_name = known_image_urls[2][0],
@@ -428,12 +523,51 @@ for i, (key, value) in enumerate(image_names.items()):
         sm4l = leaf_image_urls[3][1],
         sm5l = leaf_image_urls[4][1],    
         sm6l = leaf_image_urls[5][1],
+        sm7l = leaf_image_urls[6][1],
+        sm8l = leaf_image_urls[7][1],
+        sm9l = leaf_image_urls[8][1],
+        sm10l = leaf_image_urls[9][1],
+        sm11l = leaf_image_urls[10][1],  
+        sm12l = leaf_image_urls[11][1],
+        sm13l = leaf_image_urls[12][1],
+        sm14l = leaf_image_urls[13][1],
+        sm15l = leaf_image_urls[14][1],
+        sm16l = leaf_image_urls[15][1],
+        sm17l = leaf_image_urls[16][1],
+        sm18l = leaf_image_urls[17][1],
+        sm19l = leaf_image_urls[18][1],
+        sm20l = leaf_image_urls[19][1],
+        sm21l = leaf_image_urls[20][1],
+        sm22l = leaf_image_urls[21][1],
+        sm23l = leaf_image_urls[22][1],
+        sm24l = leaf_image_urls[23][1],
+  
         sm1l_name = leaf_image_urls[0][0],
         sm2l_name = leaf_image_urls[1][0],
         sm3l_name = leaf_image_urls[2][0],
         sm4l_name = leaf_image_urls[3][0],
         sm5l_name = leaf_image_urls[4][0],
         sm6l_name = leaf_image_urls[5][0],
+        sm7l_name = leaf_image_urls[6][0],
+        sm8l_name = leaf_image_urls[7][0],
+        sm9l_name = leaf_image_urls[8][0],
+        sm10l_name = leaf_image_urls[9][0],
+        sm11l_name = leaf_image_urls[10][0],
+        sm12l_name = leaf_image_urls[11][0],
+        sm13l_name = leaf_image_urls[12][0],
+        sm14l_name = leaf_image_urls[13][0],
+        sm15l_name = leaf_image_urls[14][0],
+        sm16l_name = leaf_image_urls[15][0],
+        sm17l_name = leaf_image_urls[16][0],
+        sm18l_name = leaf_image_urls[17][0],
+        sm19l_name = leaf_image_urls[18][0],
+        sm20l_name = leaf_image_urls[19][0],
+        sm21l_name = leaf_image_urls[20][0],
+        sm22l_name = leaf_image_urls[21][0],
+        sm23l_name = leaf_image_urls[22][0],
+        sm24l_name = leaf_image_urls[23][0],
+
+
         concept_images = concept_images
     )
     page_path = os.path.join(Unknown_PAGES_DIR, f"page_{key}.md")
@@ -499,7 +633,13 @@ for i, (key, value) in enumerate(unidentified_image_names.items()):
     )
 
     known_image_urls = [(file_path.split("/")[-1], Known_IMAGE_URL.format(file_path)) for file_path in unidentified_closest[key]["closest_filenames"]]
-    leaf_image_urls = [(file_name.split(".")[0], Known_LEAF_IMAGE_URL.format(file_name.split("_")[0], file_name)) for file_name in simplified_dict[key]]
+    try:
+        leaf_image_urls = [(fs['filename'].split(".")[0], Known_LEAF_IMAGE_URL.format(fs['filename'].split("_")[0], fs['filename'])) for fs in simplified_dict[key]]
+    except:
+        leaf_image_urls = [(fs.split(".")[0], Known_LEAF_IMAGE_URL.format(fs.split("_")[0], fs)) for fs in simplified_dict_uni[key]]
+        for i in range(7, 25):
+            leaf_image_urls.append(("", None))
+
 
     html_content = html_template.format(
         image_name=f"{key}",
@@ -536,12 +676,51 @@ for i, (key, value) in enumerate(unidentified_image_names.items()):
         sm4l = leaf_image_urls[3][1],
         sm5l = leaf_image_urls[4][1], 
         sm6l = leaf_image_urls[5][1],
+        sm7l = leaf_image_urls[0][1],
+        sm8l = leaf_image_urls[1][1],
+        sm9l = leaf_image_urls[2][1],
+        sm10l = leaf_image_urls[3][1],
+        sm11l = leaf_image_urls[4][1],
+        sm12l = leaf_image_urls[5][1],
+        sm13l = leaf_image_urls[0][1],
+        sm14l = leaf_image_urls[1][1],
+        sm15l = leaf_image_urls[2][1],
+        sm16l = leaf_image_urls[3][1],
+        sm17l = leaf_image_urls[4][1],
+        sm18l = leaf_image_urls[1][1],
+        sm19l = leaf_image_urls[2][1],
+        sm20l = leaf_image_urls[3][1],
+        sm21l = leaf_image_urls[4][1],
+        sm22l = leaf_image_urls[5][1],
+        sm23l = leaf_image_urls[0][1],
+        sm24l = leaf_image_urls[1][1],
+        
+     
         sm1l_name = leaf_image_urls[0][0],
         sm2l_name = leaf_image_urls[1][0],
         sm3l_name = leaf_image_urls[2][0],
         sm4l_name = leaf_image_urls[3][0],
         sm5l_name = leaf_image_urls[4][0],
         sm6l_name = leaf_image_urls[5][0],
+        sm7l_name = leaf_image_urls[0][0],
+        sm8l_name = leaf_image_urls[1][0],
+        sm9l_name = leaf_image_urls[2][0],
+        sm10l_name = leaf_image_urls[3][0],
+        sm11l_name = leaf_image_urls[4][0],
+        sm12l_name = leaf_image_urls[5][0],
+        sm13l_name = leaf_image_urls[0][0],
+        sm14l_name = leaf_image_urls[1][0],
+        sm15l_name = leaf_image_urls[2][0],
+        sm16l_name = leaf_image_urls[3][0],
+        sm17l_name = leaf_image_urls[4][0],
+        sm18l_name = leaf_image_urls[5][0],
+        sm19l_name = leaf_image_urls[0][0],
+        sm20l_name = leaf_image_urls[1][0],
+        sm21l_name = leaf_image_urls[2][0],
+        sm22l_name = leaf_image_urls[3][0],
+        sm23l_name = leaf_image_urls[4][0],
+        sm24l_name = leaf_image_urls[5][0],
+
         concept_images = concept_images
     )
     page_path = os.path.join(Unidentified_PAGES_DIR, f"page_{key}.md")

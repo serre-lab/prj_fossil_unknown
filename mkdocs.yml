@@ -6,6 +6,11 @@ theme:
   palette:
     primary: black
     accent: white
+extra_css:
+  - styles/concept-style.css
+markdown_extensions:
+  - attr_list
+  - md_in_html
 nav:
   - <b>Home</b>: index.md
   - <b>Unidentified Fossils</b>:
@@ -1733,3 +1738,7 @@ nav:
     - 1721. FLFO_011200B: pages/unidentified/page_FLFO_011200B.md
     - 1722. FLFO_003294A: pages/unidentified/page_FLFO_003294A.md
     - 1723. FLFO_011574B: pages/unidentified/page_FLFO_011574B.md
+  - <b>Figure Samples</b>:
+    - Berberidaceae: figure_sample/berberidaceae.md
+    - Juglandaceae: figure_sample/juglandaceae.md
+dev_addr: 'localhost:8001'
