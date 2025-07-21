@@ -1,12 +1,12 @@
 # Berberidaceae Concept Review for Paper Inclusion
 
 This page presents two learned visual concepts, along with sample leaf and fossil images that exhibit these concepts. You can help us **selecting samples where both concepts are clearly represented**, then click the download button.
-
+Here is how you can do it. Go throught the visual concepts and use the reference samples to understand the concepts. Then, go through the leaf and fossil review sections and select the samples where both concepts are clearly represented.
 ## 1. Visual Concepts
 
 <div style='display: flex; gap: 40px;'>
-<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>Concept - 506</div><a href='https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%506/' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp' style='width:400px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(2.0)"' onmouseout='this.style.transform="scale(1)"' /></a></div>
-<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>Concept - 1034</div><a href='https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%1034/' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_fv.webp' style='width:400px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(2.0)"' onmouseout='this.style.transform="scale(1)"' /></a></div>
+<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>Concept - 506</div><a href='https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20506/' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp' style='width:400px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(2.0)"' onmouseout='this.style.transform="scale(1)"' /></a></div>
+<div style='text-align: center; display: inline-block; margin: 10px;'><div style='font-size: 14px; margin-bottom: 4px; color: #4bac49;'>Concept - 1034</div><a href='https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201034/' target='_blank'><img src='https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_fv.webp' style='width:400px; margin: 5px; border-radius: 8px; border: 1px solid #888; transition: transform 0.3s ease;' onmouseover='this.style.transform="scale(2.0)"' onmouseout='this.style.transform="scale(1)"' /></a></div>
 </div>
 
 ## 2.1 Reference Samples for Concept 506
