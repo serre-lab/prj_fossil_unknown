@@ -86,18 +86,18 @@ def find_image_by_concept(files, concept_number):
         return f
     return None
 
-fossil_dir = f"https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/"
-leaf_dir = f"https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/"
+fossil_dir = f"https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_fossil_sae_concepts6/"
+leaf_dir = f"https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Juglandaceae_leaf_sae_concepts6/"
 concept_url = "https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_{concept_number}_fv.webp"
 
-concept1 = "506"
-concept2 = "1034"
+concept1 = "1810"
+concept2 = "899"
 
-leaf_folders = {leaf: leaf_dir + leaf for leaf in berberidaceae_samples['leaf']}
-fossil_folders = {fossil: fossil_dir + fossil for fossil in berberidaceae_samples['fossil']}
+leaf_folders = {leaf: leaf_dir + leaf for leaf in juglandaceae_samples['leaf']}
+fossil_folders = {fossil: fossil_dir + fossil for fossil in juglandaceae_samples['fossil']}
 
-leaf_files = {leaf: berberidaceae_tree['Berberidaceae_leaf_sae_concepts6'][leaf]['__files__'] for leaf in berberidaceae_samples['leaf']}
-fossil_files = {fossil: berberidaceae_tree['Berberidaceae_fossil_sae_concepts6'][fossil]['__files__'] for fossil in berberidaceae_samples['fossil']}
+leaf_files = {leaf: juglandaceae_tree['Juglandaceae_leaf_sae_concepts6'][leaf]['__files__'] for leaf in juglandaceae_samples['leaf']}
+fossil_files = {fossil: juglandaceae_tree['Juglandaceae_fossil_sae_concepts6'][fossil]['__files__'] for fossil in juglandaceae_samples['fossil']}
 
 leaf_c1 = []
 leaf_c2 = []
@@ -121,7 +121,7 @@ for fossil, concepts in fossil_files.items():
 
 triplets = []
 
-n = len(leaf_c1)
+n = min(len(leaf_c1), len(leaf_c2), len(fossil_c1), len(fossil_c2), 10)
 for k in range(n):
     concepts = []
     for i, concept in enumerate([concept1, concept2]):
@@ -140,8 +140,8 @@ for k in range(n):
             "leaf_name": leaf_name,
             "fossil_name": fossil_name,
             "concept_name": concept,
-            "leaf_samples": berberidaceae_leaf_examples[concept],
-            "fossil_samples": berberidaceae_fossil_examples[concept][:6],
+            "leaf_samples": juglandaceae_leaf_examples[concept],
+            "fossil_samples": juglandaceae_fossil_examples[concept][:6],
         })
     triplets.append({
         "concepts": concepts
@@ -176,4 +176,4 @@ for k in range(n):
 #     # Add more triplets if needed
 # ]
 
-generate_markdown(triplets, output_path="docs/figure_sample/berberidaceae.md")
+generate_markdown(triplets, output_path="docs/figure_sample/juglandaceae.md")
