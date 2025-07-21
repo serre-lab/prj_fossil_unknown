@@ -1,0 +1,1434 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>🌿 Concept Visualizations</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            min-height: 100vh;
+            color: #2c3e50;
+            line-height: 1.6;
+        }
+        
+        .container {
+            max-width: 1400px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 50px;
+            padding: 40px 0;
+            background: rgba(255, 255, 255, 0.9);
+            border-radius: 20px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(10px);
+        }
+        
+        .header h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            margin-bottom: 15px;
+            letter-spacing: -0.02em;
+        }
+        
+        .header p {
+            font-size: 1.3rem;
+            color: #64748b;
+            font-weight: 300;
+            font-style: italic;
+        }
+        
+        .divider {
+            height: 3px;
+            background: linear-gradient(90deg, transparent, #667eea, transparent);
+            margin: 60px 0;
+            border-radius: 2px;
+        }
+        
+        .sample-card {
+            background: rgba(255, 255, 255, 0.95);
+            border-radius: 24px;
+            padding: 50px;
+            margin-bottom: 60px;
+            box-shadow: 0 20px 60px rgba(0, 0, 0, 0.08);
+            backdrop-filter: blur(10px);
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        
+        .sample-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 30px 80px rgba(0, 0, 0, 0.12);
+        }
+        
+        .sample-title {
+            font-size: 2rem;
+            font-weight: 600;
+            color: #4f46e5;
+            margin-bottom: 40px;
+            text-align: center;
+            padding-bottom: 20px;
+            border-bottom: 2px solid #e2e8f0;
+        }
+        
+        .concept-section {
+            margin-bottom: 50px;
+            padding: 40px 0;
+            border-bottom: 1px solid #e2e8f0;
+        }
+        
+        .concept-section:last-child {
+            border-bottom: none;
+        }
+        
+        .concept-title {
+            font-size: 1.8rem;
+            font-weight: 600;
+            color: #4069E5;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+        
+        .main-images {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 80px;
+            margin-bottom: 50px;
+            flex-wrap: wrap;
+        }
+        
+        .main-image-container {
+            text-align: center;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+        
+        .main-image-container:hover {
+            transform: scale(1.05);
+        }
+        
+        .image-label {
+            font-weight: 700;
+            font-size: 1.2rem;
+            margin-bottom: 15px;
+            padding: 10px 20px;
+            border-radius: 25px;
+            display: inline-block;
+        }
+        
+        .leaf-label {
+            background: linear-gradient(135deg, #10b981, #059669);
+            color: white;
+        }
+        
+        .concept-label {
+            background: linear-gradient(135deg, #3b82f6, #1d4ed8);
+            color: white;
+        }
+        
+        .fossil-label {
+            background: linear-gradient(135deg, #d97706, #92400e);
+            color: white;
+        }
+        
+        .main-image {
+            width: 380px;
+            height: 380px;
+            object-fit: cover;
+            border-radius: 20px;
+            box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+            border: 4px solid rgba(255, 255, 255, 0.8);
+            transition: all 0.3s ease;
+        }
+        
+        .main-image:hover {
+            box-shadow: 0 25px 60px rgba(0, 0, 0, 0.2);
+            border-color: rgba(255, 255, 255, 1);
+        }
+        
+        .species-name {
+            font-style: italic;
+            font-size: 1rem;
+            color: #64748b;
+            margin-top: 8px;
+        }
+        
+        .samples-section {
+            margin-top: 40px;
+        }
+        
+        .samples-title {
+            font-size: 1.4rem;
+            font-weight: 600;
+            margin-bottom: 20px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .leaf-samples-title {
+            color: #059669;
+        }
+        
+        .fossil-samples-title {
+            color: #92400e;
+        }
+        
+        .samples-grid {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+            margin-bottom: 30px;
+        }
+        
+        .sample-image {
+            width: 100px;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            border: 2px solid rgba(255, 255, 255, 0.8);
+        }
+        
+        .sample-image:hover {
+            transform: scale(1.1);
+            box-shadow: 0 12px 35px rgba(0, 0, 0, 0.15);
+            border-color: #667eea;
+        }
+        
+        .footer {
+            text-align: center;
+            margin-top: 80px;
+            padding: 30px;
+            background: rgba(255, 255, 255, 0.7);
+            border-radius: 15px;
+            color: #64748b;
+            font-size: 0.95rem;
+            backdrop-filter: blur(10px);
+        }
+        
+        .arrow-icon {
+            font-size: 2.5rem;
+            color: #94a3b8;
+            margin: 0 20px;
+            align-self: center;
+            animation: pulse 2s infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { opacity: 0.6; transform: scale(1); }
+            50% { opacity: 1; transform: scale(1.1); }
+        }
+        
+        .modal {
+            display: none;
+            position: fixed;
+            z-index: 1000;
+            left: 0;
+            top: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0, 0, 0, 0.9);
+            backdrop-filter: blur(5px);
+        }
+        
+        .modal-content {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            padding: 20px;
+        }
+        
+        .modal img {
+            max-width: 90%;
+            max-height: 90%;
+            border-radius: 15px;
+            box-shadow: 0 25px 80px rgba(0, 0, 0, 0.3);
+        }
+        
+        .close {
+            position: absolute;
+            top: 30px;
+            right: 50px;
+            color: white;
+            font-size: 40px;
+            font-weight: bold;
+            cursor: pointer;
+            z-index: 1001;
+            transition: color 0.3s ease;
+        }
+        
+        .close:hover {
+            color: #667eea;
+        }
+        
+        @media (max-width: 768px) {
+            .main-images {
+                flex-direction: column;
+                gap: 40px;
+            }
+            
+            .main-image {
+                width: 280px;
+                height: 280px;
+            }
+            
+            .arrow-icon {
+                transform: rotate(90deg);
+                margin: 10px 0;
+            }
+            
+            .header h1 {
+                font-size: 2.5rem;
+            }
+            
+            .sample-card {
+                padding: 30px 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🌿 Concept Visualizations</h1>
+            <p>Visual triplets showing conceptual similarity between modern leaves and fossil specimens</p>
+        </div>
+        
+        <div class="divider"></div>
+        
+        <div id="samples-container">
+            <div class="sample-card">
+                <div class="sample-title">🔹 Sample 1</div>
+                <div class="concept-section">
+                    <div class="concept-title">🔸 Concept 1: 506</div>
+                    
+                    <div class="main-images">
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Berberis_pinnata_Axelrod_Axelrod_4/concept_1_506.png')">
+                            <div class="image-label leaf-label">
+                                Leaf
+                                <div class="species-name">fossil_Berberidaceae_Berberis_pinnata_Axelrod_Axelrod_4</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Berberis_pinnata_Axelrod_Axelrod_4/concept_1_506.png" alt="Leaf" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp')">
+                            <div class="image-label concept-label">Concept</div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp" alt="Concept" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_1_506.png')">
+                            <div class="image-label fossil-label">
+                                Fossil
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_1_506.png" alt="Fossil" class="main-image">
+                        </div>
+                    </div>
+                    
+                    <div class="samples-section">
+                        <div class="samples-title leaf-samples-title">🟢 Similar Leaf Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_1.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_1.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_2.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_2.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_4.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_4.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_5.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_5.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_6.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_6.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_8.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_8.webp')">
+                        </div>
+                        
+                        <div class="samples-title fossil-samples-title">🟤 Similar Fossil Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0134/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0134/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0396/concept_2_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0396/concept_2_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_2_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_2_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_3_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_3_506.png')">
+                        </div>
+                    </div>
+                </div>
+                <div class="concept-section">
+                    <div class="concept-title">🔸 Concept 2: 1034</div>
+                    
+                    <div class="main-images">
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Berberis_pinnata_Axelrod_Axelrod_4/concept_1_506.png')">
+                            <div class="image-label leaf-label">
+                                Leaf
+                                <div class="species-name">fossil_Berberidaceae_Berberis_pinnata_Axelrod_Axelrod_4</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Berberis_pinnata_Axelrod_Axelrod_4/concept_1_506.png" alt="Leaf" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp')">
+                            <div class="image-label concept-label">Concept</div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp" alt="Concept" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_1_506.png')">
+                            <div class="image-label fossil-label">
+                                Fossil
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_1_506.png" alt="Fossil" class="main-image">
+                        </div>
+                    </div>
+                    
+                    <div class="samples-section">
+                        <div class="samples-title leaf-samples-title">🟢 Similar Leaf Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_1.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_1.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_2.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_2.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_3.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_3.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_4.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_4.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_5.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_5.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_6.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_6.webp')">
+                        </div>
+                        
+                        <div class="samples-title fossil-samples-title">🟤 Similar Fossil Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_3_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_10_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_10_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_3_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_4_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_4_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B/concept_9_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B/concept_9_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658/concept_3_1034.png')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sample-card">
+                <div class="sample-title">🔹 Sample 2</div>
+                <div class="concept-section">
+                    <div class="concept-title">🔸 Concept 1: 506</div>
+                    
+                    <div class="main-images">
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Diphylleia_cymosa_Hickey_Hickey_1167/concept_6_506.png')">
+                            <div class="image-label leaf-label">
+                                Leaf
+                                <div class="species-name">fossil_Berberidaceae_Diphylleia_cymosa_Hickey_Hickey_1167</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Diphylleia_cymosa_Hickey_Hickey_1167/concept_6_506.png" alt="Leaf" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp')">
+                            <div class="image-label concept-label">Concept</div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp" alt="Concept" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_1_506.png')">
+                            <div class="image-label fossil-label">
+                                Fossil
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_1_506.png" alt="Fossil" class="main-image">
+                        </div>
+                    </div>
+                    
+                    <div class="samples-section">
+                        <div class="samples-title leaf-samples-title">🟢 Similar Leaf Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_1.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_1.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_2.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_2.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_4.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_4.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_5.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_5.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_6.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_6.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_8.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_8.webp')">
+                        </div>
+                        
+                        <div class="samples-title fossil-samples-title">🟤 Similar Fossil Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0134/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0134/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0396/concept_2_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0396/concept_2_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_2_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_2_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_3_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_3_506.png')">
+                        </div>
+                    </div>
+                </div>
+                <div class="concept-section">
+                    <div class="concept-title">🔸 Concept 2: 1034</div>
+                    
+                    <div class="main-images">
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Diphylleia_cymosa_Hickey_Hickey_1167/concept_6_506.png')">
+                            <div class="image-label leaf-label">
+                                Leaf
+                                <div class="species-name">fossil_Berberidaceae_Diphylleia_cymosa_Hickey_Hickey_1167</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Diphylleia_cymosa_Hickey_Hickey_1167/concept_6_506.png" alt="Leaf" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp')">
+                            <div class="image-label concept-label">Concept</div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp" alt="Concept" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_1_506.png')">
+                            <div class="image-label fossil-label">
+                                Fossil
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_1_506.png" alt="Fossil" class="main-image">
+                        </div>
+                    </div>
+                    
+                    <div class="samples-section">
+                        <div class="samples-title leaf-samples-title">🟢 Similar Leaf Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_1.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_1.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_2.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_2.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_3.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_3.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_4.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_4.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_5.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_5.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_6.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_6.webp')">
+                        </div>
+                        
+                        <div class="samples-title fossil-samples-title">🟤 Similar Fossil Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_3_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_10_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_10_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_3_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_4_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_4_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B/concept_9_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B/concept_9_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658/concept_3_1034.png')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sample-card">
+                <div class="sample-title">🔹 Sample 3</div>
+                <div class="concept-section">
+                    <div class="concept-title">🔸 Concept 1: 506</div>
+                    
+                    <div class="main-images">
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Diphylleia_grayi_Hickey_Hickey_1168d/concept_2_506.png')">
+                            <div class="image-label leaf-label">
+                                Leaf
+                                <div class="species-name">fossil_Berberidaceae_Diphylleia_grayi_Hickey_Hickey_1168d</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Diphylleia_grayi_Hickey_Hickey_1168d/concept_2_506.png" alt="Leaf" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp')">
+                            <div class="image-label concept-label">Concept</div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp" alt="Concept" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_2_506.png')">
+                            <div class="image-label fossil-label">
+                                Fossil
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_2_506.png" alt="Fossil" class="main-image">
+                        </div>
+                    </div>
+                    
+                    <div class="samples-section">
+                        <div class="samples-title leaf-samples-title">🟢 Similar Leaf Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_1.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_1.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_2.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_2.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_4.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_4.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_5.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_5.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_6.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_6.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_8.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_8.webp')">
+                        </div>
+                        
+                        <div class="samples-title fossil-samples-title">🟤 Similar Fossil Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0134/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0134/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0396/concept_2_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0396/concept_2_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_2_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_2_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_3_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_3_506.png')">
+                        </div>
+                    </div>
+                </div>
+                <div class="concept-section">
+                    <div class="concept-title">🔸 Concept 2: 1034</div>
+                    
+                    <div class="main-images">
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Diphylleia_grayi_Hickey_Hickey_1168d/concept_2_506.png')">
+                            <div class="image-label leaf-label">
+                                Leaf
+                                <div class="species-name">fossil_Berberidaceae_Diphylleia_grayi_Hickey_Hickey_1168d</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Diphylleia_grayi_Hickey_Hickey_1168d/concept_2_506.png" alt="Leaf" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp')">
+                            <div class="image-label concept-label">Concept</div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp" alt="Concept" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_2_506.png')">
+                            <div class="image-label fossil-label">
+                                Fossil
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_2_506.png" alt="Fossil" class="main-image">
+                        </div>
+                    </div>
+                    
+                    <div class="samples-section">
+                        <div class="samples-title leaf-samples-title">🟢 Similar Leaf Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_1.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_1.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_2.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_2.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_3.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_3.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_4.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_4.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_5.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_5.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_6.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_6.webp')">
+                        </div>
+                        
+                        <div class="samples-title fossil-samples-title">🟤 Similar Fossil Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_3_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_10_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_10_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_3_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_4_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_4_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B/concept_9_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B/concept_9_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658/concept_3_1034.png')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sample-card">
+                <div class="sample-title">🔹 Sample 4</div>
+                <div class="concept-section">
+                    <div class="concept-title">🔸 Concept 1: 506</div>
+                    
+                    <div class="main-images">
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Holboellia_latifolia_Hickey_Hickey_6089/concept_2_506.png')">
+                            <div class="image-label leaf-label">
+                                Leaf
+                                <div class="species-name">fossil_Berberidaceae_Holboellia_latifolia_Hickey_Hickey_6089</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Holboellia_latifolia_Hickey_Hickey_6089/concept_2_506.png" alt="Leaf" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp')">
+                            <div class="image-label concept-label">Concept</div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp" alt="Concept" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_3_506.png')">
+                            <div class="image-label fossil-label">
+                                Fossil
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_3_506.png" alt="Fossil" class="main-image">
+                        </div>
+                    </div>
+                    
+                    <div class="samples-section">
+                        <div class="samples-title leaf-samples-title">🟢 Similar Leaf Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_1.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_1.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_2.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_2.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_4.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_4.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_5.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_5.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_6.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_6.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_8.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_8.webp')">
+                        </div>
+                        
+                        <div class="samples-title fossil-samples-title">🟤 Similar Fossil Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0134/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0134/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0396/concept_2_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0396/concept_2_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_2_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_2_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_3_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_3_506.png')">
+                        </div>
+                    </div>
+                </div>
+                <div class="concept-section">
+                    <div class="concept-title">🔸 Concept 2: 1034</div>
+                    
+                    <div class="main-images">
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Holboellia_latifolia_Hickey_Hickey_6089/concept_2_506.png')">
+                            <div class="image-label leaf-label">
+                                Leaf
+                                <div class="species-name">fossil_Berberidaceae_Holboellia_latifolia_Hickey_Hickey_6089</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Holboellia_latifolia_Hickey_Hickey_6089/concept_2_506.png" alt="Leaf" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp')">
+                            <div class="image-label concept-label">Concept</div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp" alt="Concept" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_3_506.png')">
+                            <div class="image-label fossil-label">
+                                Fossil
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_3_506.png" alt="Fossil" class="main-image">
+                        </div>
+                    </div>
+                    
+                    <div class="samples-section">
+                        <div class="samples-title leaf-samples-title">🟢 Similar Leaf Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_1.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_1.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_2.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_2.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_3.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_3.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_4.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_4.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_5.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_5.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_6.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_6.webp')">
+                        </div>
+                        
+                        <div class="samples-title fossil-samples-title">🟤 Similar Fossil Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_3_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_10_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_10_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_3_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_4_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_4_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B/concept_9_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B/concept_9_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658/concept_3_1034.png')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sample-card">
+                <div class="sample-title">🔹 Sample 5</div>
+                <div class="concept-section">
+                    <div class="concept-title">🔸 Concept 1: 506</div>
+                    
+                    <div class="main-images">
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Mahonia_lomariifolia_Wolfe_Wolfe_1130a/concept_2_506.png')">
+                            <div class="image-label leaf-label">
+                                Leaf
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_lomariifolia_Wolfe_Wolfe_1130a</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Mahonia_lomariifolia_Wolfe_Wolfe_1130a/concept_2_506.png" alt="Leaf" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp')">
+                            <div class="image-label concept-label">Concept</div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp" alt="Concept" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B/concept_1_506.png')">
+                            <div class="image-label fossil-label">
+                                Fossil
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B/concept_1_506.png" alt="Fossil" class="main-image">
+                        </div>
+                    </div>
+                    
+                    <div class="samples-section">
+                        <div class="samples-title leaf-samples-title">🟢 Similar Leaf Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_1.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_1.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_2.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_2.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_4.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_4.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_5.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_5.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_6.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_6.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_8.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_8.webp')">
+                        </div>
+                        
+                        <div class="samples-title fossil-samples-title">🟤 Similar Fossil Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0134/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0134/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0396/concept_2_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0396/concept_2_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_2_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_2_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_3_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_3_506.png')">
+                        </div>
+                    </div>
+                </div>
+                <div class="concept-section">
+                    <div class="concept-title">🔸 Concept 2: 1034</div>
+                    
+                    <div class="main-images">
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Mahonia_lomariifolia_Wolfe_Wolfe_1130a/concept_2_506.png')">
+                            <div class="image-label leaf-label">
+                                Leaf
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_lomariifolia_Wolfe_Wolfe_1130a</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Mahonia_lomariifolia_Wolfe_Wolfe_1130a/concept_2_506.png" alt="Leaf" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp')">
+                            <div class="image-label concept-label">Concept</div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp" alt="Concept" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B/concept_1_506.png')">
+                            <div class="image-label fossil-label">
+                                Fossil
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B/concept_1_506.png" alt="Fossil" class="main-image">
+                        </div>
+                    </div>
+                    
+                    <div class="samples-section">
+                        <div class="samples-title leaf-samples-title">🟢 Similar Leaf Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_1.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_1.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_2.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_2.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_3.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_3.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_4.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_4.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_5.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_5.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_6.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_6.webp')">
+                        </div>
+                        
+                        <div class="samples-title fossil-samples-title">🟤 Similar Fossil Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_3_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_10_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_10_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_3_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_4_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_4_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B/concept_9_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B/concept_9_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658/concept_3_1034.png')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sample-card">
+                <div class="sample-title">🔹 Sample 6</div>
+                <div class="concept-section">
+                    <div class="concept-title">🔸 Concept 1: 506</div>
+                    
+                    <div class="main-images">
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Mahonia_nervosa_Axelrod_Axelrod_251/concept_7_506.png')">
+                            <div class="image-label leaf-label">
+                                Leaf
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_nervosa_Axelrod_Axelrod_251</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Mahonia_nervosa_Axelrod_Axelrod_251/concept_7_506.png" alt="Leaf" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp')">
+                            <div class="image-label concept-label">Concept</div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp" alt="Concept" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658/concept_1_506.png')">
+                            <div class="image-label fossil-label">
+                                Fossil
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658/concept_1_506.png" alt="Fossil" class="main-image">
+                        </div>
+                    </div>
+                    
+                    <div class="samples-section">
+                        <div class="samples-title leaf-samples-title">🟢 Similar Leaf Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_1.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_1.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_2.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_2.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_4.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_4.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_5.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_5.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_6.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_6.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_8.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_8.webp')">
+                        </div>
+                        
+                        <div class="samples-title fossil-samples-title">🟤 Similar Fossil Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0134/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0134/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0396/concept_2_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0396/concept_2_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_2_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_2_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_3_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_3_506.png')">
+                        </div>
+                    </div>
+                </div>
+                <div class="concept-section">
+                    <div class="concept-title">🔸 Concept 2: 1034</div>
+                    
+                    <div class="main-images">
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Mahonia_nervosa_Axelrod_Axelrod_251/concept_7_506.png')">
+                            <div class="image-label leaf-label">
+                                Leaf
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_nervosa_Axelrod_Axelrod_251</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Mahonia_nervosa_Axelrod_Axelrod_251/concept_7_506.png" alt="Leaf" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp')">
+                            <div class="image-label concept-label">Concept</div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp" alt="Concept" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658/concept_1_506.png')">
+                            <div class="image-label fossil-label">
+                                Fossil
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658/concept_1_506.png" alt="Fossil" class="main-image">
+                        </div>
+                    </div>
+                    
+                    <div class="samples-section">
+                        <div class="samples-title leaf-samples-title">🟢 Similar Leaf Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_1.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_1.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_2.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_2.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_3.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_3.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_4.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_4.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_5.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_5.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_6.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_6.webp')">
+                        </div>
+                        
+                        <div class="samples-title fossil-samples-title">🟤 Similar Fossil Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_3_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_10_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_10_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_3_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_4_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_4_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B/concept_9_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B/concept_9_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658/concept_3_1034.png')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sample-card">
+                <div class="sample-title">🔹 Sample 7</div>
+                <div class="concept-section">
+                    <div class="concept-title">🔸 Concept 1: 506</div>
+                    
+                    <div class="main-images">
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Mahonia_quinquefolia_Wolfe_Wolfe_45030/concept_1_506.png')">
+                            <div class="image-label leaf-label">
+                                Leaf
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_quinquefolia_Wolfe_Wolfe_45030</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Mahonia_quinquefolia_Wolfe_Wolfe_45030/concept_1_506.png" alt="Leaf" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp')">
+                            <div class="image-label concept-label">Concept</div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp" alt="Concept" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_010069A/concept_1_506.png')">
+                            <div class="image-label fossil-label">
+                                Fossil
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_010069A</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_010069A/concept_1_506.png" alt="Fossil" class="main-image">
+                        </div>
+                    </div>
+                    
+                    <div class="samples-section">
+                        <div class="samples-title leaf-samples-title">🟢 Similar Leaf Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_1.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_1.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_2.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_2.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_4.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_4.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_5.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_5.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_6.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_6.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_8.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_8.webp')">
+                        </div>
+                        
+                        <div class="samples-title fossil-samples-title">🟤 Similar Fossil Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0134/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0134/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0396/concept_2_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0396/concept_2_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_2_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_2_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_3_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_3_506.png')">
+                        </div>
+                    </div>
+                </div>
+                <div class="concept-section">
+                    <div class="concept-title">🔸 Concept 2: 1034</div>
+                    
+                    <div class="main-images">
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Mahonia_quinquefolia_Wolfe_Wolfe_45030/concept_1_506.png')">
+                            <div class="image-label leaf-label">
+                                Leaf
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_quinquefolia_Wolfe_Wolfe_45030</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Mahonia_quinquefolia_Wolfe_Wolfe_45030/concept_1_506.png" alt="Leaf" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp')">
+                            <div class="image-label concept-label">Concept</div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp" alt="Concept" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_010069A/concept_1_506.png')">
+                            <div class="image-label fossil-label">
+                                Fossil
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_010069A</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_010069A/concept_1_506.png" alt="Fossil" class="main-image">
+                        </div>
+                    </div>
+                    
+                    <div class="samples-section">
+                        <div class="samples-title leaf-samples-title">🟢 Similar Leaf Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_1.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_1.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_2.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_2.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_3.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_3.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_4.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_4.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_5.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_5.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_6.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_6.webp')">
+                        </div>
+                        
+                        <div class="samples-title fossil-samples-title">🟤 Similar Fossil Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_3_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_10_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_10_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_3_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_4_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_4_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B/concept_9_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B/concept_9_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658/concept_3_1034.png')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sample-card">
+                <div class="sample-title">🔹 Sample 8</div>
+                <div class="concept-section">
+                    <div class="concept-title">🔸 Concept 1: 506</div>
+                    
+                    <div class="main-images">
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Podophyllum_emodi_Hickey_Hickey_1166a/concept_3_506.png')">
+                            <div class="image-label leaf-label">
+                                Leaf
+                                <div class="species-name">fossil_Berberidaceae_Podophyllum_emodi_Hickey_Hickey_1166a</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Podophyllum_emodi_Hickey_Hickey_1166a/concept_3_506.png" alt="Leaf" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp')">
+                            <div class="image-label concept-label">Concept</div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp" alt="Concept" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_sp_Florissant_FLFO_004936/concept_1_506.png')">
+                            <div class="image-label fossil-label">
+                                Fossil
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_sp_Florissant_FLFO_004936</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_sp_Florissant_FLFO_004936/concept_1_506.png" alt="Fossil" class="main-image">
+                        </div>
+                    </div>
+                    
+                    <div class="samples-section">
+                        <div class="samples-title leaf-samples-title">🟢 Similar Leaf Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_1.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_1.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_2.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_2.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_4.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_4.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_5.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_5.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_6.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_6.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_8.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_8.webp')">
+                        </div>
+                        
+                        <div class="samples-title fossil-samples-title">🟤 Similar Fossil Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0134/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0134/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0396/concept_2_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0396/concept_2_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_2_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_2_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_3_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_3_506.png')">
+                        </div>
+                    </div>
+                </div>
+                <div class="concept-section">
+                    <div class="concept-title">🔸 Concept 2: 1034</div>
+                    
+                    <div class="main-images">
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Podophyllum_emodi_Hickey_Hickey_1166a/concept_3_506.png')">
+                            <div class="image-label leaf-label">
+                                Leaf
+                                <div class="species-name">fossil_Berberidaceae_Podophyllum_emodi_Hickey_Hickey_1166a</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Podophyllum_emodi_Hickey_Hickey_1166a/concept_3_506.png" alt="Leaf" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp')">
+                            <div class="image-label concept-label">Concept</div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp" alt="Concept" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_sp_Florissant_FLFO_004936/concept_1_506.png')">
+                            <div class="image-label fossil-label">
+                                Fossil
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_sp_Florissant_FLFO_004936</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_sp_Florissant_FLFO_004936/concept_1_506.png" alt="Fossil" class="main-image">
+                        </div>
+                    </div>
+                    
+                    <div class="samples-section">
+                        <div class="samples-title leaf-samples-title">🟢 Similar Leaf Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_1.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_1.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_2.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_2.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_3.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_3.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_4.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_4.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_5.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_5.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_6.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_6.webp')">
+                        </div>
+                        
+                        <div class="samples-title fossil-samples-title">🟤 Similar Fossil Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_3_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_10_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_10_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_3_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_4_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_4_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B/concept_9_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B/concept_9_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658/concept_3_1034.png')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sample-card">
+                <div class="sample-title">🔹 Sample 9</div>
+                <div class="concept-section">
+                    <div class="concept-title">🔸 Concept 1: 506</div>
+                    
+                    <div class="main-images">
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Podophyllum_emodi_Hickey_Hickey_1166c/concept_3_506.png')">
+                            <div class="image-label leaf-label">
+                                Leaf
+                                <div class="species-name">fossil_Berberidaceae_Podophyllum_emodi_Hickey_Hickey_1166c</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Podophyllum_emodi_Hickey_Hickey_1166c/concept_3_506.png" alt="Leaf" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp')">
+                            <div class="image-label concept-label">Concept</div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp" alt="Concept" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_subdenticulata_Florissant_CU_1026cu/concept_1_506.png')">
+                            <div class="image-label fossil-label">
+                                Fossil
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_subdenticulata_Florissant_CU_1026cu</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_subdenticulata_Florissant_CU_1026cu/concept_1_506.png" alt="Fossil" class="main-image">
+                        </div>
+                    </div>
+                    
+                    <div class="samples-section">
+                        <div class="samples-title leaf-samples-title">🟢 Similar Leaf Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_1.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_1.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_2.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_2.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_4.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_4.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_5.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_5.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_6.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_6.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_8.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_8.webp')">
+                        </div>
+                        
+                        <div class="samples-title fossil-samples-title">🟤 Similar Fossil Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0134/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0134/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0396/concept_2_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0396/concept_2_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_2_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_2_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_3_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_3_506.png')">
+                        </div>
+                    </div>
+                </div>
+                <div class="concept-section">
+                    <div class="concept-title">🔸 Concept 2: 1034</div>
+                    
+                    <div class="main-images">
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Podophyllum_emodi_Hickey_Hickey_1166c/concept_3_506.png')">
+                            <div class="image-label leaf-label">
+                                Leaf
+                                <div class="species-name">fossil_Berberidaceae_Podophyllum_emodi_Hickey_Hickey_1166c</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Podophyllum_emodi_Hickey_Hickey_1166c/concept_3_506.png" alt="Leaf" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp')">
+                            <div class="image-label concept-label">Concept</div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp" alt="Concept" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_subdenticulata_Florissant_CU_1026cu/concept_1_506.png')">
+                            <div class="image-label fossil-label">
+                                Fossil
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_subdenticulata_Florissant_CU_1026cu</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_subdenticulata_Florissant_CU_1026cu/concept_1_506.png" alt="Fossil" class="main-image">
+                        </div>
+                    </div>
+                    
+                    <div class="samples-section">
+                        <div class="samples-title leaf-samples-title">🟢 Similar Leaf Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_1.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_1.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_2.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_2.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_3.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_3.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_4.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_4.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_5.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_5.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_6.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_6.webp')">
+                        </div>
+                        
+                        <div class="samples-title fossil-samples-title">🟤 Similar Fossil Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_3_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_10_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_10_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_3_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_4_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_4_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B/concept_9_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B/concept_9_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658/concept_3_1034.png')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="sample-card">
+                <div class="sample-title">🔹 Sample 10</div>
+                <div class="concept-section">
+                    <div class="concept-title">🔸 Concept 1: 506</div>
+                    
+                    <div class="main-images">
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Podophyllum_peltatum_Hickey_Hickey_1165b/concept_6_506.png')">
+                            <div class="image-label leaf-label">
+                                Leaf
+                                <div class="species-name">fossil_Berberidaceae_Podophyllum_peltatum_Hickey_Hickey_1165b</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Podophyllum_peltatum_Hickey_Hickey_1165b/concept_6_506.png" alt="Leaf" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp')">
+                            <div class="image-label concept-label">Concept</div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp" alt="Concept" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_subdenticulata_Florissant_FLFO_004245/concept_1_506.png')">
+                            <div class="image-label fossil-label">
+                                Fossil
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_subdenticulata_Florissant_FLFO_004245</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_subdenticulata_Florissant_FLFO_004245/concept_1_506.png" alt="Fossil" class="main-image">
+                        </div>
+                    </div>
+                    
+                    <div class="samples-section">
+                        <div class="samples-title leaf-samples-title">🟢 Similar Leaf Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_1.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_1.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_2.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_2.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_4.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_4.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_5.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_5.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_6.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_6.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_8.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_8.webp')">
+                        </div>
+                        
+                        <div class="samples-title fossil-samples-title">🟤 Similar Fossil Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0134/concept_1_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0134/concept_1_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0396/concept_2_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0396/concept_2_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_2_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_2_506.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_3_506.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_3_506.png')">
+                        </div>
+                    </div>
+                </div>
+                <div class="concept-section">
+                    <div class="concept-title">🔸 Concept 2: 1034</div>
+                    
+                    <div class="main-images">
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Podophyllum_peltatum_Hickey_Hickey_1165b/concept_6_506.png')">
+                            <div class="image-label leaf-label">
+                                Leaf
+                                <div class="species-name">fossil_Berberidaceae_Podophyllum_peltatum_Hickey_Hickey_1165b</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_leaf_sae_concepts6/fossil_Berberidaceae_Podophyllum_peltatum_Hickey_Hickey_1165b/concept_6_506.png" alt="Leaf" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp')">
+                            <div class="image-label concept-label">Concept</div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_506_fv.webp" alt="Concept" class="main-image">
+                        </div>
+                        
+                        <div class="arrow-icon">→</div>
+                        
+                        <div class="main-image-container" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_subdenticulata_Florissant_FLFO_004245/concept_1_506.png')">
+                            <div class="image-label fossil-label">
+                                Fossil
+                                <div class="species-name">fossil_Berberidaceae_Mahonia_subdenticulata_Florissant_FLFO_004245</div>
+                            </div>
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_subdenticulata_Florissant_FLFO_004245/concept_1_506.png" alt="Fossil" class="main-image">
+                        </div>
+                    </div>
+                    
+                    <div class="samples-section">
+                        <div class="samples-title leaf-samples-title">🟢 Similar Leaf Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_1.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_1.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_2.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_2.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_3.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_3.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_4.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_4.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_5.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_5.webp')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_6.webp" alt="Leaf sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1034_6.webp')">
+                        </div>
+                        
+                        <div class="samples-title fossil-samples-title">🟤 Similar Fossil Samples</div>
+                        <div class="samples-grid">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133/concept_3_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_10_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0133cu/concept_10_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397/concept_3_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_4_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_CU_0397cu/concept_4_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B/concept_9_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_004782B/concept_9_1034.png')">
+                            <img src="https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658/concept_3_1034.png" alt="Fossil sample" class="sample-image" onclick="openModal('https://storage.googleapis.com/serrelab/prj_fossils/Paper-Figure-3/Berberidaceae_fossil_sae_concepts6/fossil_Berberidaceae_Mahonia_marginata_Florissant_FLFO_005658/concept_3_1034.png')">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="footer">
+            <p>Auto-generated on July 20, 2025, 5:00 PM PDT</p>
+        </div>
+    </div>
+    
+    <!-- Modal for image viewing -->
+    <div id="imageModal" class="modal">
+        <span class="close">&times;</span>
+        <div class="modal-content">
+            <img id="modalImage" src="" alt="">
+        </div>
+    </div>
+    
+    <script>
+        function openModal(imageSrc) {
+            const modal = document.getElementById('imageModal');
+            const modalImg = document.getElementById('modalImage');
+            modal.style.display = 'block';
+            modalImg.src = imageSrc;
+        }
+        
+        // Close modal functionality
+        document.querySelector('.close').onclick = function() {
+            document.getElementById('imageModal').style.display = 'none';
+        }
+        
+        // Close modal when clicking outside the image
+        window.onclick = function(event) {
+            const modal = document.getElementById('imageModal');
+            if (event.target == modal) {
+                modal.style.display = 'none';
+            }
+        }
+        
+        // Keyboard navigation
+        document.addEventListener('keydown', function(event) {
+            if (event.key === 'Escape') {
+                document.getElementById('imageModal').style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
