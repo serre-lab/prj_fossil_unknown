@@ -38,7 +38,7 @@ html_template = """
         h1 {
             font-size: 38px;
             font-weight: 600;
-            color: #f1f5f9;
+            color: #ffffff;
             margin-bottom: 15px;
             letter-spacing: -0.5px;
         }
@@ -83,7 +83,7 @@ html_template = """
         h3 {
             font-size: 24px;
             font-weight: 600;
-            color: #1a1a1a;
+            color: #ffffff;
             margin-bottom: 20px;
             margin-top: 40px;
             letter-spacing: -0.3px;
@@ -92,7 +92,7 @@ html_template = """
         h4 {
             font-size: 20px;
             font-weight: 600;
-            color: #2a2a2a;
+            color: #ffffff;
             margin-bottom: 12px;
             margin-top: 32px;
         }
@@ -100,7 +100,7 @@ html_template = """
         h5 {
             font-size: 16px;
             font-weight: 600;
-            color: #4a4a4a;
+            color: #e2e8f0;
             margin-bottom: 10px;
             margin-top: 24px;
             text-transform: uppercase;
@@ -109,28 +109,28 @@ html_template = """
         }
 
         p {
-            color: #4a4a4a;
+            color: #cbd5e1;
             margin-bottom: 20px;
             font-size: 16px;
             line-height: 1.75;
         }
 
         a {
-            color: #2563eb;
+            color: #60a5fa;
             text-decoration: none;
-            border-bottom: 1px solid rgba(37, 99, 235, 0.2);
+            border-bottom: 1px solid rgba(96, 165, 250, 0.3);
             transition: all 0.2s ease;
         }
 
         a:hover {
-            color: #1d4ed8;
-            border-bottom-color: #1d4ed8;
+            color: #93c5fd;
+            border-bottom-color: #93c5fd;
         }
 
         ul, ol {
             margin-left: 24px;
             margin-bottom: 20px;
-            color: #4a4a4a;
+            color: #cbd5e1;
         }
 
         li {
@@ -147,7 +147,7 @@ html_template = """
         .intro-text {
             font-size: 16px;
             line-height: 1.8;
-            color: #4a4a4a;
+            color: #cbd5e1;
         }
 
         .feature-badge {
@@ -156,42 +156,42 @@ html_template = """
             justify-content: center;
             width: 32px;
             height: 32px;
-            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%);
             color: white;
             font-size: 16px;
             font-weight: 700;
             border-radius: 8px;
             margin-right: 12px;
-            box-shadow: 0 2px 8px rgba(37, 99, 235, 0.2);
+            box-shadow: 0 2px 8px rgba(96, 165, 250, 0.2);
         }
 
         .feature-card {
-            background: #ffffff;
+            background: #1e293b;
             border-radius: 12px;
             padding: 24px;
             margin-bottom: 20px;
-            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
-            border-left: 4px solid #2563eb;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+            border-left: 4px solid #60a5fa;
             transition: all 0.2s ease;
         }
 
         .feature-card:hover {
             transform: translateY(-2px);
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
         }
 
         .highlight-box {
-            background: linear-gradient(135deg, #f0fdf4 0%, #e8faf0 100%);
+            background: linear-gradient(135deg, #064e3b 0%, #065f46 100%);
             border-left: 4px solid #22c55e;
             padding: 20px 24px;
             margin: 30px 0;
             border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(34, 197, 94, 0.1);
+            box-shadow: 0 2px 8px rgba(34, 197, 94, 0.2);
         }
 
         .highlight-box p {
             margin-bottom: 0;
-            color: #2a2a2a;
+            color: #e2e8f0;
             font-size: 17px;
         }
 
@@ -207,27 +207,27 @@ html_template = """
         }
 
         .feedback-option.plausible {
-            background-color: #d1fae5;
-            color: #065f46;
-            border: 1px solid #6ee7b7;
+            background-color: #064e3b;
+            color: #6ee7b7;
+            border: 1px solid #10b981;
         }
 
         .feedback-option.impossible {
-            background-color: #fee2e2;
-            color: #991b1b;
-            border: 1px solid #fca5a5;
+            background-color: #7f1d1d;
+            color: #fca5a5;
+            border: 1px solid #ef4444;
         }
 
         .feedback-option.not-sure {
-            background-color: #fef3c7;
-            color: #92400e;
-            border: 1px solid #fcd34d;
+            background-color: #78350f;
+            color: #fde68a;
+            border: 1px solid #f59e0b;
         }
 
         .feedback-option.not-applicable {
-            background-color: #f3f4f6;
-            color: #4b5563;
-            border: 1px solid #d1d5db;
+            background-color: #1e293b;
+            color: #94a3b8;
+            border: 1px solid #475569;
         }
 
         .section li {
@@ -337,7 +337,7 @@ html_template = """
         <div class="feature-card">
             <p><strong>2. Response Tracking</strong></p>
             <ul>
-                <li>Use the <span style="background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); color: white; padding: 4px 12px; border-radius: 6px; font-weight: 500;">📥 Download Responses</span> button (bottom right) to save your choices as a JSON file.</li>
+                <li>Use the <span style="background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%); color: white; padding: 4px 12px; border-radius: 6px; font-weight: 500;">📥 Download Responses</span> button (bottom right) to save your choices as a JSON file.</li>
                 <li><strong>Important:</strong> Download before closing the website to avoid losing responses.</li>
             </ul>
         </div>
@@ -357,7 +357,7 @@ html_template = """
     <div class="section">
         <h3>Disclaimers</h3>
         
-        <div class="feature-card" style="border-left-color: #f59e0b;">
+        <div class="feature-card" style="border-left-color: #f59e0b; background: #1e293b;">
             <p><strong>Please note:</strong> While our dataset is extensive, many fossil samples are badly preserved and may lack the detail needed for accurate classification. In addition, although the images were manually filtered several years ago to remove most that are inappropriate, there remain many images of monocots and non-angiosperms (which are severely undersampled in the training dataset), reproductive organs (likewise), and non-plant fossils (feathers, fish, and so on). We recommend simply skipping these poorly preserved or inapplicable specimens to ensure more reliable results.</p>
         </div>
 

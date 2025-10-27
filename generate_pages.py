@@ -123,8 +123,8 @@ html_template = """
 
         body {{
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            background: linear-gradient(to bottom, #f8f9fa 0%, #ffffff 100%);
-            color: #1a1a1a;
+            background: linear-gradient(to bottom, #0f172a 0%, #1e293b 100%);
+            color: #e2e8f0;
             line-height: 1.7;
             -webkit-font-smoothing: antialiased;
         }}
@@ -139,13 +139,13 @@ html_template = """
             text-align: center;
             margin-bottom: 50px;
             padding-bottom: 30px;
-            border-bottom: 1px solid #e8e8e8;
+            border-bottom: 1px solid #334155;
         }}
 
         h1 {{
             font-size: 32px;
             font-weight: 600;
-            color: #1a1a1a;
+            color: #ffffff;
             margin-bottom: 15px;
             letter-spacing: -0.5px;
         }}
@@ -153,7 +153,7 @@ html_template = """
         h2 {{
             font-size: 24px;
             font-weight: 600;
-            color: #1a1a1a;
+            color: #ffffff;
             margin: 40px 0 20px;
             letter-spacing: -0.3px;
         }}
@@ -161,27 +161,27 @@ html_template = """
         h3 {{
             font-size: 20px;
             font-weight: 600;
-            color: #2a2a2a;
+            color: #ffffff;
             margin: 35px 0 15px;
         }}
 
         a {{
-            color: #2563eb;
+            color: #60a5fa;
             text-decoration: none;
             transition: all 0.2s ease;
         }}
 
         a:hover {{
-            color: #1d4ed8;
+            color: #93c5fd;
             text-decoration: underline;
         }}
 
         .info-card {{
-            background: #ffffff;
+            background: #1e293b;
             border-radius: 12px;
             padding: 30px;
             margin-bottom: 35px;
-            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
         }}
 
         .info-section {{
@@ -195,7 +195,7 @@ html_template = """
         .info-label {{
             font-size: 14px;
             font-weight: 600;
-            color: #666;
+            color: #94a3b8;
             text-transform: uppercase;
             letter-spacing: 0.5px;
             margin-bottom: 8px;
@@ -203,7 +203,7 @@ html_template = """
 
         .info-value {{
             font-size: 18px;
-            color: #1a1a1a;
+            color: #e2e8f0;
             font-weight: 500;
         }}
 
@@ -217,16 +217,17 @@ html_template = """
         .prediction-link {{
             display: inline-block;
             padding: 6px 14px;
-            background: #f8f9fa;
+            background: #1e293b;
             border-radius: 6px;
             font-size: 15px;
-            color: #2563eb;
+            color: #60a5fa;
             font-weight: 500;
             transition: all 0.2s ease;
+            border: 1px solid #334155;
         }}
 
         .prediction-link:hover {{
-            background: #e9ecef;
+            background: #334155;
             text-decoration: none;
             transform: translateY(-1px);
         }}
@@ -287,7 +288,7 @@ html_template = """
         .image-caption {{
             margin-top: 10px;
             font-size: 12px;
-            color: #666;
+            color: #94a3b8;
             line-height: 1.4;
             word-wrap: break-word;
         }}
@@ -300,15 +301,15 @@ html_template = """
         }}
 
         .concept-card {{
-            background: #ffffff;
+            background: #1e293b;
             border-radius: 12px;
             padding: 30px;
-            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
             transition: all 0.3s ease;
         }}
 
         .concept-card:hover {{
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
             transform: translateY(-2px);
         }}
 
@@ -341,12 +342,12 @@ html_template = """
         .concept-caption {{
             text-align: center;
             font-size: 15px;
-            color: #4a4a4a;
+            color: #cbd5e1;
             line-height: 1.6;
         }}
 
         .concept-caption em {{
-            color: #2563eb;
+            color: #60a5fa;
             font-style: italic;
             font-weight: 500;
         }}
@@ -360,17 +361,18 @@ html_template = """
         .metadata-link {{
             display: inline-block;
             padding: 8px 16px;
-            background: #f8f9fa;
+            background: #1e293b;
             border-radius: 6px;
             font-size: 14px;
-            color: #4a4a4a;
+            color: #cbd5e1;
             transition: all 0.2s ease;
+            border: 1px solid #334155;
         }}
 
         .metadata-link:hover {{
-            background: #e9ecef;
+            background: #334155;
             text-decoration: none;
-            color: #1a1a1a;
+            color: #f1f5f9;
         }}
 
         @media (max-width: 768px) {{
