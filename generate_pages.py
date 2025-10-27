@@ -113,201 +113,364 @@ html_template = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image and Predictions</title>
+    <title>Fossil Leaf Lens - {image_name}</title>
     <style>
-        body {{
-            font-family: Arial, sans-serif;
+        * {{
             margin: 0;
             padding: 0;
-            background-color: #f8f8f8;
-            color: #333;
+            box-sizing: border-box;
         }}
+
+        body {{
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(to bottom, #f8f9fa 0%, #ffffff 100%);
+            color: #1a1a1a;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }}
+
         .container {{
-            max-width: 100%;
-            margin: 20px auto;
-            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 30px 60px;
         }}
-        h1, h2 {{
+
+        .header {{
             text-align: center;
-            color: #2c3e50;
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #e8e8e8;
         }}
-        .image-name, .predictions {{
-            text-align: center;
-            margin-bottom: 20px;
-            background: #fff;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+        h1 {{
+            font-size: 32px;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+            letter-spacing: -0.5px;
         }}
-        .main-image-container {{
-            text-align: center;
-            margin-bottom: 20px;
+
+        h2 {{
+            font-size: 24px;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin: 40px 0 20px;
+            letter-spacing: -0.3px;
         }}
-        .main-image-container img {{
-            width: 300px;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+        h3 {{
+            font-size: 20px;
+            font-weight: 600;
+            color: #2a2a2a;
+            margin: 35px 0 15px;
         }}
-        .concept-card {{
-            width: 100%; /* Full width of the container */
-            max-width: 900px; /* Increased max width */
-            padding: 30px; /* More padding for better spacing */
+
+        a {{
+            color: #2563eb;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }}
+
+        a:hover {{
+            color: #1d4ed8;
+            text-decoration: underline;
+        }}
+
+        .info-card {{
+            background: #ffffff;
             border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            padding: 30px;
+            margin-bottom: 35px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+        }}
+
+        .info-section {{
+            margin-bottom: 25px;
+        }}
+
+        .info-section:last-child {{
+            margin-bottom: 0;
+        }}
+
+        .info-label {{
+            font-size: 14px;
+            font-weight: 600;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }}
+
+        .info-value {{
+            font-size: 18px;
+            color: #1a1a1a;
+            font-weight: 500;
+        }}
+
+        .predictions {{
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }}
+
+        .prediction-link {{
+            display: inline-block;
+            padding: 6px 14px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            font-size: 15px;
+            color: #2563eb;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }}
+
+        .prediction-link:hover {{
+            background: #e9ecef;
+            text-decoration: none;
+            transform: translateY(-1px);
+        }}
+
+        .fossil-image-section {{
+            text-align: center;
+            margin-bottom: 50px;
+        }}
+
+        .fossil-image-section img {{
+            max-width: 100%;
+            width: 400px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }}
+
+        .fossil-image-section img:hover {{
+            transform: scale(1.08);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+        }}
+
+        .similar-specimens-section {{
+            margin-bottom: 50px;
+        }}
+
+        .similar-images-grid {{
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 25px;
+            margin-top: 25px;
+        }}
+
+        .similar-image-container {{
+            text-align: center;
+            position: relative;
+        }}
+
+        .similar-image {{
+            width: 100%;
+            aspect-ratio: 1;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+        }}
+
+        .similar-image:hover {{
+            transform: translateY(-8px) scale(1.08);
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+            z-index: 10;
+        }}
+
+        .image-caption {{
+            margin-top: 10px;
+            font-size: 12px;
+            color: #666;
+            line-height: 1.4;
+            word-wrap: break-word;
         }}
 
         .concept-container {{
             display: flex;
             flex-direction: column;
-            gap: 100px;
+            gap: 40px;
+            margin-top: 30px;
+        }}
+
+        .concept-card {{
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+            transition: all 0.3s ease;
         }}
 
         .concept-card:hover {{
-            transform: scale(1.07);
-            box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            transform: translateY(-2px);
         }}
 
         .concept-images {{
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 20px;
+            gap: 25px;
+            margin-bottom: 15px;
+            position: relative;
         }}
 
         .concept-images img {{
-            width: 400px;
-            height: 400px;
+            width: 450px;
+            height: 450px;
             object-fit: contain;
-            border-radius: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
         }}
 
         .concept-images img:hover {{
-            transform: scale(1.5);
-            transition: transform 0.3s ease;
-            box-shadow: 0 8px 16px rgba(0,0,0,0);
+            transform: scale(1.15);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            z-index: 10;
         }}
 
         .concept-caption {{
             text-align: center;
-            font-weight: bold;
-            margin-top: 15px;
-            width: 100%;
-            font-size: 1.2em;
+            font-size: 15px;
+            color: #4a4a4a;
+            line-height: 1.6;
         }}
 
-        .predictions a {{
-            text-decoration: none;
-            color: green;
-            font-weight: bold;
-            transition: color 0.3s ease, transform 0.2s ease;
+        .concept-caption em {{
+            color: #2563eb;
+            font-style: italic;
+            font-weight: 500;
         }}
 
-        .predictions a:hover {{
-            color: blue;
-        }}
-
-        .similar-images {{
-            margin-top: 2em;
-            padding: 1em;
-            background-color: #f5f5f5;
-            border-radius: 8px;
-        }}
-
-        .similar-images h3 {{
-            margin-bottom: 1em;
-            color: #333;
-        }}
-        .similar-images-grid {{
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 1em;
-        }}
-        .similar-image {{
-            width: 100%;
-            aspect-ratio: 1;
-            object-fit: contain;
-            border-radius: 4px;
-            transition: transform 0.2s;
-        }}
-
-        .similar-image-container {{
+        .metadata-links {{
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 100%; /* Matches image width */
+            gap: 15px;
+            flex-wrap: wrap;
         }}
 
-        .similar-image:hover {{
-            transform: scale(1.4);
+        .metadata-link {{
+            display: inline-block;
+            padding: 8px 16px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            font-size: 14px;
+            color: #4a4a4a;
+            transition: all 0.2s ease;
         }}
 
-        .image-caption {{
-            width: 150px; /* Match image width */
-            text-align: center;
-            font-size: 0.5em;
-            margin-top: 5px;
-            word-wrap: break-word; /* Ensures text wraps within width */
-            overflow-wrap: break-word; /* Alternative for better compatibility */
+        .metadata-link:hover {{
+            background: #e9ecef;
+            text-decoration: none;
+            color: #1a1a1a;
         }}
 
         @media (max-width: 768px) {{
+            .container {{
+                padding: 30px 20px 50px;
+            }}
+
+            h1 {{
+                font-size: 26px;
+            }}
+
+            h2 {{
+                font-size: 20px;
+            }}
+
             .similar-images-grid {{
-                grid-template-columns: repeat(2, 1fr);
+                grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+                gap: 15px;
+            }}
+
+            .concept-images {{
+                flex-direction: column;
+                gap: 15px;
+            }}
+
+            .concept-images img {{
+                width: 100%;
+                max-width: 400px;
+                height: auto;
+            }}
+
+            .metadata-links {{
+                flex-direction: column;
             }}
         }}
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Leaf Fossil and Concept Predictions</h1>
-        <div class="image-name">Unidentified Fossil Name: <strong>{image_name}</strong></div>
-        <div class="predictions">
-            <h2>Top 5 Predictions</h2>
-            <p>
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/{class1}/" target="_blank"><em> {class1} </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/{class2}/" target="_blank"><em> {class2} </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/{class3}/" target="_blank"><em> {class3} </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/{class4}/" target="_blank"><em> {class4} </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/{class5}/" target="_blank"><em> {class5} </em></a>
-            </p>
+        <div class="header">
+            <h1>Fossil Leaf Identification</h1>
+            <div class="info-value" style="font-size: 16px; color: #666;">Catalog Number: {image_name}</div>
         </div>
-        <div class="predictions">
-            <h2>Information</h2>
-            <p>
-                <b>{info1}</b>: {value1}
-            </p>
+
+        <div class="info-card">
+            <div class="info-section">
+                <div class="info-label">Primary Catalog Number</div>
+                <div class="info-value">{value1}</div>
+            </div>
+            
+            <div class="info-section">
+                <div class="info-label">Metadata Resources</div>
+                <div class="metadata-links">
+                    <a href="https://docs.google.com/spreadsheets/d/1IxU4YjUBWdJyolYbKlNUQetb7sDlN3sV/edit?usp=sharing&ouid=117124297544856301307&rtpof=true&sd=true" target="_blank" class="metadata-link">Florissant CU Metadata</a>
+                    <a href="https://docs.google.com/spreadsheets/d/1FIeJoNFIOy22oGVMDgrBZ94EWQ9OZqGLprjPYZRJuLY/edit?usp=sharing" target="_blank" class="metadata-link">Florissant FLFO Metadata</a>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <div class="info-label">Top 5 Predictions</div>
+                <div class="predictions">
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/classes/{class1}/" target="_blank" class="prediction-link">{class1}</a>
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/classes/{class2}/" target="_blank" class="prediction-link">{class2}</a>
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/classes/{class3}/" target="_blank" class="prediction-link">{class3}</a>
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/classes/{class4}/" target="_blank" class="prediction-link">{class4}</a>
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/classes/{class5}/" target="_blank" class="prediction-link">{class5}</a>
+                </div>
+            </div>
         </div>
-        <div class="main-image-container">
+
+        <div class="fossil-image-section">
             <h2>Fossil Sample</h2>
             <img src="{main_image}" alt="Fossil Image">
         </div>
-        <div class="main-image-container">
-            <h3>Similar Leaf Fossil Specimens</h3>
+
+        <div class="similar-specimens-section">
+            <h2>Similar Leaf Fossil Specimens</h2>
             <div class="similar-images-grid">
                 <div class="similar-image-container">
-                    <a href="{sm1}" target="_blank"><img class="similar-image" src="{sm1}" alt="Similar specimen"></a>
+                    <a href="{sm1}" target="_blank"><img class="similar-image" src="{sm1}" alt="Similar fossil specimen"></a>
                     <div class="image-caption">{sm1_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm2}" target="_blank"><img class="similar-image" src="{sm2}" alt="Similar specimen"></a>
+                    <a href="{sm2}" target="_blank"><img class="similar-image" src="{sm2}" alt="Similar fossil specimen"></a>
                     <div class="image-caption">{sm2_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm3}" target="_blank"><img class="similar-image" src="{sm3}" alt="Similar specimen"></a>
+                    <a href="{sm3}" target="_blank"><img class="similar-image" src="{sm3}" alt="Similar fossil specimen"></a>
                     <div class="image-caption">{sm3_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm4}" target="_blank"><img class="similar-image" src="{sm4}" alt="Similar specimen"></a>
+                    <a href="{sm4}" target="_blank"><img class="similar-image" src="{sm4}" alt="Similar fossil specimen"></a>
                     <div class="image-caption">{sm4_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm5}" target="_blank"><img class="similar-image" src="{sm5}" alt="Similar specimen"></a>
+                    <a href="{sm5}" target="_blank"><img class="similar-image" src="{sm5}" alt="Similar fossil specimen"></a>
                     <div class="image-caption">{sm5_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm6}" target="_blank"><img class="similar-image" src="{sm6}" alt="Similar specimen"></a>
+                    <a href="{sm6}" target="_blank"><img class="similar-image" src="{sm6}" alt="Similar fossil specimen"></a>
                     <div class="image-caption">{sm6_name}</div>
                 </div>
             </div>
@@ -315,106 +478,109 @@ html_template = """
             <h3>Similar Extant Leaf Specimens</h3>
             <div class="similar-images-grid">
                 <div class="similar-image-container">
-                    <a href="{sm1l}" target="_blank"><img class="similar-image" src="{sm1l}" alt="Similar specimen"></a>
+                    <a href="{sm1l}" target="_blank"><img class="similar-image" src="{sm1l}" alt="Similar extant leaf"></a>
                     <div class="image-caption">{sm1l_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm2l}" target="_blank"><img class="similar-image" src="{sm2l}" alt="Similar specimen"></a>
+                    <a href="{sm2l}" target="_blank"><img class="similar-image" src="{sm2l}" alt="Similar extant leaf"></a>
                     <div class="image-caption">{sm2l_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm3l}" target="_blank"><img class="similar-image" src="{sm3l}" alt="Similar specimen"></a>
+                    <a href="{sm3l}" target="_blank"><img class="similar-image" src="{sm3l}" alt="Similar extant leaf"></a>
                     <div class="image-caption">{sm3l_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm4l}" target="_blank"><img class="similar-image" src="{sm4l}" alt="Similar specimen"></a>
+                    <a href="{sm4l}" target="_blank"><img class="similar-image" src="{sm4l}" alt="Similar extant leaf"></a>
                     <div class="image-caption">{sm4l_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm5l}" target="_blank"><img class="similar-image" src="{sm5l}" alt="Similar specimen"></a>
+                    <a href="{sm5l}" target="_blank"><img class="similar-image" src="{sm5l}" alt="Similar extant leaf"></a>
                     <div class="image-caption">{sm5l_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm6l}" target="_blank"><img class="similar-image" src="{sm6l}" alt="Similar specimen"></a>
+                    <a href="{sm6l}" target="_blank"><img class="similar-image" src="{sm6l}" alt="Similar extant leaf"></a>
                     <div class="image-caption">{sm6l_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm7l}" target="_blank"><img class="similar-image" src="{sm7l}" alt="Similar specimen"></a>
+                    <a href="{sm7l}" target="_blank"><img class="similar-image" src="{sm7l}" alt="Similar extant leaf"></a>
                     <div class="image-caption">{sm7l_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm8l}" target="_blank"><img class="similar-image" src="{sm8l}" alt="Similar specimen"></a>
+                    <a href="{sm8l}" target="_blank"><img class="similar-image" src="{sm8l}" alt="Similar extant leaf"></a>
                     <div class="image-caption">{sm8l_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm9l}" target="_blank"><img class="similar-image" src="{sm9l}" alt="Similar specimen"></a>
+                    <a href="{sm9l}" target="_blank"><img class="similar-image" src="{sm9l}" alt="Similar extant leaf"></a>
                     <div class="image-caption">{sm9l_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm10l}" target="_blank"><img class="similar-image" src="{sm10l}" alt="Similar specimen"></a>
+                    <a href="{sm10l}" target="_blank"><img class="similar-image" src="{sm10l}" alt="Similar extant leaf"></a>
                     <div class="image-caption">{sm10l_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm11l}" target="_blank"><img class="similar-image" src="{sm11l}" alt="Similar specimen"></a>
+                    <a href="{sm11l}" target="_blank"><img class="similar-image" src="{sm11l}" alt="Similar extant leaf"></a>
                     <div class="image-caption">{sm11l_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm12l}" target="_blank"><img class="similar-image" src="{sm12l}" alt="Similar specimen"></a>
+                    <a href="{sm12l}" target="_blank"><img class="similar-image" src="{sm12l}" alt="Similar extant leaf"></a>
                     <div class="image-caption">{sm12l_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm13l}" target="_blank"><img class="similar-image" src="{sm13l}" alt="Similar specimen"></a>
+                    <a href="{sm13l}" target="_blank"><img class="similar-image" src="{sm13l}" alt="Similar extant leaf"></a>
                     <div class="image-caption">{sm13l_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm14l}" target="_blank"><img class="similar-image" src="{sm14l}" alt="Similar specimen"></a>
+                    <a href="{sm14l}" target="_blank"><img class="similar-image" src="{sm14l}" alt="Similar extant leaf"></a>
                     <div class="image-caption">{sm14l_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm15l}" target="_blank"><img class="similar-image" src="{sm15l}" alt="Similar specimen"></a>
+                    <a href="{sm15l}" target="_blank"><img class="similar-image" src="{sm15l}" alt="Similar extant leaf"></a>
                     <div class="image-caption">{sm15l_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm16l}" target="_blank"><img class="similar-image" src="{sm16l}" alt="Similar specimen"></a>
+                    <a href="{sm16l}" target="_blank"><img class="similar-image" src="{sm16l}" alt="Similar extant leaf"></a>
                     <div class="image-caption">{sm16l_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm17l}" target="_blank"><img class="similar-image" src="{sm17l}" alt="Similar specimen"></a>
+                    <a href="{sm17l}" target="_blank"><img class="similar-image" src="{sm17l}" alt="Similar extant leaf"></a>
                     <div class="image-caption">{sm17l_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm18l}" target="_blank"><img class="similar-image" src="{sm18l}" alt="Similar specimen"></a>
+                    <a href="{sm18l}" target="_blank"><img class="similar-image" src="{sm18l}" alt="Similar extant leaf"></a>
                     <div class="image-caption">{sm18l_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm19l}" target="_blank"><img class="similar-image" src="{sm19l}" alt="Similar specimen"></a>
+                    <a href="{sm19l}" target="_blank"><img class="similar-image" src="{sm19l}" alt="Similar extant leaf"></a>
                     <div class="image-caption">{sm19l_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm20l}" target="_blank"><img class="similar-image" src="{sm20l}" alt="Similar specimen"></a>
+                    <a href="{sm20l}" target="_blank"><img class="similar-image" src="{sm20l}" alt="Similar extant leaf"></a>
                     <div class="image-caption">{sm20l_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm21l}" target="_blank"><img class="similar-image" src="{sm21l}" alt="Similar specimen"></a>
+                    <a href="{sm21l}" target="_blank"><img class="similar-image" src="{sm21l}" alt="Similar extant leaf"></a>
                     <div class="image-caption">{sm21l_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm22l}" target="_blank"><img class="similar-image" src="{sm22l}" alt="Similar specimen"></a>
+                    <a href="{sm22l}" target="_blank"><img class="similar-image" src="{sm22l}" alt="Similar extant leaf"></a>
                     <div class="image-caption">{sm22l_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm23l}" target="_blank"><img class="similar-image" src="{sm23l}" alt="Similar specimen"></a>
+                    <a href="{sm23l}" target="_blank"><img class="similar-image" src="{sm23l}" alt="Similar extant leaf"></a>
                     <div class="image-caption">{sm23l_name}</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="{sm24l}" target="_blank"><img class="similar-image" src="{sm24l}" alt="Similar specimen"></a>
+                    <a href="{sm24l}" target="_blank"><img class="similar-image" src="{sm24l}" alt="Similar extant leaf"></a>
                     <div class="image-caption">{sm24l_name}</div>
                 </div>
             </div>
         </div>
-        <h2>Concept Images</h2>
-        <div class="concept-container">
-            {concept_images}
+
+        <div>
+            <h2>Concepts</h2>
+            <div class="concept-container">
+                {concept_images}
+            </div>
         </div>
     </div>
 </body>
@@ -479,7 +645,7 @@ for i, (key, value) in enumerate(image_names.items()):
                         <img src="{FEATURE_VIS_URL.format(value[j].split("_")[-1][:-4])}" alt="Feature Visualization {j+1}">
                     </a>
                 </div>
-                <div class="concept-caption"><em style="color:blue;">Concept: {value[j].split("_")[-1][:-4]}</em>, relative rank:  {value[j].split("_")[-2]}</div>
+                <div class="concept-caption"><em>Concept: {value[j].split("_")[-1][:-4]}</em> - Rank: {value[j].split("_")[-2]}</div>
             </div>''' for j in range(len(value))]
     )
 
@@ -493,7 +659,7 @@ for i, (key, value) in enumerate(image_names.items()):
         class3 = class3,
         class4 = class4,
         class5 = class5,
-        info1  = info1, 
+        info1  = 'Primary catalog number', 
         value1 = value1,
         # info2  = info2,
         # value2 = value2,
@@ -628,7 +794,7 @@ for i, (key, value) in enumerate(unidentified_image_names.items()):
                         <img src="{FEATURE_VIS_URL.format(value[j].split("_")[-1][:-4])}" alt="Feature Visualization {j+1}">
                     </a>
                 </div>
-                <div class="concept-caption"><em style="color:blue;">Concept: {value[j].split("_")[-1][:-4]}</em>, Relative_rank:  {value[j].split("_")[-2]}</div>
+                <div class="concept-caption"><em>Concept: {value[j].split("_")[-1][:-4]}</em> - Rank: {value[j].split("_")[-2]}</div>
             </div>''' for j in range(len(value))]
     )
 
@@ -648,7 +814,7 @@ for i, (key, value) in enumerate(unidentified_image_names.items()):
         class3 = class3,
         class4 = class4,
         class5 = class5,
-        info1  = info1, 
+        info1  = 'Primary catalog number', 
         value1 = value1,
         # info2  = info2,
         # value2 = value2,
@@ -730,7 +896,7 @@ for i, (key, value) in enumerate(unidentified_image_names.items()):
 
 # Generate MkDocs configuration
 with open(MKDOCS_YML, "w") as f:
-    f.write("site_name: Leaf Fossil Predictions\n")
+    f.write("site_name: Fossil Leaf Lens\n")
     f.write("theme:\n")
     f.write("  name: material\n")
     f.write("  logo: images/logo.png\n")
@@ -744,8 +910,8 @@ with open(MKDOCS_YML, "w") as f:
     # f.write("    - '<b><i>Feedback Table</i></b> 📋': unknown_table.md\n")
     # for i, (key, value) in enumerate(image_predictions.items(), start = 1):
     #     f.write(f"    - {i}. {key}: pages/unknown/page_{key}.md\n")
-    f.write("  - <b>Unidentified Fossils</b>:\n")
-    f.write("    - '<b><i>Feedback Table</i></b> 📋': unidentified_table.md\n")
+    f.write("  - '<b>Feedback Table</b> 📋': unidentified_table.md\n")
+    f.write("  - <b>Predicted fossil identifications</b>:\n")
     for i, (key, value) in enumerate(image_predictions.items(), start = 1):
         f.write(f"    - {i}. {key}: pages/unknown/page_{key}.md\n")
     total_unknown_images = len(image_predictions)

@@ -4,201 +4,364 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Image and Predictions</title>
+    <title>Fossil Leaf Lens - CU_0833cu</title>
     <style>
-        body {
-            font-family: Arial, sans-serif;
+        * {
             margin: 0;
             padding: 0;
-            background-color: #f8f8f8;
-            color: #333;
+            box-sizing: border-box;
         }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background: linear-gradient(to bottom, #f8f9fa 0%, #ffffff 100%);
+            color: #1a1a1a;
+            line-height: 1.7;
+            -webkit-font-smoothing: antialiased;
+        }
+
         .container {
-            max-width: 100%;
-            margin: 20px auto;
-            padding: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 30px 60px;
         }
-        h1, h2 {
+
+        .header {
             text-align: center;
-            color: #2c3e50;
+            margin-bottom: 50px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid #e8e8e8;
         }
-        .image-name, .predictions {
-            text-align: center;
-            margin-bottom: 20px;
-            background: #fff;
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+
+        h1 {
+            font-size: 32px;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin-bottom: 15px;
+            letter-spacing: -0.5px;
         }
-        .main-image-container {
-            text-align: center;
-            margin-bottom: 20px;
+
+        h2 {
+            font-size: 24px;
+            font-weight: 600;
+            color: #1a1a1a;
+            margin: 40px 0 20px;
+            letter-spacing: -0.3px;
         }
-        .main-image-container img {
-            width: 300px;
-            height: auto;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+
+        h3 {
+            font-size: 20px;
+            font-weight: 600;
+            color: #2a2a2a;
+            margin: 35px 0 15px;
         }
-        .concept-card {
-            width: 100%; /* Full width of the container */
-            max-width: 900px; /* Increased max width */
-            padding: 30px; /* More padding for better spacing */
+
+        a {
+            color: #2563eb;
+            text-decoration: none;
+            transition: all 0.2s ease;
+        }
+
+        a:hover {
+            color: #1d4ed8;
+            text-decoration: underline;
+        }
+
+        .info-card {
+            background: #ffffff;
             border-radius: 12px;
-            box-shadow: 0 4px 8px rgba(0,0,0,0.15);
-            transition: transform 0.3s ease, box-shadow 0.3s ease;
+            padding: 30px;
+            margin-bottom: 35px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+        }
+
+        .info-section {
+            margin-bottom: 25px;
+        }
+
+        .info-section:last-child {
+            margin-bottom: 0;
+        }
+
+        .info-label {
+            font-size: 14px;
+            font-weight: 600;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 8px;
+        }
+
+        .info-value {
+            font-size: 18px;
+            color: #1a1a1a;
+            font-weight: 500;
+        }
+
+        .predictions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 8px;
+            margin-top: 10px;
+        }
+
+        .prediction-link {
+            display: inline-block;
+            padding: 6px 14px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            font-size: 15px;
+            color: #2563eb;
+            font-weight: 500;
+            transition: all 0.2s ease;
+        }
+
+        .prediction-link:hover {
+            background: #e9ecef;
+            text-decoration: none;
+            transform: translateY(-1px);
+        }
+
+        .fossil-image-section {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .fossil-image-section img {
+            max-width: 100%;
+            width: 400px;
+            height: auto;
+            border-radius: 12px;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
+
+        .fossil-image-section img:hover {
+            transform: scale(1.08);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+        }
+
+        .similar-specimens-section {
+            margin-bottom: 50px;
+        }
+
+        .similar-images-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+            gap: 25px;
+            margin-top: 25px;
+        }
+
+        .similar-image-container {
+            text-align: center;
+            position: relative;
+        }
+
+        .similar-image {
+            width: 100%;
+            aspect-ratio: 1;
+            object-fit: cover;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
+        }
+
+        .similar-image:hover {
+            transform: translateY(-8px) scale(1.08);
+            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
+            z-index: 10;
+        }
+
+        .image-caption {
+            margin-top: 10px;
+            font-size: 12px;
+            color: #666;
+            line-height: 1.4;
+            word-wrap: break-word;
         }
 
         .concept-container {
             display: flex;
             flex-direction: column;
-            gap: 100px;
+            gap: 40px;
+            margin-top: 30px;
+        }
+
+        .concept-card {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 30px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+            transition: all 0.3s ease;
         }
 
         .concept-card:hover {
-            transform: scale(1.07);
-            box-shadow: 0 8px 16px rgba(0,0,0,0.25);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+            transform: translateY(-2px);
         }
 
         .concept-images {
             display: flex;
             justify-content: center;
             align-items: center;
-            gap: 20px;
+            gap: 25px;
+            margin-bottom: 15px;
+            position: relative;
         }
 
         .concept-images img {
-            width: 400px;
-            height: 400px;
+            width: 450px;
+            height: 450px;
             object-fit: contain;
-            border-radius: 10px;
+            border-radius: 8px;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
+            transition: all 0.3s ease;
+            cursor: pointer;
+            position: relative;
         }
 
         .concept-images img:hover {
-            transform: scale(1.5);
-            transition: transform 0.3s ease;
-            box-shadow: 0 8px 16px rgba(0,0,0,0);
+            transform: scale(1.15);
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+            z-index: 10;
         }
 
         .concept-caption {
             text-align: center;
-            font-weight: bold;
-            margin-top: 15px;
-            width: 100%;
-            font-size: 1.2em;
+            font-size: 15px;
+            color: #4a4a4a;
+            line-height: 1.6;
         }
 
-        .predictions a {
-            text-decoration: none;
-            color: green;
-            font-weight: bold;
-            transition: color 0.3s ease, transform 0.2s ease;
+        .concept-caption em {
+            color: #2563eb;
+            font-style: italic;
+            font-weight: 500;
         }
 
-        .predictions a:hover {
-            color: blue;
-        }
-
-        .similar-images {
-            margin-top: 2em;
-            padding: 1em;
-            background-color: #f5f5f5;
-            border-radius: 8px;
-        }
-
-        .similar-images h3 {
-            margin-bottom: 1em;
-            color: #333;
-        }
-        .similar-images-grid {
-            display: grid;
-            grid-template-columns: repeat(3, 1fr);
-            gap: 1em;
-        }
-        .similar-image {
-            width: 100%;
-            aspect-ratio: 1;
-            object-fit: contain;
-            border-radius: 4px;
-            transition: transform 0.2s;
-        }
-
-        .similar-image-container {
+        .metadata-links {
             display: flex;
-            flex-direction: column;
-            align-items: center;
-            width: 100%; /* Matches image width */
+            gap: 15px;
+            flex-wrap: wrap;
         }
 
-        .similar-image:hover {
-            transform: scale(1.4);
+        .metadata-link {
+            display: inline-block;
+            padding: 8px 16px;
+            background: #f8f9fa;
+            border-radius: 6px;
+            font-size: 14px;
+            color: #4a4a4a;
+            transition: all 0.2s ease;
         }
 
-        .image-caption {
-            width: 150px; /* Match image width */
-            text-align: center;
-            font-size: 0.5em;
-            margin-top: 5px;
-            word-wrap: break-word; /* Ensures text wraps within width */
-            overflow-wrap: break-word; /* Alternative for better compatibility */
+        .metadata-link:hover {
+            background: #e9ecef;
+            text-decoration: none;
+            color: #1a1a1a;
         }
 
         @media (max-width: 768px) {
+            .container {
+                padding: 30px 20px 50px;
+            }
+
+            h1 {
+                font-size: 26px;
+            }
+
+            h2 {
+                font-size: 20px;
+            }
+
             .similar-images-grid {
-                grid-template-columns: repeat(2, 1fr);
+                grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+                gap: 15px;
+            }
+
+            .concept-images {
+                flex-direction: column;
+                gap: 15px;
+            }
+
+            .concept-images img {
+                width: 100%;
+                max-width: 400px;
+                height: auto;
+            }
+
+            .metadata-links {
+                flex-direction: column;
             }
         }
     </style>
 </head>
 <body>
     <div class="container">
-        <h1>Leaf Fossil and Concept Predictions</h1>
-        <div class="image-name">Unidentified Fossil Name: <strong>CU_0833cu</strong></div>
-        <div class="predictions">
-            <h2>Top 5 Predictions</h2>
-            <p>
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Meliaceae/" target="_blank"><em> Meliaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Fagaceae/" target="_blank"><em> Fagaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Salicaceae/" target="_blank"><em> Salicaceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Lauraceae/" target="_blank"><em> Lauraceae </em></a>,
-                <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Hamamelidaceae/" target="_blank"><em> Hamamelidaceae </em></a>
-            </p>
+        <div class="header">
+            <h1>Fossil Leaf Identification</h1>
+            <div class="info-value" style="font-size: 16px; color: #666;">Catalog Number: CU_0833cu</div>
         </div>
-        <div class="predictions">
-            <h2>Information</h2>
-            <p>
-                <b>InstPrefix+Catalog #</b>: USNM-405895
-            </p>
+
+        <div class="info-card">
+            <div class="info-section">
+                <div class="info-label">Primary Catalog Number</div>
+                <div class="info-value">USNM-405895</div>
+            </div>
+            
+            <div class="info-section">
+                <div class="info-label">Metadata Resources</div>
+                <div class="metadata-links">
+                    <a href="https://docs.google.com/spreadsheets/d/1IxU4YjUBWdJyolYbKlNUQetb7sDlN3sV/edit?usp=sharing&ouid=117124297544856301307&rtpof=true&sd=true" target="_blank" class="metadata-link">Florissant CU Metadata</a>
+                    <a href="https://docs.google.com/spreadsheets/d/1FIeJoNFIOy22oGVMDgrBZ94EWQ9OZqGLprjPYZRJuLY/edit?usp=sharing" target="_blank" class="metadata-link">Florissant FLFO Metadata</a>
+                </div>
+            </div>
+
+            <div class="info-section">
+                <div class="info-label">Top 5 Predictions</div>
+                <div class="predictions">
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Meliaceae/" target="_blank" class="prediction-link">Meliaceae</a>
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Fagaceae/" target="_blank" class="prediction-link">Fagaceae</a>
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Salicaceae/" target="_blank" class="prediction-link">Salicaceae</a>
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Lauraceae/" target="_blank" class="prediction-link">Lauraceae</a>
+                    <a href="https://fel-thomas.github.io/Leaf-Lens/classes/Hamamelidaceae/" target="_blank" class="prediction-link">Hamamelidaceae</a>
+                </div>
+            </div>
         </div>
-        <div class="main-image-container">
+
+        <div class="fossil-image-section">
             <h2>Fossil Sample</h2>
             <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0833cu/image.jpg" alt="Fossil Image">
         </div>
-        <div class="main-image-container">
-            <h3>Similar Leaf Fossil Specimens</h3>
+
+        <div class="similar-specimens-section">
+            <h2>Similar Leaf Fossil Specimens</h2>
             <div class="similar-images-grid">
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Meliaceae/Meliaceae_Cedrela_lancifolia_Florissant_CU_0445.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Meliaceae/Meliaceae_Cedrela_lancifolia_Florissant_CU_0445.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Meliaceae/Meliaceae_Cedrela_lancifolia_Florissant_CU_0445.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Meliaceae/Meliaceae_Cedrela_lancifolia_Florissant_CU_0445.jpg" alt="Similar fossil specimen"></a>
                     <div class="image-caption">Meliaceae_Cedrela_lancifolia_Florissant_CU_0445</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Meliaceae/Meliaceae_Cedrela_lancifolia_Florissant_FLFO_003140A.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Meliaceae/Meliaceae_Cedrela_lancifolia_Florissant_FLFO_003140A.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Meliaceae/Meliaceae_Cedrela_lancifolia_Florissant_FLFO_003140A.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Meliaceae/Meliaceae_Cedrela_lancifolia_Florissant_FLFO_003140A.jpg" alt="Similar fossil specimen"></a>
                     <div class="image-caption">Meliaceae_Cedrela_lancifolia_Florissant_FLFO_003140A</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Meliaceae/Meliaceae_Cedrela_lancifolia_Florissant_CU_0724cu.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Meliaceae/Meliaceae_Cedrela_lancifolia_Florissant_CU_0724cu.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Meliaceae/Meliaceae_Cedrela_lancifolia_Florissant_CU_0724cu.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Meliaceae/Meliaceae_Cedrela_lancifolia_Florissant_CU_0724cu.jpg" alt="Similar fossil specimen"></a>
                     <div class="image-caption">Meliaceae_Cedrela_lancifolia_Florissant_CU_0724cu</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Meliaceae/Meliaceae_Cedrela_lancifolia_Florissant_CU_0723cu1.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Meliaceae/Meliaceae_Cedrela_lancifolia_Florissant_CU_0723cu1.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Meliaceae/Meliaceae_Cedrela_lancifolia_Florissant_CU_0723cu1.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Meliaceae/Meliaceae_Cedrela_lancifolia_Florissant_CU_0723cu1.jpg" alt="Similar fossil specimen"></a>
                     <div class="image-caption">Meliaceae_Cedrela_lancifolia_Florissant_CU_0723cu1</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Meliaceae/Meliaceae_Cedrela_lancifolia_Florissant_CU_0724.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Meliaceae/Meliaceae_Cedrela_lancifolia_Florissant_CU_0724.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Meliaceae/Meliaceae_Cedrela_lancifolia_Florissant_CU_0724.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Meliaceae/Meliaceae_Cedrela_lancifolia_Florissant_CU_0724.jpg" alt="Similar fossil specimen"></a>
                     <div class="image-caption">Meliaceae_Cedrela_lancifolia_Florissant_CU_0724</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Meliaceae/Meliaceae_Cedrela_lancifolia_Florissant_CU_0723cu.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Meliaceae/Meliaceae_Cedrela_lancifolia_Florissant_CU_0723cu.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Meliaceae/Meliaceae_Cedrela_lancifolia_Florissant_CU_0723cu.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Florissant_Fossil_v2.0/Meliaceae/Meliaceae_Cedrela_lancifolia_Florissant_CU_0723cu.jpg" alt="Similar fossil specimen"></a>
                     <div class="image-caption">Meliaceae_Cedrela_lancifolia_Florissant_CU_0723cu</div>
                 </div>
             </div>
@@ -206,106 +369,108 @@
             <h3>Similar Extant Leaf Specimens</h3>
             <div class="similar-images-grid">
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Piperaceae/Piperaceae_Piper_hancei_Wolfe_Wolfe_1961a.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Piperaceae/Piperaceae_Piper_hancei_Wolfe_Wolfe_1961a.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Piperaceae/Piperaceae_Piper_hancei_Wolfe_Wolfe_1961a.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Piperaceae/Piperaceae_Piper_hancei_Wolfe_Wolfe_1961a.jpg" alt="Similar extant leaf"></a>
                     <div class="image-caption">Piperaceae_Piper_hancei_Wolfe_Wolfe_1961a</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Rosaceae/Rosaceae_Malus_yunnanensis_Wolfe_Wolfe_7714.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Rosaceae/Rosaceae_Malus_yunnanensis_Wolfe_Wolfe_7714.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Rosaceae/Rosaceae_Malus_yunnanensis_Wolfe_Wolfe_7714.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Rosaceae/Rosaceae_Malus_yunnanensis_Wolfe_Wolfe_7714.jpg" alt="Similar extant leaf"></a>
                     <div class="image-caption">Rosaceae_Malus_yunnanensis_Wolfe_Wolfe_7714</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Hamamelidaceae/Hamamelidaceae_Distylium_tsiangii_Wing_Wing_997-001.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Hamamelidaceae/Hamamelidaceae_Distylium_tsiangii_Wing_Wing_997-001.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Hamamelidaceae/Hamamelidaceae_Distylium_tsiangii_Wing_Wing_997-001.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Hamamelidaceae/Hamamelidaceae_Distylium_tsiangii_Wing_Wing_997-001.jpg" alt="Similar extant leaf"></a>
                     <div class="image-caption">Hamamelidaceae_Distylium_tsiangii_Wing_Wing_997-001</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Meliaceae/Meliaceae_Trichilia_cannaroides_Wolfe_Wolfe_15463b.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Meliaceae/Meliaceae_Trichilia_cannaroides_Wolfe_Wolfe_15463b.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Meliaceae/Meliaceae_Trichilia_cannaroides_Wolfe_Wolfe_15463b.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Meliaceae/Meliaceae_Trichilia_cannaroides_Wolfe_Wolfe_15463b.jpg" alt="Similar extant leaf"></a>
                     <div class="image-caption">Meliaceae_Trichilia_cannaroides_Wolfe_Wolfe_15463b</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Gesneriaceae/Gesneriaceae_Cyrtandra_biflora_Hickey_Hickey_1727a.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Gesneriaceae/Gesneriaceae_Cyrtandra_biflora_Hickey_Hickey_1727a.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Gesneriaceae/Gesneriaceae_Cyrtandra_biflora_Hickey_Hickey_1727a.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Gesneriaceae/Gesneriaceae_Cyrtandra_biflora_Hickey_Hickey_1727a.jpg" alt="Similar extant leaf"></a>
                     <div class="image-caption">Gesneriaceae_Cyrtandra_biflora_Hickey_Hickey_1727a</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Ericaceae/Ericaceae_Satyria_carnosiflora_Wing_Wing_491-002.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Ericaceae/Ericaceae_Satyria_carnosiflora_Wing_Wing_491-002.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Ericaceae/Ericaceae_Satyria_carnosiflora_Wing_Wing_491-002.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Ericaceae/Ericaceae_Satyria_carnosiflora_Wing_Wing_491-002.jpg" alt="Similar extant leaf"></a>
                     <div class="image-caption">Ericaceae_Satyria_carnosiflora_Wing_Wing_491-002</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Altingiaceae/Altingiaceae_Altingia_excelsa_Wing_Wing_940-002.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Altingiaceae/Altingiaceae_Altingia_excelsa_Wing_Wing_940-002.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Altingiaceae/Altingiaceae_Altingia_excelsa_Wing_Wing_940-002.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Altingiaceae/Altingiaceae_Altingia_excelsa_Wing_Wing_940-002.jpg" alt="Similar extant leaf"></a>
                     <div class="image-caption">Altingiaceae_Altingia_excelsa_Wing_Wing_940-002</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Annonaceae/Annonaceae_Polyceratocarpus_parviflorus_Wolfe_Wolfe_6433a.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Annonaceae/Annonaceae_Polyceratocarpus_parviflorus_Wolfe_Wolfe_6433a.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Annonaceae/Annonaceae_Polyceratocarpus_parviflorus_Wolfe_Wolfe_6433a.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Annonaceae/Annonaceae_Polyceratocarpus_parviflorus_Wolfe_Wolfe_6433a.jpg" alt="Similar extant leaf"></a>
                     <div class="image-caption">Annonaceae_Polyceratocarpus_parviflorus_Wolfe_Wolfe_6433a</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Salicaceae/Salicaceae_Tetrathylacium_macrophyllum_Hickey_Hickey_1051c.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Salicaceae/Salicaceae_Tetrathylacium_macrophyllum_Hickey_Hickey_1051c.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Salicaceae/Salicaceae_Tetrathylacium_macrophyllum_Hickey_Hickey_1051c.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Salicaceae/Salicaceae_Tetrathylacium_macrophyllum_Hickey_Hickey_1051c.jpg" alt="Similar extant leaf"></a>
                     <div class="image-caption">Salicaceae_Tetrathylacium_macrophyllum_Hickey_Hickey_1051c</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Aquifoliaceae/Aquifoliaceae_Ilex_latifolia_NMNS_U0029.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Aquifoliaceae/Aquifoliaceae_Ilex_latifolia_NMNS_U0029.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Aquifoliaceae/Aquifoliaceae_Ilex_latifolia_NMNS_U0029.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Aquifoliaceae/Aquifoliaceae_Ilex_latifolia_NMNS_U0029.jpg" alt="Similar extant leaf"></a>
                     <div class="image-caption">Aquifoliaceae_Ilex_latifolia_NMNS_U0029</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Fabaceae/Fabaceae_Diphysa_floribunda_Wolfe_Wolfe_30503b.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Fabaceae/Fabaceae_Diphysa_floribunda_Wolfe_Wolfe_30503b.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Fabaceae/Fabaceae_Diphysa_floribunda_Wolfe_Wolfe_30503b.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Fabaceae/Fabaceae_Diphysa_floribunda_Wolfe_Wolfe_30503b.jpg" alt="Similar extant leaf"></a>
                     <div class="image-caption">Fabaceae_Diphysa_floribunda_Wolfe_Wolfe_30503b</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Menispermaceae/Menispermaceae_Tiliacora_leonardii_Hickey_Hickey_1112.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Menispermaceae/Menispermaceae_Tiliacora_leonardii_Hickey_Hickey_1112.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Menispermaceae/Menispermaceae_Tiliacora_leonardii_Hickey_Hickey_1112.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Menispermaceae/Menispermaceae_Tiliacora_leonardii_Hickey_Hickey_1112.jpg" alt="Similar extant leaf"></a>
                     <div class="image-caption">Menispermaceae_Tiliacora_leonardii_Hickey_Hickey_1112</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Oleaceae/Oleaceae_Forsythia_japonica_Wolfe_Wolfe_8985.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Oleaceae/Oleaceae_Forsythia_japonica_Wolfe_Wolfe_8985.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Oleaceae/Oleaceae_Forsythia_japonica_Wolfe_Wolfe_8985.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Oleaceae/Oleaceae_Forsythia_japonica_Wolfe_Wolfe_8985.jpg" alt="Similar extant leaf"></a>
                     <div class="image-caption">Oleaceae_Forsythia_japonica_Wolfe_Wolfe_8985</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Meliaceae/Meliaceae_Carapa_procera_Wolfe_Wolfe_14339.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Meliaceae/Meliaceae_Carapa_procera_Wolfe_Wolfe_14339.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Meliaceae/Meliaceae_Carapa_procera_Wolfe_Wolfe_14339.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Meliaceae/Meliaceae_Carapa_procera_Wolfe_Wolfe_14339.jpg" alt="Similar extant leaf"></a>
                     <div class="image-caption">Meliaceae_Carapa_procera_Wolfe_Wolfe_14339</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Annonaceae/Annonaceae_Richella_dielsiana_Wolfe_Wolfe_15499a.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Annonaceae/Annonaceae_Richella_dielsiana_Wolfe_Wolfe_15499a.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Annonaceae/Annonaceae_Richella_dielsiana_Wolfe_Wolfe_15499a.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Annonaceae/Annonaceae_Richella_dielsiana_Wolfe_Wolfe_15499a.jpg" alt="Similar extant leaf"></a>
                     <div class="image-caption">Annonaceae_Richella_dielsiana_Wolfe_Wolfe_15499a</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Salicaceae/Salicaceae_Tetrathylacium_macrophyllum_Hickey_Hickey_1051a.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Salicaceae/Salicaceae_Tetrathylacium_macrophyllum_Hickey_Hickey_1051a.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Salicaceae/Salicaceae_Tetrathylacium_macrophyllum_Hickey_Hickey_1051a.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Salicaceae/Salicaceae_Tetrathylacium_macrophyllum_Hickey_Hickey_1051a.jpg" alt="Similar extant leaf"></a>
                     <div class="image-caption">Salicaceae_Tetrathylacium_macrophyllum_Hickey_Hickey_1051a</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Salicaceae/Salicaceae_Phyllobotryon_zenkeri_Hickey_Hickey_1014.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Salicaceae/Salicaceae_Phyllobotryon_zenkeri_Hickey_Hickey_1014.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Salicaceae/Salicaceae_Phyllobotryon_zenkeri_Hickey_Hickey_1014.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Salicaceae/Salicaceae_Phyllobotryon_zenkeri_Hickey_Hickey_1014.jpg" alt="Similar extant leaf"></a>
                     <div class="image-caption">Salicaceae_Phyllobotryon_zenkeri_Hickey_Hickey_1014</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Nymphaeaceae/Nymphaeaceae_Nymphaea_flora_Hickey_Hickey_6695a.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Nymphaeaceae/Nymphaeaceae_Nymphaea_flora_Hickey_Hickey_6695a.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Nymphaeaceae/Nymphaeaceae_Nymphaea_flora_Hickey_Hickey_6695a.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Nymphaeaceae/Nymphaeaceae_Nymphaea_flora_Hickey_Hickey_6695a.jpg" alt="Similar extant leaf"></a>
                     <div class="image-caption">Nymphaeaceae_Nymphaea_flora_Hickey_Hickey_6695a</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Salicaceae/Salicaceae_Salix_humilis_Wolfe_Wolfe_10285.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Salicaceae/Salicaceae_Salix_humilis_Wolfe_Wolfe_10285.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Salicaceae/Salicaceae_Salix_humilis_Wolfe_Wolfe_10285.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Salicaceae/Salicaceae_Salix_humilis_Wolfe_Wolfe_10285.jpg" alt="Similar extant leaf"></a>
                     <div class="image-caption">Salicaceae_Salix_humilis_Wolfe_Wolfe_10285</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Oleaceae/Oleaceae_Forsythia_suspensa_Wolfe_Wolfe_6050.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Oleaceae/Oleaceae_Forsythia_suspensa_Wolfe_Wolfe_6050.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Oleaceae/Oleaceae_Forsythia_suspensa_Wolfe_Wolfe_6050.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Oleaceae/Oleaceae_Forsythia_suspensa_Wolfe_Wolfe_6050.jpg" alt="Similar extant leaf"></a>
                     <div class="image-caption">Oleaceae_Forsythia_suspensa_Wolfe_Wolfe_6050</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Hamamelidaceae/Hamamelidaceae_Trichocladus_crinitus_Wing_Wing_990-001.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Hamamelidaceae/Hamamelidaceae_Trichocladus_crinitus_Wing_Wing_990-001.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Hamamelidaceae/Hamamelidaceae_Trichocladus_crinitus_Wing_Wing_990-001.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Hamamelidaceae/Hamamelidaceae_Trichocladus_crinitus_Wing_Wing_990-001.jpg" alt="Similar extant leaf"></a>
                     <div class="image-caption">Hamamelidaceae_Trichocladus_crinitus_Wing_Wing_990-001</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Ulmaceae/Ulmaceae_Holoptelea_grandis_Wolfe_Wolfe_14454b.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Ulmaceae/Ulmaceae_Holoptelea_grandis_Wolfe_Wolfe_14454b.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Ulmaceae/Ulmaceae_Holoptelea_grandis_Wolfe_Wolfe_14454b.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Ulmaceae/Ulmaceae_Holoptelea_grandis_Wolfe_Wolfe_14454b.jpg" alt="Similar extant leaf"></a>
                     <div class="image-caption">Ulmaceae_Holoptelea_grandis_Wolfe_Wolfe_14454b</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Hamamelidaceae/Hamamelidaceae_Fothergilla_monticola_Wing_Wing_963-001.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Hamamelidaceae/Hamamelidaceae_Fothergilla_monticola_Wing_Wing_963-001.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Hamamelidaceae/Hamamelidaceae_Fothergilla_monticola_Wing_Wing_963-001.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Hamamelidaceae/Hamamelidaceae_Fothergilla_monticola_Wing_Wing_963-001.jpg" alt="Similar extant leaf"></a>
                     <div class="image-caption">Hamamelidaceae_Fothergilla_monticola_Wing_Wing_963-001</div>
                 </div>
                 <div class="similar-image-container">
-                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Meliaceae/Meliaceae_Swietenia_macrophylla_Wolfe_Wolfe_15453b.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Meliaceae/Meliaceae_Swietenia_macrophylla_Wolfe_Wolfe_15453b.jpg" alt="Similar specimen"></a>
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Meliaceae/Meliaceae_Swietenia_macrophylla_Wolfe_Wolfe_15453b.jpg" target="_blank"><img class="similar-image" src="https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/Meliaceae/Meliaceae_Swietenia_macrophylla_Wolfe_Wolfe_15453b.jpg" alt="Similar extant leaf"></a>
                     <div class="image-caption">Meliaceae_Swietenia_macrophylla_Wolfe_Wolfe_15453b</div>
                 </div>
             </div>
         </div>
-        <h2>Concept Images</h2>
-        <div class="concept-container">
-            <div class="concept-card">
+
+        <div>
+            <h2>Concepts</h2>
+            <div class="concept-container">
+                <div class="concept-card">
                 <div class="concept-images">
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%2055/" target="_blank">
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0833cu/concept_1_55.png" alt="Concept Image 1">
@@ -314,7 +479,7 @@
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_55_fv.webp" alt="Feature Visualization 1">
                     </a>
                 </div>
-                <div class="concept-caption"><em style="color:blue;">Concept: 55</em>, relative rank:  1</div>
+                <div class="concept-caption"><em>Concept: 55</em> - Rank: 1</div>
             </div>
 <div class="concept-card">
                 <div class="concept-images">
@@ -325,7 +490,7 @@
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_560_fv.webp" alt="Feature Visualization 2">
                     </a>
                 </div>
-                <div class="concept-caption"><em style="color:blue;">Concept: 560</em>, relative rank:  2</div>
+                <div class="concept-caption"><em>Concept: 560</em> - Rank: 2</div>
             </div>
 <div class="concept-card">
                 <div class="concept-images">
@@ -336,7 +501,7 @@
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1612_fv.webp" alt="Feature Visualization 3">
                     </a>
                 </div>
-                <div class="concept-caption"><em style="color:blue;">Concept: 1612</em>, relative rank:  3</div>
+                <div class="concept-caption"><em>Concept: 1612</em> - Rank: 3</div>
             </div>
 <div class="concept-card">
                 <div class="concept-images">
@@ -347,7 +512,7 @@
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_508_fv.webp" alt="Feature Visualization 4">
                     </a>
                 </div>
-                <div class="concept-caption"><em style="color:blue;">Concept: 508</em>, relative rank:  4</div>
+                <div class="concept-caption"><em>Concept: 508</em> - Rank: 4</div>
             </div>
 <div class="concept-card">
                 <div class="concept-images">
@@ -358,7 +523,7 @@
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1993_fv.webp" alt="Feature Visualization 5">
                     </a>
                 </div>
-                <div class="concept-caption"><em style="color:blue;">Concept: 1993</em>, relative rank:  5</div>
+                <div class="concept-caption"><em>Concept: 1993</em> - Rank: 5</div>
             </div>
 <div class="concept-card">
                 <div class="concept-images">
@@ -369,7 +534,7 @@
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_752_fv.webp" alt="Feature Visualization 6">
                     </a>
                 </div>
-                <div class="concept-caption"><em style="color:blue;">Concept: 752</em>, relative rank:  6</div>
+                <div class="concept-caption"><em>Concept: 752</em> - Rank: 6</div>
             </div>
 <div class="concept-card">
                 <div class="concept-images">
@@ -380,7 +545,7 @@
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_777_fv.webp" alt="Feature Visualization 7">
                     </a>
                 </div>
-                <div class="concept-caption"><em style="color:blue;">Concept: 777</em>, relative rank:  7</div>
+                <div class="concept-caption"><em>Concept: 777</em> - Rank: 7</div>
             </div>
 <div class="concept-card">
                 <div class="concept-images">
@@ -391,7 +556,7 @@
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1520_fv.webp" alt="Feature Visualization 8">
                     </a>
                 </div>
-                <div class="concept-caption"><em style="color:blue;">Concept: 1520</em>, relative rank:  8</div>
+                <div class="concept-caption"><em>Concept: 1520</em> - Rank: 8</div>
             </div>
 <div class="concept-card">
                 <div class="concept-images">
@@ -402,7 +567,7 @@
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_500_fv.webp" alt="Feature Visualization 9">
                     </a>
                 </div>
-                <div class="concept-caption"><em style="color:blue;">Concept: 500</em>, relative rank:  9</div>
+                <div class="concept-caption"><em>Concept: 500</em> - Rank: 9</div>
             </div>
 <div class="concept-card">
                 <div class="concept-images">
@@ -413,7 +578,8 @@
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_1279_fv.webp" alt="Feature Visualization 10">
                     </a>
                 </div>
-                <div class="concept-caption"><em style="color:blue;">Concept: 1279</em>, relative rank:  10</div>
+                <div class="concept-caption"><em>Concept: 1279</em> - Rank: 10</div>
+            </div>
             </div>
         </div>
     </div>
