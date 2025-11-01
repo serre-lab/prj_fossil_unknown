@@ -334,7 +334,7 @@
 
         <div class="fossil-image-section">
             <h2>Fossil Sample</h2>
-            <img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0122/image.jpg" alt="Fossil Image">
+            <a href="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0122/image.jpg" target="_blank"><img src="https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/CU_0122/image.jpg" alt="Fossil Image"></a>
         </div>
 
         <div class="similar-specimens-section">
@@ -472,7 +472,7 @@
             <div class="concept-container">
                 <div class="concept-card">
                 <div class="concept-images">
-                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20901/" target="_blank">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0122/concept_1_901.png" target="_blank">
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0122/concept_1_901.png" alt="Concept Image 1">
                     </a>
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20901/" target="_blank">
@@ -483,7 +483,7 @@
             </div>
 <div class="concept-card">
                 <div class="concept-images">
-                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20912/" target="_blank">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0122/concept_2_912.png" target="_blank">
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0122/concept_2_912.png" alt="Concept Image 2">
                     </a>
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20912/" target="_blank">
@@ -494,7 +494,7 @@
             </div>
 <div class="concept-card">
                 <div class="concept-images">
-                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201427/" target="_blank">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0122/concept_3_1427.png" target="_blank">
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0122/concept_3_1427.png" alt="Concept Image 3">
                     </a>
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201427/" target="_blank">
@@ -505,7 +505,7 @@
             </div>
 <div class="concept-card">
                 <div class="concept-images">
-                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20171/" target="_blank">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0122/concept_4_171.png" target="_blank">
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0122/concept_4_171.png" alt="Concept Image 4">
                     </a>
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20171/" target="_blank">
@@ -516,7 +516,7 @@
             </div>
 <div class="concept-card">
                 <div class="concept-images">
-                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20690/" target="_blank">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0122/concept_5_690.png" target="_blank">
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0122/concept_5_690.png" alt="Concept Image 5">
                     </a>
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20690/" target="_blank">
@@ -527,7 +527,7 @@
             </div>
 <div class="concept-card">
                 <div class="concept-images">
-                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201327/" target="_blank">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0122/concept_6_1327.png" target="_blank">
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0122/concept_6_1327.png" alt="Concept Image 6">
                     </a>
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201327/" target="_blank">
@@ -538,7 +538,7 @@
             </div>
 <div class="concept-card">
                 <div class="concept-images">
-                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20653/" target="_blank">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0122/concept_7_653.png" target="_blank">
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0122/concept_7_653.png" alt="Concept Image 7">
                     </a>
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20653/" target="_blank">
@@ -549,7 +549,7 @@
             </div>
 <div class="concept-card">
                 <div class="concept-images">
-                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20727/" target="_blank">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0122/concept_8_727.png" target="_blank">
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0122/concept_8_727.png" alt="Concept Image 8">
                     </a>
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20727/" target="_blank">
@@ -560,7 +560,7 @@
             </div>
 <div class="concept-card">
                 <div class="concept-images">
-                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20735/" target="_blank">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0122/concept_9_735.png" target="_blank">
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0122/concept_9_735.png" alt="Concept Image 9">
                     </a>
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20735/" target="_blank">
@@ -571,7 +571,7 @@
             </div>
 <div class="concept-card">
                 <div class="concept-images">
-                    <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201884/" target="_blank">
+                    <a href="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0122/concept_10_1884.png" target="_blank">
                         <img src="https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_CU_0122/concept_10_1884.png" alt="Concept Image 10">
                     </a>
                     <a href="https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%201884/" target="_blank">

@@ -443,7 +443,7 @@ html_template = """
 
         <div class="fossil-image-section">
             <h2>Fossil Sample</h2>
-            <img src="{main_image}" alt="Fossil Image">
+            <a href="{main_image}" target="_blank"><img src="{main_image}" alt="Fossil Image"></a>
         </div>
 
         <div class="similar-specimens-section">
@@ -638,7 +638,7 @@ for i, (key, value) in enumerate(image_names.items()):
     concept_images = "\n".join(
         [f'''<div class="concept-card">
                 <div class="concept-images">
-                    <a href="{CONCEPT_INFO.format(value[j].split("_")[-1][:-4])}" target="_blank">
+                    <a href="{Unknown_CONCEPT_URL.format(key, value[j])}" target="_blank">
                         <img src="{Unknown_CONCEPT_URL.format(key, value[j])}" alt="Concept Image {j+1}">
                     </a>
                     <a href="{CONCEPT_INFO.format(value[j].split("_")[-1][:-4])}" target="_blank">
@@ -787,7 +787,7 @@ for i, (key, value) in enumerate(unidentified_image_names.items()):
     concept_images = "\n".join(
         [f'''<div class="concept-card">
                 <div class="concept-images">
-                    <a href="{CONCEPT_INFO.format(value[j].split("_")[-1][:-4])}" target="_blank">
+                    <a href="{Unidentified_CONCEPT_URL.format(key, value[j])}" target="_blank">
                         <img src="{Unidentified_CONCEPT_URL.format(key, value[j])}" alt="Concept Image {j+1}">
                     </a>
                     <a href="{CONCEPT_INFO.format(value[j].split("_")[-1][:-4])}" target="_blank">
