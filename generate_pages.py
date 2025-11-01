@@ -238,7 +238,7 @@ html_template = """
 
         .fossil-image-section img {{
             max-width: 100%;
-            width: 400px;
+            width: 300px;
             height: auto;
             border-radius: 12px;
             box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
@@ -322,8 +322,8 @@ html_template = """
         }}
 
         .concept-images img {{
-            width: 450px;
-            height: 450px;
+            width: 400px;
+            height: 400px;
             object-fit: contain;
             border-radius: 8px;
             box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
@@ -333,7 +333,7 @@ html_template = """
         }}
 
         .concept-images img:hover {{
-            transform: scale(1.15);
+            transform: scale(1.1);
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
             z-index: 10;
         }}
@@ -902,7 +902,7 @@ with open(MKDOCS_YML, "w") as f:
     f.write("  logo: images/logo.png\n")
     f.write("  favicon: images/logo.png\n")
     f.write("  palette:\n")
-    f.write("    primary: white\n")
+    f.write("    primary: black\n")
     f.write("    accent: white\n")
     f.write("nav:\n")
     f.write("  - <b>Home</b>: index.md\n")

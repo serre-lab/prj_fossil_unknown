@@ -25,7 +25,7 @@ html_template = """
         .container {
             max-width: 850px;
             margin: 0 auto;
-            padding: 60px 40px 80px;
+            padding: 20px 40px 80px;
         }
 
         .header {
@@ -48,6 +48,35 @@ html_template = """
             color: #666;
             font-style: italic;
             font-weight: 400;
+        }
+
+        .authors-section {
+            margin: 25px 0;
+            font-size: 15px;
+            line-height: 1.8;
+            color: #4a4a4a;
+        }
+
+        .authors {
+            margin-bottom: 15px;
+        }
+
+        .joint-note {
+            font-size: 13px;
+            color: #666;
+            font-style: italic;
+            margin: 10px 0 15px;
+        }
+
+        .affiliations {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.6;
+        }
+
+        .affiliations strong {
+            color: #1a1a1a;
+            font-weight: 600;
         }
 
         .demo-section {
@@ -241,7 +270,7 @@ html_template = """
 
         @media (max-width: 768px) {
             .container {
-                padding: 40px 24px 60px;
+                padding: 20px 24px 60px;
             }
 
             h1 {
@@ -250,6 +279,18 @@ html_template = """
 
             .subtitle {
                 font-size: 16px;
+            }
+
+            .authors-section {
+                font-size: 14px;
+            }
+
+            .authors {
+                font-size: 14px;
+            }
+
+            .affiliations {
+                font-size: 13px;
             }
 
             h3 {
@@ -267,6 +308,20 @@ html_template = """
     <div class="header">
         <h1>Fossil Leaf Lens</h1>
         <p class="subtitle">A machine learning tool to help paleobotanists identify leaf fossils</p>
+        
+        <div class="authors-section">
+            <div class="authors">
+                Ivan Felipe Rodriguez🌿 <sup><strong>1</strong></sup>, Thomas Fel🌿 <sup><strong>2</strong></sup>, Gaurav Gaonkar <sup><strong>1</strong></sup>, Mohit Vaishnav <sup><strong>1</strong></sup>,<br> Herbert Meyer <sup><strong>4</strong></sup>,
+                Peter Wilf <sup><strong>3</strong></sup> & Thomas Serre<sup><strong>1</strong></sup>
+            </div>
+            <div class="joint-note">🌿 Joint First Authors</div>
+            <div class="affiliations">
+                <sup><strong>1</strong></sup> Brown University,
+                <sup><strong>2</strong></sup> Kempner Institute, Harvard University,<br>
+                <sup><strong>3</strong></sup> Pennsylvania State University,
+                <sup><strong>4</strong></sup> Florissant Fossil Beds, National Park Service
+            </div>
+        </div>
     </div>
 
     <div class="demo-section">
