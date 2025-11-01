@@ -123,8 +123,8 @@ html_template = """
 
         body {{
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            background: linear-gradient(to bottom, #0f172a 0%, #1e293b 100%);
-            color: #e2e8f0;
+            background: linear-gradient(to bottom, #f8f9fa 0%, #ffffff 100%);
+            color: #1a1a1a;
             line-height: 1.7;
             -webkit-font-smoothing: antialiased;
         }}
@@ -139,13 +139,13 @@ html_template = """
             text-align: center;
             margin-bottom: 50px;
             padding-bottom: 30px;
-            border-bottom: 1px solid #334155;
+            border-bottom: 1px solid #e8e8e8;
         }}
 
         h1 {{
             font-size: 32px;
             font-weight: 600;
-            color: #ffffff;
+            color: #1a1a1a;
             margin-bottom: 15px;
             letter-spacing: -0.5px;
         }}
@@ -153,7 +153,7 @@ html_template = """
         h2 {{
             font-size: 24px;
             font-weight: 600;
-            color: #ffffff;
+            color: #1a1a1a;
             margin: 40px 0 20px;
             letter-spacing: -0.3px;
         }}
@@ -161,27 +161,27 @@ html_template = """
         h3 {{
             font-size: 20px;
             font-weight: 600;
-            color: #ffffff;
+            color: #2a2a2a;
             margin: 35px 0 15px;
         }}
 
         a {{
-            color: #60a5fa;
+            color: #2563eb;
             text-decoration: none;
             transition: all 0.2s ease;
         }}
 
         a:hover {{
-            color: #93c5fd;
+            color: #1d4ed8;
             text-decoration: underline;
         }}
 
         .info-card {{
-            background: #1e293b;
+            background: #ffffff;
             border-radius: 12px;
             padding: 30px;
             margin-bottom: 35px;
-            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
         }}
 
         .info-section {{
@@ -195,7 +195,7 @@ html_template = """
         .info-label {{
             font-size: 14px;
             font-weight: 600;
-            color: #94a3b8;
+            color: #666;
             text-transform: uppercase;
             letter-spacing: 0.5px;
             margin-bottom: 8px;
@@ -203,7 +203,7 @@ html_template = """
 
         .info-value {{
             font-size: 18px;
-            color: #e2e8f0;
+            color: #1a1a1a;
             font-weight: 500;
         }}
 
@@ -217,17 +217,16 @@ html_template = """
         .prediction-link {{
             display: inline-block;
             padding: 6px 14px;
-            background: #1e293b;
+            background: #f8f9fa;
             border-radius: 6px;
             font-size: 15px;
-            color: #60a5fa;
+            color: #2563eb;
             font-weight: 500;
             transition: all 0.2s ease;
-            border: 1px solid #334155;
         }}
 
         .prediction-link:hover {{
-            background: #334155;
+            background: #e9ecef;
             text-decoration: none;
             transform: translateY(-1px);
         }}
@@ -288,7 +287,7 @@ html_template = """
         .image-caption {{
             margin-top: 10px;
             font-size: 12px;
-            color: #94a3b8;
+            color: #666;
             line-height: 1.4;
             word-wrap: break-word;
         }}
@@ -301,15 +300,15 @@ html_template = """
         }}
 
         .concept-card {{
-            background: #1e293b;
+            background: #ffffff;
             border-radius: 12px;
             padding: 30px;
-            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
             transition: all 0.3s ease;
         }}
 
         .concept-card:hover {{
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
             transform: translateY(-2px);
         }}
 
@@ -342,12 +341,12 @@ html_template = """
         .concept-caption {{
             text-align: center;
             font-size: 15px;
-            color: #cbd5e1;
+            color: #4a4a4a;
             line-height: 1.6;
         }}
 
         .concept-caption em {{
-            color: #60a5fa;
+            color: #2563eb;
             font-style: italic;
             font-weight: 500;
         }}
@@ -361,18 +360,17 @@ html_template = """
         .metadata-link {{
             display: inline-block;
             padding: 8px 16px;
-            background: #1e293b;
+            background: #f8f9fa;
             border-radius: 6px;
             font-size: 14px;
-            color: #cbd5e1;
+            color: #4a4a4a;
             transition: all 0.2s ease;
-            border: 1px solid #334155;
         }}
 
         .metadata-link:hover {{
-            background: #334155;
+            background: #e9ecef;
             text-decoration: none;
-            color: #f1f5f9;
+            color: #1a1a1a;
         }}
 
         @media (max-width: 768px) {{
@@ -904,7 +902,7 @@ with open(MKDOCS_YML, "w") as f:
     f.write("  logo: images/logo.png\n")
     f.write("  favicon: images/logo.png\n")
     f.write("  palette:\n")
-    f.write("    primary: black\n")
+    f.write("    primary: white\n")
     f.write("    accent: white\n")
     f.write("nav:\n")
     f.write("  - <b>Home</b>: index.md\n")

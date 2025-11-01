@@ -4,7 +4,7 @@ theme:
   logo: images/logo.png
   favicon: images/logo.png
   palette:
-    primary: black
+    primary: white
     accent: white
 nav:
   - <b>Home</b>: index.md

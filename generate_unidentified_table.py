@@ -19,8 +19,8 @@ html_template = """
 
         body {{
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            background: linear-gradient(to bottom, #0f172a 0%, #1e293b 100%);
-            color: #e2e8f0;
+            background: linear-gradient(to bottom, #f8f9fa 0%, #ffffff 100%);
+            color: #1a1a1a;
             line-height: 1.7;
             -webkit-font-smoothing: antialiased;
         }}
@@ -29,20 +29,20 @@ html_template = """
             text-align: center;
             padding: 40px 20px 30px;
             margin-bottom: 20px;
-            border-bottom: 1px solid #334155;
+            border-bottom: 1px solid #e8e8e8;
         }}
 
         .page-header h1 {{
             font-size: 36px;
             font-weight: 600;
-            color: #ffffff;
+            color: #1a1a1a;
             margin-bottom: 10px;
             letter-spacing: -0.5px;
         }}
 
         .page-header p {{
             font-size: 16px;
-            color: #94a3b8;
+            color: #666;
             margin-top: 10px;
         }}
 
@@ -53,9 +53,9 @@ html_template = """
         }}
 
         .table-wrapper {{
-            background: #1e293b;
+            background: #ffffff;
             border-radius: 12px;
-            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
             overflow: hidden;
         }}
 
@@ -72,7 +72,7 @@ html_template = """
         thead th {{
             position: sticky;
             top: 0;
-            background: linear-gradient(to bottom, #60a5fa 0%, #3b82f6 100%);
+            background: linear-gradient(to bottom, #2563eb 0%, #1d4ed8 100%);
             color: white;
             padding: 14px 10px;
             font-size: 14px;
@@ -84,24 +84,24 @@ html_template = """
         }}
 
         tbody tr {{
-            border-bottom: 1px solid #334155;
+            border-bottom: 1px solid #e8e8e8;
         }}
 
         tbody tr:hover {{
-            background-color: #1e3a5f;
+            background-color: #f8f9fa;
         }}
 
         td {{
             padding: 12px 10px;
             text-align: center;
             font-size: 13px;
-            color: #cbd5e1;
+            color: #4a4a4a;
             vertical-align: middle;
         }}
 
         .serial-number {{
             font-weight: 600;
-            color: #94a3b8;
+            color: #666;
             text-align: center;
         }}
 
@@ -110,13 +110,13 @@ html_template = """
         }}
 
         .fossil-name a {{
-            color: #60a5fa;
+            color: #2563eb;
             text-decoration: none;
             font-weight: 500;
         }}
 
         .fossil-name a:hover {{
-            color: #93c5fd;
+            color: #1d4ed8;
             text-decoration: underline;
         }}
 
@@ -142,12 +142,12 @@ html_template = """
 
         .predictions a {{
             display: inline;
-            color: #60a5fa;
+            color: #2563eb;
             text-decoration: none;
         }}
 
         .predictions a:hover {{
-            color: #93c5fd;
+            color: #1d4ed8;
         }}
 
         .radio-group {{
@@ -160,7 +160,7 @@ html_template = """
         .radio-group label {{
             cursor: pointer;
             font-size: 11px;
-            color: #cbd5e1;
+            color: #4a4a4a;
             display: flex;
             align-items: center;
             gap: 4px;
@@ -169,24 +169,24 @@ html_template = """
         }}
 
         .radio-group label:hover {{
-            color: #f1f5f9;
+            color: #1a1a1a;
         }}
 
         /* Simplified color-coded labels - minimal styling for performance */
         .radio-group label:has(input[value="Plausible"]) {{
-            color: #6ee7b7;
+            color: #065f46;
         }}
 
         .radio-group label:has(input[value="Impossible"]) {{
-            color: #fca5a5;
+            color: #991b1b;
         }}
 
         .radio-group label:has(input[value="Not Sure"]) {{
-            color: #fde68a;
+            color: #92400e;
         }}
 
         .radio-group label:has(input[value="Not Applicable"]) {{
-            color: #94a3b8;
+            color: #666;
         }}
 
         /* Selected state styling */
@@ -202,7 +202,7 @@ html_template = """
         .radio-group input[type="radio"] {{
             cursor: pointer;
             margin-right: 4px;
-            accent-color: #60a5fa;
+            accent-color: #2563eb;
         }}
 
         /* Legend/legend styling */
@@ -214,7 +214,7 @@ html_template = """
             position: fixed;
             bottom: 30px;
             right: 30px;
-            background: linear-gradient(to bottom, #60a5fa 0%, #3b82f6 100%);
+            background: linear-gradient(to bottom, #2563eb 0%, #1d4ed8 100%);
             color: white;
             border: none;
             padding: 14px 28px;
@@ -222,14 +222,14 @@ html_template = """
             cursor: pointer;
             font-size: 15px;
             font-weight: 500;
-            box-shadow: 0 4px 12px rgba(96, 165, 250, 0.3);
+            box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
             transition: all 0.3s ease;
             z-index: 1000;
         }}
 
         .fixed-button:hover {{
             transform: translateY(-2px);
-            box-shadow: 0 6px 20px rgba(96, 165, 250, 0.4);
+            box-shadow: 0 6px 20px rgba(37, 99, 235, 0.4);
         }}
 
         .md-sidebar.md-sidebar--secondary {{

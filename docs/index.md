@@ -14,8 +14,8 @@
 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-            background: linear-gradient(to bottom, #0f172a 0%, #1e293b 100%);
-            color: #e2e8f0;
+            background: linear-gradient(to bottom, #f8f9fa 0%, #ffffff 100%);
+            color: #1a1a1a;
             line-height: 1.7;
             -webkit-font-smoothing: antialiased;
         }
@@ -30,20 +30,20 @@
             text-align: center;
             margin-bottom: 50px;
             padding-bottom: 40px;
-            border-bottom: 1px solid #334155;
+            border-bottom: 1px solid #e8e8e8;
         }
 
         h1 {
             font-size: 38px;
             font-weight: 600;
-            color: #ffffff;
+            color: #1a1a1a;
             margin-bottom: 15px;
             letter-spacing: -0.5px;
         }
 
         .subtitle {
             font-size: 18px;
-            color: #94a3b8;
+            color: #666;
             font-style: italic;
             font-weight: 400;
         }
@@ -81,7 +81,7 @@
         h3 {
             font-size: 24px;
             font-weight: 600;
-            color: #ffffff;
+            color: #1a1a1a;
             margin-bottom: 20px;
             margin-top: 40px;
             letter-spacing: -0.3px;
@@ -90,7 +90,7 @@
         h4 {
             font-size: 20px;
             font-weight: 600;
-            color: #ffffff;
+            color: #2a2a2a;
             margin-bottom: 12px;
             margin-top: 32px;
         }
@@ -98,7 +98,7 @@
         h5 {
             font-size: 16px;
             font-weight: 600;
-            color: #e2e8f0;
+            color: #4a4a4a;
             margin-bottom: 10px;
             margin-top: 24px;
             text-transform: uppercase;
@@ -107,28 +107,28 @@
         }
 
         p {
-            color: #cbd5e1;
+            color: #4a4a4a;
             margin-bottom: 20px;
             font-size: 16px;
             line-height: 1.75;
         }
 
         a {
-            color: #60a5fa;
+            color: #2563eb;
             text-decoration: none;
-            border-bottom: 1px solid rgba(96, 165, 250, 0.3);
+            border-bottom: 1px solid rgba(37, 99, 235, 0.2);
             transition: all 0.2s ease;
         }
 
         a:hover {
-            color: #93c5fd;
-            border-bottom-color: #93c5fd;
+            color: #1d4ed8;
+            border-bottom-color: #1d4ed8;
         }
 
         ul, ol {
             margin-left: 24px;
             margin-bottom: 20px;
-            color: #cbd5e1;
+            color: #4a4a4a;
         }
 
         li {
@@ -145,7 +145,7 @@
         .intro-text {
             font-size: 16px;
             line-height: 1.8;
-            color: #cbd5e1;
+            color: #4a4a4a;
         }
 
         .feature-badge {
@@ -154,42 +154,42 @@
             justify-content: center;
             width: 32px;
             height: 32px;
-            background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%);
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
             color: white;
             font-size: 16px;
             font-weight: 700;
             border-radius: 8px;
             margin-right: 12px;
-            box-shadow: 0 2px 8px rgba(96, 165, 250, 0.2);
+            box-shadow: 0 2px 8px rgba(37, 99, 235, 0.2);
         }
 
         .feature-card {
-            background: #1e293b;
+            background: #ffffff;
             border-radius: 12px;
             padding: 24px;
             margin-bottom: 20px;
-            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.3);
-            border-left: 4px solid #60a5fa;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+            border-left: 4px solid #2563eb;
             transition: all 0.2s ease;
         }
 
         .feature-card:hover {
             transform: translateY(-2px);
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
         }
 
         .highlight-box {
-            background: linear-gradient(135deg, #064e3b 0%, #065f46 100%);
+            background: linear-gradient(135deg, #f0fdf4 0%, #e8faf0 100%);
             border-left: 4px solid #22c55e;
             padding: 20px 24px;
             margin: 30px 0;
             border-radius: 8px;
-            box-shadow: 0 2px 8px rgba(34, 197, 94, 0.2);
+            box-shadow: 0 2px 8px rgba(34, 197, 94, 0.1);
         }
 
         .highlight-box p {
             margin-bottom: 0;
-            color: #e2e8f0;
+            color: #2a2a2a;
             font-size: 17px;
         }
 
@@ -205,27 +205,27 @@
         }
 
         .feedback-option.plausible {
-            background-color: #064e3b;
-            color: #6ee7b7;
-            border: 1px solid #10b981;
+            background-color: #d1fae5;
+            color: #065f46;
+            border: 1px solid #6ee7b7;
         }
 
         .feedback-option.impossible {
-            background-color: #7f1d1d;
-            color: #fca5a5;
-            border: 1px solid #ef4444;
+            background-color: #fee2e2;
+            color: #991b1b;
+            border: 1px solid #fca5a5;
         }
 
         .feedback-option.not-sure {
-            background-color: #78350f;
-            color: #fde68a;
-            border: 1px solid #f59e0b;
+            background-color: #fef3c7;
+            color: #92400e;
+            border: 1px solid #fcd34d;
         }
 
         .feedback-option.not-applicable {
-            background-color: #1e293b;
-            color: #94a3b8;
-            border: 1px solid #475569;
+            background-color: #f3f4f6;
+            color: #4b5563;
+            border: 1px solid #d1d5db;
         }
 
         .section li {
@@ -335,7 +335,7 @@
         <div class="feature-card">
             <p><strong>2. Response Tracking</strong></p>
             <ul>
-                <li>Use the <span style="background: linear-gradient(135deg, #60a5fa 0%, #3b82f6 100%); color: white; padding: 4px 12px; border-radius: 6px; font-weight: 500;">📥 Download Responses</span> button (bottom right) to save your choices as a JSON file.</li>
+                <li>Use the <span style="background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%); color: white; padding: 4px 12px; border-radius: 6px; font-weight: 500;">📥 Download Responses</span> button (bottom right) to save your choices as a JSON file.</li>
                 <li><strong>Important:</strong> Download before closing the website to avoid losing responses.</li>
             </ul>
         </div>
@@ -355,7 +355,7 @@
     <div class="section">
         <h3>Disclaimers</h3>
         
-        <div class="feature-card" style="border-left-color: #f59e0b; background: #1e293b;">
+        <div class="feature-card" style="border-left-color: #f59e0b;">
             <p><strong>Please note:</strong> While our dataset is extensive, many fossil samples are badly preserved and may lack the detail needed for accurate classification. In addition, although the images were manually filtered several years ago to remove most that are inappropriate, there remain many images of monocots and non-angiosperms (which are severely undersampled in the training dataset), reproductive organs (likewise), and non-plant fossils (feathers, fish, and so on). We recommend simply skipping these poorly preserved or inapplicable specimens to ensure more reliable results.</p>
         </div>
 
