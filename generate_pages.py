@@ -1,102 +1,4 @@
-import os
 import json
-import pandas as pd
-
-cu_df = pd.read_excel("../Florissant_CUmetadata.xlsx")
-flfo_df = pd.read_excel("../Florissant_FLFOmetadata.xls")
-
-cols_cu = ['InstPrefix+Catalog #', 'Family', 'Genus', 'Species']
-cols_flfo = ['Class 2, Kingdom', 'Sci. Name, Obj/Science', 'Identified By', 'Geo Unit', 'Description']
-
-cu_df = cu_df.groupby('Inventory Number (CU filename)')[cols_cu].agg(
-    lambda x: [v for v in x if isinstance(v, str)]
-).reset_index()
-
-flfo_df = flfo_df.groupby('Catalog #')[cols_flfo].agg(
-    lambda x: [v for v in x if isinstance(v, str)]
-).reset_index()
-
-flfo_df['Catalog #'] = flfo_df['Catalog #'].apply(lambda x: x.split(' ')[-1])
-
-# Constants
-PROJECT_DIR = "./"
-DOCS_DIR = os.path.join(PROJECT_DIR, "docs")
-IMAGES_DIR = os.path.join(DOCS_DIR, "images")
-MKDOCS_YML = os.path.join(PROJECT_DIR, "mkdocs.yml")
-
-Unknown_IMAGE_URL = "https://storage.googleapis.com/serrelab/fossil_lens/inference_concepts2/{}/image.jpg"
-Unknown_CONCEPT_URL = "https://storage.googleapis.com/serrelab/prj_fossils/unknown_fossils_concepts_viridis/fossil_{}/{}"
-
-Known_IMAGE_URL = "https://storage.googleapis.com/{}.jpg"
-Known_LEAF_IMAGE_URL = "https://storage.googleapis.com/serrelab/prj_fossils/2024/Extant_Leaves/{}/{}"
-
-Unidentified_IMAGE_URL = "https://storage.googleapis.com/serrelab/prj_fossils/2024/Unidentified/{}.jpg"
-Unidentified_CONCEPT_URL = "https://storage.googleapis.com/serrelab/prj_fossils/unidentified_fossils_concepts_viridis/fossil_{}/{}"
-
-FEATURE_VIS_URL = "https://storage.googleapis.com/serrelab/prj_fossils/thomas_sae_compressed/concept_{}_fv.webp"
-CONCEPT_INFO = "https://fel-thomas.github.io/Leaf-Lens/concepts/Concept%20{}/"
-# Ensure directories exist
-os.makedirs(IMAGES_DIR, exist_ok=True)
-
-# Load image names from JSON
-with open("image_names2.json", "r") as file:
-    image_names = json.load(file)
-
-with open("image2_predictions.json", 'r') as file:
-    image_predictions = json.load(file)
-
-with open("unidentified_image_names.json", "r") as file:
-    unidentified_image_names = json.load(file)
-
-with open("unidentified_fossil_predictions.json", "r") as file:
-    unidentified_image_predictions = json.load(file)
-
-with open("unknown_closest.json", "r") as file:
-    unknown_closest = json.load(file)
-
-with open("unidentified_closest.json", "r") as file:
-    unidentified_closest = json.load(file)
-
-with open("closest_extant_examples_checkpoint_gpu.json", "r") as file:
-    closest_extant_examples = json.load(file)
-
-with open("closest_extant_examples_gpu.json", "r") as file:
-    closest_extant_examples_uni = json.load(file)
-
-
-na_fossils_dict = set()
-def aggregate_data(data):
-    for specimen in data:
-        specimen_name = specimen["Fossil Name"]
-        user_selection = specimen["User Selection"]
-        if user_selection == "Not Applicable":
-            na_fossils_dict.add(specimen_name)
-
-files_names = os.listdir("NA_fossils")
-for file_name in files_names:
-    with open(os.path.join("NA_fossils", file_name), "r") as file:
-        data = json.load(file)
-        aggregate_data(data)
-
-# Create a new dictionary with just the image name as key
-def simplify_dict(raw_dict):
-    """Extract image name from messy keys and create simplified dictionary."""
-    simplified = {}
-    for raw_key, value in raw_dict.items():
-        try:
-            raw_key = raw_key.replace("\n", ",")
-            cleaned_key = eval(raw_key)  # Not safe for untrusted input, but okay for controlled data
-            image_path = cleaned_key[0]
-            image_name = image_path.strip().split("/")[-1].split(".")[0]
-            simplified[image_name] = value
-        except Exception as e:
-            print(f"Skipping malformed key: {raw_key} due to error: {e}")
-    return simplified
-
-simplified_dict = simplify_dict(closest_extant_examples)
-simplified_dict_uni = simplify_dict(closest_extant_examples_uni)
-    
-
 
 html_template = """
 <!DOCTYPE html>
@@ -104,540 +6,489 @@ html_template = """
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fossil Leaf Lens - {image_name}</title>
+    <title>Fossil Leaf Lens</title>
     <style>
-        * {{
+        * {
             margin: 0;
             padding: 0;
             box-sizing: border-box;
-        }}
+        }
 
-        body {{
+        body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
             background: linear-gradient(to bottom, #f8f9fa 0%, #ffffff 100%);
             color: #1a1a1a;
             line-height: 1.7;
             -webkit-font-smoothing: antialiased;
-        }}
+        }
 
-        .container {{
-            max-width: 1200px;
+        .container {
+            max-width: 850px;
             margin: 0 auto;
-            padding: 40px 30px 60px;
-        }}
+            padding: 20px 40px 80px;
+        }
 
-        .header {{
+        .header {
             text-align: center;
             margin-bottom: 50px;
-            padding-bottom: 30px;
+            padding-bottom: 40px;
             border-bottom: 1px solid #e8e8e8;
-        }}
+        }
 
-        h1 {{
-            font-size: 32px;
+        h1 {
+            font-size: 38px;
             font-weight: 600;
             color: #1a1a1a;
             margin-bottom: 15px;
             letter-spacing: -0.5px;
-        }}
+        }
 
-        h2 {{
+        .subtitle {
+            font-size: 18px;
+            color: #666;
+            font-style: italic;
+            font-weight: 400;
+        }
+
+        .header-partners {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 28px 48px;
+            margin-top: 24px;
+            font-size: 16px;
+        }
+
+        .header-partners a {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            color: #1a1a1a;
+            text-decoration: none;
+            font-weight: 500;
+            transition: color 0.2s, opacity 0.2s;
+        }
+
+        .header-partners a:hover {
+            color: #2563eb;
+            opacity: 0.9;
+        }
+
+        .header-partners img {
+            height: 32px;
+            width: auto;
+            display: block;
+        }
+
+        .citation-section {
+            margin-top: 60px;
+            padding-top: 40px;
+            border-top: 1px solid #e8e8e8;
+        }
+
+        .citation-section h3 {
+            margin-bottom: 12px;
+        }
+
+        .citation-section > p:first-of-type {
+            color: #4a4a4a;
+            font-size: 15px;
+            margin-bottom: 16px;
+        }
+
+        .citation-box {
+            background: linear-gradient(135deg, #f8fafc 0%, #f1f5f9 100%);
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 28px 32px;
+            margin-top: 8px;
+            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
+        }
+
+        .citation-text {
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 15px;
+            line-height: 1.7;
+            margin: 0;
+            color: #1e293b;
+            letter-spacing: 0.02em;
+        }
+
+        .citation-note {
+            margin-top: 16px;
+            padding-top: 16px;
+            border-top: 1px solid #e2e8f0;
+            font-size: 14px;
+            color: #64748b;
+            font-style: italic;
+        }
+
+        .demo-section {
+            margin: 50px 0 60px;
+            text-align: center;
+        }
+
+        .demo-gif {
+            width: 100%;
+            max-width: 450px;
+            margin: 0 auto;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+            transition: transform 0.3s ease;
+        }
+
+        .demo-gif:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
+        }
+
+        .demo-gif img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .section {
+            margin-bottom: 45px;
+        }
+
+        h3 {
             font-size: 24px;
             font-weight: 600;
             color: #1a1a1a;
-            margin: 40px 0 20px;
+            margin-bottom: 20px;
+            margin-top: 40px;
             letter-spacing: -0.3px;
-        }}
+        }
 
-        h3 {{
+        h4 {
             font-size: 20px;
             font-weight: 600;
             color: #2a2a2a;
-            margin: 35px 0 15px;
-        }}
+            margin-bottom: 12px;
+            margin-top: 32px;
+        }
 
-        a {{
-            color: #2563eb;
-            text-decoration: none;
-            transition: all 0.2s ease;
-        }}
-
-        a:hover {{
-            color: #1d4ed8;
-            text-decoration: underline;
-        }}
-
-        .info-card {{
-            background: #ffffff;
-            border-radius: 12px;
-            padding: 30px;
-            margin-bottom: 35px;
-            box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
-        }}
-
-        .info-section {{
-            margin-bottom: 25px;
-        }}
-
-        .info-section:last-child {{
-            margin-bottom: 0;
-        }}
-
-        .info-label {{
-            font-size: 14px;
+        h5 {
+            font-size: 16px;
             font-weight: 600;
-            color: #666;
+            color: #4a4a4a;
+            margin-bottom: 10px;
+            margin-top: 24px;
             text-transform: uppercase;
             letter-spacing: 0.5px;
-            margin-bottom: 8px;
-        }}
-
-        .info-value {{
-            font-size: 18px;
-            color: #1a1a1a;
-            font-weight: 500;
-        }}
-
-        .predictions {{
-            display: flex;
-            flex-wrap: wrap;
-            gap: 8px;
-            margin-top: 10px;
-        }}
-
-        .prediction-link {{
-            display: inline-block;
-            padding: 6px 14px;
-            background: #f8f9fa;
-            border-radius: 6px;
-            font-size: 15px;
-            color: #2563eb;
-            font-weight: 500;
-            transition: all 0.2s ease;
-        }}
-
-        .prediction-link:hover {{
-            background: #e9ecef;
-            text-decoration: none;
-            transform: translateY(-1px);
-        }}
-
-        .fossil-image-section {{
-            text-align: center;
-            margin-bottom: 50px;
-        }}
-
-        .fossil-image-section img {{
-            max-width: 100%;
-            width: 300px;
-            height: auto;
-            border-radius: 12px;
-            box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
-            transition: all 0.3s ease;
-            cursor: pointer;
-        }}
-
-        .fossil-image-section img:hover {{
-            transform: scale(1.08);
-            box-shadow: 0 12px 32px rgba(0, 0, 0, 0.12);
-        }}
-
-        .similar-specimens-section {{
-            margin-bottom: 50px;
-        }}
-
-        .similar-images-grid {{
-            display: grid;
-            grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
-            gap: 25px;
-            margin-top: 25px;
-        }}
-
-        .similar-image-container {{
-            text-align: center;
-            position: relative;
-        }}
-
-        .similar-image {{
-            width: 100%;
-            aspect-ratio: 1;
-            object-fit: cover;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
-            transition: all 0.3s ease;
-            cursor: pointer;
-            position: relative;
-        }}
-
-        .similar-image:hover {{
-            transform: translateY(-8px) scale(1.08);
-            box-shadow: 0 12px 28px rgba(0, 0, 0, 0.15);
-            z-index: 10;
-        }}
-
-        .image-caption {{
-            margin-top: 10px;
             font-size: 12px;
-            color: #666;
-            line-height: 1.4;
-            word-wrap: break-word;
-        }}
+        }
 
-        .concept-container {{
-            display: flex;
-            flex-direction: column;
-            gap: 40px;
-            margin-top: 30px;
-        }}
+        p {
+            color: #4a4a4a;
+            margin-bottom: 20px;
+            font-size: 16px;
+            line-height: 1.75;
+        }
 
-        .concept-card {{
+        a {
+            color: #2563eb;
+            text-decoration: none;
+            border-bottom: 1px solid rgba(37, 99, 235, 0.2);
+            transition: all 0.2s ease;
+        }
+
+        a:hover {
+            color: #1d4ed8;
+            border-bottom-color: #1d4ed8;
+        }
+
+        ul, ol {
+            margin-left: 24px;
+            margin-bottom: 20px;
+            color: #4a4a4a;
+        }
+
+        li {
+            margin-bottom: 12px;
+            font-size: 16px;
+            line-height: 1.7;
+        }
+
+        ul ul {
+            margin-top: 8px;
+            margin-bottom: 0;
+        }
+
+        .intro-text {
+            font-size: 16px;
+            line-height: 1.8;
+            color: #4a4a4a;
+        }
+
+        .feature-badge {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            background: linear-gradient(135deg, #2563eb 0%, #1d4ed8 100%);
+            color: white;
+            font-size: 16px;
+            font-weight: 700;
+            border-radius: 8px;
+            margin-right: 12px;
+        }
+
+        .section-beyond .feature-badge {
+            background: transparent;
+            color: inherit;
+            box-shadow: 0 2px 8px rgba(37, 99, 235, 0.2);
+        }
+
+        .feature-card {
             background: #ffffff;
             border-radius: 12px;
-            padding: 30px;
+            padding: 24px;
+            margin-bottom: 20px;
             box-shadow: 0 2px 12px rgba(0, 0, 0, 0.04);
-            transition: all 0.3s ease;
-        }}
-
-        .concept-card:hover {{
-            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
-            transform: translateY(-2px);
-        }}
-
-        .concept-images {{
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            gap: 25px;
-            margin-bottom: 15px;
-            position: relative;
-        }}
-
-        .concept-images img {{
-            width: 400px;
-            height: 400px;
-            object-fit: contain;
-            border-radius: 8px;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-            transition: all 0.3s ease;
-            cursor: pointer;
-            position: relative;
-        }}
-
-        .concept-images img:hover {{
-            transform: scale(1.1);
-            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
-            z-index: 10;
-        }}
-
-        .concept-caption {{
-            text-align: center;
-            font-size: 15px;
-            color: #4a4a4a;
-            line-height: 1.6;
-        }}
-
-        .concept-caption em {{
-            color: #2563eb;
-            font-style: italic;
-            font-weight: 500;
-        }}
-
-        .metadata-links {{
-            display: flex;
-            gap: 15px;
-            flex-wrap: wrap;
-        }}
-
-        .metadata-link {{
-            display: inline-block;
-            padding: 8px 16px;
-            background: #f8f9fa;
-            border-radius: 6px;
-            font-size: 14px;
-            color: #4a4a4a;
+            border-left: 4px solid #2563eb;
             transition: all 0.2s ease;
-        }}
+        }
 
-        .metadata-link:hover {{
-            background: #e9ecef;
-            text-decoration: none;
-            color: #1a1a1a;
-        }}
+        .feature-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+        }
 
-        @media (max-width: 768px) {{
-            .container {{
-                padding: 30px 20px 50px;
-            }}
+        .highlight-box {
+            background: linear-gradient(135deg, #f0fdf4 0%, #e8faf0 100%);
+            border-left: 4px solid #22c55e;
+            padding: 20px 24px;
+            margin: 30px 0;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(34, 197, 94, 0.1);
+        }
 
-            h1 {{
-                font-size: 26px;
-            }}
+        .highlight-box p {
+            margin-bottom: 0;
+            color: #2a2a2a;
+            font-size: 17px;
+        }
 
-            h2 {{
-                font-size: 20px;
-            }}
+        .feedback-option {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 6px 12px;
+            border-radius: 6px;
+            font-weight: 500;
+            font-size: 14px;
+            margin: 4px;
+        }
 
-            .similar-images-grid {{
-                grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
-                gap: 15px;
-            }}
+        .feedback-option.plausible {
+            background-color: #d1fae5;
+            color: #065f46;
+            border: 1px solid #6ee7b7;
+        }
 
-            .concept-images {{
-                flex-direction: column;
-                gap: 15px;
-            }}
+        .feedback-option.impossible {
+            background-color: #fee2e2;
+            color: #991b1b;
+            border: 1px solid #fca5a5;
+        }
 
-            .concept-images img {{
-                width: 100%;
-                max-width: 400px;
-                height: auto;
-            }}
+        .feedback-option.not-sure {
+            background-color: #fef3c7;
+            color: #92400e;
+            border: 1px solid #fcd34d;
+        }
 
-            .metadata-links {{
-                flex-direction: column;
-            }}
-        }}
+        .feedback-option.not-applicable {
+            background-color: #f3f4f6;
+            color: #4b5563;
+            border: 1px solid #d1d5db;
+        }
+
+        .section li {
+            padding: 8px 0;
+            transition: all 0.2s ease;
+        }
+
+        .funding-section {
+            margin-top: 60px;
+            padding-top: 40px;
+            border-top: 1px solid #e8e8e8;
+        }
+
+        .funding-logo {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        .funding-logo img {
+            max-width: 200px;
+            height: auto;
+            opacity: 0.9;
+            transition: opacity 0.2s ease;
+        }
+
+        .funding-logo img:hover {
+            opacity: 1;
+        }
+
+        .section li:hover {
+            transform: translateX(4px);
+        }
+
+        @media (max-width: 768px) {
+            .container {
+                padding: 20px 24px 60px;
+            }
+
+            h1 {
+                font-size: 30px;
+            }
+
+            .subtitle {
+                font-size: 16px;
+            }
+
+            .authors-section {
+                font-size: 14px;
+            }
+
+            .authors {
+                font-size: 14px;
+            }
+
+            .affiliations {
+                font-size: 13px;
+            }
+
+            h3 {
+                font-size: 22px;
+            }
+
+            h4 {
+                font-size: 18px;
+            }
+        }
     </style>
 </head>
 <body>
-    <div class="container">
-        <div class="header">
-            <h1>Predicted Fossil Identifications</h1>
-            <div class="info-value" style="font-size: 16px; color: #666;">Catalog Number: {image_name}</div>
-        </div>
-
-        <div class="info-card">
-            <div class="info-section">
-                <div class="info-label">Primary Catalog Number</div>
-                <div class="info-value">{value1}</div>
-            </div>
-            
-            <div class="info-section">
-                <div class="info-label">Metadata Resources</div>
-                <div class="metadata-links">
-                    <a href="https://docs.google.com/spreadsheets/d/1IxU4YjUBWdJyolYbKlNUQetb7sDlN3sV/edit?usp=sharing&ouid=117124297544856301307&rtpof=true&sd=true" target="_blank" class="metadata-link">Florissant CU Metadata</a>
-                    <a href="https://docs.google.com/spreadsheets/d/1FIeJoNFIOy22oGVMDgrBZ94EWQ9OZqGLprjPYZRJuLY/edit?usp=sharing" target="_blank" class="metadata-link">Florissant FLFO Metadata</a>
-                </div>
-            </div>
-
-            <div class="info-section">
-                <div class="info-label">Top 5 Predictions</div>
-                <div class="predictions">
-                    <a href="https://fel-thomas.github.io/Leaf-Lens/classes/{class1}/" target="_blank" class="prediction-link">{class1}</a>
-                    <a href="https://fel-thomas.github.io/Leaf-Lens/classes/{class2}/" target="_blank" class="prediction-link">{class2}</a>
-                    <a href="https://fel-thomas.github.io/Leaf-Lens/classes/{class3}/" target="_blank" class="prediction-link">{class3}</a>
-                    <a href="https://fel-thomas.github.io/Leaf-Lens/classes/{class4}/" target="_blank" class="prediction-link">{class4}</a>
-                    <a href="https://fel-thomas.github.io/Leaf-Lens/classes/{class5}/" target="_blank" class="prediction-link">{class5}</a>
-                </div>
-            </div>
-        </div>
-
-        <div class="fossil-image-section">
-            <h2>Fossil Sample</h2>
-            <a href="{main_image}" target="_blank"><img src="{main_image}" alt="Fossil Image"></a>
-        </div>
-
-        <div class="similar-specimens-section">
-            <h2>Similar Leaf Fossil Specimens</h2>
-            <div class="similar-images-grid">
-                {similar_known_html}
-            </div>
-
-            <h2>Similar Extant Leaf Specimens</h2>
-            <div class="similar-images-grid">
-                {similar_extant_html}
-            </div>
-        </div>
-
-        <div>
-            <h2>Concepts</h2>
-            <div class="concept-container">
-                {concept_images}
-            </div>
+<div class="container">
+    <div class="header">
+        <h1>Fossil Leaf Lens</h1>
+        <p class="subtitle">A showcase of deep learning predictions for fossil leaf identification</p>
+        <div class="header-partners">
+            <a href="https://serre-lab.github.io/LeafLens/" target="_blank" rel="noopener">
+                <img src="images/leaflenslogo.png" alt="">
+                <span>Leaf Lens</span>
+            </a>
+            <a href="https://huggingface.co/spaces/Serrelab/fossil_app" target="_blank" rel="noopener">
+                <img src="images/huggingfacelogo.png" alt="">
+                <span>Deep Learning Tool</span>
+            </a>
         </div>
     </div>
+
+    <div class="demo-section">
+        <div class="demo-gif">
+            <img src="images/fossil.gif" alt="Leaf Lens Navigation Guide">
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>Welcome to Fossil Leaf Lens</h3>
+        <p class="intro-text">We are excited to share the fruits of years of research and innovation aimed at solving one of paleobotany's most challenging puzzles: identifying fossil angiosperm leaves. These organs are often abundant yet notoriously difficult to classify, especially in the absence of organic attachments or cuticles, due to their complexity, variation, and the often limited quality and quantity of available images.</p>
+        
+        <p>Through the power of AI and computer vision, we have developed a deep learning model that synthesizes photorealistic fossil images from extant cleared and x-rayed leaves, increasing the sample size of "fossil" image collections for training. As explained in our accompanying manuscript (<a href="www.google.com" target="_blank">coming soon</a>), this approach allows machine identifications of fossil and extant leaves at the family level, the starting point for most investigations, with levels of accuracy sufficient to provide useful suggestions for experts.</p>
+        
+        <p>Initially, to limit the immense variation in leaf preservation among fossil sites, we present the tool for leaf fossils from a single, extraordinarily well-studied and photo-documented site: Florissant Fossil Beds, late Eocene of Colorado. The images were gathered over many years by Dr. Herbert Meyer (retired, National Parks Service) and assistants from museums around the world, as explained by Meyer et al. <a href="https://doi.org/10.1130/2008.2435(11)" target="_blank">2008</a> (GSA Special Papers 435) and Wilf et al. <a href="https://doi.org/10.3897/phytokeys.187.72350" target="_blank">2021</a> (PhytoKeys), who made a vetted subset of Florissant fossils available as part of a large <a href="https://doi.org/10.25452/figshare.plus.14980698.v2" target="_blank">image collection</a> of living and fossil leaves.</p>
+        
+        <p>The accompanying manuscript explores machine identifications of vetted Florissant fossils from the Wilf et al. 2021 dataset. On this website, we show the broader potential of the method by sharing the results of our model for hundreds of hard-to-identify fossil leaves from Florissant that were not included in the 2021 vetted subset, including both unidentified specimens and those attributed previously to botanical names that are now uncertain. The model's training images include the vetted Florissant images and all the cleared and x-rayed leaf images described in Wilf et al. 2021. We hope that this tool will stimulate new research into the world-famous Florissant flora, as we work to generalize the algorithms to apply to other fossil sites.</p>
+        
+        </div>
+
+    <div class="section section-beyond">
+        <h3>Beyond this site</h3>
+        <div class="feature-card" style="border-left-color: #f59e0b;">
+            <h4><span class="feature-badge"><img src="images/huggingfacelogo.png" alt="" style="height: 20px; width: auto;"></span>Use the tool</h4>
+            <p>To run the deep learning model on your own fossil leaf images, use our <strong><a href="https://huggingface.co/spaces/Serrelab/fossil_app" target="_blank" rel="noopener">Hugging Face app</a></strong>. It is the interactive interface to the same model whose predictions we display on this website.</p>
+            <p><a href="https://huggingface.co/spaces/Serrelab/fossil_app" target="_blank" rel="noopener" style="font-weight: 600;">→ Open the Hugging Face app</a></p>
+        </div>
+        <div class="feature-card" style="border-left-color: #800000;">
+            <h4><span class="feature-badge"><img src="images/leaflenslogo.png" alt="" style="height: 20px; width: auto;"></span>Explore concepts on the full dataset</h4>
+            <p><strong><a href="https://serre-lab.github.io/LeafLens/" target="_blank" rel="noopener">Leaf Lens</a></strong> lets you explore the concepts the model learned across the entire training set: UMAP visualizations of families and concepts, concept pages, and family-level interpretability. Use it to dig into how the model organizes and uses visual features for classification.</p>
+            <p><a href="https://serre-lab.github.io/LeafLens/" target="_blank" rel="noopener" style="font-weight: 600;">→ Go to Leaf Lens</a></p>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>Browsing predictions on this site</h3>
+
+        <div class="feature-card">
+            <h4><span class="feature-badge">1</span>Predicted Fossil Identifications</h4>
+            <p>Use <strong>Predicted Fossil Identifications</strong> in the navigation bar to open the list of specimens. Click a specimen to see details and model predictions about the specimens, including: catalog numbers, model predictions (family-level), similar specimens from the training set, and the concepts the model used for that specimen.</p>
+            <p>You can easily find additional metadata for the specimens, including prior identifications, from their filenames (CU- or FLFO- prefix), with these metadata tables kindly provided by Dr. Meyer (see Wilf et al. 2021 for more information about these two image sets):</p>
+            <ul>
+                <li><a href="https://docs.google.com/spreadsheets/d/1IxU4YjUBWdJyolYbKlNUQetb7sDlN3sV/edit?usp=sharing&ouid=117124297544856301307&rtpof=true&sd=true" target="_blank">Florissant CU Metadata</a></li>
+                <li><a href="https://docs.google.com/spreadsheets/d/1FIeJoNFIOy22oGVMDgrBZ94EWQ9OZqGLprjPYZRJuLY/edit?usp=sharing" target="_blank">Florissant FLFO Metadata</a></li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section">
+        <h3>Disclaimers</h3>
+        
+        <div class="feature-card" style="border-left-color: #f59e0b;">
+            <p><strong>Please note:</strong></p>
+            <ul>
+            <li>While our dataset is extensive, many fossil samples are badly preserved and may lack the detail needed for accurate classification. In addition, although the images were manually filtered several years ago to remove most that are inappropriate, there remain many images of monocots and non-angiosperms (which are severely undersampled in the training dataset), reproductive organs (likewise), and non-plant fossils (feathers, fish, and so on). We recommend simply skipping these poorly preserved or inapplicable specimens to ensure more reliable results.</li>
+            <li>This tool is intended to assist paleobotanists by suggesting potentially overlooked identifications with supporting visualizations. It can accelerate discovery when used wisely, but it is no substitute for botanical and paleobotanical expertise. In practice, we find many machine suggestions helpful, but even inaccurate suggestions provide novel insights into fossil-leaf morphology through the Leaf Lens heat maps.</li>
+            <li>Finally, please be aware that the model can only predict families that are in its training dataset, listed <a href="https://docs.google.com/document/d/178X6Stw9_J4k-Ib9lp8eWAH8tUv86rtg8VBqZPeVuWw/edit?usp=sharing" target="_blank">here</a>.</li>
+            </ul>
+        </div>
+        
+        <div class="highlight-box">
+            <p><em>We invite you to browse the predictions and to cite our paper when you use this resource or the associated model.</em></p>
+        </div>
+    </div>
+
+    <div class="section funding-section">
+        <h3>Acknowledgments</h3>
+        
+        <div class="feature-card">
+            <div class="funding-logo">
+                <img src="images/nsf.png" alt="National Science Foundation">
+            </div>
+            
+            <p>This material is based upon work supported by the U.S. <strong>National Science Foundation</strong> under Award No. <strong>EAR-1925481</strong> (T.S.) and <strong>EAR-1925755</strong> (P.W.), and by <strong>ANR-3IA Artificial and Natural Intelligence Toulouse Institute</strong> (<strong>ANR-19-PI3A-0004</strong>).</p>
+            
+            <p><em>Any opinions, findings, and conclusions or recommendations expressed in this material are those of the author(s) and do not necessarily reflect the views of the National Science Foundation.</em></p>
+            
+            <p>Computing support was provided by the Center for Computation and Visualization (CCV) at Brown University (via NIH Office of the Director grant S10OD025181). We also acknowledge Google's Cloud TPU hardware resources via the TensorFlow Research Cloud (TFRC) program.</p>
+        </div>
+    </div>
+
+    <div class="section citation-section">
+        <h3>Citation</h3>
+        <p>Please cite our primary article when using this resource or the associated model:</p>
+        <div class="citation-box">
+            <p class="citation-text">Rodriguez, I.F., Fel, T., Gaonkar, G., Vaishnav, M., Meyer, H., Wilf, P., &amp; Serre, T. (2025). Advancing Paleobotany with AI-guided Expert Fossil Leaf Identification.</p>
+            <p class="citation-note">Manuscript in preparation, please cite the primary article once published.</p>
+        </div>
+    </div>
+
+</div>
+
 </body>
 </html>
+
 """
 
+# Save to an HTML file
+with open("./docs/index.md", "w") as f:
+    f.write(html_template)
 
-# Generate Markdown pages with inline HTML
-PAGES_DIR = os.path.join(DOCS_DIR, "pages/")
-os.makedirs(PAGES_DIR, exist_ok=True)
-
-def extract_index(key):
-    """Extract numeric index from key like 'CU_123' or 'FLFO_456'."""
-    x = key.split("_")
-    try:
-        return int(x[1])
-    except:
-        digit = ""
-        for char in x[1]:
-            if '0' <= char <= '9':
-                digit += char
-            else:
-                break
-        return int(digit) if digit else None
-
-def get_metadata(key, root, index, cu_df, flfo_df):
-    """Get metadata for a given key."""
-    if root == "CU":
-        row_values = cu_df[cu_df['Inventory Number (CU filename)'] == index]
-        if len(row_values) > 0:
-            row_dict = row_values.to_dict(orient='records')[0]
-            return 'InstPrefix+Catalog #', ", ".join(row_dict['InstPrefix+Catalog #'])
-    else:
-        row_values = flfo_df[flfo_df['Catalog #'] == str(index)]
-        if len(row_values) > 0:
-            row_dict = row_values.to_dict(orient='records')[0]
-            return "Catalog #", "FLFO " + row_dict['Catalog #']
-    return 'Primary catalog number', ' '
-
-def generate_concept_images(key, value, concept_url_template):
-    """Generate HTML for concept images."""
-    value.sort(key=lambda x: int(x.split("_")[1]))
-    return "\n".join([
-        f'''<div class="concept-card">
-                <div class="concept-images">
-                    <a href="{concept_url_template.format(key, value[j])}" target="_blank">
-                        <img src="{concept_url_template.format(key, value[j])}" alt="Concept Image {j+1}">
-                    </a>
-                    <a href="{CONCEPT_INFO.format(value[j].split("_")[-1][:-4])}" target="_blank">
-                        <img src="{FEATURE_VIS_URL.format(value[j].split("_")[-1][:-4])}" alt="Feature Visualization {j+1}">
-                    </a>
-                </div>
-                <div class="concept-caption"><a href="{CONCEPT_INFO.format(value[j].split("_")[-1][:-4])}" target="_blank"><em>Concept: {value[j].split("_")[-1][:-4]}</em></a> - Rank: {value[j].split("_")[-2]}</div>
-            </div>''' for j in range(len(value))
-    ])
-
-def generate_similar_known_html(closest_data, max_images=6):
-    """Generate HTML for similar known fossil specimens."""
-    known_image_urls = [
-        (file_path.split("/")[-1], Known_IMAGE_URL.format(file_path))
-        for file_path in closest_data["closest_filenames"]
-        if 'cupressaceae' not in file_path.lower() and 'dryopteridaceae' not in file_path.lower()
-    ]
-    if known_image_urls:
-        return "\n".join([
-            f'''<div class="similar-image-container">
-                    <a href="{url}" target="_blank"><img class="similar-image" src="{url}" alt="Similar fossil specimen"></a>
-                    <div class="image-caption">{name}</div>
-                </div>'''
-            for name, url in known_image_urls[:max_images]
-        ])
-    else:
-        return '<div class="image-caption" style="grid-column: 1 / -1; text-align: center; color: #666;">No similar images found.</div>'
-
-def generate_similar_extant_html(leaf_image_urls, max_images=15):
-    """Generate HTML for similar extant leaf specimens."""
-    # Filter out None URLs and empty names
-    leaf_image_urls = [(name, url) for name, url in leaf_image_urls if url is not None and name]
-    if leaf_image_urls:
-        return "\n".join([
-            f'''<div class="similar-image-container">
-                    <a href="{url}" target="_blank"><img class="similar-image" src="{url}" alt="Similar extant leaf"></a>
-                    <div class="image-caption">{name}</div>
-                </div>'''
-            for name, url in leaf_image_urls[:max_images]
-        ])
-    else:
-        return '<div class="image-caption" style="grid-column: 1 / -1; text-align: center; color: #666;">No similar extant leaf images found.</div>'
-
-def generate_page(key, value, predictions, closest_data, concept_url_template, image_url_template, 
-                  simplified_dict, simplified_dict_uni, cu_df, flfo_df, pages_dir):
-    """Generate a single page for a fossil specimen."""
-    if key in na_fossils_dict:
-        return
-    
-    x = key.split("_")
-    root = x[0]
-    index = extract_index(key)
-    if index is None:
-        return
-    
-    info1, value1 = get_metadata(key, root, index, cu_df, flfo_df)
-    class1, class2, class3, class4, class5 = predictions[key]
-    
-    concept_images = generate_concept_images(key, value, concept_url_template)
-    similar_known_html = generate_similar_known_html(closest_data)
-    
-    # Get extant leaf images
-    try:
-        leaf_image_urls = [
-            (fs['filename'].split(".")[0], Known_LEAF_IMAGE_URL.format(fs['filename'].split("_")[0], fs['filename']))
-            for fs in simplified_dict[key]
-            if 'cupressaceae' not in fs['filename'].lower() and 'dryopteridaceae' not in fs['filename'].lower()
-        ]
-    except:
-        leaf_image_urls = [
-            (fs.split(".")[0], Known_LEAF_IMAGE_URL.format(fs.split("_")[0], fs))
-            for fs in simplified_dict_uni[key]
-            if 'cupressaceae' not in fs.lower() and 'dryopteridaceae' not in fs.lower()
-        ]
-    
-    similar_extant_html = generate_similar_extant_html(leaf_image_urls)
-    
-    html_content = html_template.format(
-        image_name=f"{key}",
-        class1=class1,
-        class2=class2,
-        class3=class3,
-        class4=class4,
-        class5=class5,
-        info1='Primary catalog number',
-        value1=value1,
-        main_image=image_url_template.format(key),
-        similar_known_html=similar_known_html,
-        similar_extant_html=similar_extant_html,
-        concept_images=concept_images
-    )
-    
-    page_path = os.path.join(pages_dir, f"page_{key}.md")
-    print(page_path)
-    with open(page_path, "w") as f:
-        f.write(html_content)
-
-# Generate pages for unknown images
-for key, value in image_names.items():
-    print(key, key.split("_"))
-    generate_page(
-        key, value, image_predictions, unknown_closest[key],
-        Unknown_CONCEPT_URL, Unknown_IMAGE_URL,
-        simplified_dict, simplified_dict_uni,
-        cu_df, flfo_df, PAGES_DIR
-    )
-
-# Generate pages for unidentified images
-for key, value in unidentified_image_names.items():
-    print(key, key.split("_"))
-    generate_page(
-        key, value, unidentified_image_predictions, unidentified_closest[key],
-        Unidentified_CONCEPT_URL, Unidentified_IMAGE_URL,
-        simplified_dict, simplified_dict_uni,
-        cu_df, flfo_df, PAGES_DIR
-    )
-
-# Generate MkDocs configuration
-with open(MKDOCS_YML, "w") as f:
-    f.write("site_name: Fossil Leaf Lens\n")
-    f.write("theme:\n")
-    f.write("  name: material\n")
-    f.write("  logo: images/logo.png\n")
-    f.write("  favicon: images/logo.png\n")
-    f.write("  palette:\n")
-    f.write("    primary: black\n")
-    f.write("    accent: white\n")
-    f.write("nav:\n")
-    f.write("  - <b>Home</b>: index.md\n")
-    f.write("  - <b>Predicted Fossil Identifications</b>:\n")
-    index = 1
-    for key in image_predictions.keys():
-        if key in na_fossils_dict:
-            continue
-        f.write(f"    - {index}. {key}: pages/page_{key}.md\n")
-        index += 1
-    for key in unidentified_image_predictions.keys():
-        if key in na_fossils_dict:
-            continue
-        f.write(f"    - {index}. {key}: pages/page_{key}.md\n")
-        index += 1
+print("HTML file generated: index.md")
